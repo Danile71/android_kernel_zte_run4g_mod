@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Õiguste kontrol</string>
+    <string name="accept_perm">"Luba"</string>
+    <string name="deny_perm">"Keela"</string>
+    <string name="notify_check_hint">Ära edaspidi enam meelde tuleta.</string>
+	<string name="notify_dialog_title">"Turvahoiatus"</string>
+	<string name="notify_dialog_msg_body"><xliff:g id="pkg_name">%s</xliff:g> proovib <xliff:g id="perm_name">%s</xliff:g>.</string>
+	<string name="time_count_down_hint">(Keeldu automaatselt pärast <xliff:g id="time">%s</xliff:g> sekundit.)</string>
+    <string name="notification_control_state_title">Rakenduse kasutusluba</string>
+    <string name="notification_control_state_summary">Rakenduse õiguste haldamine on suletud.</string>
+    <string name="toast_deny_msg_body"><xliff:g id="pkg_name">%s</xliff:g> on keeldunud <xliff:g id="perm_name">%s</xliff:g>.</string>
+    <string name="manage_permission_app_label">Rakenduse õigused</string>
+    <string name="manage_permission_summary">Rakenduse turvalisuse ja privaatsuskaitse õiguste haldamine</string>
+    <string name="permissions_label">"Load"</string>
+    <string name="apps">"Rakendused"</string>
+    <string name="no_applications">"Rakendusi pole."</string>
+    <string name="version_text">"versioon <xliff:g id="VERSION_NUM">%1$s</xliff:g>"</string>
+    <string name="app_count_unit_single">"Rakendus"</string>
+    <string name="app_count_unit_plural">"Rakendused"</string>
+    <string name="perm_count_unit_single">Luba</string>
+    <string name="perm_count_unit_plural">"Load"</string>
+    <string name="no_app_use_perm">Ükski rakendus ei kasuta seda luba.</string>
+    <string name="no_perm_is_used">See rakendus ei kasuta ühtegi õigust.</string>
+    <string name="notify_user_switch_on">Lülitage lüliti sisse, et hallata rakenduse õigusi.</string>
+    <string name="alert_dlg_title">Lülitan kaitse välja?</string>
+    <string name="alert_dlg_mgs">Rakendused saavad otse õigusi ilma teie kinnituseta.</string>
+    <string name="foreground_notification_title">Rakenduse õiguste haldamine töötab</string>
+    <string name="foreground_notification_summary">Puudutage, et kuvada rakenduse õiguste üksikasjalikud sätted.</string>
+    <string name="auto_boot_pref_title">Haldamise automaatne käivitamine</string>
+    <string name="auto_boot_pref_summary">Luba või keela automaatne käivitamine süsteemi buutimisel</string>
+    <string name="no_auto_boot_app">Automaatselt käivituvaid rakendusi ei ole.</string>
+    <plurals name="autoboot_app_desc_allow">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g> rakendus lubatud,</item>
+        <item quantity="other"><xliff:g id="app_count">%1$d</xliff:g> rakendust lubatud,</item>
+    </plurals>
+   <plurals name="autoboot_app_desc_deny">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g> rakendus keelatud.</item>
+        <item quantity="other"><xliff:g id="app_count">%1$d</xliff:g> rakendust keelatud.</item>
+   </plurals>
+</resources>

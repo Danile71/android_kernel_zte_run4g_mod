@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="next">"Järgmine"</string>
+    <string name="scroll_left_bar_title">Keri täiendavate hõiverežiimide kuvamiseks</string>
+    <string name="zoome_title">Suumi sisse/välja</string>
+    <string name="vcs_guide_summary">Öelge nimi, et leida kontakte.\nProovige seda!</string>
+    <string name="vcs_guide_title">Kontaktide häälotsing</string>
+    
+    <string name="vcs_guide_title1">Kontakti leidmiseks ütle nimi.</string>
+    <string name="vcs_guide_title2">Koputa siin funktsiooni lubamiseks.\nProovi seda!</string>    
+    <string name="camera_mav_title">Palun liikuge objektist vasakule ja alustage selle tulistamist</string>
+    <string name="refocus_guide_title">Klõpsake pilti, et muuta fookuse asendit</string>
+</resources>

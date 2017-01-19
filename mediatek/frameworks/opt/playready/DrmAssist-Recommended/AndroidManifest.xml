@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.discretix.drmassist"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+    
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+    
+    <application
+        android:icon="@drawable/drm_assist"
+        android:label="@string/app_name" >
+        <activity android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FileNavigatorActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".DrmActionSelectorActivity"
+                  android:theme="@android:style/Theme.Dialog"
+                  android:label="Choose DRM Action"
+                  android:screenOrientation="nosensor"/>
+        <activity android:name=".VideoPlayer" 
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".LongPressView"
+                  android:theme="@android:style/Theme.Dialog"
+                  android:label="Choose Action"
+                   android:screenOrientation="nosensor"/>
+    </application>
+
+</manifest>

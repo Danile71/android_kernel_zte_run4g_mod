@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="permission_label">
+        <item>Klicanje</item>
+        <item>Začetek klica med več osebami</item>
+	    <item>"pošiljanje sporočil SMS"</item>
+	    <item>"Pošlji MMS"</item>
+	    <item>Začetek snemanja zvočnega posnetka</item>
+	    <item>Read SMS</item>
+	    <item>Spremeni SMS</item>
+	    <item>Branje MMS-a</item>
+	    <item>Spremeni MMS</item>
+	    <item>Read contacts</item>
+	    <item>Modify contacts</item>
+	    <item>Branje dnevnikov klicev</item>
+	    <item>Spremeni dnevnike klicev</item>
+	    <item>Pridobitev lokacije</item>
+	    <item>Uporaba fotoaparata</item>
+	    <item>Vklop podatkovne povezave</item>
+	    <item>"Vklopi brezžični vmesnik"</item>
+	    <item>"Vklopi Bluetooth"</item>
+	    <item>Uporaba HotKnota</item>
+    </string-array>
+    <string-array name="perm_status_entry">
+        <item>"Vedno dovoli"</item>
+        <item>Zmeraj vprašaj</item>
+        <item>Vedno zavrni</item>
+    </string-array>
+    <string-array name="confirm_msg_body">
+        <item>klicanje</item>
+        <item>začetek klica med več osebami</item>
+        <item>pošiljanje SMS-a</item>
+        <item>pošiljanje MMS-a</item>
+        <item>začetek snemanja zvočnega posnetka</item>
+        <item>read SMS</item>
+        <item>spremeni SMS</item>
+        <item>branje MMS-a</item>
+        <item>spremeni MMS</item>
+        <item>read contacts</item>
+        <item>modify contacts</item>
+        <item>branje dnevnikov klicev</item>
+        <item>spremeni dnevnike klicev</item>
+        <item>pridobitev vaše trenutne lokacije</item>
+        <item>uporabo fotoaparata</item>
+        <item>vklop podatkovne povezave</item>
+        <item>"Vklopi brezžični vmesnik"</item>
+        <item>"Vklopi Bluetooth"</item>
+        <item>uporabo HotKnota</item>
+    </string-array>
+</resources>

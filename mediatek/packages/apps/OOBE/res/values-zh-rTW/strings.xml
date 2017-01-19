@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- OOBE part begin -->
+    <string name="app_name" translatable="false">﻿設置嚮導</string>
+    <string name="oobe_btn_text_next">下一步</string>  
+    <string name="oobe_btn_text_back">上一步</string>  
+    <string name="oobe_btn_text_finish">完成</string>  
+    <string name="oobe_btn_text_skip">略過</string>  
+    <string name="oobe_btn_text_dismiss">關閉</string>  
+    <string name="oobe_title_language_setting">選取語言</string>  
+    <string name="oobe_title_import_contacts">從SIM匯入連絡人</string>  
+    <string name="oobe_title_internet_connection_setting">選取網際網路連線</string>  
+    <string name="oobe_internet_gprs_or_wifi_title">行動網路或 Wi-Fi</string>  
+    <string name="oobe_internet_gprs_or_wifi_summary">若您具有您行動網路供應商的行動數據方案，請選擇本項。</string>  
+    <string name="oobe_internet_wifi_only_title">只有Wi-Fi</string>  
+    <string name="oobe_internet_wifi_only_summary">若您還沒有行動數據方案，請選擇本項</string>  
+    <string name="oobe_btn_start_import_contacts">開始匯入</string>  
+    <string name="oobe_btn_cancel_import_contacts">取消</string>  
+    <string name="oobe_note_import_contacts_going">您可在處理匯入的同時繼續進行下一步。</string>  
+    <string name="oobe_note_import_contacts_finish">複製完成。你可繼續進行下一步。</string>  
+    <string name="oobe_note_import_contacts_cancel">匯入已取消。你可跳過到下一步或重新開始匯入。</string>  
+    <string name="oobe_note_progress_copy_contacts">%2$d連絡人的%1$d</string>  
+    <string name="oobe_note_copy_contacts_waiting">正在等待...</string>  
+    <string name="basic_congratulation_title">恭禧！</string>  
+    <string name="basic_congratulation_summary">您已完成所有基本設定。您現在即可享受您的新裝置。</string>  
+    <string name="oobe_advance_settings_entrance_title">進階設定</string>  
+    <string name="oobe_advance_settings_entrance_summary">若您已有Google帳戶、E-mail帳戶、或任何社交網路帳戶，我們鼓勵您繼續進行進階設定。</string>  
+    <string name="oobe_sync_settings_name">同步設定</string>  
+    <string name="oobe_sync_settings_title">已排程同步</string>  
+    <string name="oobe_account_settings_name">帳戶設定</string>  
+    <string name="oobe_account_settings_title">設定帳戶</string>  
+    <string name="oobe_account_list_title">帳戶</string>  
+    <string name="oobe_advance_settings_end_summary">您已完成所有的進階設定。您現在即可享受您的新裝置。\n\n您可隨時經由應用程式啟動器在設定精靈裡變更您的設定。</string>  
+    <string name="tap_to_add">點選以新增<xliff:g id="account" example="renren">%s</xliff:g>帳戶</string>  
+    <string name="oobe_waiting_sim">正在等待SIM卡初始化...</string>  
+    <string name="oobe_advance_settings_end_name">最近一則訊息</string>  
+    <string name="sync_account_summary_on">開啟自動同步</string>
+    <string name="sync_account_summary_off">關閉自動同步</string>
+    <string name="sync_account_title">自動同步帳戶</string>
+    <!-- OOBE part end -->  
+
+    <!-- Quick study guide part begin -->
+    <string name="qsg_app_name">快速入門手冊</string>
+    <string name="ok_button">開始</string>
+    <string name="qsg_summary_begin">本快速入門手冊包含4個有用提示並且為您介紹基本手勢及手機管理。</string>
+    <string name="play_again">再次播放</string>
+    <string name="finish">完成</string>
+    <string name="qsg_title2_home_screen">檢視主畫面</string>
+    <string name="qsg_summary2_home_screen">左右撥動以檢視主畫面的其它頁面。</string>
+    <string name="qsg_title3_choose_widget">選擇一些小工具</string>
+    <string name="qsg_summary3_choose_widget">若要將小工具新增到您的主畫面，請予以觸摸&amp;按住。</string>
+    <string name="qsg_title4_launch_page">啟動明細頁面</string>
+    <string name="qsg_summary4_launch_page">點選設定檔映像以快顯選項的明細頁面。</string>
+    <string name="qsg_title5_view_notification">檢視通知</string>
+    <string name="qsg_summary5_view_notification">按住狀態列並且向下滑動以檢視所有通知。</string>
+    <string name="qsg_summary_end">您已看過快速入門手冊裡的所有提示。\n\n您可點選重新播放按鈕以重新檢視手冊。\n\n或者，您也可點選完成按鈕以操作您的新裝置。</string>
+    <!-- Quick study guide part end -->
+</resources>

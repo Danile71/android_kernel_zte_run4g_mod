@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">NoteBook</string>
+    <string name="no_note">Nema napomena</string>
+    <string name="selectednumber">Odabrano</string>
+    <string name="delete_confirm_current">Napomena će biti izbrisana.</string>
+    <string name="delete_confirm_one">Odabrana napomena će biti izbrisana.</string>
+    <string name="delete_confirm">Odabrane napomene će biti izbrisane.</string>
+    <string name="delete_confirm_title">"Izbriši"</string>
+    <string name="delete_confirm_cancel">"Odustani"</string>
+    <string name="delete_confirm_ok">"U redu"</string>
+    <string name="title_bar_selected">Odabrano</string>
+    <string name="editor_full">Možete unijeti najviše 1500 znakova</string>
+    <string name="sdcard_full" product="tablet">U pohrani uređaja nema dovoljno mjesta. Oslobodite nešto prostora za pohranu.</string>
+    <string name="sdcard_full" product="default">U pohrani telefona nema dovoljno mjesta. Oslobodite nešto prostora za pohranu.</string>
+    <string name="save_none">Nije izrađena prazna napomena</string>
+    <string name="empty_note">Prazna napomena</string>
+    <string name="delete_progress">Brisanje</string>
+    <string name="title_notes_list">NoteBook</string>
+    <string name="title_notes_view">Čitanje</string>
+    <string name="title_notes_edit">"Gotovo"</string>
+    <string name="title_loading">Učitavanje...</string>
+    <string name="menu_delete">Izbriši sve napomene</string>
+    <string name="delete_all_notes_confirm">Sve napomene će biti izbrisane.</string>
+    <string name="note_saved">Napomena je spremljena</string>
+    <string name="no_selected">Nema odabranih napomena</string>
+    <string name="menu_sort_by_modify">Poredaj prema vremenu izmjene</string>
+    <string name="menu_sort_by_tab">Poredaj prema karticama</string>
+    <string name="menu_work">"Posao"</string>
+    <string name="menu_personal">"OSOBNO"</string>
+    <string name="menu_family">Obiteljske veze</string>
+    <string name="menu_study">Učenje</string>
+    <string name="menu_none">Nekategorizirano</string>
+    <string name="menu_add_button">"novo"</string>
+    <string name="menu_delete_button">"Izbriši"</string>
+    <string name="menu_edit_button">"Uredi"</string>
+    <string name="menu_deselect_all_button">"Poništi odabir za sve"</string>
+    <string name="menu_select_all_button">"Odaberi sve"</string>
+    <string name="month">"m"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> odabrano</string>
+    <string name="type_note">Upiši napomenu</string>
+</resources>

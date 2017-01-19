@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">3D Canlı Hava Durumu</string>  
+    <string name="last_update">En son güncellenen</string>  
+    <string name="no_weather">Şehirleri eklemek için ayarlara dokunun</string>  
+    <string name="no_network">Hiç ağ yok</string>  
+    <string name="update_fail">Hava durumu güncellenemedi</string>  
+    <string name="updating">Güncelleniyor</string>  
+</resources>

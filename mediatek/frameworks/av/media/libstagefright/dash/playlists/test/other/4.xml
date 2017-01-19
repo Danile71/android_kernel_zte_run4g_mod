@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<MPD
+  xmlns="urn:mpeg:dash:schema:mpd:2011"
+  type="static"
+  mediaPresentationDuration="PT900S"
+  minBufferTime="PT3S"
+  profiles="urn:mpeg:dash:profile:isoff-on-demand:2011, http://www.ssstm.sony.co.jp/xmlns/metadata/mpeg/dash/profile/senvu/2012">
+
+  <BaseURL>http://cdn.mpeg-dash.com/</BaseURL>
+
+  <Period id="1" duration="PT300S">
+    <!-- Adaptation Set for Track 1 -->
+    <AdaptationSet  id="1" group="1" contentType="video" mimeType="video/mp4" par="16:9" sar="1:1" minBandwidth="750000" maxBandwidth="9000000" minWidth="320" maxWidth="1920" minHeight="180" maxHeight="1080" frameRate="24000/1001" scanType="progressive" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="1" bandwidth="9000000" width="1920" height="1080" mediaStreamStructureId="1" codecs="avc1.644028">
+        <BaseURL>Video01.mp4</BaseURL>
+      </Representation>
+      <Representation id="2" bandwidth="6000000" width="1600" height="900" mediaStreamStructureId="1" codecs="avc1.644028">
+        <BaseURL>Video02.mp4</BaseURL>
+      </Representation>
+      <Representation id="3" bandwidth="4500000" width="1280" height="720" mediaStreamStructureId="1" codecs="avc1.644028">
+        <BaseURL>Video03.mp4</BaseURL>
+      </Representation>
+      <Representation id="4" bandwidth="3000000" width="960" height="540" mediaStreamStructureId="1" codecs="avc1.644028">
+        <BaseURL>Video04.mp4</BaseURL>
+      </Representation>
+      <Representation id="5" bandwidth="2200000" width="854" height="480" mediaStreamStructureId="1" codecs="avc1.4D401E">
+        <BaseURL>Video05.mp4</BaseURL>
+      </Representation>
+      <Representation id="6" bandwidth="1200000" width="640" height="360" mediaStreamStructureId="1" codecs="avc1.4D401E">
+        <BaseURL>Video06.mp4</BaseURL>
+      </Representation>
+      <Representation id="7" bandwidth="750000" width="320" height="180" mediaStreamStructureId="1" codecs="avc1.4D401E">
+        <BaseURL>Video07.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 2 -->
+    <AdaptationSet  id="2" group="2" contentType="audio" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" lang="en" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <AudioChannelConfiguration  schemeIdUri="urn:mpeg:dash:role:2011" value="2"/>
+      <Representation id="8" bandwidth="96000">
+        <BaseURL>Audio01.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 3 -->
+    <AdaptationSet  id="3" group="2" contentType="audio" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" lang="jp" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="dub"/>
+      <AudioChannelConfiguration  schemeIdUri="urn:mpeg:dash:role:2011" value="2"/>
+      <Representation id="9" bandwidth="96000">
+        <BaseURL>Audio17.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 4 -->
+    <AdaptationSet  id="4" group="3" contentType="text" mimeType="application/mp4" codecs="ttml" par="16:9" sar="1:1" lang="en">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="10" bandwidth="0" width="1920" height="1080">
+        <BaseURL>Subtitle01.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 5 -->
+    <AdaptationSet  id="5" group="3" contentType="image" mimeType="application/mp4" codecs="ttml" par="16:9" sar="1:1" lang="jp">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="11" bandwidth="310127" width="1920" height="1080">
+        <BaseURL>Subtitle07.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+
+  <Period id="2" duration="PT300S">
+    <!-- Adaptation Set for Track 1 -->
+    <AdaptationSet  id="6" group="1" contentType="video" mimeType="video/mp4" codecs="avc1.4D401E" par="16:9" sar="1:1" minBandwidth="750000" maxBandwidth="2200000" minWidth="320" maxWidth="854" minHeight="180" maxHeight="480" frameRate="24000/1001" scanType="progressive" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="12" bandwidth="2200000" width="854" height="480" mediaStreamStructureId="1">
+        <BaseURL>Video05.mp4</BaseURL>
+      </Representation>
+      <Representation id="13" bandwidth="1200000" width="640" height="360" mediaStreamStructureId="1">
+        <BaseURL>Video06.mp4</BaseURL>
+      </Representation>
+      <Representation id="14" bandwidth="750000" width="320" height="180" mediaStreamStructureId="1">
+        <BaseURL>Video07.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 2 -->
+    <AdaptationSet  id="7" group="2" contentType="audio" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" lang="en" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:role:2011" value="2"/>
+      <Representation id="15" bandwidth="96000">
+        <BaseURL>Audio01.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 3 -->
+    <AdaptationSet  id="8" group="2" contentType="audio" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" lang="jp" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="dub"/>
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:role:2011" value="2"/>
+      <Representation id="16" bandwidth="96000">
+        <BaseURL>Audio17.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 4 -->
+    <AdaptationSet  id="9" group="3" contentType="text" mimeType="application/mp4" codecs="ttml" par="16:9" sar="1:1" lang="en">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="17" bandwidth="0" width="854" height="480">
+        <BaseURL>Subtitle43.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 5 -->
+    <AdaptationSet  id="10" group="3" contentType="image" mimeType="application/mp4" codecs="ttml" par="16:9" sar="1:1" lang="jp">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="18" bandwidth="502249" width="854" height="480">
+        <BaseURL>Subtitle49.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  
+  <Period id="3" duration="PT300S">
+    <!-- Adaptation Set for Track 1 -->
+    <AdaptationSet  id="11" group="1" contentType="video" mimeType="video/mp4" par="16:9" sar="1:1" minBandwidth="750000" maxBandwidth="9000000" minWidth="320" maxWidth="1920" minHeight="180" maxHeight="1080" frameRate="24000/1001" scanType="progressive" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="19" bandwidth="9000000" width="1920" height="1080" mediaStreamStructureId="1" codecs="avc1.644028">
+        <BaseURL>Video01.mp4</BaseURL>
+      </Representation>
+      <Representation id="20" bandwidth="6000000" width="1600" height="900" mediaStreamStructureId="1" codecs="avc1.644028">
+        <BaseURL>Video02.mp4</BaseURL>
+      </Representation>
+      <Representation id="21" bandwidth="4500000" width="1280" height="720" mediaStreamStructureId="1" codecs="avc1.644028">
+        <BaseURL>Video03.mp4</BaseURL>
+      </Representation>
+      <Representation id="22" bandwidth="3000000" width="960" height="540" mediaStreamStructureId="1" codecs="avc1.644028">
+        <BaseURL>Video04.mp4</BaseURL>
+      </Representation>
+      <Representation id="23" bandwidth="2200000" width="854" height="480" mediaStreamStructureId="1" codecs="avc1.4D401E">
+        <BaseURL>Video05.mp4</BaseURL>
+      </Representation>
+      <Representation id="24" bandwidth="1200000" width="640" height="360" mediaStreamStructureId="1" codecs="avc1.4D401E">
+        <BaseURL>Video06.mp4</BaseURL>
+      </Representation>
+      <Representation id="25" bandwidth="750000" width="320" height="180" mediaStreamStructureId="1" codecs="avc1.4D401E">
+        <BaseURL>Video07.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 2 -->
+    <AdaptationSet  id="12" group="2" contentType="audio" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" lang="en" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <AudioChannelConfiguration  schemeIdUri="urn:mpeg:dash:role:2011" value="2"/>
+      <Representation id="26" bandwidth="96000">
+        <BaseURL>Audio01.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 3 -->
+    <AdaptationSet  id="13" group="2" contentType="audio" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" lang="jp" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="dub"/>
+      <AudioChannelConfiguration  schemeIdUri="urn:mpeg:dash:role:2011" value="2"/>
+      <Representation id="27" bandwidth="96000">
+        <BaseURL>Audio17.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 4 -->
+    <AdaptationSet  id="14" group="3" contentType="text" mimeType="application/mp4" codecs="ttml" par="16:9" sar="1:1" lang="en">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="28" bandwidth="0" width="1920" height="1080">
+        <BaseURL>Subtitle01.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 5 -->
+    <AdaptationSet  id="15" group="3" contentType="image" mimeType="application/mp4" codecs="ttml" par="16:9" sar="1:1" lang="jp">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="29" bandwidth="310127" width="1920" height="1080">
+        <BaseURL>Subtitle07.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

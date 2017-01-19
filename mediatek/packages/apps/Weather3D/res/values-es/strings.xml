@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">El tiempo en directo 3D</string>  
+    <string name="last_update">Última actualización</string>  
+    <string name="no_weather">Tocar Configuración para agregar ciudades</string>  
+    <string name="no_network">No hay red disponible</string>  
+    <string name="update_fail">Error al actualizar el tiempo</string>  
+    <string name="updating">Actualizando</string>  
+</resources>

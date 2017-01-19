@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Agenda</string>
+    <string name="no_note">Sin notas</string>
+    <string name="selectednumber">Seleccionado</string>
+    <string name="delete_confirm_current">Se eliminará la nota.</string>
+    <string name="delete_confirm_one">Se eliminarán las notas seleccionadas.</string>
+    <string name="delete_confirm">Se eliminarán las notas seleccionadas.</string>
+    <string name="delete_confirm_title">"Eliminar"</string>
+    <string name="delete_confirm_cancel">"Cancelar"</string>
+    <string name="delete_confirm_ok">"Aceptar"</string>
+    <string name="title_bar_selected">Seleccionado</string>
+    <string name="editor_full">Usted puede ingresar 1.500 caracteres máximo</string>
+    <string name="sdcard_full" product="tablet">El almacenamiento del dispositivo no tiene espacio suficiente. Libere espacio de almacenamiento.</string>
+    <string name="sdcard_full" product="default">El almacenamiento del teléfono no tiene espacio suficiente. Libere espacio de almacenamiento.</string>
+    <string name="save_none">No se creó una nota vacía</string>
+    <string name="empty_note">Nota vacía</string>
+    <string name="delete_progress">Eliminando</string>
+    <string name="title_notes_list">Agenda</string>
+    <string name="title_notes_view">Leyendo</string>
+    <string name="title_notes_edit">"Listo"</string>
+    <string name="title_loading">Cargando...</string>
+    <string name="menu_delete">Eliminar todas las notas</string>
+    <string name="delete_all_notes_confirm">Se eliminarán todas las notas.</string>
+    <string name="note_saved">Nota guardada</string>
+    <string name="no_selected">Ninguna nota seleccionada</string>
+    <string name="menu_sort_by_modify">Ordenar por tiempo modificado</string>
+    <string name="menu_sort_by_tab">Ordenar por pestañas</string>
+    <string name="menu_work">"Trabajo"</string>
+    <string name="menu_personal">"PERSONAL"</string>
+    <string name="menu_family">Familiares</string>
+    <string name="menu_study">Estudio</string>
+    <string name="menu_none">No categorizado</string>
+    <string name="menu_add_button">"nueva"</string>
+    <string name="menu_delete_button">"Eliminar"</string>
+    <string name="menu_edit_button">"Editar"</string>
+    <string name="menu_deselect_all_button">"Desmarcar todas"</string>
+    <string name="menu_select_all_button">"Seleccionar todo"</string>
+    <string name="month">"m"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> seleccionado</string>
+    <string name="type_note">Ingresar nota</string>
+</resources>

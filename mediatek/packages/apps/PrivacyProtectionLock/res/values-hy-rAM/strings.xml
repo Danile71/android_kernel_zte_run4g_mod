@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Բջջայինի հակա-առևանգում</string>
+    <string name="status_enabled">"միացված"</string>
+    <string name="status_provisioned">Կողպել հեռախոսը կամ տվյալները մաքրել հեռակա</string>
+    <string name="status_unprovisioned">Կողպել հեռախոսը կամ տվյալները մաքրել հեռակա</string>
+    <string name="status_pending">Կողպել հեռախոսը կամ տվյալները մաքրել հեռակա</string>
+    <string name="status_control_panel_enabled">Հակա-առևանգումը միացված է</string>
+    <string name="status_control_panel_disabled">Հակա-առևանգումն անջատված է</string>
+    <string name="checkbox_show_password">"Ցույց տալ գաղտնաբառը"</string>
+    <string name="checkbox_send_sms">Հեռակա կառավարման հրամանները պահուստավորեք արտակարգ իրավիճակների կոնտակտներում` SMS-ի միջոցով</string>
+    <string name="button_control_panel_change_password">Փոխել հակա-առևանգման PIN-ը</string>
+    <string name="button_control_panel_update_emergency_contacts">Թարմացնել արտակարգ իրավիճակների կոնտակտները</string>
+    <string name="button_control_panel_view_instructions">Դիտել հեռակա կառավարման հրամանները</string>
+    <string name="button_control_panel_disable">Անջատել բջջայինի հակա-առևանգումը</string>
+    <string name="button_next">"Հաջորդը"</string>
+    <string name="button_confirm">"Կատարված է"</string>
+    <string name="button_finish">"Կատարված է"</string>
+    <string name="button_send_sms">Ուղարկել հաղորդագրություն</string>
+    <string name="button_add_contact_line">Ավելացնել արտակարգ իրավիճակների կոնտակտ</string>
+    <string name="title_access_lock">Ներմուծել հակա-առևանգման PIN</string>
+    <string name="title_setup_password">Միացնել հակա-առևանգումը (1/3)</string>
+    <string name="title_setup_trusted_contact">Միացնել հակա-առևանգումը (2/3)</string>
+    <string name="title_setup_send_manual">Միացնել հակա-առևանգումը (3/3)</string>
+    <string name="title_view_instruction">Դիտել հեռակա կառավարման հրամանները</string>
+    <string name="title_choose_enable_mode">Թույլատրել</string>
+    <string name="title_control_panel_contacts">Ձեր արտակարգ իրավիճակների կոնտակտները</string>
+    <string name="title_choose_sim">Ընտրել SIM</string>
+    <string name="title_choose_number">"Ընտրել համարը"</string>
+    <string name="title_update_trusted_contact">Թարմացնել արտակարգ իրավիճակների կոնտակտները</string>
+    <string name="title_change_password">Փոխել հակա-առևանգման PIN-ը</string>
+    <string name="summary_setup_password">Նախադրել հակա-առևանգման PIN</string>
+    <string name="summary_setup_trusted_contact">Նախադրել արտակարգ իրավիճակների կոնտակտներ</string>
+    <string name="summary_update_trusted_contact">Նախադրել արտակարգ իրավիճակների կոնտակտներ</string>
+    <string name="summary_setup_send_manual">Հեռակա կառավարման հրամաններ</string>
+    <string name="summary_view_instruction">Հեռակա կառավարման հրամաններ</string>
+    <string name="description_disable_confirm">Դուք չեք կարողանա կողպել հեռախոսը կամ մաքրել տվյալները հեռակա` բջջայինի հակա-առևանգումն անջատելուց հետո: Համոզվա՞ծ եք, որ ցանկանում եք անջատել այն:</string>
+    <string name="description_turnoff_airplane_mode_confirm">Հաղորդագրություն ուղարկելու համար պետք է անջատեք օդանավի ռեժիմը:
+Շարունակե՞լ:</string>
+    <string name="description_setup_password">Հակա-առևանգման PIN-ը պահանջվում է ամեն անգամ հակա-առևանգման կարգավորումներ մուտք գործելիս:</string>
+    <string name="description_setup_trusted_contact">1. Արտակարգ իրավիճակների կոնտակտներն օգտագործվում են հեռակա կառավարման հրամաններ ուղարկելու համար;\n2.Երբ SIM քարտերը փոխվում են, ծանուցումներն ուղարկվում են արտակարգ իրավիճակների կոնտակտներին` SMS-ի միջոցով: SMS-ը լինում է հետևյալը. Իմ բջջայինը միգուցե գողացել են, խնդրում եմ պահել այս հաղորդագրության ուղարկողի համարը:</string>
+    <string name="description_update_trusted_contact">1. Արտակարգ իրավիճակների կոնտակտներն օգտագործվում են հեռակա կառավարման հրամաններ ուղարկելու համար;\n2. Երբ SIM քարտերը փոխվում են, ծանուցումներն ուղարկվում են արտակարգ իրավիճակների կոնտակտներին` SMS-ի միջոցով: SMS-ը լինում է հետևյալը. Իմ բջջայինը միգուցե գողացել են, խնդրում եմ պահել այս հաղորդագրության ուղարկողի համարը:</string>
+    <string name="description_setup_send_manual">Երբ ձեր բջջայինը կորչում է, այն կարող եք կառավարել հեռվից` արտակարգ իրավիճակների կոնտակտների միջոցով դրան SMS ուղարկելով:</string>
+    <string name="description_view_instruction">Երբ ձեր բջջայինը կորչում է, այն կարող եք կառավարել հեռվից` արտակարգ իրավիճակների կոնտակտների միջոցով դրան SMS ուղարկելով:</string>
+    <string name="hint_setup_password_input_1">Խնդրում ենք ներմուծել ձեր PIN-ը (6-ից 12 գրանիշեր)</string>
+    <string name="hint_setup_password_input_2">Խնդրում ենք ներմուծել կրկին</string>
+    <string name="hint_trusted_contact">Համարն առաջարկվել է ձեր մոտիկ ազգականներից</string>
+    <string name="hint_update_trusted_contact">Համարն առաջարկվել է ձեր մոտիկ ազգականներից</string>
+    <string name="content_setup_send_manual"><![CDATA["<p>1. Remote phone lock</p><p>Send message <font color="#33B5E5">#suoding#</font></p><p>2. Remote data wipe</p><p>Send message <font color="#33B5E5">#xiaohui#</font></p><p>3. Fetch back anti-theft PIN</p><p>Send message <font color="#33B5E5">#mima#</font></p>"]]></string>
+    <string name="toast_passwords_do_not_match">Երկու ներմուծված PIN-երը տարբեր են:</string>
+    <string name="toast_password_is_incorrect">Գաղտնաբառը ճիշտ չէ</string>
+    <string name="toast_no_phone_number">Չի գտնվել ոչ մի հեռախոսահամար</string>
+    <string name="toast_no_sim">SIM չի գտնվել</string>
+    <string name="toast_instruction_send_succeeded">Հեռակա կառավարման հրամանների պահուստավորման հաղորդագրությունը հաջողությամբ ուղարկվեց:</string>
+    <string name="toast_instruction_send_failed">Հեռակա կառավարման հրամանների պահուստավորման հաղորդագրությունը չհաջողվեց ուղարկել:</string>
+    <string name="item_sim_n">SIM</string>
+    <string name="image_button_description_add">Ավելացնել համար կոնտակտներից</string>
+    <string name="image_button_description_delete">Ջնջել այս համարը</string>
+    <string name="image_description_logo">Գաղտնիության պաշտպանության կողպեքի պատկերանիշ</string>
+    <string name="ppl_permission_label">Մուտք գործել Գաղտնիության պաշտպանության կողպեքի կարգավորումներ</string>
+    <string name="ppl_permission_description">Մուտք գործել Գաղտնիության պաշտպանության կառավարչի կարևոր կարգավորումներ: Դուք հավանաբար ՉՊԵՏՔ Է տաք այս թույլտվությունը:</string>
+    <string name="test_entry_launch">Թողարկել</string>
+    <string name="test_entry_status">"Կարգավիճակ"</string>
+    <string name="test_entry_enabled">"Միացված է"</string>
+    <string name="test_entry_provisioned">Տրամադրված է</string>
+</resources>

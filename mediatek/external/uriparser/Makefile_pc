@@ -1,0 +1,30 @@
+#soft_arm11
+
+SOFT_ARM11_TOOLCHAIN=/mtkoss/gnuarm/soft_4.5.1_2.6.27_arm11-rhel4/i686
+
+LIBRARY_PATH=/usr/local/lib:/usr/local/lib64:/usr/local/include:/usr/lib:/usr/lib64:/usr/include
+
+MYGCC=gcc
+MYCXX=g++
+MYLD=ld
+MYNM=nm
+MYRANLIB=ranlib
+MYAR=ar
+
+INSTALL_DIR=$(shell pwd)/../lib/uriparser
+
+all:xerces_soft_arm11
+
+xerces_soft_arm11:
+	CFLAGS="-O2"  CXXFLAGS="-O2" LD_LIBRARY_PATH=$(LIBRARY_PATH)  NM=$(MYNM) CC=$(MYGCC) CXX=$(MYCXX) LD=$(MYLD) RANLIB=$(MYRANLIB) ./configure \
+		--build=i686-pc-linux --host=i686-pc-linux --disable-test --disable-wchar_t --disable-doc --disable-static --prefix=$(INSTALL_DIR) 
+	make
+	make install
+
+
+clean:
+	make distclean
+	
+config:
+	CFLAGS="-O2"  CXXFLAGS="-O2" LD_LIBRARY_PATH=$(LIBRARY_PATH)  NM=$(MYNM) CC=$(MYGCC) CXX=$(MYCXX) LD=$(MYLD) RANLIB=$(MYRANLIB) ./configure \
+		--build=i686-pc-linux --host=i686-pc-linux --disable-test --disable-wchar_t --disable-doc --disable-static --prefix=$(INSTALL_DIR)

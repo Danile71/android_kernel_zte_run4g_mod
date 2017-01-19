@@ -1,0 +1,35 @@
+ui_print("============================================");
+ui_print("|Custom kernel KK for ZTE RUN 4G        |");
+ui_print("|          Compiled by andr7e           |");
+ui_print("============================================");
+
+mount("ext4", "EMMC", "/dev/block/platform/mtk-msdc.0/by-name/system", "/system");
+show_progress(0.1, 0);
+
+ui_print("| Removing unneeded files ...              |");
+show_progress(0.1, 0);
+
+ui_print("| Unpacking new system files ...           |");
+package_extract_dir("system", "/system");
+show_progress(0.1, 0);
+
+ui_print("| Setting permissions ...                  |");
+
+set_perm(0, 0, 0644, "/system/build.prop");
+
+unmount("/system");
+show_progress(0.1, 0);
+
+show_progress(0.7, 30);
+ui_print("| Writing new boot image ...               |");
+assert(package_extract_file("boot.img", "/tmp/boot.img"),
+       write_raw_image("/tmp/boot.img", "bootimg"),
+       delete("/tmp/boot.img"));
+show_progress(0.1, 0);
+
+ui_print("| Wiping cache ...                         |");
+show_progress(0.1, 0);
+
+ui_print("============================================");
+ui_print("|          Installed Successfully          |");
+ui_print("============================================");

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="permission_label">
+        <item>Կատարել զանգեր</item>
+        <item>Սկսել բազմակողմ զանգեր</item>
+	    <item>"ուղարկել SMS"</item>
+	    <item>"Ուղարկել MMS"</item>
+	    <item>Սկսել ձայնագրում</item>
+	    <item>Read SMS</item>
+	    <item>Փոխել SMS-ը</item>
+	    <item>Կարդալ MMS</item>
+	    <item>Փոխել MMS-ը</item>
+	    <item>Read contacts</item>
+	    <item>Modify contacts</item>
+	    <item>Կարդալ զանգերի գրանցումները</item>
+	    <item>Փոխել զանգերի գրանցումները</item>
+	    <item>Ստանալ տեղադրություն</item>
+	    <item>Օգտագործել խցիկը</item>
+	    <item>Միացնել տվյալների կապակցումը</item>
+	    <item>Միացնել Wi-Fi</item>
+	    <item>"Միացնել Bluetooth-ը"</item>
+	    <item>Օգտագործել HotKnot</item>
+    </string-array>
+    <string-array name="perm_status_entry">
+        <item>"Միշտ թույլատրել"</item>
+        <item>Միշտ հարցնել</item>
+        <item>Միշտ մերժել</item>
+    </string-array>
+    <string-array name="confirm_msg_body">
+        <item>կատարել զանգ</item>
+        <item>սկսել բազմակողմ զանգեր</item>
+        <item>ուղարկել SMS</item>
+        <item>ուղարկել MMS</item>
+        <item>սկսել ձայնագրում</item>
+        <item>read SMS</item>
+        <item>փոխել SMS-ը</item>
+        <item>կարդալ MMS</item>
+        <item>փոխել MMS-ը</item>
+        <item>read contacts</item>
+        <item>modify contacts</item>
+        <item>կարդալ զանգերի գրանցումները</item>
+        <item>փոխել զանգերի գրանցումները</item>
+        <item>ստանալ ձեր ներկա տեղադրությունը</item>
+        <item>օգտագործել խցիկը</item>
+        <item>միացնել տվյալների կապակցումը</item>
+        <item>Միացնել Wi-Fi</item>
+        <item>"Միացնել Bluetooth-ը"</item>
+        <item>օգտագործել HotKnot</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_done">"Fet"</string>
+    <string name="submenu_emergency_contacts">Contactes d’emergència</string>
+    <string name="menu_deleteContact">"Suprimeix"</string>
+    <string name="menu_select_all">"Selecciona-ho tot"</string>
+    <string name="menu_select_none">Desmarca tots els seleccionats</string>
+    <string name="menu_new_contact_action_bar">"nova"</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> seleccionats</string>
+    <string name="multichoice_no_select_alert">"No s’ha seleccionat cap element."</string>
+    <string name="aas_custom_title">Etiquetes USIM per a números addicionals</string>
+    <string name="aas_phone_type_none">"Cap"</string>
+    <string name="aas_new_dialog_title">Afegeix una etiqueta nova</string>
+    <string name="ass_rename_dialog_title">Modifica l’etiqueta</string>
+    <string name="aas_delele_dialog_message">La supressió de les etiquetes afectarà la resta de números enllaçats amb les etiquetes. N’estàs segur?</string>
+    <string name="aas_name_invalid">El nom de l’etiqueta no és vàlid. Introdueix-ne un altre.</string>
+    <string name="aas_name_exist">L’etiqueta ja existeix.</string>
+    <string name="aas_usim_full">No queda espai per a etiquetes noves.</string>
+    <string name="ass_edit_assert_message">La modificació de les etiquetes afectarà la resta de números enllaçats amb les etiquetes. N’estàs segur?</string>
+    <string name="aas_new_fail">"No s'ha pogut crear una etiqueta nova."</string>
+    <string name="aas_edit_fail">No s’ha pogut canviar el nom de <xliff:g id="aas">%s</xliff:g> .</string>
+    <string name="aas_delete_fail">La supressió de <xliff:g id="aas">%s</xliff:g> ha fallat.</string>
+    <string name="aas_phone_primary">Número primari</string>
+    <string name="aas_phone_additional">Número addicional</string>
+</resources>

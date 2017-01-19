@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTK Android Suite Daemon</string>
+    <string name="noti_main_service_started">MTK Android Suite Daemon 開始了。</string>
+    <string name="noti_main_service_running">MTK Android Suite Daemon 運行中。</string>
+    <string name="noti_main_service_stopped">MTK Android Suite Daemon 停止了。</string>
+    <string name="noti_main_service_backup">MTK Android Suite Daemon 正在備份。</string>
+</resources>

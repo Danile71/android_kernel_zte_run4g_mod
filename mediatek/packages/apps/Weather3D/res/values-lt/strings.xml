@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3D orai gyvai</string>
+    <string name="last_update">Paskutinį kartą atnaujinta</string>
+    <string name="no_weather">Spustelėkite, kad pridėtumėte miestų</string>
+    <string name="no_network">Nėra jokio tinklo</string>
+    <string name="update_fail">Orų atnaujinti nepavyko</string>
+    <string name="updating">Atnaujinimas</string>
+</resources>

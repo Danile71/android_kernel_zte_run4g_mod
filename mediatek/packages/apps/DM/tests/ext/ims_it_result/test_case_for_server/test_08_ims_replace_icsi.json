@@ -1,0 +1,10 @@
+[
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/1/ICSI", objectValue : "urn:urn-7:3gpp-service.ims.icsi.mmtel", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/1/ICSI_Resource_Allocation_Mode", objectValue : "true", objectType : "bool", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/2/ICSI", objectValue : "urn:urn-7:3gpp-service.ims.icsi.oma.cpm.filetransfer", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/2/ICSI_Resource_Allocation_Mode", objectValue : "true", objectType : "bool", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/3/ICSI", objectValue : "+g.oma.sip-im.system-message", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/3/ICSI_Resource_Allocation_Mode", objectValue : "false", objectType : "bool", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/4/ICSI", objectValue : "+g.oma.sip-im", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/ICSI_List/4/ICSI_Resource_Allocation_Mode", objectValue : "false", objectType : "bool", newNode : "" },
+]

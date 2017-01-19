@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.mediatek.csm.tests">
+
+    <uses-permission android:name="android.permission.INJECT_EVENTS"/>
+    <uses-permission android:name="android.permission.RUN_INSTRUMENTATION"/>
+
+    <!-- telephony access permission -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- This is useless, must add to target package. walkaround -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- We add an application tag here just so that we can indicate that
+         this package needs to link against the android.test library,
+         which is needed when building test cases.-->
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+    <!--
+    <instrumentation android:name=".FunctionTestRunner"
+        android:targetPackage="com.mediatek.csm"
+        android:label="Customer Service Menu Function Test">
+    </instrumentation>
+    -->
+
+    <instrumentation android:name="com.zutubi.android.junitreport.JUnitReportTestRunner"
+        android:targetPackage="com.mediatek.csm"
+        android:label="Customer Service Menu Function Test">
+    </instrumentation>
+
+    <instrumentation android:name="com.mediatek.csm.tests.LaunchPerformance"
+        android:targetPackage="com.mediatek.csm"
+        android:label="Customer Service Menu Launch Performance Test">
+    </instrumentation>
+
+</manifest>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">NoteBook</string>
+    <string name="no_note">Ingen noter</string>
+    <string name="selectednumber">Valgt</string>
+    <string name="delete_confirm_current">Denne note slettes.</string>
+    <string name="delete_confirm_one">Den valgte note slettes.</string>
+    <string name="delete_confirm">De valgte noter slettes.</string>
+    <string name="delete_confirm_title">"Slet"</string>
+    <string name="delete_confirm_cancel">"Annuller"</string>
+    <string name="delete_confirm_ok">"OK"</string>
+    <string name="title_bar_selected">Valgt</string>
+    <string name="editor_full">Du kan indtaste maks. 1.500 tegn.</string>
+    <string name="sdcard_full" product="tablet">Der er ikke tilstrækkelig med plads i enhedens lager. Frigiv noget lagerplads.</string>
+    <string name="sdcard_full" product="default">Telefonhukommelsen har ikke tilstrækkelig med plads. Frigiv noget lagerplads.</string>
+    <string name="save_none">Der oprettes ikke en tom note</string>
+    <string name="empty_note">Tom note</string>
+    <string name="delete_progress">Sletter</string>
+    <string name="title_notes_list">NoteBook</string>
+    <string name="title_notes_view">Læsning</string>
+    <string name="title_notes_edit">"Udført"</string>
+    <string name="title_loading">Indlæser...</string>
+    <string name="menu_delete">Slet alle noter</string>
+    <string name="delete_all_notes_confirm">Alle noter slettes.</string>
+    <string name="note_saved">Note gemt</string>
+    <string name="no_selected">Ingen note valgt</string>
+    <string name="menu_sort_by_modify">Sorter efter tidspunkt for modifikation</string>
+    <string name="menu_sort_by_tab">Sorter efter faner</string>
+    <string name="menu_work">"Arbejde"</string>
+    <string name="menu_personal">"PERSONLIG"</string>
+    <string name="menu_family">Familieaffære</string>
+    <string name="menu_study">Studie</string>
+    <string name="menu_none">Ikke-kategoriseret</string>
+    <string name="menu_add_button">"ny"</string>
+    <string name="menu_delete_button">"Slet"</string>
+    <string name="menu_edit_button">"Rediger"</string>
+    <string name="menu_deselect_all_button">"Fjern markering af alle"</string>
+    <string name="menu_select_all_button">"Markér alle"</string>
+    <string name="month">"m"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> valgt</string>
+    <string name="type_note">Notetype</string>
+</resources>

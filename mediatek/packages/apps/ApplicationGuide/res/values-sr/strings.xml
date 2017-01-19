@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="next">"Следеће"</string>
+    <string name="scroll_left_bar_title">Помери за приказ више режима хватања</string>
+    <string name="zoome_title">Увећај/умањи</string>
+    <string name="vcs_guide_summary">Изговорите име за проналажење контакта.\nИспробајте!</string>
+    <string name="vcs_guide_title">Гласовна претрага контаката</string>
+    
+    <string name="vcs_guide_title1">Изговорите име да бисте нашли контакте.</string>
+    <string name="vcs_guide_title2">Додирните овде да бисте омогућили функцију.\nИспробајте!</string>    
+    <string name="camera_mav_title">Померите се ка левој страни објекта и почните да га снимате</string>
+    <string name="refocus_guide_title">Кликните на слику да бисте променили позицију фокуса</string>
+</resources>

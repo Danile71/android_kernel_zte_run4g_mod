@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="next">"下一頁"</string>
+    <string name="scroll_left_bar_title">卷軸以顯示更多擷取模式. </string>
+    <string name="zoome_title">拉近/遠</string>
+    <string name="vcs_guide_summary">說出名字來搜尋聯絡人。 \n試試看吧！</string>
+    <string name="vcs_guide_title">語音聯絡人搜尋</string>
+    
+    <string name="vcs_guide_title1">說出名字來搜尋聯絡人。 \n試試看吧！</string>
+    <string name="vcs_guide_title2">點擊這裡以啟用此功能。\n試試看吧！</string>    
+    <string name="camera_mav_title">請移到物件的左邊然後開始拍攝</string>
+    <string name="refocus_guide_title">點擊影像以變更對焦位置</string>
+</resources>

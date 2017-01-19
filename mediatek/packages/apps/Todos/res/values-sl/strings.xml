@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources> 
+    <string name="app_name">Opravki</string>
+    <string name="app_header">OPRAVEK</string>
+    <string name="todos_title">OPRAVEK</string>
+    <string name="dones_title">"Končano"</string>
+    <string name="todo_details_title">Podrobnosti opravka</string>
+    <string name="no_expire_date">Ni datuma poteka</string>
+    <string name="valid_date_range">Datumski obseg je od leta 1970 do 2036</string>
+    <string name="btn_done">"Končano"</string>
+    <string name="btn_cancel">"Prekliči"</string>
+    <string name="todos_empty_info">Ni elementa\n Tapnite, če želite dodati nov opravek</string>
+    <string name="dones_empty_info">Ni elementa</string>
+    <string name="delete">"Izbriši"</string>
+    <string name="cancel">"Prekliči"</string>
+    <string name="delete_item">Naslednji element bo izbrisan</string>
+    <string name="delete_selected_items">Naslednji elementi bodo izbrisani</string>
+    <string name="done_time_format">Končano %Y-%m-%d %H:%M</string>
+    <string name="due_day_time_format" translateable="false">"%Y-%m-%d"</string>
+    <string name="operator_failed">Operacija ni uspela</string>
+    <string name="back_title">"Opomba"</string>
+    <string name="back_message">Ali želite opustiti trenutno urejanje?</string>
+    <string name="ok">"V redu"</string>
+    <string name="add_new_todo">Nov opravek</string>
+    <string name="edit_todo">Uredi opravek</string>
+    <string name="todo_detail">Podrobnosti opravka</string>
+    <string name="done_detail">Podrobnosti o končanem opravku</string>
+    <string name="text_full">Dodatnih znakov ni\ mogoče vnesti</string>
+    <string name="hint_title">"Naslov"</string>
+    <string name="hint_details">"Podrobnosti"</string>
+    <string name="separate" translateable="false">|</string>
+    <string name="select_all">"Izberi vse"</string>
+    <string name="deselect_all">"Prekliči celoten izbor"</string>
+    <string name="mark_done">Označi kot opravek</string>
+    <string name="mark_todo">Označi kot končan opravek</string>
+    <string name="todo_discarded">Opravek zavržen</string>
+    <string name="prompt_date_before_today">Datum poteka ne sme biti pred trenutnim datumom.</string>
+    <string name="selected_count">%d izbrano</string>
+    <string name="unselect_all">Prekliči izbiro vseh</string>
+    <string name="more_than_999">999+</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">מחברת</string>
+    <string name="no_note">אין פתקים</string>
+    <string name="selectednumber">נבחר</string>
+    <string name="delete_confirm_current">הפתק יימחק.</string>
+    <string name="delete_confirm_one">הפתק שנבחר יימחק.</string>
+    <string name="delete_confirm">הפתקים שנבחרו יימחקו.</string>
+    <string name="delete_confirm_title">"מחק"</string>
+    <string name="delete_confirm_cancel">"בטל"</string>
+    <string name="delete_confirm_ok">"אישור"</string>
+    <string name="title_bar_selected">נבחר</string>
+    <string name="editor_full">ניתן להזין עד 1500 תווים</string>
+    <string name="sdcard_full" product="tablet">למכשיר אין מספיק זיכרון. פנה שטח בזיכרון.</string>
+    <string name="sdcard_full" product="default">לטלפון אין מספיק זיכרון. פנה שטח בזיכרון.</string>
+    <string name="save_none">לא נוצר פתק ריק</string>
+    <string name="empty_note">פתק ריק</string>
+    <string name="delete_progress">מוחק</string>
+    <string name="title_notes_list">מחברת</string>
+    <string name="title_notes_view">קורא</string>
+    <string name="title_notes_edit">"בוצע"</string>
+    <string name="title_loading">טוען...</string>
+    <string name="menu_delete">מחק את כל הפתקים</string>
+    <string name="delete_all_notes_confirm">כל הפתקים יימחקו.</string>
+    <string name="note_saved">הפתק נשמר</string>
+    <string name="no_selected">לא נבחרו פתקים</string>
+    <string name="menu_sort_by_modify">מיין לפי מועד שינוי</string>
+    <string name="menu_sort_by_tab">מיין לפי כרטיסיות</string>
+    <string name="menu_work">"עבודה"</string>
+    <string name="menu_personal">"אישי"</string>
+    <string name="menu_family">משפחה</string>
+    <string name="menu_study">לימודים</string>
+    <string name="menu_none">ללא קטגוריה</string>
+    <string name="menu_add_button">"חדש"</string>
+    <string name="menu_delete_button">"מחק"</string>
+    <string name="menu_edit_button">"ערוך"</string>
+    <string name="menu_deselect_all_button">"בטל בחירה של הכול"</string>
+    <string name="menu_select_all_button">"בחר הכול"</string>
+    <string name="month">"ד\'"</string>
+    <string name="day">12</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g>נבחרו</string>
+    <string name="type_note">הקלד פתק</string>
+</resources>

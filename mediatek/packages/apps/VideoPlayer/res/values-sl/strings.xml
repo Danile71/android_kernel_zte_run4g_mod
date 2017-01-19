@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="video_app_name">"Video predvajalnik"</string>
+    <string name="scanning">"Skeniranje kartice SD..."</string>
+    <string name="sdcard_missing_message">"V telefonu ni kartice SD."</string>
+    <string name="video_list_empty">"Ni videoposnetkov."</string>
+    <string name="detail_title">"Naslov : %1$s"</string>
+    <string name="detail_date_taken">"Posneto : %1$s"</string>
+    <string name="detail_path">"Pot : %1$s"</string>
+    <string name="detail_filesize">"Velikost datoteke : %1$s"</string>
+    <string name="detail_duration">"Trajanje : %1$s"</string>
+    <string name="media_detail">"Podrobnosti"</string>
+    <string name="delete">"Izbriši"</string>
+    <string name="delete_tip">"Izbriši %1$s?"</string>
+    <string name="delete_progress">"Brisanje %1$s ..."</string>
+	<string name="max_video">Maks. videoposnetkov</string>
+	<string name="hotknot">HotKnot</string>
+    <string name="share">Deli</string>
+    <string name="deselect_all">"Prekliči izbor vseh"</string>
+    <string name="select_all">"Izberi vse"</string>
+    <string name="selected">izbrano</string>
+    <string name="delete_selection_one">"Želite izbrisati ta element?"</string>
+    <string name="delete_selection_more">"Želite izbrisati te elemente?"</string>
+    <string name="select_item">"Izberite element"</string>
+</resources>

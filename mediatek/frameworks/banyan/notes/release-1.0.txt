@@ -1,0 +1,29 @@
+This is the initial release of MediaTek SDK.
+
+Revision Date
+~~~~~~~~~~~~
+August 2014
+
+Packages
+~~~~~~~~~~~~
+mediatek_android_sdk_api-19.3.1.zip
+ * emulator - Linux and Windows executables.
+ * images - Images needed by emulator.
+ * libs - API libraries.
+ * samples - API sample applications.
+ * skins - 720p / 1080p skin for emulator.
+
+mediatek_android_sdk_tools-19.3.2.1.zip
+ * ddms-linux-x86_64 - MediaTek customized DDMS (Linux version)
+ * ddms-win - MediaTek customized DDMS (Windows version)
+
+MediaTek SDK API (up to Level 3)
+~~~~~~~~~~~~
+ * Multi-SIM Telephony
+ * Audio / Video
+ * Camera MAV
+ * HotKnot
+ * Face Beautifier
+ * Image Transformation
+ * Gesture
+ * API Level Version Check

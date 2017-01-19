@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">3D लाइव मौसम</string>  
+    <string name="last_update">अंतिम अपडेट</string>   
+    <string name="no_weather">शहरों को जोड़ने के लिए सेटिंग टैप करें</string>  
+    <string name="no_network">कोई नेटवर्क उपलब्ध नहीं है</string>  
+    <string name="update_fail">मौसम अपडेट करना विफल</string>  
+    <string name="updating">अपडेट कर रहा है</string>   
+</resources>

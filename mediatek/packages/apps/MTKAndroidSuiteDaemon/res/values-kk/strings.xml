@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTK Android Suite Daemon</string>
+    <string name="noti_main_service_started">MTK Android Suite Daemon іске қосылды.</string>
+    <string name="noti_main_service_running">MTK Android Suite Daemon орындалуда.</string>
+    <string name="noti_main_service_stopped">MTK Android Suite Daemon тоқтатылды.</string>
+    <string name="noti_main_service_backup">MTK Android Suite Daemon резервтік көшірме жасауда.</string>
+</resources>

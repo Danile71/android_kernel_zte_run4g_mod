@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<modules>
+    <module name="PackageManagerService" package="com.mediatek.recovery">
+        <file name="/data/system/packages.xml" backup="none" default="remove" class="PackageManagerRecovery" />
+    </module>
+    <module name="UserManagerService" package="com.mediatek.recovery">
+        <file name="/data/system/users/0.xml" class=".UserManagerRecovery" backup="boot" />
+    </module>
+    <module name="ActivityManagerService" package="com.mediatek.recovery">
+        <file name="/data/data/com.android.providers.settings/databases/settings.db"  backup="boot" />
+    </module>
+</modules>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">3D 실시간 날씨</string>  
+    <string name="last_update">마지막 업데이트</string>    
+    <string name="no_weather">설정을 눌러 도시를 추가하십시오.</string>  
+    <string name="no_network">사용 가능한 네트워크가 없습니다.</string>  
+    <string name="update_fail">날씨 업데이트에 실패했습니다.</string>  
+    <string name="updating">업데이트하는 중</string>   
+</resources>

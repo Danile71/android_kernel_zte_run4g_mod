@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">آب و هوای زنده سه بعدی</string>  
+    <string name="last_update">آخرین به روزرسانی</string>  
+    <string name="no_weather">روی تنظیمات ضربه بزنید تا شهر اضافه شود</string>  
+    <string name="no_network">هیچ شبکه ای موجود نیست</string>  
+    <string name="update_fail">به روزرسانی آب و هوا ناموفق بود</string>  
+    <string name="updating">در حال به روز رسانی</string>  
+</resources>

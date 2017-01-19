@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="x_left_panel">103</integer>
+    <integer name="x_center_panel">303</integer>
+    <integer name="x_right_panel">503</integer>
+    <integer name="y_left_panel">640</integer>
+    <integer name="y_center_panel">640</integer>
+    <integer name="y_right_panel">640</integer>
+    <integer name="x_offest_panel">-10</integer>
+    <integer name="y_offest_panel">-12</integer>
+    <integer name="y_range_panel">170</integer>
+    <integer name="x_offset_day_in_panel">-82</integer>
+    <integer name="y_offset_day_in_panel">-85</integer>
+    <integer name="x_offset_temp_in_panel">90</integer>
+    <integer name="y_offset_temp_in_panel">80</integer>
+    <integer name="x_upper_offset_display">100</integer>
+    <integer name="y_upper_offset_display">90</integer>
+    <integer name="display_area_width">220</integer>
+    <integer name="display_area_height">155</integer>
+    <integer name="panel_scale_child">9</integer>
+    <integer name="panel_scale_mother">10</integer>
+    <integer name="model_scale">30</integer>
+    <integer name="size_text_temp">80</integer>
+    <integer name="size_text_high_low_temp">26</integer>
+    <integer name="size_text_date">30</integer>
+    <integer name="size_text_last_updated">25</integer>
+    <integer name="size_text_city">40</integer>
+    <integer name="size_text_city_index">25</integer>
+    <integer name="size_text_no_weather">28</integer>
+    <integer name="city_max_width">310</integer>
+    <integer name="no_weather_max_width">450</integer>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3D သက္ဝင္ရာသီဥတု</string>
+    <string name="last_update">ေနာက္ဆံုးအဆင့္ျမႇင့္ျခင္း</string>
+    <string name="no_weather">ၿမိဳ႕မ်ားထည့္ရန္ အဆင္အျပင္ကို ႏွိပ္ပါ</string>
+    <string name="no_network">မည္သည့္ကြန္ယက္မွ မရရွိႏိုင္ပါ</string>
+    <string name="update_fail">ရာသီဥတုအဆင့္ျမႇင့္ျခင္း မေအာင္ျမင္ပါ</string>
+    <string name="updating">အဆင့္ျမႇင့္ေနဆဲ</string>
+</resources>

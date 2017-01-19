@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_done">ၿပီးၿပီ</string>
+    <string name="submenu_emergency_contacts">အေရးေပၚ အဆက္အသြယ္မ်ား</string>
+    <string name="menu_deleteContact">ဖ်က္ပါ</string>
+    <string name="menu_select_all">အားလံုးကို ေရြးခ်ယ္ပါ</string>
+    <string name="menu_select_none">ေရြးထားျခင္းမ်ား အားလံုးျဖဳတ္ရန္</string>
+    <string name="menu_new_contact_action_bar">အသစ္</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> ေရြးခ်ယ္ၿပီး </string>
+    <string name="multichoice_no_select_alert">မည္သည့္ အေၾကာင္းအရာမွ ေရြးခ်ယ္မထားပါ။</string>
+    <string name="aas_custom_title">ေနာက္ထပ္တိုးသည့္ နံပါတ္မ်ားအတြက္ USIM အမွတ္အသားမ်ား</string>
+    <string name="aas_phone_type_none">အသံတိတ္</string>
+    <string name="aas_new_dialog_title">အမွတ္အသား အသစ္တစ္ခု ေပါင္းထည့္သည္</string>
+    <string name="ass_rename_dialog_title">အမွတ္အသားအား ျပဳျပင္မႈျပဳသည္</string>
+    <string name="aas_delele_dialog_message">အညႊန္း(မ်ား)ဖ်က္ျခင္းသည္ အညႊန္း(မ်ား)ႏွင့္ ခ်ိတ္ထားေသာေ နာက္ထပ္ နံပါတ္မ်ားအားလံုးကို သက္ေရာက္ ေစလိမ့္မည္။ သင္ေသခ်ာပါသလား။</string>
+    <string name="aas_name_invalid">ေလဘယ္အမည္မွာ အသံုးမရွိပါ။ အျခားအမည္ တစ္ခုထည့္ပါ။ </string>
+    <string name="aas_name_exist">အမွတ္အသားမွာ ရွိႏွင့္ၿပီး ျဖစ္ပါသည္။</string>
+    <string name="aas_usim_full">ေလဘယ္အသစ္မ်ား အတြက္ ေနရာမရွိပါ။</string>
+    <string name="ass_edit_assert_message">အညႊန္းကို မြမ္းမံျခင္းသည္ အညႊန္းႏွင့္ ခ်ိတ္ထားေသာ ေနာက္ထပ္ နံပါတ္မ်ားအားလံုးကို သက္ေရာက္ ေစလိမ့္မည္။ ေသခ်ာပါသလား။</string>
+    <string name="aas_new_fail">အမွတ္အသား အသစ္ဖန္တီးရန္ မေအာင္ျမင္ပါ။</string>
+    <string name="aas_edit_fail"><xliff:g id="aas">%s</xliff:g> ကို အမည္ေျပာင္းရန္ မေအာင္ျမင္ပါ။</string>
+    <string name="aas_delete_fail"><xliff:g id="aas">%s</xliff:g> အား ဖ်က္ျခင္း မေအာင္ျမင္ပါ။</string>
+    <string name="aas_phone_primary">ပထမ နံပါတ္</string>
+    <string name="aas_phone_additional">ထပ္ေပါင္းထားသည့္ နံပါတ္</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <skip/>
+    <string name="wallpapers">MTK կենդանի պաստառներ</string>
+    <skip/>
+    <string name="vlw">Տեսապաստառ</string>
+    <string name="vlw_desc">Կայել տեսանյութը որպես կենդանի պաստառ:</string>
+    <string name="VideoScene_error_text_invalid_progressive_playback">"Ներողություն, այս տեսանյութը վավեր չէ այս սարքի հոսքի համար:"</string>
+    <string name="VideoScene_error_text_unknown">"Ներողություն, այս տեսանյութը հնարավոր չէ նվագարկել:"</string>
+    <string name="VideoScene_error_media_removed">Մեդիա ֆայլը հեռացվել է</string>
+	<string name="VideoScene_error_sdcard_unmounted">SD քարտը միացված չէ:</string>
+	<string name="VideoScene_info_wait_sdcard">Սպասում է, մինչև SD քարտը պատրաստ լինի</string>
+	<string name="VideoScene_error_media_not_found">Այս պահին մեդիա ֆայլ գոյություն չուն</string>
+	<string name="VideoScene_error_be_set">ներեցեք, տեսանյութը հնարավոր չէ կայել որպես տեսապաստառ</string>
+    <string name="VideoEditor_error_title">"Տեսանյութը հնարավոր չէ նվագարկել"</string>
+    <string name="VideoEditor_error_button">"Լավ"</string>
+    <string name="VideoEditor_error_no_video_selected">Տեսանյութ չի ընտրվել</string>
+	<string name="VideoEditor_warning_limited_duration">Նվագարկելու համար ընտրեք առնվազն 1 վայրկյան տևողությամբ տեսանյութ</string>
+	<string name="VideoScene_reload_after_mount">Տեսանյութը բեռնվում է SD քարտից, խնդրում ենք սպասել:</string>
+    <string name="select_video">SD քարտ</string>
+    <string name="select_default">"Լռելյայն"</string>
+    <string name="select">"Ընտրել տեսանյութ"</string>
+    <string name="set_wallpaper">"Սահմանել պաստառ"</string>
+    <string name="title">Տեսապաստառ</string>
+    <string name="default_title">Սկզբնադիր տեսանյութ</string>
+    <string name="capture_video">"Ֆոտոխցիկ"</string>
+    <string name="menu_item_add_item">Ընտրել տեսանյութ SD  քարտից</string>
+    <string name="group_video">Ընտրել մեկ տեսանյութ</string>
+    <string name="group_folder">Ընտրել պանակ</string>
+    <string name="folder_info">տեսանյութ(եր)&lt;br&gt;այստեղից&lt;br&gt;</string>
+</resources>

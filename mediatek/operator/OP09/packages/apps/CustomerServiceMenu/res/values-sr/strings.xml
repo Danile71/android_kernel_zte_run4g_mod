@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Мени услуге клијента</string>
+    <string name="title_activity_main">Мени услуге клијента</string>
+    <string name="title">Мени услуге клијента</string>
+    <string name="customer_hotline">Корисничка подршка</string>
+    <string name="mobile_ehall">Мобилни e-hall</string>
+    <string name="subscription">Моја претплата</string>
+    <string name="prl_update">PRL исправка</string>
+    <string name="global_hotline">Глобална подршка</string>
+    <string name="guide">Водич за сервисирање телефона</string>
+    <string name="hotline_desc">Корисничка подршка оператера China Telecom је 10000, а корисничка подршка за самостално коришћење је 10001. Када сте у националној мрежи, ако желите да позовете локалну корисничку подршку потребно је да додате позивни број.</string>
+    <string name="hotline">10000</string>
+    <string name="self_hotline">10001</string>
+    <string name="message">"Порука"</string>
+    <string name="wap">wap</string>
+    <string name="subscription_inquiry">Упит у вези са подршком</string>
+    <string name="service_unscribe">Одјава коришћења услуге</string>
+    <string name="global_hotline_desc">Када се налазите у другим земљама или у ромингу региона Хонг Конг, Макао и Тајван, можете да позовете +8618918910000, број Глобалне подршке оператера China Telecom. Путем овог уређаја је бесплатно За детаљније информације погледајте поздравну поруку у ромингу. Такође можете да посетите http://manyou.ct10000.com</string>
+    <string name="sum_search_networks">"Потражи све доступне мреже"</string>
+    <string name="send_ok">Успешно послато</string>
+    <string name="send_fail">Слање поруке није успело</string>
+    <string name="sending">Провера услуге слања ИД-а позиваоца </string>
+    <string name="to">Нема доступне апликације за штампање контакта.</string>
+    <string name="sim_not_available">Проверите да ли је UIM картица оператера China Telecom доступна</string>
+    <string name="search_networks">"Потражи све доступне мреже"</string>
+    <string name="waiting_networks">Сачекајте мало пре него што кликнете приликом прекида мрежне везе</string>
+    <string name="guide_desc">"MediaTek корисничка подршка: 010-82861128 MediaTek званична веб страница: http://www.mediatek.com"</string>
+</resources>

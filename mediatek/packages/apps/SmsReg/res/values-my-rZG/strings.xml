@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ပစၥည္းစီစဥ္ခ်က္</string>
+    <string name="manage_permission_app_label">ကိရိယာစီမံခန္႔ခြဲမႈ ခြင့္ျပဳခ်က္</string>
+    <string name="send_message_dlg_title">ပစၥည္းစီစဥ္ခ်က္</string>
+    <string name="send_message_dlg_check_hint">မိမိေရြးခ်ယ္မႈကို မွတ္မိေစပါ</string>
+    <string name="send_message_dlg_mgs">CMCC notice: We need to register your device to device management platform to provide the free post-service (Post-service is a platform by CMCC that can manage the terminal devices. It provides you the service of remote settings and app upgrade. ). A free message of device information will be sent for registration. The message will be sent only once and do not need you personal data (Do not send of Hong Kong, Macao, Taiwan and international roaming).  Select “OK” to agree to register and use the service. Select “Cancel” to give up and no service will be provided from CMCC.</string>
+    <string name="confirm_dlg_title">ပစၥည္းစီစဥ္ခ်က္</string>
+    <string name="confirm_dlg__msg">CMCC သတိေပးခ်က္- သင္သည္ ဝန္ေဆာင္မႈကို ပယ္ဖ်က္လိုက္ပါက CMCC အခမဲ့ ေနာက္ပိုင္း ဝန္ေဆာင္မႈကို ေထာက္ပံ့လိမ့္မည္ မဟုတ္ပါ။ သင္ ပယ္ဖ်က္ရန္ ေသခ်ာပါသလား။</string>
+    <string name="alert_dlg_ok_button">အိုေက</string>
+    <string name="alert_dlg_cancel_button">မလုပ္ပါ</string>
+    <string name="send_message_notification_tickerText">ကိရိယာစီမံခန္႔ခြဲမႈ ခြင့္ျပဳခ်က္ ေတာင္းဆိုျခင္း</string>
+    <string name="send_message_notification_title">ပစၥည္းစီစဥ္ခ်က္</string>
+    <string name="send_message_notification_msg">ကိရိယာစီမံခန္႔ခြဲမႈ မက္ေဆ့ခ်္ပို႔ျခင္း ခြင့္ျပဳခ်က္ ေတာင္းဆိုျခင္း</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">Онлайн-погода в формате 3D</string>  
+    <string name="last_update">Последнее обновление</string>  
+    <string name="no_weather">Нажмите настройку для добавления городов</string>  
+    <string name="no_network">Нет доступных сетей</string>  
+    <string name="update_fail">Обновление прогноза погоды не удалось</string>  
+    <string name="updating">Обновление</string>  
+</resources>

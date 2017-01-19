@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">ノートパソコン</string>
+    <string name="no_note">ノートなし</string>
+    <string name="selectednumber">選択済み</string>
+    <string name="delete_confirm_current">ノートは削除されます。</string>
+    <string name="delete_confirm_one">選択されたノートは削除されます。</string>
+    <string name="delete_confirm">選択されたノートは削除されます。</string>
+    <string name="delete_confirm_title">"削除"</string>
+    <string name="delete_confirm_cancel">"キャンセル"</string>
+    <string name="delete_confirm_ok">"OK"</string>
+    <string name="title_bar_selected">選択済み</string>
+    <string name="editor_full">最大1500文字まで入力できます</string>
+    <string name="sdcard_full" product="tablet">デバイスストレージには十分な空きがありません。一部のストレージを解放してください。</string>
+    <string name="sdcard_full" product="default">電話のストレージには十分な空きがありません。一部のストレージを解放してください。</string>
+    <string name="save_none">空のノートは作成されません</string>
+    <string name="empty_note">空のノート</string>
+    <string name="delete_progress">削除しています</string>
+    <string name="title_notes_list">ノートパソコン</string>
+    <string name="title_notes_view">読み取り</string>
+    <string name="title_notes_edit">"完了"</string>
+    <string name="title_loading">読み込み中…</string>
+    <string name="menu_delete">すべてのノートの削除</string>
+    <string name="delete_all_notes_confirm">すべてのノートは削除されます。</string>
+    <string name="note_saved">ノートは保存されました</string>
+    <string name="no_selected">ノートが選択されていません</string>
+    <string name="menu_sort_by_modify">更新日時でソート</string>
+    <string name="menu_sort_by_tab">タブでソート</string>
+    <string name="menu_work">"勤務先"</string>
+    <string name="menu_personal">"ユーザー設定"</string>
+    <string name="menu_family">家庭の事柄</string>
+    <string name="menu_study">学習</string>
+    <string name="menu_none">未分類</string>
+    <string name="menu_add_button">"新規"</string>
+    <string name="menu_delete_button">"削除"</string>
+    <string name="menu_edit_button">"編集"</string>
+    <string name="menu_deselect_all_button">"選択をすべて解除"</string>
+    <string name="menu_select_all_button">"すべて選択"</string>
+    <string name="month">"m"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> 選択済</string>
+    <string name="type_note">ノートにタイプ</string>
+</resources>

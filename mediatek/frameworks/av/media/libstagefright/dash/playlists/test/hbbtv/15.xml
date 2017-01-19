@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:DASH:schema:MPD:2011" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:hbbtv:dash:profile:isoff-live:2012" type="static" mediaPresentationDuration="PT5M0.00S">
+  <!-- ************** 30 second periods *************** -->
+  <Period start="PT0.00S" duration="PT30.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video1.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p1/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p1/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio1.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p1/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p1/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT30.00S" duration="PT30.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video2.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p2/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p2/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio2.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p2/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p2/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT60.00S" duration="PT30.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video3.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p3/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p3/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio3.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p3/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p3/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <!-- ************* 5 seconds Periods*************** -->
+  <Period start="PT90.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video4.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p4/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p4/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio4.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p4/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p4/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT95.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video5.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p5/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p5/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio5.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p5/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p5/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT100.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video6.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p6/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p6/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio6.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p6/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p6/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT105.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video7.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p7/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p7/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio7.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p7/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p7/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT110.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video8.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p8/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p8/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio8.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p8/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p8/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT115.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video9.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p9/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p9/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio9.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p9/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p9/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT120.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video10.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p10/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p10/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio10.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p10/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p10/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT125.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video11.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p11/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p11/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio11.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p11/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p11/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT130.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video12.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p12/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p12/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio12.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p12/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p12/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT135.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video13.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p13/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p13/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio13.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p13/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p13/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT140.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video14.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p14/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p14/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio14.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p14/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p14/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT145.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video15.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p15/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p15/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio15.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p15/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p15/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT150.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video16.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p16/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p16/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio16.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p16/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p16/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT155.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video17.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p17/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p17/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio17.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p17/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p17/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT160.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video18.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p18/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p18/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio18.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p18/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p18/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT165.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video19.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p19/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p19/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio19.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p19/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p19/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT170.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video20.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p20/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p20/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio20.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p20/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p20/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT175.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video21.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p21/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p21/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio21.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p21/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p21/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT180.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video22.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p22/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p22/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio22.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p22/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p22/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT185.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video23.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p23/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p23/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio23.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p23/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p23/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT190.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video24.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p24/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p24/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio24.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p24/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p24/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT195.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video25.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p25/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p25/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio25.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p25/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p25/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT200.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video26.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p26/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p26/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio26.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p26/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p26/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT205.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video27.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p27/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p27/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio27.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p27/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p27/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT210.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video28.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p28/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p28/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio28.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p28/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p28/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT215.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video29.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p29/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p29/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio29.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p29/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p29/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period start="PT220.00S" duration="PT5.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video30.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p30/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p30/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio30.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p30/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p30/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <!-- ************** 30 second period *************** -->
+  <Period start="PT225.00S" duration="PT30.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video31.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p31/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p31/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio31.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p31/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p31/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <!-- ************** 45 second period *************** -->
+  <Period start="PT255.00S" duration="PT45.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video32.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="1000" initialization="720x576i_1000Kbps_MP30_169_32period/p32/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_MP30_169_32period/p32/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" id="audio32.96" codecs="mp4a.40.02" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="1024" initialization="HEAAC_96K_32period/p32/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_32period/p32/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

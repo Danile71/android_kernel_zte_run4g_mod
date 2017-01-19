@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">3D počasí živě</string>  
+    <string name="last_update">Poslední aktualizace</string>   
+    <string name="no_weather">Klepnutím na nastavení přidávejte města</string>  
+    <string name="no_network">Žádná dostupná síť</string>  
+    <string name="update_fail">Aktualizace počasí se nezdařila</string>  
+    <string name="updating">Aktualizace</string>  
+</resources>

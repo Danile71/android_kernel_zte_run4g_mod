@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">3D na live na panahon</string>  
+    <string name="last_update">Huling na-update</string>  
+    <string name="no_weather">Tapikin ang setting upang magdagdag ng mga lungsod</string>  
+    <string name="no_network">Walang magagamit na network</string>  
+    <string name="update_fail">Nabigo ang pag-update ng panahon</string>  
+    <string name="updating">Ina-update</string>  
+</resources>

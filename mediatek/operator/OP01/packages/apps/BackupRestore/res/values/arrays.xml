@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="module_type">
+        <!-- contact -->
+        <item>0x1</item>
+        <!-- message -->
+        <item>0x40</item>
+        <!-- picture -->
+        <item>0x20</item>
+        <!-- calendar -->
+        <item>0x8</item>
+        <!-- music -->
+        <item>0x80</item>
+        <!-- notebook -->
+        <item>0x100</item>
+    </integer-array>
+</resources>

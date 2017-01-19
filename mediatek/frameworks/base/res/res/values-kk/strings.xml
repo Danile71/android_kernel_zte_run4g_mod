@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="keyguard_pinword_enter_pinword_code">Құлыптан босату үшін, PIN кодын енгізіңіз</string>
+    <string name="badPin2">Сіз терген ескі PIN2 дұрыс емес.</string>
+    <string name="badPuk2">Сіз терген PUK2 дұрыс емес.</string>
+    <string name="checkPwdLen">Құпиясөз 4-тен 8 дейінгі саннан тұратындығын тексеріңіз.</string>
+    <string name="pinNotEnabled">Өзгертпес бұрын, PIN кодын іске қосыңыз.</string>
+    <string name="puk1Blocked">PIN құлыпталды.</string>
+    <string name="puk2Blocked">PIN2 құлыпталды.</string>
+    <string name="fdnFailMmi">FDN тексерісі кезіндегі қате.</string>
+    <string name="callBarringFailMmi">Қоңырауларға тыйым салу кезіндегі қате.</string>
+    <string name="Pin2Mmi">PIN2 кодын ауыстыру</string>
+    <string name="PukMmi">PIN кодын құлыптан босату</string>
+    <string name="Puk2Mmi">PIN2 кодын блоктан шығару</string>
+    <string name="serviceProvisioned">Қызмет көрсетілді.</string>
+    <string name="serviceUnknown">Байланыс ақаулығы немесе жарамсыз MMI коды.</string>
+    <string name="cfServiceNotForwarded">Қайта жіберілмеді</string>
+    <string name="permlab_receiveCbSms">CB SMS хабарын қабылдау</string>
+    <string name="permdesc_receiveCbSms">Қолданбаға CB SMS хабарларын қабылдауға және өңдеуге мүмкіндік береді. Зиянды қолданбалар сіздің хабарларыңызды бақылап, оларды сізге көрсетпей жойып тастауы мүмкін.</string>
+    <string name="keyguard_password_enter_puk_code">PUK кодын енгізіңіз</string>
+    <string name="invalidPuk">8 санды енгізіңіз.</string>
+    <string name="pin_length_indicate">(4-8 сан)</string>
+    <string name="puk_length_indicate">(8 сан)</string>
+    <string name="one_retry_left">1 әрекет қалды</string>
+    <string name="invalid_imei">Жарамсыз IMEI</string>
+    <string name="same_imei">Бірдей IMEI</string>
+    <string name="oper_long_46000">CMCC</string>
+    <string name="oper_long_46001">CU</string>
+    <string name="oper_long_46003">China Telecom</string>    
+    <string name="oper_long_46601">Far EasTone</string>
+    <string name="oper_long_46692">Chunghwa Telecom</string>
+    <string name="oper_long_46697">Taiwan Mobile</string>
+    <string name="oper_long_99998">Android1</string>
+    <string name="oper_long_99999">Android</string>
+    <string name="oper_short_46000">CMCC</string>
+    <string name="oper_short_46001">CU-GSM</string>
+    <string name="oper_short_46003">China Telecom</string>    
+    <string name="oper_short_46601">FET</string>
+    <string name="oper_short_46692">Chunghwa</string>
+    <string name="oper_short_46697">TWN</string>
+    <string name="oper_short_99997">AD1</string>
+    <string name="oper_short_99999">AD</string>
+    <string name="unable_launch_the_ap">Қолданбаны іске қосу мүмкін емес.</string>
+    <string name="keyguard_password_enter_sim1_pin_code">SIM 1 үшін PIN кодын енгізіңіз</string>
+    <string name="RestrictedChangedTitle_SIM1">SIM1 картасына шектелген қатынасу рұқсаты өзгертілді</string>
+    <string name="RestrictedChangedTitle_SIM2">SIM2 картасына шектелген қатынасу рұқсаты өзгертілді</string>
+    <string name="keyguard_password_enter_sim2_pin_code">SIM 2 үшін PIN кодын енгізіңіз</string>
+    <string name="keyguard_password_wrong_sim1_pin_code">SIM 1 үшін PIN коды дұрыс емес!</string>
+    <string name="keyguard_password_wrong_sim2_pin_code">SIM 2 үшін PIN коды дұрыс емес!</string>
+    <string name="keyguard_password_enter_sim1_puk_code">SIM 1 үшін PUK кодын енгізіңіз</string>
+    <string name="keyguard_password_enter_sim2_puk_code">SIM 2 үшін PUK кодын енгізіңіз</string>
+    <string name="lockscreen_sim1_puk_locked_message">SIM 1 картасы PUK кодымен құлыпталды.</string>
+    <string name="lockscreen_sim2_puk_locked_message">SIM 2 картасы PUK кодымен құлыпталды.</string>
+    <string name="choose_bootup_mode">SIM картаны таңдаңыз.</string>
+    <string name="choose_gprs_mode">Деректер байланысын таңдаңыз</string>
+    <string name="sim_close">SIM карта жабық</string>
+    <string name="lockscreen_sim_puk_locked_message_short">PUK коды құлыпталды</string>
+    <string name="permlab_receiveDmRegisterSms">DM тіркеуі туралы SMS хабарын алу</string>
+    <string name="permdesc_receiveDmRegisterSms">Қолданбаға DM тіркеуі туралы SMS хабарларын алу және өңдеуге мүмкіндік береді. DM APP қолданбасынан басқа кез келген қолданба осыны пайдаланбауы тиіс</string>
+    <string name="lockscreen_password_error">Құпиясөз дұрыс емес, әрекетті қайталаңыз</string>
+  	  <string name="lockscreen_pinword_error">PIN коды дұрыс емес, әрекетті қайталаңыз</string>
+    <string name="music_no_artist">Белгісіз орындаушы аты</string>
+    <string name="music_play">Ойнату</string>
+    <string name="music_pause">Кідірту</string>
+    <string name="music_library">Кітапхана</string>
+    <string name="music_no_songs">Әндер жоқ</string>
+    <string name="serviceClassVideo">Видео</string>
+  <string name="aerr_application_lowmem">Телефон жады толық, қолданба тоқтатылды. Жадты босатып, әрекетті қайталаңыз.</string>
+  <string name="aerr_process_lowmem">Телефон жады толық, процесті тоқтату қажет. Орынды босатып, әрекетті қайталаңыз.</string>
+  <string name="free_memory_btn">Синхрондау сияқты кейбір жүйе функциялары дұрыс жұмыс істемеуі мүмкін. Қолданбалар немесе мультимедиалық контент сияқты элементтерді жою немесе босату арқылы орынды босатып көріңіз.</string>
+  <string name="free_memory_text">"Жад жеткіліксіз. Жадты босатыңыз."</string>		
+<string name="mem_low_title">Жадты босатыңыз</string>
+   <string name="unread_message">%d оқылмаған хабар</string>
+   <string name="unread_messages">%d оқылмаған хабар</string>
+   <string name="missed_call">%d қабылданбаған қоңырау</string>
+   <string name="missed_calls">%d қабылданбаған қоңырау</string>
+  <string name="no_favorite_contacts">Таңдаулы контактілер жоқ</string>
+  <string name="contact_widget_loading">Жүктеу\u2026</string>
+   <string name="volume_fm">FM дыбыс деңгейі</string>
+   <string name="volume_matv">Мобильді ТД дыбыс деңгейі</string>
+   <string name="media_controller_buffering">"Буферлеу %d%%..."</string>
+   <string name="media_controller_live">"Нақты уақыт режимі"</string>
+   <string name="media_controller_playing">"Ойнатылуда"</string>
+   <string name="media_controller_connecting">"Қосылуда..."</string>
+   <string name="media_controller_weak_signal">"Әлсіз сигнал"</string>
+   <string name="VideoView_error_text_bad_file">"Қате файл, бұл бейнені ойнату мүмкін емес."</string>
+   <string name="VideoView_error_text_cannot_connect_to_server">"Серверге қосылу мүмкін емес."</string>
+   <string name="VideoView_error_text_type_not_supported">"Мультимедиа файлы түріне қолдау көрсетілмейді."</string>
+   <string name="VideoView_error_text_drm_not_supported">"DRM арқылы қорғалған, бұл бейнені ойнату мүмкін емес."</string>
+   <string name="VideoView_error_text_invalid_connection">"Жарамсыз байланыс. (403 тыйым салынған)"</string>
+    <string name="redo">Қайталау</string>
+    <string name="undo">Болдырмау</string>
+    <string name="undoAll">Барлығын болдырмау</string>
+    <string name="new_sim">Жаңа SIM карта</string>
+    <string name="edit">Өңдеу</string>
+    <string name="delete">Жою</string>
+    <string name="for_text">үшін</string>
+    <string name="searching_simcard">Анықтау...</string>
+    <string name="for_first_simcard">Бірінші SIM карта үшін</string>
+    <string name="for_second_simcard">Екінші SIM карта үшін</string>
+    <string name="for_third_simcard">Үшінші SIM карта үшін</string>
+    <string name="for_fourth_simcard">Төртінші SIM карта үшін</string>
+    <string name="lockscreen_pin_too_many_failed_attempts_dialog_message">Сіз дұрыс емес PIN кодты <xliff:g id="number">%d</xliff:g> рет енгіздіңіз. \n\nӘрекетті <xliff:g id="number">%d</xliff:g> секундтан кейін қайталаңыз.</string>
+    <string name="lockscreen_password_too_many_failed_attempts_dialog_message">Құпиясөзді <xliff:g id="number">%d</xliff:g> рет дұрыс енгізбедіңіз. \n\nӘрекетті <xliff:g id="number">%d</xliff:g> секундтан кейін қайталаңыз.</string>
+    <string name="aerr_application_lowstorage">Ішкі жады бітуге жақын, процесс тоқтатылды. Орынды босатып, әрекетті қайталаңыз.</string>
+    <string name="aerr_process_lowstorage">Ішкі жады бітуге жақын, процесс тоқтатылды. Кейбір орынды босатып, әрекетті қайталаңыз.</string>
+    <string name="low_internal_storage_view_title">Ішкі жады бітуге жақын</string>
+    <string name="low_storage_warning_message">Кейбір орынды босатыңыз немесе кей бағдарламалар мен жүйе функциялары жақсы жұмыс жасамауы мүмкін.</string>
+    <string name="deleteMails">Пошталарды жою</string>
+    <string name="criticallowtitle">Бос орын жоқ</string>
+    <string name="criticallowmessage">Кейбір орынды босатыңыз немесе кей бағдарламалар мен жүйе функциялары жақсы жұмыс жасамауы мүмкін.</string> 
+    <string name="nq_sms_filter_title">SMS сүзгісі</string>
+    <string name="nq_sms_filter_message">Бұл хабар ақылы болуы мүмкін. Жалғастыру қажет пе?</string>
+    <string name="nq_sms_filter_yes">Иә</string>
+    <string name="nq_sms_filter_no">Жоқ</string>
+    <string name="ext_media_checking_notification_title_sd2">SD картасын дайындау</string>
+    <string name="ext_media_checking_notification_title_otg">USB жадын дайындау</string>
+    <string name="ext_media_badremoval_notification_title_otg">USB жады күтпеген жерден жойылды</string>
+    <string name="ext_media_nomedia_notification_title_otg">USB жады шығарылды</string>
+    <string name="ext_media_badremoval_notification_message_otg">Деректерді жоғалтып алмау үшін, USB жадысын шығарудан бұрын оны өшіріңіз.</string>
+    <string name="ext_media_nomedia_notification_message_otg">USB жады шығарылды. Жаңа жад салыңыз.</string>
+    <string name="ext_media_unmountable_notification_title_otg">USB жады зақымдалған.</string>
+    <string name="ext_media_unmountable_notification_message_otg">USB жады зақымдалған. Оны қайта пішімдеуіңізге болады.</string>
+    <string name="ext_media_nofs_notification_title_otg">Бос USB жады</string>
+    <string name="ext_media_nofs_notification_message_otg">USB жады бос немесе оның файл жүйесіне қолдау көрсетілмейді. </string>
+    <string name="ext_media_safe_unmount_notification_title_otg">USB жадысын қауіпсіз шығаруға болады</string>
+    <string name="ext_media_safe_unmount_notification_message_otg">USB жадысын қауіпсіз шығаруға болады.</string>
+    <string name="drm_protection_status">Қорғау күйі:</string>
+    <string name="drm_can_forward">Қайта жіберуге болады.</string>
+    <string name="drm_can_not_forward">Қайта жіберуге болмайды.</string>
+    <string name="drm_no_limitation">Шектеу жоқ.</string>
+    <string name="drm_no_license">DRM лицензиясы жоқ.</string>
+    <string name="drm_begin">Басталуы:</string>
+    <string name="drm_end">Аяқталуы:</string>
+    <string name="drm_use_left">Қалғаны:</string>
+    <string name="drm_protectioninfo_renew">Жаңарту</string>
+    <string name="drm_protectioninfo_title">Қорғау туралы ақпарат</string>
+    <string name="drm_licenseacquisition_title">DRM лицензиясын алу</string>
+    <string name="drm_licenseacquisition_message">%1$s DRM лицензиясына ие емес. DRM лицензиясын алу үшін, "Жаңарту" түймесін басуыңызға болады.</string>
+    <string name="drm_toast_license_expired">DRM лицензиясының жарамдылық мерзімі өтті.</string>
+    <string name="drm_forwardforbidden_title">Қайта жіберуге тыйым салынған</string>
+    <string name="drm_forwardforbidden_message">Кейбір қорғалған файлдарды қайта жіберу мүмкін емес.</string>
+    <string name="drm_license_install_success">DRM лицензиясын орнату сәтті аяқталды.</string>
+    <string name="drm_license_install_fail">DRM лицензиясын орнату сәтсіз аяқталды.</string>
+    <string name="drm_secure_timer_title">Жарамсыз DRM қауіпсіздік сағаты</string>
+    <string name="drm_secure_timer_message">DRM қорғалған файлдарын қолдану мүмкін болмады. Деректер байланысы қолжетімді екендігіне көз жеткізіңіз.</string>
+    <string name="drm_consume_title">DRM құқықтарының жойылуы</string>
+    <string name="drm_consume_message">Сіздің әрекетіңіз DRM құқықтарын жояды.</string>
+    <string name="drm_forward_forbidden">Бір немесе бірнеше қорғалған файлдарды қайта жіберу мүмкін емес.</string>
+    <string name="recip_unsupport_operator">RecipientsView таңбалы операцияларға қолдау көрсетпейді, алушыларды басқару үшін құралдар тақтасын пайдаланыңыз. </string>
+    <string name="recip_unsupport_selection">Кешіріңіз, RecipientsView ішінде алушылар болған кезде, кірістіру белгісін бастапқы жаққа қарай жылжыта алмайсыз.</string>
+    <string name="virtual_sim_on_slot1">Виртуалды SIM 1 картасы ҚОСУЛЫ</string>
+    <string name="virtual_sim_on_slot2">Виртуалды SIM 2 картасы ҚОСУЛЫ</string>
+    <string name="virtual_sim_on_slot3">Виртуалды SIM 3 картасы ҚОСУЛЫ</string>
+    <string name="virtual_sim_on_slot4">Виртуалды SIM 4 картасы ҚОСУЛЫ</string>
+    <string name="virtual_sim_on">Виртуалды SIM карта ҚОСУЛЫ</string>
+    <string name="sim_missing_slot1">1-ұяшық: SIM карта анықталмады</string>
+    <string name="sim_missing_slot2">2-ұяшық: SIM карта анықталмады</string>
+    <string name="sim_missing_slot3">3-ұяшық: SIM карта анықталмады</string>
+    <string name="sim_missing_slot4">4-ұяшық: SIM карта анықталмады</string>
+    <string name="sim_missing">SIM карта анықталмады</string>
+    <string name="sim_missing_detail">SIM картаның дайындығын тексеріңіз</string>
+    <string name="sim_missing_slot1_card">1-ұяшық: карта анықталмады</string>
+    <string name="sim_missing_slot2_card">2-ұяшық: карта анықталмады</string>
+    <string name="sim_missing_card">Карта анықталмады</string>
+    <string name="sim_missing_detail_card">Карта дайындығын тексеріңіз</string>
+    <string name="wap_push_setting_noti_ticker">Auto-push қызметін қабылдау қажет пе немесе қажет емес пе?</string>
+    <string name="wap_push_setting_noti_title">Auto-push қызметін қабылдау қажет пе немесе қажет емес пе?</string>
+    <string name="wap_push_setting_noti_text">Таңдау үшін түртіңіз</string>
+    <string name="url_dialog_choice_title">Хабарлар</string>
+    <string name="url_dialog_choice_message">Бұл браузерді ашады, жалғастыру қажет пе?</string>
+    <string name="deleteApp">Қолданбаларды орнатпаңыз</string>    
+    <string name="deleteMail">Поштаның резервтік көшірмесін жасап, жадты босатыңыз</string>    
+    <string name="storage_withsd">Телефон жадында жеткілікті бос орын жоқ. Жадты босатыңыз немесе параметрлердегі жазуға арналған әдепкі дискіні өзгертіңіз.</string>
+    <string name="storage_withoutsd">Телефон жадында жеткілікті бос орын жоқ. Жадты босатыңыз немесе SD картасын салыңыз. </string>
+    <string name="storage_sd">SD картасында жеткілікті бос орын жоқ. Жадты босатыңыз немесе параметрлердегі жазуға арналған әдепкі дискіні өзгертіңіз.</string>   
+    <string name="usb_ums_notification_title">USB жады ретінде қосылды</string>
+    <string name="usb_charging_notification_title">Тек USB зарядтау</string>
+    <string name="gps_time_sync_fail_str">GPS ұсынған уақытты алу сәтсіз аяқталды</string>
+    <string name="calibration_data">Калибрлеу әлі орындалмады. Калибрлеу деректерін жүктеңіз! Әйтпесе құрылғы желіден ажырауы мүмкін.[MTK ішкі пайдаланушысы]</string>
+    <string name="invalid_card">Жарамсыз карта</string>
+    <string name="RejectCauseTitle">Желінің қабылдамау себебі</string>
+    <string name="MMRejectCause2">SIM карта салынбады MM #2 </string>
+    <string name="MMRejectCause3">SIM картаға рұқсат етілмейді MM #3</string>
+    <string name="MMRejectCause5">Қоңырау шалу сәтсіз аяқталды MM #5</string>
+    <string name="MMRejectCause6">Телефонға рұқсат етілмейді MM #6</string>    
+    <string name="MMRejectCause13">SOS/Тек төтенше қоңыраулар</string>
+    <string name="find_previous">Алдыңғы</string>
+    <string name="find_next">Келесі</string>
+    <string name="tethered_notification_message_for_hotspot"><xliff:g id="connected">%1$d</xliff:g> қосылды, <xliff:g id="blocked">%2$d</xliff:g> құлыпталды</string>
+    <string name="tethered_notification_message_bandwidth_set">Өткізу мүмкіндігі орнатылды</string>
+    <string name="usbint_notification_title">USB-интернет белсенді</string>
+    <string name="default_wallpaper_name">Әдепкі</string>
+    <string name="description_direction_right">Өшіру үшін, саусағыңызбен оң жаққа қарай сырғытыңыз.</string>
+    <string name="description_direction_left">Кейінге қалдыру үшін, сол жаққа қарай сырғытыңыз</string>
+    <string name="description_direction_up">Өшіру үшін, жоғары қарай сырғытыңыз</string>
+    <string name="description_direction_down">Кейінге қалдыру үшін, төмен қарай сырғытыңыз</string>
+    <string name="dismiss_power_on">Қабылдамау және іске қосу</string>   
+    <string name="dismiss_power_off">Қабылдамау және өшіру</string>
+    <string name="dialog_color_picker">Түс палитрасы</string>
+    <string name="press_color_to_apply">Қолдану үшін түсті басыңыз</string>
+    <string name="color_picker_select">-&gt;</string>
+    <string name="wifi_display_bt_hdmi_off_wfd_on">Сымсыз дисплейді қосқан кезде HDMI өшіріледі. Жалғастыру қажет пе?</string> 
+    <string name="wifi_display_wfd_off_hdmi_on">HDMI іске қосылған кезде, сымсыз дисплей өшіріледі. Жалғастыру қажет пе?</string> 
+    <string name="wifi_display_wfd_off_bt_on">Bluetooth іске қосылған кезде, сымсыз дисплей өшіріледі. Жалғастыру қажет пе?</string> 
+    <string name="wifi_display_wifi_p2p_disconnect_wfd_connect">Сымсыз дисплей құрылғысына қосылған кезде, ағымдағы Wi-Fi тікелей байланысы ажыратылады. Жалғастыру қажет пе?</string>
+    <string name="wifi_display_unstable_connection">Тұрақсыз байланыс</string>
+    <string name="wifi_display_connection_is_not_steady">Сымсыз дисплейдің ағымдағы байланысы тұрақты емес.</string>
+    <string name="wifi_display_unstable_suggestion">Сымсыз дисплейдің ағымдағы байланысы тұрақты емес, дисплей құрылғысына жақынырақ болуға тырысыңыз.</string>
+    <string name="wifi_display_reconnect">Қайта қосу</string> 
+    <string name="wifi_display_disconnect_then_reconnect">Сымсыз дисплей ажыратылған. Қайта қосу қажет пе?</string> 
+    <string name="wifi_display_disconnected">Сымсыз дисплей ажыратылған.</string>
+    <string name="wifi_wps_failed_overlap">Басқа WPS сеансы анықталды. Бірнеше минуттан кейін әрекетті қайталаңыз.</string>
+    <string name="wifi_display_wfd_and_wifi_are_turned_on">Сымсыз дисплей және Wi-Fi қосылған.</string>
+    <string name="wifi_display_sound_path_reminder">Құлаққаптан мультимедиа дыбысы ойнатылмайды.</string>  
+    <string name="wifi_display_change_resolution_reminder">Ажыратымдылықты өзгерту сымсыз дисплейді автоматты түрде қайта қосады.</string>  
+    <string name="wifi_display_do_not_remind_again">Қайта еске салмау.</string>
+    <string name="wifi_display_wifi_ap_affects_quality">Ағымдағы Wi-Fi кіру орны сымсыз дисплейге әсер етуі мүмкін.</string>
+    <string name="wifi_display_wait_connection">Басқа құрылғылардан қосылу шақыруларын күтуде </string>
+    <string name="wifi_display_confirm_connection">сізбен байланыс құрғысы келеді.</string>
+    <string name="wifi_display_build_connection">Байланыс құрылуда.</string>
+    <string name="wifi_display_enjoy_screen">Басқа құрылғыдан экранды ортақ пайдаланыңыз.</string>
+    <string name="sdcard_ready_title">SD картасы дайын</string>
+    <string name="sdcard_select_default_path">Әдепкі жазуға арналған дискіні өзгерту қажет пе?</string>
+    <string name="sdcard_default_path_change">Әдепкі жазуға арналған дискі өзгертілді.</string>
+    <string name="usb_storage_ready_title">Сыртқы USB жады дайын</string>
+    <string name="headset_pin_recognition">Сіздің құлаққаптарының телефонмен үйлесімді емес. Басқасын қолданып көріңіз</string>
+    <string name="msensor_toast_text">Компас ақаулығы. Компасты қайта калибрлеу үшін, 8-суретте көрсетілген бағытта бұрыңыз.</string> 
+    <string name="sd_accessing_swtich_user_title">Пайдаланушыны ауыстыру қажет пе?</string>
+    <string name="sd_accessing_swtich_user_message">Пайдаланушы тіркелгісіндегі барлық сақталмаған дерек жоғалады немесе зақымдалады.</string>
+    <string name="usb_autorun_cdrom_notification_title">CD-ROM автоматты түрде қосу ретінде қосылған.</string>
+    <string name="ct_net_name">"CTNET"</string>
+    <string name="ct_wap_name">"CTWAP"</string>    
+    <string name="hdmi_notification_title">HDMI кабелі қосылған</string>
+    <string name="hdmi_notification_content">HDMI теңшеу үшін басыңыз</string>
+    <string name="hdmi_hdvideo_toast">HDMI 4K бейнесін ойната алмайды, қосылым тоқтатылады.</string>
+    <string name="hdmi_mutex_call_content">Өкінішке орай, HDMI ағымдағы қоңырауға байланысты тоқтатылды.</string>
+    <string name="safe_media_volume_warning_title">Ескерту</string>
+    <string name="data_conn_only">Тек деректер қосылымы</string>
+    
+    <string name="AP_had_connected">Келесі құрылғымен байланыс бұрыннан орнатылған</string>
+    <string name="turn_wifi_on">Wi-Fi іске қосылуда...</string>
+    <string name="AP_confirm_title">Желіге қосылу</string>
+    <string name="AP_confirm_default_network">Желі</string>
+    <string name="AP_confirm_positive">Қосылу</string>
+    <string name="AP_confirm_negative">Болдырмау</string>
+    <string name="connecting_to"><xliff:g id="connected">%1$s</xliff:g>желісіне қосылуда\u2026</string>
+    <string name="connected_to"><xliff:g id="connected">%1$s</xliff:g> желісіне қосылды</string>
+    <string name="connected_failed">Қосылу сәтсіз аяқталды</string>
+
+    <string name="passpoint_sp_notification_action">Онлайн кіруге арналған тіркелгі деректері</string>
+    <string name="roaming_message">"Қазір халықаралық роуминг аймағындасыз, мобильді деректер қосылған, жергілікті шығындарды ескеріңіз."</string>
+    <string name="alert_prompt">"Еске салу"</string>
+    <string name="ok">"Жарайды"</string>
+    <string name="Special_Card_Type_Title_Lte_Not_Available">LTE желісі қолжетімді.</string>
+    <string name="Suggest_To_Change_USIM">4G SIM картасын ауыстыру ұсынылады.</string>
+    <string name="another_device_want_to_join">Басқа құрылғы Wi-Fi direct тобына кіргісі келеді.</string>
+    <string name="error_1">Қате, әрекетті қайталаңыз.</string>
+    <string name="error_2">Кідіріс, әрекетті қайталаңыз.</string>
+    <string name="error_3">Бұл әрекетке қолдау көрсетпеу.</string>
+    <string name="passpoint_sp_notification_ticker">Қолжетімді қызмет провайдері</string>
+    <string name="passpoint_sp_notification_title">Қолжетімді қызмет провайдері</string>
+    <string name="passpoint_sp_notification_content">Онлайн жүйеге кіруден кейін интернетті пайдалану мүмкін</string>
+    <string name="passpoint_is_connected">қосылған</string>
+    <string name="passpoint_provision_fail_title">Кіру нүктесіне онлайн кіру орындалмады</string>
+    <string name="passpoint_provision_fail_content">Әрекетті тұрақты желі жағдайы болғанда кейінірек қайталаңыз</string>
+    <string name="passpoint_osu_finished">Кіру нүктесіне онлайн кіру аяқталды. Желі қосылымы тұрақты болса, кейінірек интернетті пайдалануға болады</string>
+    <string name="logo">қолданба логотипінің белгішесі</string>
+    <string name="close">қолданбаны жабу</string>   
+    <string name="maximum">қолданбаны барынша арттыру</string>
+    <string name="minimize">қолданбаны барынша азайту</string>
+    <string name="drag">қолданба терезесінің өлшемін жылжыту</string> 
+    <string name="gallery_camera_mutex">Галереяны, Камераны немесе Бейне ойнатқышын осы уақытта пайдалану мүмкін емес</string> 
+    <string name="mw_max_size_string">Максималды <xliff:g id="number">%d</xliff:g> қалқымалы терезе</string>            
+    <string name="direct_had_connected">Wi-FiDirect осы құрылғыға әлдеқашан қосылды.</string> 
+    <string name="permlab_wake_device_sensorhub" product="tablet">планшетті ұйқы режимінен шығару</string>
+    <string name="permlab_wake_device_sensorhub" product="default">телефонды ұйқы режимінен шығару</string>
+    <string name="permdesc_wake_device_sensorhub" product="tablet">Датчик концентраторы арқылы қолданбаның планшетті ұйқы режимінен шығаруына мүмкіндік береді.</string>
+    <string name="permdesc_wake_device_sensorhub" product="default">Датчик концентраторы арқылы қолданбаның телефонды ұйқы режимінен шығаруына мүмкіндік береді.</string>
+</resources>

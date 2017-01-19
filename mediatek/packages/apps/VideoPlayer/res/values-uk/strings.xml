@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="video_app_name">"Videos"</string>
+    <string name="scanning">"Сканування карти SD..."</string>
+    <string name="sdcard_missing_message">"До телефону не вставлено карту SD."</string>
+    <string name="video_list_empty">"Нема відео."</string>
+    <string name="detail_title">"Назва: %1$s"</string>
+    <string name="detail_date_taken">"Знято: %1$s"</string>
+    <string name="detail_path">"Доріжка: %1$s"</string>
+    <string name="detail_filesize">"Розмір файла: %1$s"</string>
+    <string name="detail_duration">"Тривалість: %1$s"</string>
+    <string name="media_detail">"Подробиці"</string>
+    <string name="delete">"Видалити"</string>
+    <string name="delete_tip">"Видалити %1$s?"</string>
+    <string name="delete_progress">"Видалення %1$s..."</string>
+	<string name="max_video">Максимум відео</string>
+	<string name="hotknot">HotKnot</string>
+    <string name="share">"Надіслати"</string>
+    <string name="deselect_all">"Скасувати все"</string>
+    <string name="select_all">"Вибрати всі"</string>
+    <string name="selected">Вибрано</string>
+    <string name="delete_selection_one">"Видалити вибраний елемент?"</string>
+    <string name="delete_selection_more">"Видалити вибрані елементи?"</string>
+    <string name="select_item">"Виберіть елемент"</string>
+</resources>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <script src=js/raphael.js type="text/javascript" charset="utf-8"></script>
+        <link rel="stylesheet" href="js/angular-slider.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+
+        <script src="js/angular-slider.js"></script>
+        <script src="js/app.js"></script>
+        <link rel="stylesheet" href="js/mystyle.css">
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+        <script src="dumpsys.js"></script>
+        
+        <!---
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.17/angular.min.js"></script>
+        
+        
+        --->
+        <!---
+        <script>
+            var layerObject = [
+            
+               [{ "frameIdx" : "0", "name" : "com.android.systemui.ImageWallpaper", "frame" : [    0,    0, 1080, 1920], "type":"HWC"},
+                { "frameIdx" : "0", "name" : "com.android.launcher3.Launcher"     , "frame" : [    0,    0, 1080, 1920], "type":"HWC"},
+                { "frameIdx" : "0", "name" : "StatusBar"                          , "frame" : [    0,    0, 1080,   75], "type":"HWC"},
+                { "frameIdx" : "0", "name" : "NavigationBar"                      , "frame" : [    0, 1776, 1080, 1920], "type":"HWC"},
+                { "frameIdx" : "0", "name" : "HWC_FRAMEBUFFER_TARGET"             , "frame" : [    0,    0, 1080, 1920], "type":"FB TARGET"}],
+            
+               [{ "frameIdx" : "1", "name" : "c_om.android.systemui.ImageWallpaper", "frame" : [    0,    0, 1080, 1920], "type":"HWC"},
+                { "frameIdx" : "1", "name" : "c_om.android.launcher3.Launcher"     , "frame" : [    0,    0, 1080, 1920], "type":"HWC"},
+                { "frameIdx" : "1", "name" : "S_tatusBar"                          , "frame" : [    0,    0, 1080,   75], "type":"HWC"},
+                { "frameIdx" : "1", "name" : "N_avigationBar"                      , "frame" : [    0, 1776, 1080, 1920], "type":"HWC"},
+                { "frameIdx" : "1", "name" : "H_WC_FRAMEBUFFER_TARGET"             , "frame" : [    0,    0, 1080, 1920], "type":"FB TARGET"}]
+                
+            ];
+        </script>        
+        --->
+    </head>
+    <body ng-controller="ItemCtrl">
+        
+        <div id="mydiv2" >
+            <h1>Surface Compose Visualizer</h2>
+        </div>  
+
+        <script>
+                // $.getJSON('dumpsys.json', function(data) {
+                //layerObjects = mysrc ;   
+                // });            
+
+
+            // var mysrc = [  
+            //       { "frameIdx" : "0", "name" : "com.android.systemui.ImageWallpaper"       , "frame" : "[    0,    0, 1080, 1920]", "type":"HWC"},
+            //       { "frameIdx" : "0", "name" : "com.android.launcher3.Launcher"            , "frame" : "[    0,    0, 1080, 1920]", "type":"HWC"},
+            //       { "frameIdx" : "0", "name" : "StatusBar"                                 , "frame" : "[    0,    0, 1080,   75]", "type":"HWC"},
+            //       { "frameIdx" : "0", "name" : "NavigationBar"                             , "frame" : "[    0, 1776, 1080, 1920]", "type":"HWC"},
+            //       { "frameIdx" : "0", "name" : "HWC_FRAMEBUFFER_TARGET"                    , "frame" : "[    0,    0, 1080, 1920]", "type":"FB TARGET"},
+            //                                                                                
+            //       { "frameIdx" : "1", "name" : "c_om.android.systemui.ImageWallpaper"      , "frame" : "[    0,    0, 1080, 1920]", "type":"GLES"},
+            //       { "frameIdx" : "1", "name" : "c_om.android.launcher3.Launcher"           , "frame" : "[    0,    0, 1080, 1920]", "type":"GLES"},
+            //       { "frameIdx" : "1", "name" : "N_avigationBar"                            , "frame" : "[    0, 1776, 1080, 1920]", "type":"GLES"},
+            //       { "frameIdx" : "1", "name" : "H_WC_FRAMEBUFFER_TARGET"                   , "frame" : "[    0,    0, 1080, 1920]", "type":"FB TARGET"},
+            //                                                                                
+            //       { "frameIdx" : "2", "name" : "c_2_om.android.systemui.ImageWallpaper"    , "frame" : "[    0,    0, 1080, 1920]", "type":"HWC"},
+            //       { "frameIdx" : "2", "name" : "c_2_om.android.launcher3.Launcher"         , "frame" : "[    0,    0, 1080, 1920]", "type":"HWC"},
+            //       { "frameIdx" : "2", "name" : "S_2_tatusBar"                              , "frame" : "[    0,    0, 1080,   75]", "type":"GLES"},
+            //       { "frameIdx" : "2", "name" : "H_2_WC_FRAMEBUFFER_TARGET"                 , "frame" : "[    0,    0, 1080, 1920]", "type":"FB TARGET"}, 
+            //                                                                                            
+            //       { "frameIdx" : "3", "name" : "cXX_3_om.android.systemui.ImageWallpaper"  , "frame" : "[    0,    0, 1080, 1920]", "type":"HWC"},
+            //       { "frameIdx" : "3", "name" : "cXX_3_om.android.launcher3.Launcher"       , "frame" : "[    0,    0, 1080, 1920]", "type":"HWC"},
+            //       { "frameIdx" : "3", "name" : "SXX_3_tatusBar"                            , "frame" : "[    0,    0, 1080,   75]", "type":"GLES"},
+            //       { "frameIdx" : "3", "name" : "NXX_3_avigationBar"                        , "frame" : "[    0, 1776, 1080, 1920]", "type":"GLES"},
+            //       { "frameIdx" : "3", "name" : "HXX_3_WC_FRAMEBUFFER_TARGET"               , "frame" : "[    0,    0, 1080, 1920]", "type":"FB TARGET"},
+            //                                                                                            
+            //       { "frameIdx" : "4", "name" : "cXXMM_4_om.android.systemui.ImageWallpaper", "frame" : "[    0,    0, 1080, 1920]", "type":"HWC"},
+            //       { "frameIdx" : "4", "name" : "cXXMM_4_om.android.launcher3.Launcher"     , "frame" : "[    0,    0, 1080, 1920]", "type":"HWC"},
+            //       { "frameIdx" : "4", "name" : "SXXMM_4_tatusBar"                          , "frame" : "[    0,    0, 1080,   75]", "type":"HWC"},
+            //       { "frameIdx" : "4", "name" : "NXXMM_4_avigationBar"                      , "frame" : "[    0, 1776, 1080, 1920]", "type":"GLES"},
+            //       { "frameIdx" : "4", "name" : "HXXMM_4_WC_FRAMEBUFFER_TARGET"             , "frame" : "[    0,    0, 1080, 1920]", "type":"FB TARGET"},
+            //                                                                                                                                    
+            //        { "frameIdx" : "5", "name" : "cJJK_5_om.android.systemui.ImageWallpaper", "frame" : "[    0,    0, 1080, 1920]", "type":"HWC"},
+            //        { "frameIdx" : "5", "name" : "cJJK_5_om.android.launcher3.Launcher"     , "frame" : "[    0,    0, 1080, 1920]", "type":"GLES"},
+            //        { "frameIdx" : "5", "name" : "SJJK_5_tatusBar"                          , "frame" : "[    0,    0, 1080,   75]", "type":"GLES"},
+            //        { "frameIdx" : "5", "name" : "NJJK_5_avigationBar"                      , "frame" : "[    0, 1776, 1080, 1920]", "type":"GLES"},
+            //        { "frameIdx" : "5", "name" : "HJJK_5_WC_FRAMEBUFFER_TARGET"             , "frame" : "[    0,    0, 1080, 1920]", "type":"FB TARGET"}
+            // ];     
+
+
+
+
+
+
+
+
+            
+        </script>    
+
+        <div id="mySlider" style="width:900px" >
+            <slider custom-floor="item.minAge" floor="0" custom-ceiling="item.maxAge" ceiling="5" step="1" precision="0" ng-model="item.frame_index"></slider>
+            <!---
+            <h3> Frame Index : {{ item.frame_index }}</h3>
+            --->
+            <!--- test svg rect
+            <div id="svg_layer">
+                <svg width="200" height="200">
+                  <circle ng-attr-cx="{{100}}" ng-attr-cy="{{100}}" ng-attr-r="{{ item.frame_index *15+10}}" stroke="green" stroke-width="4" fill="yellow" />
+                </svg>
+
+                <svg width="200" height="200">
+                  <rect ng-attr-width="{{item.frame_index*5}}" ng-attr-height="{{item.frame_index*5}}" ng-attr-x="{{item.frame_index*2}}" ng-attr-y="{{item.frame_index*2}}" stroke="black" stroke-width="2" fill="grey" />
+                </svg>
+                
+            </div>
+            --->
+                
+            <svg id="layerCompose" ng-repeat="layer in layerObjects | filter:{frameIdx:item.frame_index}" ng-attr-width="{{1080}}" ng-attr-height="{{1920}}">
+              <rect ng-hide="layer.hide" ng-attr-x="{{ layer.frame[0] }}" ng-attr-y="{{ layer.frame[1] }}" ng-attr-width="{{ layer.frame[2]-layer.frame[0] }}" ng-attr-height="{{ layer.frame[3]-layer.frame[1] }}"  />
+            </svg>
+          
+        </div>
+<!---        
+<div id="drop_zone">Drop files here</div>
+<output id="list"></output>
+
+<script>
+  function handleFileSelect(evt) {
+    evt.stopPropagation();
+    evt.preventDefault();
+
+    var files = evt.dataTransfer.files; // FileList object.
+
+    // files is a FileList of File objects. List some properties.
+    var output = [];
+    for (var i = 0, f; f = files[i]; i++) {
+      output.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ',
+                  f.size, ' bytes, last modified: ',
+                  f.lastModifiedDate.toLocaleDateString(), '</li>');
+    }
+    document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
+  }
+
+  function handleDragOver(evt) {
+    evt.stopPropagation();
+    evt.preventDefault();
+    evt.dataTransfer.dropEffect = 'copy'; // Explicitly show this is a copy.
+  }
+
+  // Setup the dnd listeners.
+  var dropZone = document.getElementById('drop_zone');
+  dropZone.addEventListener('dragover', handleDragOver, false);
+  dropZone.addEventListener('drop', handleFileSelect, false);
+</script>
+--->
+                  
+        <div id="mydiv">   
+            <div id="layerDetail">
+                <h2>Layer Detail Info:</h2>
+                <div style="background-color:white">
+                    <ul>
+                        <li>Z Order: </li>
+                        <li>position: </li>
+                        <li>size: </li>
+                        <li>
+                            Region:
+                                <p>
+                                    transparent:<br>
+                                    visible: <br>
+                                    crop:
+                                </p>
+                        </li>
+                        <li>isOpaque: </li>
+                        <li>invalidate: </li>
+                        <li>alpha: </li>
+                        <li>flags: </li>
+                        <li>tr:</li>
+                        <li>client:</li>
+                        <li>format:</li>
+                        <li>active buffer: </li>
+                    </ul>
+                </div>                 
+            </div>
+
+           
+
+          
+            <div id="layerInfoSummary">
+                <h2>Layer Info Summary:</h2>
+                <!---
+                <div id="layerList" >
+                    <ol>
+                        Frame Index : {{ item.frame_index }} <br>
+                        
+                        <li ng-repeat="layer in layerObjects | filter:{frameIdx:item.frame_index}">
+                            <p>
+                                Layer: {{ layer.name  }} <br>
+                                Type : {{ layer.type  }} <br>
+                                Frame: {{ layer.frame }} <br>
+                            </p>    
+                        </li>
+                    </ol>
+                </div>
+                --->
+                <div id="layerList" >
+                    <b>Frame Index : {{ item.frame_index }} </b><br>
+                    <form name="myForm" ng-repeat="layer in layerObjects | filter:{frameIdx:item.frame_index}">
+                        <p>
+                            <input type="radio" name="mySet" ng-model="radioLayer.mySet" ng-value="layer" />
+                                    <b>Layer:</b> {{ layer.name  }} 
+                                    
+                                <div style="padding-left:40px">
+                                    <b>Disable Composistion:</b> <input type="checkbox" ng-model="layer.hide"/> <br>
+                                    <b>Type :</b> {{ layer.type  }} <br>
+                                    <b>Frame:</b> {{ layer.frame }} 
+                                </div>
+                        </p>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <!---
+        <script>
+            
+
+            
+            
+            var layerIndex = 0 ;
+            var layer ;
+
+// use Raphael.js 
+            var paper = Raphael(document.getElementById("mydiv"),0, 0, 1080, 1920);
+            //var paper = Raphael("mydiv", "50%", "50%");
+            //var layer[10] ;
+
+            for (layer in layerObject[0]){
+                var base = {};
+                base.x = 400 ;
+                base.y = 400 ;
+                
+                var myframe = layerObject[0][layer].frame;
+
+                var r1 = paper.rect(base.x + myframe[0],base.y + myframe[1],myframe[2]-myframe[0],myframe[3]-myframe[1]).attr({
+                    "fill":"#f0f0f0",
+                    "stroke":"#202020",
+                    "stroke-width" : "2" ,
+                    "fill-opacity" : "0.5"
+                });
+                r1.node.id = layerObject[0][layer].name ;
+            }
+
+            
+            //paper.setViewBox(0,0, 300, 500, true);
+            
+            //paper.transform("0.5");
+            //paper.setViewBox()
+            //paper.setSize("100%","100%")
+            
+            paper.setViewBox(-1, -1, 1500, 2500, false);
+            paper.setSize(720/2,1280/2);
+            
+
+            
+        </script>  
+        --->
+    </body>
+
+</html>

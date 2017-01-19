@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3D време уживо</string>
+    <string name="last_update">"Последње ажурирање"</string>
+    <string name="no_weather">Додирните подешавање да бисте додали градове</string>
+    <string name="no_network">Мрежа није доступна</string>
+    <string name="update_fail">Ажурирање времена није успело</string>
+    <string name="updating">Ажурирање</string>
+</resources>

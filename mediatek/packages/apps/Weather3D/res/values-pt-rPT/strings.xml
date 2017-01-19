@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">Meteorologia em directo 3D</string>  
+    <string name="last_update">Última actualização</string>  
+    <string name="no_weather">Toque nas definições para adicionar cidades</string>  
+    <string name="no_network">Nenhuma rede disponível</string>  
+    <string name="update_fail">Falha ao actualizar a meteorologia</string>  
+    <string name="updating">Atualizando</string>  
+</resources>

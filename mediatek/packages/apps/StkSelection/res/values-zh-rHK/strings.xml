@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"SIM 工具包"</string>
+    <string name="activity_not_found" product="tablet">應用程式並未安裝到你的裝置上。</string>
+    <string name="activity_not_found" product="default">"您的手機未安裝應用程式。"</string>
+    <string name="simlock_toolkit">"Sim卡工具組"</string>
+    <string name="no_sim_card_inserted" product="default">請插入SIM卡以啟動SIM卡工具包。</string>
+    <string name="airplane_mode_on" product="default">無法啟動SIM卡工具包，因為飛行模式已打開。</string>
+    <string name="lable_sim_not_ready">SIM卡工具包還沒有準備好或不受支援</string>
+</resources>

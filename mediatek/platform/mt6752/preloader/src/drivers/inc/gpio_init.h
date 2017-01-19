@@ -1,0 +1,357 @@
+#ifndef _GPIO_INIT_H_
+#define _GPIO_INIT_H_
+
+/******************************************************************************
+ * mt_gpio_init_value.c - MT6516 Linux GPIO Device Driver
+ * 
+ * Copyright 2008-2009 MediaTek Co.,Ltd.
+ * 
+ * DESCRIPTION:
+ *     default GPIO init value
+ *
+ ******************************************************************************/
+
+const UINT32 gpio_init_value[][3] = {
+{
+IOCFG_L_BASE+0x040
+,(GPIO133_SMT << 4) | (GPIO132_SMT << 4) | (GPIO131_SMT << 4) | (GPIO130_SMT << 4) | (GPIO109_SMT << 3) | (GPIO108_SMT << 3) | (GPIO107_SMT << 3) | (GPIO106_SMT << 3) | (GPIO105_SMT << 2) | (GPIO104_SMT << 2) | (GPIO103_SMT << 1) | (GPIO102_SMT << 1) | (GPIO101_SMT << 1) | (GPIO100_SMT << 1) | (GPIO99_SMT << 1) | (GPIO98_SMT << 1) | (GPIO52_SMT << 8) | (GPIO51_SMT << 7) | (GPIO50_SMT << 6) | (GPIO49_SMT << 5) | (GPIO48_SMT << 8) | (GPIO47_SMT << 7) | (GPIO46_SMT << 6) | (GPIO45_SMT << 5) | (GPIO11_SMT << 0) | (GPIO10_SMT << 0) | (GPIO9_SMT << 0) | (GPIO8_SMT << 0) | (GPIO7_SMT << 0) | (GPIO6_SMT << 0) | (GPIO5_SMT << 0) | (GPIO4_SMT << 0) | (GPIO3_SMT << 0) | (GPIO2_SMT << 0) | (GPIO1_SMT << 0) | (GPIO0_SMT << 0)
+,(0x1 << 4) | (0x1 << 4) | (0x1 << 4) | (0x1 << 4) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 2) | (0x1 << 2) | (0x1 << 1) | (0x1 << 1) | (0x1 << 1) | (0x1 << 1) | (0x1 << 1) | (0x1 << 1) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0)
+},
+{
+IOCFG_T_BASE+0x020
+,(GPIO20_SMT << 1) | (GPIO19_SMT << 1) | (GPIO18_SMT << 1) | (GPIO17_SMT << 0) | (GPIO16_SMT << 0) | (GPIO15_SMT << 0) | (GPIO14_SMT << 0) | (GPIO13_SMT << 0) | (GPIO12_SMT << 0)
+,(0x1 << 1) | (0x1 << 1) | (0x1 << 1) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0)
+},
+{
+IOCFG_R_BASE+0x050
+,(GPIO147_SMT << 0) | (GPIO146_SMT << 0) | (GPIO145_SMT << 0) | (GPIO144_SMT << 0) | (GPIO143_SMT << 7) | (GPIO142_SMT << 7) | (GPIO141_SMT << 10) | (GPIO140_SMT << 10) | (GPIO139_SMT << 1) | (GPIO138_SMT << 1) | (GPIO113_SMT << 2) | (GPIO112_SMT << 2) | (GPIO111_SMT << 2) | (GPIO110_SMT << 2) | (GPIO44_SMT << 6) | (GPIO43_SMT << 6) | (GPIO42_SMT << 3) | (GPIO41_SMT << 5) | (GPIO40_SMT << 5) | (GPIO39_SMT << 5) | (GPIO38_SMT << 5) | (GPIO29_SMT << 3) | (GPIO28_SMT << 3) | (GPIO27_SMT << 3) | (GPIO26_SMT << 4) | (GPIO25_SMT << 4) | (GPIO24_SMT << 4) | (GPIO23_SMT << 8) | (GPIO22_SMT << 8) | (GPIO21_SMT << 8)
+,(0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 7) | (0x1 << 7) | (0x1 << 10) | (0x1 << 10) | (0x1 << 1) | (0x1 << 1) | (0x1 << 2) | (0x1 << 2) | (0x1 << 2) | (0x1 << 2) | (0x1 << 6) | (0x1 << 6) | (0x1 << 3) | (0x1 << 5) | (0x1 << 5) | (0x1 << 5) | (0x1 << 5) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 4) | (0x1 << 4) | (0x1 << 4) | (0x1 << 8) | (0x1 << 8) | (0x1 << 8)
+},
+{
+IOCFG_L_BASE+0x050
+,(GPIO148_SMT << 4) | (GPIO137_SMT << 2) | (GPIO136_SMT << 2) | (GPIO135_SMT << 2) | (GPIO134_SMT << 2) | (GPIO129_SMT << 3) | (GPIO128_SMT << 3) | (GPIO127_SMT << 3) | (GPIO126_SMT << 3) | (GPIO125_SMT << 3) | (GPIO124_SMT << 3) | (GPIO123_SMT << 3) | (GPIO122_SMT << 3) | (GPIO121_SMT << 3) | (GPIO120_SMT << 3) | (GPIO119_SMT << 3) | (GPIO118_SMT << 3) | (GPIO117_SMT << 3) | (GPIO116_SMT << 3) | (GPIO115_SMT << 3) | (GPIO114_SMT << 3) | (GPIO37_SMT << 1) | (GPIO36_SMT << 1) | (GPIO35_SMT << 1) | (GPIO34_SMT << 0) | (GPIO33_SMT << 0) | (GPIO32_SMT << 0) | (GPIO31_SMT << 0) | (GPIO30_SMT << 1)
+,(0x1 << 4) | (0x1 << 2) | (0x1 << 2) | (0x1 << 2) | (0x1 << 2) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 1) | (0x1 << 1) | (0x1 << 1) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 1)
+},
+{
+IOCFG_B_BASE+0x020
+,(GPIO97_SMT << 5) | (GPIO82_SMT << 2) | (GPIO81_SMT << 2) | (GPIO80_SMT << 2) | (GPIO79_SMT << 2) | (GPIO78_SMT << 2) | (GPIO77_SMT << 1) | (GPIO76_SMT << 1) | (GPIO75_SMT << 1) | (GPIO74_SMT << 1) | (GPIO73_SMT << 0) | (GPIO72_SMT << 0) | (GPIO71_SMT << 0) | (GPIO70_SMT << 0) | (GPIO69_SMT << 0) | (GPIO68_SMT << 0) | (GPIO62_SMT << 4) | (GPIO61_SMT << 4) | (GPIO60_SMT << 4) | (GPIO59_SMT << 4) | (GPIO58_SMT << 4) | (GPIO57_SMT << 3) | (GPIO56_SMT << 3) | (GPIO55_SMT << 3) | (GPIO54_SMT << 3) | (GPIO53_SMT << 3)
+,(0x1 << 5) | (0x1 << 2) | (0x1 << 2) | (0x1 << 2) | (0x1 << 2) | (0x1 << 2) | (0x1 << 1) | (0x1 << 1) | (0x1 << 1) | (0x1 << 1) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 4) | (0x1 << 4) | (0x1 << 4) | (0x1 << 4) | (0x1 << 4) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3) | (0x1 << 3)
+},
+{
+IOCFG_R_BASE+0x040
+,(GPIO96_SMT << 2) | (GPIO95_SMT << 0) | (GPIO94_SMT << 0) | (GPIO93_SMT << 0) | (GPIO92_SMT << 0) | (GPIO91_SMT << 0) | (GPIO90_SMT << 0) | (GPIO89_SMT << 0) | (GPIO88_SMT << 0) | (GPIO87_SMT << 0) | (GPIO86_SMT << 0) | (GPIO85_SMT << 0) | (GPIO84_SMT << 0) | (GPIO83_SMT << 0) | (GPIO67_SMT << 1) | (GPIO66_SMT << 1) | (GPIO65_SMT << 1) | (GPIO64_SMT << 1) | (GPIO63_SMT << 1)
+,(0x1 << 2) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 0) | (0x1 << 1) | (0x1 << 1) | (0x1 << 1) | (0x1 << 1) | (0x1 << 1)
+},
+{
+MIPI_RX_ANA_CSI0_BASE+0x04C
+,((((GPIO149_MODE==GPIO_MODE_01)?0x0:0x1)) << 6) | ((((GPIO152_MODE==GPIO_MODE_01)?0x0:0x1)) << 12) | ((((GPIO151_MODE==GPIO_MODE_01)?0x0:0x1)) << 18) | ((((GPIO150_MODE==GPIO_MODE_01)?0x0:0x1)) << 0) | ((((GPIO154_MODE==GPIO_MODE_01)?0x0:0x1)) << 24) | ((GPIO154_MODE==GPIO_MODE_01)?0:((GPIO154_PULLEN&~GPIO154_PULL) << 27)) | ((GPIO152_MODE==GPIO_MODE_01)?0:((GPIO152_PULLEN&~GPIO152_PULL) << 15)) | ((GPIO151_MODE==GPIO_MODE_01)?0:((GPIO151_PULLEN&~GPIO151_PULL) << 21)) | ((GPIO150_MODE==GPIO_MODE_01)?0:((GPIO150_PULLEN&~GPIO150_PULL) << 3)) | ((GPIO149_MODE==GPIO_MODE_01)?0:((GPIO149_PULLEN&~GPIO149_PULL) << 9)) | ((GPIO154_MODE==GPIO_MODE_01)?0:((GPIO154_PULLEN&GPIO154_PULL) << 26)) | ((GPIO152_MODE==GPIO_MODE_01)?0:((GPIO152_PULLEN&GPIO152_PULL) << 14)) | ((GPIO151_MODE==GPIO_MODE_01)?0:((GPIO151_PULLEN&GPIO151_PULL) << 20)) | ((GPIO150_MODE==GPIO_MODE_01)?0:((GPIO150_PULLEN&GPIO150_PULL) << 2)) | ((GPIO149_MODE==GPIO_MODE_01)?0:((GPIO149_PULLEN&GPIO149_PULL) << 8)) | ((GPIO154_MODE==GPIO_MODE_01)?0:(GPIO154_SMT << 25)) | ((GPIO152_MODE==GPIO_MODE_01)?0:(GPIO152_SMT << 13)) | ((GPIO151_MODE==GPIO_MODE_01)?0:(GPIO151_SMT << 19)) | ((GPIO150_MODE==GPIO_MODE_01)?0:(GPIO150_SMT << 1)) | ((GPIO149_MODE==GPIO_MODE_01)?0:(GPIO149_SMT << 7))
+,(0x1 << 6) | (0x1 << 12) | (0x1 << 18) | (0x1 << 0) | (0x1 << 24) | ((GPIO154_MODE==GPIO_MODE_01)?0:(0x1 << 27)) | ((GPIO152_MODE==GPIO_MODE_01)?0:(0x1 << 15)) | ((GPIO151_MODE==GPIO_MODE_01)?0:(0x1 << 21)) | ((GPIO150_MODE==GPIO_MODE_01)?0:(0x1 << 3)) | ((GPIO149_MODE==GPIO_MODE_01)?0:(0x1 << 9)) | ((GPIO154_MODE==GPIO_MODE_01)?0:(0x1 << 26)) | ((GPIO152_MODE==GPIO_MODE_01)?0:(0x1 << 14)) | ((GPIO151_MODE==GPIO_MODE_01)?0:(0x1 << 20)) | ((GPIO150_MODE==GPIO_MODE_01)?0:(0x1 << 2)) | ((GPIO149_MODE==GPIO_MODE_01)?0:(0x1 << 8)) | ((GPIO154_MODE==GPIO_MODE_01)?0:(0x1 << 25)) | ((GPIO152_MODE==GPIO_MODE_01)?0:(0x1 << 13)) | ((GPIO151_MODE==GPIO_MODE_01)?0:(0x1 << 19)) | ((GPIO150_MODE==GPIO_MODE_01)?0:(0x1 << 1)) | ((GPIO149_MODE==GPIO_MODE_01)?0:(0x1 << 7))
+},
+{
+MIPI_RX_ANA_CSI0_BASE+0x050
+,((((GPIO156_MODE==GPIO_MODE_01)?0x0:0x1)) << 6) | ((((GPIO153_MODE==GPIO_MODE_01)?0x0:0x1)) << 0) | ((((GPIO154_MODE==GPIO_MODE_01)?0x0:0x1)) << 12) | ((((GPIO158_MODE==GPIO_MODE_01)?0x0:0x1)) << 18) | ((((GPIO157_MODE==GPIO_MODE_01)?0x0:0x1)) << 24) | ((GPIO158_MODE==GPIO_MODE_01)?0:((GPIO158_PULLEN&~GPIO158_PULL) << 21)) | ((GPIO157_MODE==GPIO_MODE_01)?0:((GPIO157_PULLEN&~GPIO157_PULL) << 27)) | ((GPIO156_MODE==GPIO_MODE_01)?0:((GPIO156_PULLEN&~GPIO156_PULL) << 9)) | ((GPIO155_MODE==GPIO_MODE_01)?0:((GPIO155_PULLEN&~GPIO155_PULL) << 15)) | ((GPIO153_MODE==GPIO_MODE_01)?0:((GPIO153_PULLEN&~GPIO153_PULL) << 3)) | ((GPIO158_MODE==GPIO_MODE_01)?0:((GPIO158_PULLEN&GPIO158_PULL) << 20)) | ((GPIO157_MODE==GPIO_MODE_01)?0:((GPIO157_PULLEN&GPIO157_PULL) << 26)) | ((GPIO156_MODE==GPIO_MODE_01)?0:((GPIO156_PULLEN&GPIO156_PULL) << 8)) | ((GPIO155_MODE==GPIO_MODE_01)?0:((GPIO155_PULLEN&GPIO155_PULL) << 14)) | ((GPIO153_MODE==GPIO_MODE_01)?0:((GPIO153_PULLEN&GPIO153_PULL) << 2)) | ((GPIO158_MODE==GPIO_MODE_01)?0:(GPIO158_SMT << 19)) | ((GPIO157_MODE==GPIO_MODE_01)?0:(GPIO157_SMT << 25)) | ((GPIO156_MODE==GPIO_MODE_01)?0:(GPIO156_SMT << 7)) | ((GPIO155_MODE==GPIO_MODE_01)?0:(GPIO155_SMT << 13)) | ((GPIO153_MODE==GPIO_MODE_01)?0:(GPIO153_SMT << 1))
+,(0x1 << 6) | (0x1 << 0) | (0x1 << 12) | (0x1 << 18) | (0x1 << 24) | ((GPIO158_MODE==GPIO_MODE_01)?0:(0x1 << 21)) | ((GPIO157_MODE==GPIO_MODE_01)?0:(0x1 << 27)) | ((GPIO156_MODE==GPIO_MODE_01)?0:(0x1 << 9)) | ((GPIO155_MODE==GPIO_MODE_01)?0:(0x1 << 15)) | ((GPIO153_MODE==GPIO_MODE_01)?0:(0x1 << 3)) | ((GPIO158_MODE==GPIO_MODE_01)?0:(0x1 << 20)) | ((GPIO157_MODE==GPIO_MODE_01)?0:(0x1 << 26)) | ((GPIO156_MODE==GPIO_MODE_01)?0:(0x1 << 8)) | ((GPIO155_MODE==GPIO_MODE_01)?0:(0x1 << 14)) | ((GPIO153_MODE==GPIO_MODE_01)?0:(0x1 << 2)) | ((GPIO158_MODE==GPIO_MODE_01)?0:(0x1 << 19)) | ((GPIO157_MODE==GPIO_MODE_01)?0:(0x1 << 25)) | ((GPIO156_MODE==GPIO_MODE_01)?0:(0x1 << 7)) | ((GPIO155_MODE==GPIO_MODE_01)?0:(0x1 << 13)) | ((GPIO153_MODE==GPIO_MODE_01)?0:(0x1 << 1))
+},
+{
+MIPI_RX_ANA_CSI1_BASE+0x04C
+,((((GPIO164_MODE==GPIO_MODE_01)?0x0:0x1)) << 24) | ((((GPIO160_MODE==GPIO_MODE_01)?0x0:0x1)) << 0) | ((((GPIO161_MODE==GPIO_MODE_01)?0x0:0x1)) << 18) | ((((GPIO159_MODE==GPIO_MODE_01)?0x0:0x1)) << 6) | ((((GPIO162_MODE==GPIO_MODE_01)?0x0:0x1)) << 12) | ((GPIO164_MODE==GPIO_MODE_01)?0:((GPIO164_PULLEN&~GPIO164_PULL) << 27)) | ((GPIO162_MODE==GPIO_MODE_01)?0:((GPIO162_PULLEN&~GPIO162_PULL) << 15)) | ((GPIO161_MODE==GPIO_MODE_01)?0:((GPIO161_PULLEN&~GPIO161_PULL) << 21)) | ((GPIO160_MODE==GPIO_MODE_01)?0:((GPIO160_PULLEN&~GPIO160_PULL) << 3)) | ((GPIO159_MODE==GPIO_MODE_01)?0:((GPIO159_PULLEN&~GPIO159_PULL) << 9)) | ((GPIO164_MODE==GPIO_MODE_01)?0:((GPIO164_PULLEN&GPIO164_PULL) << 26)) | ((GPIO162_MODE==GPIO_MODE_01)?0:((GPIO162_PULLEN&GPIO162_PULL) << 14)) | ((GPIO161_MODE==GPIO_MODE_01)?0:((GPIO161_PULLEN&GPIO161_PULL) << 20)) | ((GPIO160_MODE==GPIO_MODE_01)?0:((GPIO160_PULLEN&GPIO160_PULL) << 2)) | ((GPIO159_MODE==GPIO_MODE_01)?0:((GPIO159_PULLEN&GPIO159_PULL) << 8)) | ((GPIO164_MODE==GPIO_MODE_01)?0:(GPIO164_SMT << 25)) | ((GPIO162_MODE==GPIO_MODE_01)?0:(GPIO162_SMT << 13)) | ((GPIO161_MODE==GPIO_MODE_01)?0:(GPIO161_SMT << 19)) | ((GPIO160_MODE==GPIO_MODE_01)?0:(GPIO160_SMT << 1)) | ((GPIO159_MODE==GPIO_MODE_01)?0:(GPIO159_SMT << 7))
+,(0x1 << 24) | (0x1 << 0) | (0x1 << 18) | (0x1 << 6) | (0x1 << 12) | ((GPIO164_MODE==GPIO_MODE_01)?0:(0x1 << 27)) | ((GPIO162_MODE==GPIO_MODE_01)?0:(0x1 << 15)) | ((GPIO161_MODE==GPIO_MODE_01)?0:(0x1 << 21)) | ((GPIO160_MODE==GPIO_MODE_01)?0:(0x1 << 3)) | ((GPIO159_MODE==GPIO_MODE_01)?0:(0x1 << 9)) | ((GPIO164_MODE==GPIO_MODE_01)?0:(0x1 << 26)) | ((GPIO162_MODE==GPIO_MODE_01)?0:(0x1 << 14)) | ((GPIO161_MODE==GPIO_MODE_01)?0:(0x1 << 20)) | ((GPIO160_MODE==GPIO_MODE_01)?0:(0x1 << 2)) | ((GPIO159_MODE==GPIO_MODE_01)?0:(0x1 << 8)) | ((GPIO164_MODE==GPIO_MODE_01)?0:(0x1 << 25)) | ((GPIO162_MODE==GPIO_MODE_01)?0:(0x1 << 13)) | ((GPIO161_MODE==GPIO_MODE_01)?0:(0x1 << 19)) | ((GPIO160_MODE==GPIO_MODE_01)?0:(0x1 << 1)) | ((GPIO159_MODE==GPIO_MODE_01)?0:(0x1 << 7))
+},
+{
+MIPI_RX_ANA_CSI1_BASE+0x050
+,((((GPIO163_MODE==GPIO_MODE_01)?0x0:0x1)) << 0) | ((((GPIO168_MODE==GPIO_MODE_01)?0x0:0x1)) << 18) | ((((GPIO166_MODE==GPIO_MODE_01)?0x0:0x1)) << 6) | ((((GPIO167_MODE==GPIO_MODE_01)?0x0:0x1)) << 24) | ((((GPIO164_MODE==GPIO_MODE_01)?0x0:0x1)) << 12) | ((GPIO168_MODE==GPIO_MODE_01)?0:((GPIO168_PULLEN&~GPIO168_PULL) << 21)) | ((GPIO167_MODE==GPIO_MODE_01)?0:((GPIO167_PULLEN&~GPIO167_PULL) << 27)) | ((GPIO166_MODE==GPIO_MODE_01)?0:((GPIO166_PULLEN&~GPIO166_PULL) << 9)) | ((GPIO165_MODE==GPIO_MODE_01)?0:((GPIO165_PULLEN&~GPIO165_PULL) << 15)) | ((GPIO163_MODE==GPIO_MODE_01)?0:((GPIO163_PULLEN&~GPIO163_PULL) << 3)) | ((GPIO168_MODE==GPIO_MODE_01)?0:((GPIO168_PULLEN&GPIO168_PULL) << 20)) | ((GPIO167_MODE==GPIO_MODE_01)?0:((GPIO167_PULLEN&GPIO167_PULL) << 26)) | ((GPIO166_MODE==GPIO_MODE_01)?0:((GPIO166_PULLEN&GPIO166_PULL) << 8)) | ((GPIO165_MODE==GPIO_MODE_01)?0:((GPIO165_PULLEN&GPIO165_PULL) << 14)) | ((GPIO163_MODE==GPIO_MODE_01)?0:((GPIO163_PULLEN&GPIO163_PULL) << 2)) | ((GPIO168_MODE==GPIO_MODE_01)?0:(GPIO168_SMT << 19)) | ((GPIO167_MODE==GPIO_MODE_01)?0:(GPIO167_SMT << 25)) | ((GPIO166_MODE==GPIO_MODE_01)?0:(GPIO166_SMT << 7)) | ((GPIO165_MODE==GPIO_MODE_01)?0:(GPIO165_SMT << 13)) | ((GPIO163_MODE==GPIO_MODE_01)?0:(GPIO163_SMT << 1))
+,(0x1 << 0) | (0x1 << 18) | (0x1 << 6) | (0x1 << 24) | (0x1 << 12) | ((GPIO168_MODE==GPIO_MODE_01)?0:(0x1 << 21)) | ((GPIO167_MODE==GPIO_MODE_01)?0:(0x1 << 27)) | ((GPIO166_MODE==GPIO_MODE_01)?0:(0x1 << 9)) | ((GPIO165_MODE==GPIO_MODE_01)?0:(0x1 << 15)) | ((GPIO163_MODE==GPIO_MODE_01)?0:(0x1 << 3)) | ((GPIO168_MODE==GPIO_MODE_01)?0:(0x1 << 20)) | ((GPIO167_MODE==GPIO_MODE_01)?0:(0x1 << 26)) | ((GPIO166_MODE==GPIO_MODE_01)?0:(0x1 << 8)) | ((GPIO165_MODE==GPIO_MODE_01)?0:(0x1 << 14)) | ((GPIO163_MODE==GPIO_MODE_01)?0:(0x1 << 2)) | ((GPIO168_MODE==GPIO_MODE_01)?0:(0x1 << 19)) | ((GPIO167_MODE==GPIO_MODE_01)?0:(0x1 << 25)) | ((GPIO166_MODE==GPIO_MODE_01)?0:(0x1 << 7)) | ((GPIO165_MODE==GPIO_MODE_01)?0:(0x1 << 13)) | ((GPIO163_MODE==GPIO_MODE_01)?0:(0x1 << 1))
+},
+{
+MIPI_TX0_BASE+0x074
+,((((GPIO177_MODE==GPIO_MODE_01)?0x0:0x1)) << 1) | ((((GPIO171_MODE==GPIO_MODE_01)?0x0:0x1)) << 7) | ((((GPIO178_MODE==GPIO_MODE_01)?0x0:0x1)) << 0) | ((((GPIO169_MODE==GPIO_MODE_01)?0x0:0x1)) << 9) | ((((GPIO172_MODE==GPIO_MODE_01)?0x0:0x1)) << 6) | ((((GPIO174_MODE==GPIO_MODE_01)?0x0:0x1)) << 3) | ((((GPIO174_MODE==GPIO_MODE_01)?0x0:0x1)) << 4) | ((((GPIO176_MODE==GPIO_MODE_01)?0x0:0x1)) << 2) | ((((GPIO170_MODE==GPIO_MODE_01)?0x0:0x1)) << 8) | ((((GPIO173_MODE==GPIO_MODE_01)?0x0:0x1)) << 5) | ((GPIO178_MODE==GPIO_MODE_01)?0:(GPIO178_SMT << 10)) | ((GPIO177_MODE==GPIO_MODE_01)?0:(GPIO177_SMT << 10)) | ((GPIO176_MODE==GPIO_MODE_01)?0:(GPIO176_SMT << 10)) | ((GPIO175_MODE==GPIO_MODE_01)?0:(GPIO175_SMT << 10)) | ((GPIO174_MODE==GPIO_MODE_01)?0:(GPIO174_SMT << 10)) | ((GPIO173_MODE==GPIO_MODE_01)?0:(GPIO173_SMT << 10)) | ((GPIO172_MODE==GPIO_MODE_01)?0:(GPIO172_SMT << 10)) | ((GPIO171_MODE==GPIO_MODE_01)?0:(GPIO171_SMT << 10)) | ((GPIO170_MODE==GPIO_MODE_01)?0:(GPIO170_SMT << 10)) | ((GPIO169_MODE==GPIO_MODE_01)?0:(GPIO169_SMT << 10))
+,(0x1 << 1) | (0x1 << 7) | (0x1 << 0) | (0x1 << 9) | (0x1 << 6) | (0x1 << 3) | (0x1 << 4) | (0x1 << 2) | (0x1 << 8) | (0x1 << 5) | ((GPIO178_MODE==GPIO_MODE_01)?0:(0x1 << 10)) | ((GPIO177_MODE==GPIO_MODE_01)?0:(0x1 << 10)) | ((GPIO176_MODE==GPIO_MODE_01)?0:(0x1 << 10)) | ((GPIO175_MODE==GPIO_MODE_01)?0:(0x1 << 10)) | ((GPIO174_MODE==GPIO_MODE_01)?0:(0x1 << 10)) | ((GPIO173_MODE==GPIO_MODE_01)?0:(0x1 << 10)) | ((GPIO172_MODE==GPIO_MODE_01)?0:(0x1 << 10)) | ((GPIO171_MODE==GPIO_MODE_01)?0:(0x1 << 10)) | ((GPIO170_MODE==GPIO_MODE_01)?0:(0x1 << 10)) | ((GPIO169_MODE==GPIO_MODE_01)?0:(0x1 << 10))
+},
+{
+IOCFG_L_BASE+0x080
+,(GPIO11_PULLEN << 23) | (GPIO10_PULLEN << 22) | (GPIO9_PULLEN << 21) | (GPIO8_PULLEN << 20) | (GPIO7_PULLEN << 19) | (GPIO6_PULLEN << 18) | (GPIO5_PULLEN << 17) | (GPIO4_PULLEN << 16) | (GPIO3_PULLEN << 15) | (GPIO2_PULLEN << 14) | (GPIO1_PULLEN << 13) | (GPIO0_PULLEN << 12)
+,(0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12)
+},
+{
+IOCFG_T_BASE+0x050
+,(GPIO20_PULLEN << 14) | (GPIO19_PULLEN << 13) | (GPIO18_PULLEN << 12) | (GPIO17_PULLEN << 11) | (GPIO16_PULLEN << 10) | (GPIO15_PULLEN << 9) | (GPIO14_PULLEN << 8) | (GPIO13_PULLEN << 7) | (GPIO12_PULLEN << 6)
+,(0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6)
+},
+{
+IOCFG_R_BASE+0x0A0
+,((0) << 2) | (GPIO143_PULLEN << 1) | (GPIO142_PULLEN << 0) | (GPIO141_PULLEN << 11) | (GPIO140_PULLEN << 10) | (GPIO23_PULLEN << 6) | (GPIO22_PULLEN << 5) | (GPIO21_PULLEN << 4)
+,(0x3 << 2) | (0x1 << 1) | (0x1 << 0) | (0x1 << 11) | (0x1 << 10) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4)
+},
+{
+IOCFG_R_BASE+0x090
+,((0) << 17) | (GPIO147_PULLEN << 3) | (GPIO146_PULLEN << 2) | (GPIO145_PULLEN << 1) | (GPIO144_PULLEN << 0) | (GPIO139_PULLEN << 5) | (GPIO138_PULLEN << 4) | (GPIO113_PULLEN << 9) | (GPIO112_PULLEN << 8) | (GPIO111_PULLEN << 7) | (GPIO110_PULLEN << 6) | (GPIO44_PULLEN << 28) | (GPIO43_PULLEN << 27) | (GPIO42_PULLEN << 18) | (GPIO41_PULLEN << 26) | (GPIO40_PULLEN << 25) | (GPIO39_PULLEN << 24) | (GPIO38_PULLEN << 23) | (GPIO29_PULLEN << 16) | (GPIO28_PULLEN << 15) | (GPIO27_PULLEN << 14) | (GPIO26_PULLEN << 21) | (GPIO25_PULLEN << 20) | (GPIO24_PULLEN << 19)
+,(0x1 << 17) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0) | (0x1 << 5) | (0x1 << 4) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 28) | (0x1 << 27) | (0x1 << 18) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19)
+},
+{
+IOCFG_L_BASE+0x0A0
+,(GPIO148_PULLEN << 28) | (GPIO137_PULLEN << 11) | (GPIO136_PULLEN << 10) | (GPIO135_PULLEN << 9) | (GPIO134_PULLEN << 8) | (GPIO129_PULLEN << 25) | (GPIO128_PULLEN << 24) | (GPIO127_PULLEN << 27) | (GPIO126_PULLEN << 26) | (GPIO125_PULLEN << 23) | (GPIO124_PULLEN << 22) | (GPIO123_PULLEN << 21) | (GPIO122_PULLEN << 20) | (GPIO121_PULLEN << 19) | (GPIO120_PULLEN << 18) | (GPIO119_PULLEN << 17) | (GPIO118_PULLEN << 16) | (GPIO117_PULLEN << 15) | (GPIO116_PULLEN << 14) | (GPIO115_PULLEN << 13) | (GPIO114_PULLEN << 12) | (GPIO37_PULLEN << 5) | (GPIO36_PULLEN << 4) | (GPIO35_PULLEN << 7) | (GPIO34_PULLEN << 1) | (GPIO33_PULLEN << 0) | (GPIO32_PULLEN << 3) | (GPIO31_PULLEN << 2) | (GPIO30_PULLEN << 6)
+,(0x1 << 28) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 25) | (0x1 << 24) | (0x1 << 27) | (0x1 << 26) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 5) | (0x1 << 4) | (0x1 << 7) | (0x1 << 1) | (0x1 << 0) | (0x1 << 3) | (0x1 << 2) | (0x1 << 6)
+},
+{
+IOCFG_L_BASE+0x090
+,(GPIO133_PULLEN << 21) | (GPIO132_PULLEN << 20) | (GPIO131_PULLEN << 19) | (GPIO130_PULLEN << 18) | (GPIO109_PULLEN << 16) | (GPIO108_PULLEN << 17) | (GPIO107_PULLEN << 15) | (GPIO106_PULLEN << 14) | (GPIO105_PULLEN << 13) | (GPIO104_PULLEN << 12) | (GPIO103_PULLEN << 11) | (GPIO102_PULLEN << 10) | (GPIO101_PULLEN << 9) | (GPIO100_PULLEN << 8) | (GPIO99_PULLEN << 7) | (GPIO98_PULLEN << 6) | (GPIO52_PULLEN << 28) | (GPIO51_PULLEN << 26) | (GPIO50_PULLEN << 24) | (GPIO49_PULLEN << 22) | (GPIO48_PULLEN << 29) | (GPIO47_PULLEN << 27) | (GPIO46_PULLEN << 25) | (GPIO45_PULLEN << 23)
+,(0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 16) | (0x1 << 17) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 28) | (0x1 << 26) | (0x1 << 24) | (0x1 << 22) | (0x1 << 29) | (0x1 << 27) | (0x1 << 25) | (0x1 << 23)
+},
+{
+IOCFG_B_BASE+0x050
+,(GPIO97_PULLEN << 31) | (GPIO82_PULLEN << 20) | (GPIO81_PULLEN << 19) | (GPIO80_PULLEN << 18) | (GPIO79_PULLEN << 17) | (GPIO78_PULLEN << 16) | (GPIO77_PULLEN << 15) | (GPIO76_PULLEN << 14) | (GPIO75_PULLEN << 13) | (GPIO74_PULLEN << 12) | (GPIO73_PULLEN << 11) | (GPIO72_PULLEN << 10) | (GPIO71_PULLEN << 9) | (GPIO70_PULLEN << 8) | (GPIO69_PULLEN << 7) | (GPIO68_PULLEN << 6) | (GPIO62_PULLEN << 30) | (GPIO61_PULLEN << 29) | (GPIO60_PULLEN << 28) | (GPIO59_PULLEN << 27) | (GPIO58_PULLEN << 26) | (GPIO57_PULLEN << 25) | (GPIO56_PULLEN << 24) | (GPIO55_PULLEN << 23) | (GPIO54_PULLEN << 22) | (GPIO53_PULLEN << 21)
+,(0x1 << 31) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 30) | (0x1 << 29) | (0x1 << 28) | (0x1 << 27) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21)
+},
+{
+IOCFG_R_BASE+0x080
+,(GPIO96_PULLEN << 18) | (GPIO95_PULLEN << 12) | (GPIO94_PULLEN << 11) | (GPIO93_PULLEN << 10) | (GPIO92_PULLEN << 9) | (GPIO91_PULLEN << 8) | (GPIO90_PULLEN << 7) | (GPIO89_PULLEN << 6) | (GPIO88_PULLEN << 5) | (GPIO87_PULLEN << 4) | (GPIO86_PULLEN << 3) | (GPIO85_PULLEN << 2) | (GPIO84_PULLEN << 1) | (GPIO83_PULLEN << 0) | (GPIO67_PULLEN << 17) | (GPIO66_PULLEN << 16) | (GPIO65_PULLEN << 15) | (GPIO64_PULLEN << 14) | (GPIO63_PULLEN << 13)
+,(0x1 << 18) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13)
+},
+{
+IOCFG_L_BASE+0x0B0
+,(GPIO11_PULL << 11) | (GPIO10_PULL << 10) | (GPIO9_PULL << 9) | (GPIO8_PULL << 8) | (GPIO7_PULL << 7) | (GPIO6_PULL << 6) | (GPIO5_PULL << 5) | (GPIO4_PULL << 4) | (GPIO3_PULL << 3) | (GPIO2_PULL << 2) | (GPIO1_PULL << 1) | (GPIO0_PULL << 0)
+,(0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+IOCFG_T_BASE+0x060
+,(GPIO20_PULL << 14) | (GPIO19_PULL << 13) | (GPIO18_PULL << 12) | (GPIO17_PULL << 5) | (GPIO16_PULL << 4) | (GPIO15_PULL << 3) | (GPIO14_PULL << 2) | (GPIO13_PULL << 1) | (GPIO12_PULL << 0)
+,(0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+IOCFG_R_BASE+0x0D0
+,(GPIO143_PULL << 1) | (GPIO142_PULL << 0) | (GPIO141_PULL << 11) | (GPIO140_PULL << 10) | (GPIO23_PULL << 6) | (GPIO22_PULL << 5) | (GPIO21_PULL << 4)
+,(0x1 << 1) | (0x1 << 0) | (0x1 << 11) | (0x1 << 10) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4)
+},
+{
+IOCFG_R_BASE+0x0C0
+,(GPIO147_PULL << 3) | (GPIO146_PULL << 2) | (GPIO145_PULL << 1) | (GPIO144_PULL << 0) | (GPIO139_PULL << 5) | (GPIO138_PULL << 4) | (GPIO113_PULL << 9) | (GPIO112_PULL << 8) | (GPIO111_PULL << 7) | (GPIO110_PULL << 6) | (GPIO44_PULL << 28) | (GPIO43_PULL << 27) | (GPIO42_PULL << 18) | (GPIO41_PULL << 26) | (GPIO40_PULL << 25) | (GPIO39_PULL << 24) | (GPIO38_PULL << 23) | (GPIO29_PULL << 16) | (GPIO28_PULL << 15) | (GPIO27_PULL << 14) | (GPIO26_PULL << 21) | (GPIO25_PULL << 20) | (GPIO24_PULL << 19)
+,(0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0) | (0x1 << 5) | (0x1 << 4) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 28) | (0x1 << 27) | (0x1 << 18) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19)
+},
+{
+IOCFG_L_BASE+0x0D0
+,(GPIO148_PULL << 28) | (GPIO137_PULL << 11) | (GPIO136_PULL << 10) | (GPIO135_PULL << 9) | (GPIO134_PULL << 8) | (GPIO129_PULL << 25) | (GPIO128_PULL << 24) | (GPIO127_PULL << 27) | (GPIO126_PULL << 26) | (GPIO125_PULL << 23) | (GPIO124_PULL << 22) | (GPIO123_PULL << 21) | (GPIO122_PULL << 20) | (GPIO121_PULL << 19) | (GPIO120_PULL << 18) | (GPIO119_PULL << 17) | (GPIO118_PULL << 16) | (GPIO117_PULL << 15) | (GPIO116_PULL << 14) | (GPIO115_PULL << 13) | (GPIO114_PULL << 12) | (GPIO37_PULL << 5) | (GPIO36_PULL << 4) | (GPIO35_PULL << 7) | (GPIO34_PULL << 1) | (GPIO33_PULL << 0) | (GPIO32_PULL << 3) | (GPIO31_PULL << 2) | (GPIO30_PULL << 6)
+,(0x1 << 28) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 25) | (0x1 << 24) | (0x1 << 27) | (0x1 << 26) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 5) | (0x1 << 4) | (0x1 << 7) | (0x1 << 1) | (0x1 << 0) | (0x1 << 3) | (0x1 << 2) | (0x1 << 6)
+},
+{
+IOCFG_L_BASE+0x0C0
+,(GPIO133_PULL << 21) | (GPIO132_PULL << 20) | (GPIO131_PULL << 19) | (GPIO130_PULL << 18) | (GPIO109_PULL << 16) | (GPIO108_PULL << 17) | (GPIO107_PULL << 15) | (GPIO106_PULL << 14) | (GPIO105_PULL << 13) | (GPIO104_PULL << 12) | (GPIO103_PULL << 5) | (GPIO102_PULL << 4) | (GPIO101_PULL << 3) | (GPIO100_PULL << 2) | (GPIO99_PULL << 1) | (GPIO98_PULL << 0) | (GPIO51_PULL << 26) | (GPIO47_PULL << 27)
+,(0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 16) | (0x1 << 17) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0) | (0x1 << 26) | (0x1 << 27)
+},
+{
+IOCFG_B_BASE+0x060
+,(GPIO97_PULL << 31) | (GPIO82_PULL << 20) | (GPIO81_PULL << 19) | (GPIO80_PULL << 18) | (GPIO79_PULL << 17) | (GPIO78_PULL << 16) | (GPIO77_PULL << 15) | (GPIO76_PULL << 14) | (GPIO75_PULL << 13) | (GPIO74_PULL << 12) | (GPIO73_PULL << 5) | (GPIO72_PULL << 4) | (GPIO71_PULL << 3) | (GPIO70_PULL << 2) | (GPIO69_PULL << 1) | (GPIO68_PULL << 0) | (GPIO62_PULL << 30) | (GPIO61_PULL << 29) | (GPIO60_PULL << 28) | (GPIO59_PULL << 27) | (GPIO58_PULL << 26) | (GPIO57_PULL << 25) | (GPIO56_PULL << 24) | (GPIO55_PULL << 23) | (GPIO54_PULL << 22) | (GPIO53_PULL << 21)
+,(0x1 << 31) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0) | (0x1 << 30) | (0x1 << 29) | (0x1 << 28) | (0x1 << 27) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21)
+},
+{
+IOCFG_R_BASE+0x0B0
+,(GPIO96_PULL << 18) | (GPIO95_PULL << 12) | (GPIO94_PULL << 11) | (GPIO93_PULL << 10) | (GPIO92_PULL << 9) | (GPIO91_PULL << 8) | (GPIO90_PULL << 7) | (GPIO89_PULL << 6) | (GPIO88_PULL << 5) | (GPIO87_PULL << 4) | (GPIO86_PULL << 3) | (GPIO85_PULL << 2) | (GPIO84_PULL << 1) | (GPIO83_PULL << 0) | (GPIO67_PULL << 17) | (GPIO66_PULL << 16) | (GPIO65_PULL << 15) | (GPIO64_PULL << 14) | (GPIO63_PULL << 13)
+,(0x1 << 18) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13)
+},
+{
+MIPI_TX0_BASE+0x078
+,((GPIO178_MODE==GPIO_MODE_01)?0:((GPIO178_PULLEN&~GPIO178_PULL) << 0)) | ((GPIO177_MODE==GPIO_MODE_01)?0:((GPIO177_PULLEN&~GPIO177_PULL) << 1)) | ((GPIO176_MODE==GPIO_MODE_01)?0:((GPIO176_PULLEN&~GPIO176_PULL) << 2)) | ((GPIO175_MODE==GPIO_MODE_01)?0:((GPIO175_PULLEN&~GPIO175_PULL) << 3)) | ((GPIO174_MODE==GPIO_MODE_01)?0:((GPIO174_PULLEN&~GPIO174_PULL) << 4)) | ((GPIO173_MODE==GPIO_MODE_01)?0:((GPIO173_PULLEN&~GPIO173_PULL) << 5)) | ((GPIO172_MODE==GPIO_MODE_01)?0:((GPIO172_PULLEN&~GPIO172_PULL) << 6)) | ((GPIO171_MODE==GPIO_MODE_01)?0:((GPIO171_PULLEN&~GPIO171_PULL) << 7)) | ((GPIO170_MODE==GPIO_MODE_01)?0:((GPIO170_PULLEN&~GPIO170_PULL) << 8)) | ((GPIO169_MODE==GPIO_MODE_01)?0:((GPIO169_PULLEN&~GPIO169_PULL) << 9)) | ((GPIO178_MODE==GPIO_MODE_01)?0:((GPIO178_PULLEN&GPIO178_PULL) << 16)) | ((GPIO177_MODE==GPIO_MODE_01)?0:((GPIO177_PULLEN&GPIO177_PULL) << 17)) | ((GPIO176_MODE==GPIO_MODE_01)?0:((GPIO176_PULLEN&GPIO176_PULL) << 18)) | ((GPIO175_MODE==GPIO_MODE_01)?0:((GPIO175_PULLEN&GPIO175_PULL) << 19)) | ((GPIO174_MODE==GPIO_MODE_01)?0:((GPIO174_PULLEN&GPIO174_PULL) << 20)) | ((GPIO173_MODE==GPIO_MODE_01)?0:((GPIO173_PULLEN&GPIO173_PULL) << 21)) | ((GPIO172_MODE==GPIO_MODE_01)?0:((GPIO172_PULLEN&GPIO172_PULL) << 22)) | ((GPIO171_MODE==GPIO_MODE_01)?0:((GPIO171_PULLEN&GPIO171_PULL) << 23)) | ((GPIO170_MODE==GPIO_MODE_01)?0:((GPIO170_PULLEN&GPIO170_PULL) << 24)) | ((GPIO169_MODE==GPIO_MODE_01)?0:((GPIO169_PULLEN&GPIO169_PULL) << 25))
+,((GPIO178_MODE==GPIO_MODE_01)?0:(0x1 << 0)) | ((GPIO177_MODE==GPIO_MODE_01)?0:(0x1 << 1)) | ((GPIO176_MODE==GPIO_MODE_01)?0:(0x1 << 2)) | ((GPIO175_MODE==GPIO_MODE_01)?0:(0x1 << 3)) | ((GPIO174_MODE==GPIO_MODE_01)?0:(0x1 << 4)) | ((GPIO173_MODE==GPIO_MODE_01)?0:(0x1 << 5)) | ((GPIO172_MODE==GPIO_MODE_01)?0:(0x1 << 6)) | ((GPIO171_MODE==GPIO_MODE_01)?0:(0x1 << 7)) | ((GPIO170_MODE==GPIO_MODE_01)?0:(0x1 << 8)) | ((GPIO169_MODE==GPIO_MODE_01)?0:(0x1 << 9)) | ((GPIO178_MODE==GPIO_MODE_01)?0:(0x1 << 16)) | ((GPIO177_MODE==GPIO_MODE_01)?0:(0x1 << 17)) | ((GPIO176_MODE==GPIO_MODE_01)?0:(0x1 << 18)) | ((GPIO175_MODE==GPIO_MODE_01)?0:(0x1 << 19)) | ((GPIO174_MODE==GPIO_MODE_01)?0:(0x1 << 20)) | ((GPIO173_MODE==GPIO_MODE_01)?0:(0x1 << 21)) | ((GPIO172_MODE==GPIO_MODE_01)?0:(0x1 << 22)) | ((GPIO171_MODE==GPIO_MODE_01)?0:(0x1 << 23)) | ((GPIO170_MODE==GPIO_MODE_01)?0:(0x1 << 24)) | ((GPIO169_MODE==GPIO_MODE_01)?0:(0x1 << 25))
+},
+{
+GPIO_BASE+0x300
+,(GPIO7_MODE << 28) | (GPIO6_MODE << 24) | (GPIO5_MODE << 20) | (GPIO4_MODE << 16) | (GPIO3_MODE << 12) | (GPIO2_MODE << 8) | (GPIO1_MODE << 4) | (GPIO0_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x310
+,(GPIO15_MODE << 28) | (GPIO14_MODE << 24) | (GPIO13_MODE << 20) | (GPIO12_MODE << 16) | (GPIO11_MODE << 12) | (GPIO10_MODE << 8) | (GPIO9_MODE << 4) | (GPIO8_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x320
+,(GPIO23_MODE << 28) | (GPIO22_MODE << 24) | (GPIO21_MODE << 20) | (GPIO20_MODE << 16) | (GPIO19_MODE << 12) | (GPIO18_MODE << 8) | (GPIO17_MODE << 4) | (GPIO16_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x330
+,(GPIO31_MODE << 28) | (GPIO30_MODE << 24) | (GPIO29_MODE << 20) | (GPIO28_MODE << 16) | (GPIO27_MODE << 12) | (GPIO26_MODE << 8) | (GPIO25_MODE << 4) | (GPIO24_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x340
+,(GPIO39_MODE << 28) | (GPIO38_MODE << 24) | (GPIO37_MODE << 20) | (GPIO36_MODE << 16) | (GPIO35_MODE << 12) | (GPIO34_MODE << 8) | (GPIO33_MODE << 4) | (GPIO32_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x350
+,(GPIO47_MODE << 28) | (GPIO46_MODE << 24) | (GPIO45_MODE << 20) | (GPIO44_MODE << 16) | (GPIO43_MODE << 12) | (GPIO42_MODE << 8) | (GPIO41_MODE << 4) | (GPIO40_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x360
+,(GPIO55_MODE << 28) | (GPIO54_MODE << 24) | (GPIO53_MODE << 20) | (GPIO52_MODE << 16) | (GPIO51_MODE << 12) | (GPIO50_MODE << 8) | (GPIO49_MODE << 4) | (GPIO48_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x370
+,(GPIO63_MODE << 28) | (GPIO62_MODE << 24) | (GPIO61_MODE << 20) | (GPIO60_MODE << 16) | (GPIO59_MODE << 12) | (GPIO58_MODE << 8) | (GPIO57_MODE << 4) | (GPIO56_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x380
+,(GPIO71_MODE << 28) | (GPIO70_MODE << 24) | (GPIO69_MODE << 20) | (GPIO68_MODE << 16) | (GPIO67_MODE << 12) | (GPIO66_MODE << 8) | (GPIO65_MODE << 4) | (GPIO64_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x390
+,(GPIO79_MODE << 28) | (GPIO78_MODE << 24) | (GPIO77_MODE << 20) | (GPIO76_MODE << 16) | (GPIO75_MODE << 12) | (GPIO74_MODE << 8) | (GPIO73_MODE << 4) | (GPIO72_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x3A0
+,(GPIO87_MODE << 28) | (GPIO86_MODE << 24) | (GPIO85_MODE << 20) | (GPIO84_MODE << 16) | (GPIO83_MODE << 12) | (GPIO82_MODE << 8) | (GPIO81_MODE << 4) | (GPIO80_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x3B0
+,(GPIO95_MODE << 28) | (GPIO94_MODE << 24) | (GPIO93_MODE << 20) | (GPIO92_MODE << 16) | (GPIO91_MODE << 12) | (GPIO90_MODE << 8) | (GPIO89_MODE << 4) | (GPIO88_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x3C0
+,(GPIO103_MODE << 28) | (GPIO102_MODE << 24) | (GPIO101_MODE << 20) | (GPIO100_MODE << 16) | (GPIO99_MODE << 12) | (GPIO98_MODE << 8) | (GPIO97_MODE << 4) | (GPIO96_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x3D0
+,(GPIO111_MODE << 28) | (GPIO110_MODE << 24) | (GPIO109_MODE << 20) | (GPIO108_MODE << 16) | (GPIO107_MODE << 12) | (GPIO106_MODE << 8) | (GPIO105_MODE << 4) | (GPIO104_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x3E0
+,(GPIO119_MODE << 28) | (GPIO118_MODE << 24) | (GPIO117_MODE << 20) | (GPIO116_MODE << 16) | (GPIO115_MODE << 12) | (GPIO114_MODE << 8) | (GPIO113_MODE << 4) | (GPIO112_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x3F0
+,(GPIO127_MODE << 28) | (GPIO126_MODE << 24) | (GPIO125_MODE << 20) | (GPIO124_MODE << 16) | (GPIO123_MODE << 12) | (GPIO122_MODE << 8) | (GPIO121_MODE << 4) | (GPIO120_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x400
+,(GPIO135_MODE << 28) | (GPIO134_MODE << 24) | (GPIO133_MODE << 20) | (GPIO132_MODE << 16) | (GPIO131_MODE << 12) | (GPIO130_MODE << 8) | (GPIO129_MODE << 4) | (GPIO128_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x410
+,(GPIO143_MODE << 28) | (GPIO142_MODE << 24) | (GPIO141_MODE << 20) | (GPIO140_MODE << 16) | (GPIO139_MODE << 12) | (GPIO138_MODE << 8) | (GPIO137_MODE << 4) | (GPIO136_MODE << 0)
+,(0xF << 28) | (0xF << 24) | (0xF << 20) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x420
+,((GPIO151_MODE==GPIO_MODE_01)?0:(GPIO151_MODE << 28)) | ((GPIO150_MODE==GPIO_MODE_01)?0:(GPIO150_MODE << 24)) | ((GPIO149_MODE==GPIO_MODE_01)?0:(GPIO149_MODE << 20)) | (GPIO148_MODE << 16) | (GPIO147_MODE << 12) | (GPIO146_MODE << 8) | (GPIO145_MODE << 4) | (GPIO144_MODE << 0)
+,((GPIO151_MODE==GPIO_MODE_01)?0:(0xF << 28)) | ((GPIO150_MODE==GPIO_MODE_01)?0:(0xF << 24)) | ((GPIO149_MODE==GPIO_MODE_01)?0:(0xF << 20)) | (0xF << 16) | (0xF << 12) | (0xF << 8) | (0xF << 4) | (0xF << 0)
+},
+{
+GPIO_BASE+0x430
+,((GPIO159_MODE==GPIO_MODE_01)?0:(GPIO159_MODE << 28)) | ((GPIO158_MODE==GPIO_MODE_01)?0:(GPIO158_MODE << 24)) | ((GPIO157_MODE==GPIO_MODE_01)?0:(GPIO157_MODE << 20)) | ((GPIO156_MODE==GPIO_MODE_01)?0:(GPIO156_MODE << 16)) | ((GPIO155_MODE==GPIO_MODE_01)?0:(GPIO155_MODE << 12)) | ((GPIO154_MODE==GPIO_MODE_01)?0:(GPIO154_MODE << 8)) | ((GPIO153_MODE==GPIO_MODE_01)?0:(GPIO153_MODE << 4)) | ((GPIO152_MODE==GPIO_MODE_01)?0:(GPIO152_MODE << 0))
+,((GPIO159_MODE==GPIO_MODE_01)?0:(0xF << 28)) | ((GPIO158_MODE==GPIO_MODE_01)?0:(0xF << 24)) | ((GPIO157_MODE==GPIO_MODE_01)?0:(0xF << 20)) | ((GPIO156_MODE==GPIO_MODE_01)?0:(0xF << 16)) | ((GPIO155_MODE==GPIO_MODE_01)?0:(0xF << 12)) | ((GPIO154_MODE==GPIO_MODE_01)?0:(0xF << 8)) | ((GPIO153_MODE==GPIO_MODE_01)?0:(0xF << 4)) | ((GPIO152_MODE==GPIO_MODE_01)?0:(0xF << 0))
+},
+{
+GPIO_BASE+0x440
+,((GPIO167_MODE==GPIO_MODE_01)?0:(GPIO167_MODE << 28)) | ((GPIO166_MODE==GPIO_MODE_01)?0:(GPIO166_MODE << 24)) | ((GPIO165_MODE==GPIO_MODE_01)?0:(GPIO165_MODE << 20)) | ((GPIO164_MODE==GPIO_MODE_01)?0:(GPIO164_MODE << 16)) | ((GPIO163_MODE==GPIO_MODE_01)?0:(GPIO163_MODE << 12)) | ((GPIO162_MODE==GPIO_MODE_01)?0:(GPIO162_MODE << 8)) | ((GPIO161_MODE==GPIO_MODE_01)?0:(GPIO161_MODE << 4)) | ((GPIO160_MODE==GPIO_MODE_01)?0:(GPIO160_MODE << 0))
+,((GPIO167_MODE==GPIO_MODE_01)?0:(0xF << 28)) | ((GPIO166_MODE==GPIO_MODE_01)?0:(0xF << 24)) | ((GPIO165_MODE==GPIO_MODE_01)?0:(0xF << 20)) | ((GPIO164_MODE==GPIO_MODE_01)?0:(0xF << 16)) | ((GPIO163_MODE==GPIO_MODE_01)?0:(0xF << 12)) | ((GPIO162_MODE==GPIO_MODE_01)?0:(0xF << 8)) | ((GPIO161_MODE==GPIO_MODE_01)?0:(0xF << 4)) | ((GPIO160_MODE==GPIO_MODE_01)?0:(0xF << 0))
+},
+{
+GPIO_BASE+0x450
+,((GPIO175_MODE==GPIO_MODE_01)?0:(GPIO175_MODE << 28)) | ((GPIO174_MODE==GPIO_MODE_01)?0:(GPIO174_MODE << 24)) | ((GPIO173_MODE==GPIO_MODE_01)?0:(GPIO173_MODE << 20)) | ((GPIO172_MODE==GPIO_MODE_01)?0:(GPIO172_MODE << 16)) | ((GPIO171_MODE==GPIO_MODE_01)?0:(GPIO171_MODE << 12)) | ((GPIO170_MODE==GPIO_MODE_01)?0:(GPIO170_MODE << 8)) | ((GPIO169_MODE==GPIO_MODE_01)?0:(GPIO169_MODE << 4)) | ((GPIO168_MODE==GPIO_MODE_01)?0:(GPIO168_MODE << 0))
+,((GPIO175_MODE==GPIO_MODE_01)?0:(0xF << 28)) | ((GPIO174_MODE==GPIO_MODE_01)?0:(0xF << 24)) | ((GPIO173_MODE==GPIO_MODE_01)?0:(0xF << 20)) | ((GPIO172_MODE==GPIO_MODE_01)?0:(0xF << 16)) | ((GPIO171_MODE==GPIO_MODE_01)?0:(0xF << 12)) | ((GPIO170_MODE==GPIO_MODE_01)?0:(0xF << 8)) | ((GPIO169_MODE==GPIO_MODE_01)?0:(0xF << 4)) | ((GPIO168_MODE==GPIO_MODE_01)?0:(0xF << 0))
+},
+{
+GPIO_BASE+0x460
+,((GPIO183_MODE==GPIO_MODE_01)?0:(GPIO183_MODE << 28)) | ((GPIO182_MODE==GPIO_MODE_01)?0:(GPIO182_MODE << 24)) | ((GPIO181_MODE==GPIO_MODE_01)?0:(GPIO181_MODE << 20)) | ((GPIO180_MODE==GPIO_MODE_01)?0:(GPIO180_MODE << 16)) | ((GPIO179_MODE==GPIO_MODE_01)?0:(GPIO179_MODE << 12)) | ((GPIO178_MODE==GPIO_MODE_01)?0:(GPIO178_MODE << 8)) | ((GPIO177_MODE==GPIO_MODE_01)?0:(GPIO177_MODE << 4)) | ((GPIO176_MODE==GPIO_MODE_01)?0:(GPIO176_MODE << 0))
+,((GPIO183_MODE==GPIO_MODE_01)?0:(0xF << 28)) | ((GPIO182_MODE==GPIO_MODE_01)?0:(0xF << 24)) | ((GPIO181_MODE==GPIO_MODE_01)?0:(0xF << 20)) | ((GPIO180_MODE==GPIO_MODE_01)?0:(0xF << 16)) | ((GPIO179_MODE==GPIO_MODE_01)?0:(0xF << 12)) | ((GPIO178_MODE==GPIO_MODE_01)?0:(0xF << 8)) | ((GPIO177_MODE==GPIO_MODE_01)?0:(0xF << 4)) | ((GPIO176_MODE==GPIO_MODE_01)?0:(0xF << 0))
+},
+{
+GPIO_BASE+0x470
+,((GPIO186_MODE==GPIO_MODE_01)?0:(GPIO186_MODE << 8)) | ((GPIO185_MODE==GPIO_MODE_01)?0:(GPIO185_MODE << 4)) | ((GPIO184_MODE==GPIO_MODE_01)?0:(GPIO184_MODE << 0))
+,((GPIO186_MODE==GPIO_MODE_01)?0:(0xF << 8)) | ((GPIO185_MODE==GPIO_MODE_01)?0:(0xF << 4)) | ((GPIO184_MODE==GPIO_MODE_01)?0:(0xF << 0))
+},
+{
+GPIO_BASE+0x100
+,(GPIO31_DATAOUT << 31) | (GPIO30_DATAOUT << 30) | (GPIO29_DATAOUT << 29) | (GPIO28_DATAOUT << 28) | (GPIO27_DATAOUT << 27) | (GPIO26_DATAOUT << 26) | (GPIO25_DATAOUT << 25) | (GPIO24_DATAOUT << 24) | (GPIO23_DATAOUT << 23) | (GPIO22_DATAOUT << 22) | (GPIO21_DATAOUT << 21) | (GPIO20_DATAOUT << 20) | (GPIO19_DATAOUT << 19) | (GPIO18_DATAOUT << 18) | (GPIO17_DATAOUT << 17) | (GPIO16_DATAOUT << 16) | (GPIO15_DATAOUT << 15) | (GPIO14_DATAOUT << 14) | (GPIO13_DATAOUT << 13) | (GPIO12_DATAOUT << 12) | (GPIO11_DATAOUT << 11) | (GPIO10_DATAOUT << 10) | (GPIO9_DATAOUT << 9) | (GPIO8_DATAOUT << 8) | (GPIO7_DATAOUT << 7) | (GPIO6_DATAOUT << 6) | (GPIO5_DATAOUT << 5) | (GPIO4_DATAOUT << 4) | (GPIO3_DATAOUT << 3) | (GPIO2_DATAOUT << 2) | (GPIO1_DATAOUT << 1) | (GPIO0_DATAOUT << 0)
+,(0x1 << 31) | (0x1 << 30) | (0x1 << 29) | (0x1 << 28) | (0x1 << 27) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+GPIO_BASE+0x110
+,(GPIO63_DATAOUT << 31) | (GPIO62_DATAOUT << 30) | (GPIO61_DATAOUT << 29) | (GPIO60_DATAOUT << 28) | (GPIO59_DATAOUT << 27) | (GPIO58_DATAOUT << 26) | (GPIO57_DATAOUT << 25) | (GPIO56_DATAOUT << 24) | (GPIO55_DATAOUT << 23) | (GPIO54_DATAOUT << 22) | (GPIO53_DATAOUT << 21) | (GPIO52_DATAOUT << 20) | (GPIO51_DATAOUT << 19) | (GPIO50_DATAOUT << 18) | (GPIO49_DATAOUT << 17) | (GPIO48_DATAOUT << 16) | (GPIO47_DATAOUT << 15) | (GPIO46_DATAOUT << 14) | (GPIO45_DATAOUT << 13) | (GPIO44_DATAOUT << 12) | (GPIO43_DATAOUT << 11) | (GPIO42_DATAOUT << 10) | (GPIO41_DATAOUT << 9) | (GPIO40_DATAOUT << 8) | (GPIO39_DATAOUT << 7) | (GPIO38_DATAOUT << 6) | (GPIO37_DATAOUT << 5) | (GPIO36_DATAOUT << 4) | (GPIO35_DATAOUT << 3) | (GPIO34_DATAOUT << 2) | (GPIO33_DATAOUT << 1) | (GPIO32_DATAOUT << 0)
+,(0x1 << 31) | (0x1 << 30) | (0x1 << 29) | (0x1 << 28) | (0x1 << 27) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+GPIO_BASE+0x120
+,(GPIO95_DATAOUT << 31) | (GPIO94_DATAOUT << 30) | (GPIO93_DATAOUT << 29) | (GPIO92_DATAOUT << 28) | (GPIO91_DATAOUT << 27) | (GPIO90_DATAOUT << 26) | (GPIO89_DATAOUT << 25) | (GPIO88_DATAOUT << 24) | (GPIO87_DATAOUT << 23) | (GPIO86_DATAOUT << 22) | (GPIO85_DATAOUT << 21) | (GPIO84_DATAOUT << 20) | (GPIO83_DATAOUT << 19) | (GPIO82_DATAOUT << 18) | (GPIO81_DATAOUT << 17) | (GPIO80_DATAOUT << 16) | (GPIO79_DATAOUT << 15) | (GPIO78_DATAOUT << 14) | (GPIO77_DATAOUT << 13) | (GPIO76_DATAOUT << 12) | (GPIO75_DATAOUT << 11) | (GPIO74_DATAOUT << 10) | (GPIO73_DATAOUT << 9) | (GPIO72_DATAOUT << 8) | (GPIO71_DATAOUT << 7) | (GPIO70_DATAOUT << 6) | (GPIO69_DATAOUT << 5) | (GPIO68_DATAOUT << 4) | (GPIO67_DATAOUT << 3) | (GPIO66_DATAOUT << 2) | (GPIO65_DATAOUT << 1) | (GPIO64_DATAOUT << 0)
+,(0x1 << 31) | (0x1 << 30) | (0x1 << 29) | (0x1 << 28) | (0x1 << 27) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+GPIO_BASE+0x130
+,(GPIO127_DATAOUT << 31) | (GPIO126_DATAOUT << 30) | (GPIO125_DATAOUT << 29) | (GPIO124_DATAOUT << 28) | (GPIO123_DATAOUT << 27) | (GPIO122_DATAOUT << 26) | (GPIO121_DATAOUT << 25) | (GPIO120_DATAOUT << 24) | (GPIO119_DATAOUT << 23) | (GPIO118_DATAOUT << 22) | (GPIO117_DATAOUT << 21) | (GPIO116_DATAOUT << 20) | (GPIO115_DATAOUT << 19) | (GPIO114_DATAOUT << 18) | (GPIO113_DATAOUT << 17) | (GPIO112_DATAOUT << 16) | (GPIO111_DATAOUT << 15) | (GPIO110_DATAOUT << 14) | (GPIO109_DATAOUT << 13) | (GPIO108_DATAOUT << 12) | (GPIO107_DATAOUT << 11) | (GPIO106_DATAOUT << 10) | (GPIO105_DATAOUT << 9) | (GPIO104_DATAOUT << 8) | (GPIO103_DATAOUT << 7) | (GPIO102_DATAOUT << 6) | (GPIO101_DATAOUT << 5) | (GPIO100_DATAOUT << 4) | (GPIO99_DATAOUT << 3) | (GPIO98_DATAOUT << 2) | (GPIO97_DATAOUT << 1) | (GPIO96_DATAOUT << 0)
+,(0x1 << 31) | (0x1 << 30) | (0x1 << 29) | (0x1 << 28) | (0x1 << 27) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+GPIO_BASE+0x140
+,(GPIO159_DATAOUT << 31) | (GPIO158_DATAOUT << 30) | (GPIO157_DATAOUT << 29) | (GPIO156_DATAOUT << 28) | (GPIO155_DATAOUT << 27) | (GPIO154_DATAOUT << 26) | (GPIO153_DATAOUT << 25) | (GPIO152_DATAOUT << 24) | (GPIO151_DATAOUT << 23) | (GPIO150_DATAOUT << 22) | (GPIO149_DATAOUT << 21) | (GPIO148_DATAOUT << 20) | (GPIO147_DATAOUT << 19) | (GPIO146_DATAOUT << 18) | (GPIO145_DATAOUT << 17) | (GPIO144_DATAOUT << 16) | (GPIO143_DATAOUT << 15) | (GPIO142_DATAOUT << 14) | (GPIO141_DATAOUT << 13) | (GPIO140_DATAOUT << 12) | (GPIO139_DATAOUT << 11) | (GPIO138_DATAOUT << 10) | (GPIO137_DATAOUT << 9) | (GPIO136_DATAOUT << 8) | (GPIO135_DATAOUT << 7) | (GPIO134_DATAOUT << 6) | (GPIO133_DATAOUT << 5) | (GPIO132_DATAOUT << 4) | (GPIO131_DATAOUT << 3) | (GPIO130_DATAOUT << 2) | (GPIO129_DATAOUT << 1) | (GPIO128_DATAOUT << 0)
+,(0x1 << 31) | (0x1 << 30) | (0x1 << 29) | (0x1 << 28) | (0x1 << 27) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+GPIO_BASE+0x150
+,(GPIO186_DATAOUT << 26) | (GPIO185_DATAOUT << 25) | (GPIO184_DATAOUT << 24) | (GPIO183_DATAOUT << 23) | (GPIO182_DATAOUT << 22) | (GPIO181_DATAOUT << 21) | (GPIO180_DATAOUT << 20) | (GPIO179_DATAOUT << 19) | (GPIO178_DATAOUT << 18) | (GPIO177_DATAOUT << 17) | (GPIO176_DATAOUT << 16) | (GPIO175_DATAOUT << 15) | (GPIO174_DATAOUT << 14) | (GPIO173_DATAOUT << 13) | (GPIO172_DATAOUT << 12) | (GPIO171_DATAOUT << 11) | (GPIO170_DATAOUT << 10) | (GPIO169_DATAOUT << 9) | (GPIO168_DATAOUT << 8) | (GPIO167_DATAOUT << 7) | (GPIO166_DATAOUT << 6) | (GPIO165_DATAOUT << 5) | (GPIO164_DATAOUT << 4) | (GPIO163_DATAOUT << 3) | (GPIO162_DATAOUT << 2) | (GPIO161_DATAOUT << 1) | (GPIO160_DATAOUT << 0)
+,(0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+GPIO_BASE+0x000
+,(GPIO31_DIR << 31) | (GPIO30_DIR << 30) | (GPIO29_DIR << 29) | (GPIO28_DIR << 28) | (GPIO27_DIR << 27) | (GPIO26_DIR << 26) | (GPIO25_DIR << 25) | (GPIO24_DIR << 24) | (GPIO23_DIR << 23) | (GPIO22_DIR << 22) | (GPIO21_DIR << 21) | (GPIO20_DIR << 20) | (GPIO19_DIR << 19) | (GPIO18_DIR << 18) | (GPIO17_DIR << 17) | (GPIO16_DIR << 16) | (GPIO15_DIR << 15) | (GPIO14_DIR << 14) | (GPIO13_DIR << 13) | (GPIO12_DIR << 12) | (GPIO11_DIR << 11) | (GPIO10_DIR << 10) | (GPIO9_DIR << 9) | (GPIO8_DIR << 8) | (GPIO7_DIR << 7) | (GPIO6_DIR << 6) | (GPIO5_DIR << 5) | (GPIO4_DIR << 4) | (GPIO3_DIR << 3) | (GPIO2_DIR << 2) | (GPIO1_DIR << 1) | (GPIO0_DIR << 0)
+,(0x1 << 31) | (0x1 << 30) | (0x1 << 29) | (0x1 << 28) | (0x1 << 27) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+GPIO_BASE+0x010
+,(GPIO63_DIR << 31) | (GPIO62_DIR << 30) | (GPIO61_DIR << 29) | (GPIO60_DIR << 28) | (GPIO59_DIR << 27) | (GPIO58_DIR << 26) | (GPIO57_DIR << 25) | (GPIO56_DIR << 24) | (GPIO55_DIR << 23) | (GPIO54_DIR << 22) | (GPIO53_DIR << 21) | (GPIO52_DIR << 20) | (GPIO51_DIR << 19) | (GPIO50_DIR << 18) | (GPIO49_DIR << 17) | (GPIO48_DIR << 16) | (GPIO47_DIR << 15) | (GPIO46_DIR << 14) | (GPIO45_DIR << 13) | (GPIO44_DIR << 12) | (GPIO43_DIR << 11) | (GPIO42_DIR << 10) | (GPIO41_DIR << 9) | (GPIO40_DIR << 8) | (GPIO39_DIR << 7) | (GPIO38_DIR << 6) | (GPIO37_DIR << 5) | (GPIO36_DIR << 4) | (GPIO35_DIR << 3) | (GPIO34_DIR << 2) | (GPIO33_DIR << 1) | (GPIO32_DIR << 0)
+,(0x1 << 31) | (0x1 << 30) | (0x1 << 29) | (0x1 << 28) | (0x1 << 27) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+GPIO_BASE+0x020
+,(GPIO95_DIR << 31) | (GPIO94_DIR << 30) | (GPIO93_DIR << 29) | (GPIO92_DIR << 28) | (GPIO91_DIR << 27) | (GPIO90_DIR << 26) | (GPIO89_DIR << 25) | (GPIO88_DIR << 24) | (GPIO87_DIR << 23) | (GPIO86_DIR << 22) | (GPIO85_DIR << 21) | (GPIO84_DIR << 20) | (GPIO83_DIR << 19) | (GPIO82_DIR << 18) | (GPIO81_DIR << 17) | (GPIO80_DIR << 16) | (GPIO79_DIR << 15) | (GPIO78_DIR << 14) | (GPIO77_DIR << 13) | (GPIO76_DIR << 12) | (GPIO75_DIR << 11) | (GPIO74_DIR << 10) | (GPIO73_DIR << 9) | (GPIO72_DIR << 8) | (GPIO71_DIR << 7) | (GPIO70_DIR << 6) | (GPIO69_DIR << 5) | (GPIO68_DIR << 4) | (GPIO67_DIR << 3) | (GPIO66_DIR << 2) | (GPIO65_DIR << 1) | (GPIO64_DIR << 0)
+,(0x1 << 31) | (0x1 << 30) | (0x1 << 29) | (0x1 << 28) | (0x1 << 27) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+GPIO_BASE+0x030
+,(GPIO127_DIR << 31) | (GPIO126_DIR << 30) | (GPIO125_DIR << 29) | (GPIO124_DIR << 28) | (GPIO123_DIR << 27) | (GPIO122_DIR << 26) | (GPIO121_DIR << 25) | (GPIO120_DIR << 24) | (GPIO119_DIR << 23) | (GPIO118_DIR << 22) | (GPIO117_DIR << 21) | (GPIO116_DIR << 20) | (GPIO115_DIR << 19) | (GPIO114_DIR << 18) | (GPIO113_DIR << 17) | (GPIO112_DIR << 16) | (GPIO111_DIR << 15) | (GPIO110_DIR << 14) | (GPIO109_DIR << 13) | (GPIO108_DIR << 12) | (GPIO107_DIR << 11) | (GPIO106_DIR << 10) | (GPIO105_DIR << 9) | (GPIO104_DIR << 8) | (GPIO103_DIR << 7) | (GPIO102_DIR << 6) | (GPIO101_DIR << 5) | (GPIO100_DIR << 4) | (GPIO99_DIR << 3) | (GPIO98_DIR << 2) | (GPIO97_DIR << 1) | (GPIO96_DIR << 0)
+,(0x1 << 31) | (0x1 << 30) | (0x1 << 29) | (0x1 << 28) | (0x1 << 27) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+GPIO_BASE+0x040
+,(GPIO159_DIR << 31) | (GPIO158_DIR << 30) | (GPIO157_DIR << 29) | (GPIO156_DIR << 28) | (GPIO155_DIR << 27) | (GPIO154_DIR << 26) | (GPIO153_DIR << 25) | (GPIO152_DIR << 24) | (GPIO151_DIR << 23) | (GPIO150_DIR << 22) | (GPIO149_DIR << 21) | (GPIO148_DIR << 20) | (GPIO147_DIR << 19) | (GPIO146_DIR << 18) | (GPIO145_DIR << 17) | (GPIO144_DIR << 16) | (GPIO143_DIR << 15) | (GPIO142_DIR << 14) | (GPIO141_DIR << 13) | (GPIO140_DIR << 12) | (GPIO139_DIR << 11) | (GPIO138_DIR << 10) | (GPIO137_DIR << 9) | (GPIO136_DIR << 8) | (GPIO135_DIR << 7) | (GPIO134_DIR << 6) | (GPIO133_DIR << 5) | (GPIO132_DIR << 4) | (GPIO131_DIR << 3) | (GPIO130_DIR << 2) | (GPIO129_DIR << 1) | (GPIO128_DIR << 0)
+,(0x1 << 31) | (0x1 << 30) | (0x1 << 29) | (0x1 << 28) | (0x1 << 27) | (0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+GPIO_BASE+0x050
+,(GPIO186_DIR << 26) | (GPIO185_DIR << 25) | (GPIO184_DIR << 24) | (GPIO183_DIR << 23) | (GPIO182_DIR << 22) | (GPIO181_DIR << 21) | (GPIO180_DIR << 20) | (GPIO179_DIR << 19) | (GPIO178_DIR << 18) | (GPIO177_DIR << 17) | (GPIO176_DIR << 16) | (GPIO175_DIR << 15) | (GPIO174_DIR << 14) | (GPIO173_DIR << 13) | (GPIO172_DIR << 12) | (GPIO171_DIR << 11) | (GPIO170_DIR << 10) | (GPIO169_DIR << 9) | (GPIO168_DIR << 8) | (GPIO167_DIR << 7) | (GPIO166_DIR << 6) | (GPIO165_DIR << 5) | (GPIO164_DIR << 4) | (GPIO163_DIR << 3) | (GPIO162_DIR << 2) | (GPIO161_DIR << 1) | (GPIO160_DIR << 0)
+,(0x1 << 26) | (0x1 << 25) | (0x1 << 24) | (0x1 << 23) | (0x1 << 22) | (0x1 << 21) | (0x1 << 20) | (0x1 << 19) | (0x1 << 18) | (0x1 << 17) | (0x1 << 16) | (0x1 << 15) | (0x1 << 14) | (0x1 << 13) | (0x1 << 12) | (0x1 << 11) | (0x1 << 10) | (0x1 << 9) | (0x1 << 8) | (0x1 << 7) | (0x1 << 6) | (0x1 << 5) | (0x1 << 4) | (0x1 << 3) | (0x1 << 2) | (0x1 << 1) | (0x1 << 0)
+},
+{
+IOCFG_B_BASE+0x040
+,((((GPIO_DVDD28_BPI1==GPIO_VIO18)?0x0:0xC)) << 0) | ((((GPIO_DVDD28_BPI2==GPIO_VIO18)?0x0:0xC)) << 6)
+,(0x3F << 0) | (0x3F << 6)
+},
+{
+GPIO_BASE+0x500
+,((((GPIO179_MODE==GPIO_MODE_01)?0x0:0x1) | ((GPIO180_MODE==GPIO_MODE_01)?0x0:0x1) | ((GPIO181_MODE==GPIO_MODE_01)?0x0:0x1) | ((GPIO182_MODE==GPIO_MODE_01)?0x0:0x1) | ((GPIO183_MODE==GPIO_MODE_01)?0x0:0x1) | ((GPIO184_MODE==GPIO_MODE_01)?0x0:0x1) | ((GPIO185_MODE==GPIO_MODE_01)?0x0:0x1) | ((GPIO186_MODE==GPIO_MODE_01)?0x0:0x1)) << 3)
+,(0x1 << 3)
+},
+{
+IOCFG_R_BASE+0x070
+,((((GPIO_DVDD28_MD==GPIO_VIO18)?0x0:0xC)) << 12)
+,(0x3F << 12)
+},
+{
+IOCFG_T_BASE+0x040
+,((((MSDC_POWER_MC1==MSDC_VIO18_MC1)?0x0:0xC)) << 0)
+,(0x3F << 0)
+}
+};
+
+#endif //_GPIO_INIT_H_

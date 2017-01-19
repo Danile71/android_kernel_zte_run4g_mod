@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">CustomerServiceMenu</string>
+    <string name="title_activity_main">CustomerServiceMenu</string>
+    <string name="title">သံုးစြဲသူဝန္ေဆာင္မႈမီႏူး</string>
+    <string name="customer_hotline">သံုးစြဲသူေဟာ့တ္လိုင္း</string>
+    <string name="mobile_ehall">မိုဘိုင္း အီး-ေဟာ</string>
+    <string name="subscription">ကၽြႏ္ုပ္၏ သေဘာတူညီခ်က္</string>
+    <string name="prl_update">PRL အပ္ပဒိတ္</string>
+    <string name="global_hotline">ဂလိုဘယ္ ေဟာ့တ္လိုင္း</string>
+    <string name="guide">ဖုန္းဝန္ေဆာင္မႈ လမ္းညႊန္</string>
+    <string name="hotline_desc">China Telecom ၏ သံုးစြဲသူ ေဟာ့တ္လိုင္း နံပါတ္သည္ ၁၀၀၀၀ ျဖစ္ၿပီး ကိုယ္တိုင္ဝန္ေဆာင္မႈ ေဟာ့တ္လိုင္း နံပါတ္သည္ ၁၀၀၀၁ ျဖစ္သည္။ ေဒသတြင္း လွည့္လည္ သြားလာေသာအခါ ေဒသတြင္း သံုးစြဲသူ ေဟာ့တ္လိုင္းကို ေခၚလိုပါက နံပါတ္မတိုင္မီ ဧရိယာကုဒ္ ထပ္ထည့္ရန္ လိုအပ္သည္။</string>
+    <string name="hotline">10000</string>
+    <string name="self_hotline">10001</string>
+    <string name="message">မက္ေဆ့ခ်္</string>
+    <string name="wap">wap</string>
+    <string name="subscription_inquiry">သေဘာတူညီမႈ စုံစမ္းျခင္း</string>
+    <string name="service_unscribe">ဝန္ေဆာင္မႈ မမွာယူျခင္း</string>
+    <string name="global_hotline_desc">သင္သည္ ႏိုင္ငံရပ္ျခား သို႔မဟုတ္ ေဟာင္ေကာင္၊ မကာအိုႏွင့္ တိုင္ဝမ္ေဒသမ်ားလွည့္လည္သြားလာျခင္းတြင္ ရွိေနေသာအခါ China Telecom ၏ ဂလိုဘယ္ေဟာ့တ္လိုင္းနံပါတ္ျဖစ္ေသာ +၈၆၁၈၉၁၈၁၀၀၀၀ကို ေခၚႏိုင္သည္။ ဤကိရိယာသည္ အခမဲ့ျဖစ္သည္။ အေသးစိတ္ေတြ႕ရွိရန္ လွည့္လည္ သြားလာျခင္း ႀကိဳဆိုသည့္မက္ေဆ့ခ်္တြင္ ၾကည့္ပါ။ http://manyou.ct10000.com တြင္လည္း ဝင္ေရာက္ ၾကည့္႐ႈႏိုင္သည္။</string>
+    <string name="sum_search_networks">ရရွိႏိုင္ေသာ ကြန္ရက္မ်ား အားလံုးကို ရွာေဖြပါ</string>
+    <string name="send_ok">ေအာင္ျမင္စြာပို႔ပါ</string>
+    <string name="send_fail">မက္ေဆ့ခ်္ကို ပို႔ရန္ မေအာင္ျမင္ပါ။</string>
+    <string name="sending">ေခၚဆိုသူ ID ေပးပို႔သည့္ ဝန္ေဆာင္မႈကို စစ္ေဆးပါ</string>
+    <string name="to">အဆက္အသြယ္အား ပံုႏွိပ္ထုတ္ရန္ လုပ္ငန္းသံုး ပ႐ိုဂရမ္ မရရွိႏိုင္ပါ။</string>
+    <string name="sim_not_available">သင္၏ China Telecom UIM ကဒ္ ရရွိႏိုင္ေၾကာင္း ေသခ်ာေအာင္ျပဳလုပ္ပါ။</string>
+    <string name="search_networks">ရရွိႏိုင္ေသာ ကြန္ရက္မ်ား အားလံုးကို ရွာေဖြပါ</string>
+    <string name="waiting_networks">ကြန္ရက္ခ်ိတ္ဆက္မႈ ေနရာခ်ေနေသာအခါ ႏိုပ္ရန္ ေခတၱေစာင့္ပါ</string>
+    <string name="guide_desc">"MediaTek သံုးစြဲသူ ဝန္ေဆာင္မႈ ေဟာ့တ္လိုင္းနံပါတ္-၀၁၀-၈၂၈၆၁၁၂၈ MediaTek တရားဝင္ ဝက္ဘ္ဆိုက္-http://www.mediatek.com"</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="permission_label">
+        <item>電話する</item>
+        <item>マルチパーティー通話の開始</item>
+	    <item>"SMSの送信"</item>
+	    <item>"MMSを送信"</item>
+	    <item>録音開始</item>
+	    <item>Read SMS</item>
+	    <item>SMSを変更する</item>
+	    <item>MMSを読む</item>
+	    <item>MMSを変更する</item>
+	    <item>Read contacts</item>
+	    <item>Modify contacts</item>
+	    <item>通話ログを読む</item>
+	    <item>通話ログを変更する</item>
+	    <item>位置を取得</item>
+	    <item>カメラを使用</item>
+	    <item>データ接続をオンにする</item>
+	    <item>"Wi-FiをONにする"</item>
+	    <item>"BluetoothをONにする"</item>
+	    <item>HotKnotを使用する</item>
+    </string-array>
+    <string-array name="perm_status_entry">
+        <item>"常に許可する"</item>
+        <item>常に確認する</item>
+        <item>常に拒否</item>
+    </string-array>
+    <string-array name="confirm_msg_body">
+        <item>電話をする</item>
+        <item>マルチパーティー通話の開始</item>
+        <item>SMSの送信</item>
+        <item>MMSの送信</item>
+        <item>録音開始</item>
+        <item>read SMS</item>
+        <item>SMSを変更する</item>
+        <item>MMSを読む</item>
+        <item>MMSを変更する</item>
+        <item>read contacts</item>
+        <item>modify contacts</item>
+        <item>通話ログを読む</item>
+        <item>通話ログを変更する</item>
+        <item>現在の位置を取得する</item>
+        <item>カメラを使用</item>
+        <item>データ接続をオンにする</item>
+        <item>"Wi-FiをONにする"</item>
+        <item>"BluetoothをONにする"</item>
+        <item>HotKnotを使用する</item>
+    </string-array>
+</resources>

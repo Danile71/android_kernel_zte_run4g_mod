@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">নোটবই</string>
+    <string name="no_note">কোনো নোট নেই</string>
+    <string name="selectednumber">নির্বাচিত</string>
+    <string name="delete_confirm_current">নোট মুছে যাবে</string>
+    <string name="delete_confirm_one">নির্বাচিত নোটটি মুছে যাবে।</string>
+    <string name="delete_confirm">নির্বাচিত নোটগুলো মুছে যাবে।</string>
+    <string name="delete_confirm_title">পরিচিতজন মুছুন</string>
+    <string name="delete_confirm_cancel">বাতিল করুন</string>
+    <string name="delete_confirm_ok">ঠিক আছে</string>
+    <string name="title_bar_selected">নির্বাচিত</string>
+    <string name="editor_full">আপনি সর্বোচ্চ ১৫০০ ক্যারেক্টার ইনপুট দিতে পারবেন</string>
+    <string name="sdcard_full" product="tablet">ডিভাইসের স্টোরেজে যথেষ্ট জায়গা নেই। কিছু জায়গা খালি করুন।</string>
+    <string name="sdcard_full" product="default">ফোনের স্টোরেজে যথেষ্ট জায়গা নেই। কিছু জায়গা খালি করুন।</string>
+    <string name="save_none">খালি নোট তৈরি হয়নি</string>
+    <string name="empty_note">খালি নোট </string>
+    <string name="delete_progress">মুছে ফেলা হচ্ছে</string>
+    <string name="title_notes_list">নোটবই</string>
+    <string name="title_notes_view">পড়ছে</string>
+    <string name="title_notes_edit">সম্পন্ন</string>
+    <string name="title_loading">লোড হচ্ছে...</string>
+    <string name="menu_delete">সব নোট মুছে ফেলুন</string>
+    <string name="delete_all_notes_confirm">সব নোট মুছে যাবে।</string>
+    <string name="note_saved">নোট সংরক্ষিত</string>
+    <string name="no_selected">কোনো নির্বাচন করা হয়নি</string>
+    <string name="menu_sort_by_modify">সংশোধিত সময় অনুসারে সাজান</string>
+    <string name="menu_sort_by_tab">ট্যাব অনুসারে সাজান</string>
+    <string name="menu_work">কর্মস্থল</string>
+    <string name="menu_personal">ব্যক্তিগত</string>
+    <string name="menu_family">পারিবারিক বিষয়</string>
+    <string name="menu_study">পড়া</string>
+    <string name="menu_none">শ্রেনিকরণ করা হয়নি</string>
+    <string name="menu_add_button">নতুন</string>
+    <string name="menu_delete_button">পরিচিতজন মুছুন</string>
+    <string name="menu_edit_button">পরিচিতজন সম্পাদনা করুন</string>
+    <string name="menu_deselect_all_button">"সব নির্বাচনমুক্ত করুন"</string>
+    <string name="menu_select_all_button">সব নির্বাচন করুন</string>
+    <string name="month">ম.</string>
+    <string name="day">ডি.</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> নির্বাচিত </string>
+    <string name="type_note">নোট টাইপ করুন</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="enable_mode_list">
+        <item name="enable_mode_entry_restore">使用之前的設定</item>
+        <item name="enable_mode_entry_start_new">建立新設定</item>
+    </string-array>
+</resources>

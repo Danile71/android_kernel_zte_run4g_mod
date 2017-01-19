@@ -1,0 +1,4 @@
+[
+	{ operationName : "Replace", nodeUri : "./IMSMO/LBO_P-CSCF_Address/1/Address", objectValue : "127.0.0.1:5061", objectType : "chr", newNode : "" },
+	{ operationName : "Replace", nodeUri : "./IMSMO/LBO_P-CSCF_Address/1/AddressType", objectValue : "IPv4", objectType : "chr", newNode : "" },
+]

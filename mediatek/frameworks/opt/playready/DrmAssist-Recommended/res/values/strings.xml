@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Discretix DRM</string>
+    <string name="refreshButtonName">Refresh</string>
+    <string name="textEditHint">specify path</string>
+    <string name="initialPath">/mnt/sdcard/</string>
+
+</resources>

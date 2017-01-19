@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_done">"Готово"</string>
+    <string name="submenu_emergency_contacts">Контакти у хитним случајевима</string>
+    <string name="menu_deleteContact">"Избриши"</string>
+    <string name="menu_select_all">"Изабери све"</string>
+    <string name="menu_select_none">Опозови све</string>
+    <string name="menu_new_contact_action_bar">"ново"</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> изабрано</string>
+    <string name="multichoice_no_select_alert">"Ставка није изабрана."</string>
+    <string name="aas_custom_title">USIM ознаке за додатне бројеве</string>
+    <string name="aas_phone_type_none">"Ниједан"</string>
+    <string name="aas_new_dialog_title">Додај нову ознаку</string>
+    <string name="ass_rename_dialog_title">Измени ознаку</string>
+    <string name="aas_delele_dialog_message">Брисање ознака ће утицати на све додатне бројеве који су повезани са ознакама. Да ли сте сигурни?</string>
+    <string name="aas_name_invalid">Име ознаке је неважеће. Унесите другу.</string>
+    <string name="aas_name_exist">Ознака већ постоји.</string>
+    <string name="aas_usim_full">Нема простора за нове ознаке.</string>
+    <string name="ass_edit_assert_message">Измена ознаке ће утицати на све додатне бројеве који су повезани са ознаком. Да ли сте сигурни?</string>
+    <string name="aas_new_fail">Креирање нове ознаке није успело.</string>
+    <string name="aas_edit_fail">Није успело преименовање <xliff:g id="aas">%s</xliff:g> .</string>
+    <string name="aas_delete_fail">Брисање <xliff:g id="aas">%s</xliff:g> није успело.</string>
+    <string name="aas_phone_primary">Примарни број</string>
+    <string name="aas_phone_additional">Додатни број</string>
+</resources>

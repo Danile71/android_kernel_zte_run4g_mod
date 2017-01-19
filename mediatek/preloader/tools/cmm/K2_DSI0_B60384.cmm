@@ -1,0 +1,322 @@
+;------------------------------------------------------------------------
+; PHY Timing Control
+;------------------------------------------------------------------------
+;PLL freq = 26x(fbkdiv)x(prediv)/(posdiv)
+; prediv = 0:/1, 1:/2, 2,3:/4
+; posdiv = 0:/1, 1:/2, 2:/4, 3:/8, 4:/16
+; txdiv0,txdiv1 is removed from B60384
+
+&fbkdiv=0x09
+&prediv=0x00
+&posdiv=0x03
+
+;------------------------------------------------------------------------
+; Address define (Project dependant)
+;------------------------------------------------------------------------
+;;do K2_DSI0_address_def.cmm
+  ;------------------------------------------------------------------------
+  ; MMSYS register map
+  ;------------------------------------------------------------------------
+  &mmsys_base=0x14000000
+  
+  &MMSYS_CG_CLR0=&mmsys_base+0x00108
+  &MMSYS_CG_CLR1=&mmsys_base+0x00118
+  &LCM_RST_B=&mmsys_base+0x00150
+  
+  ;------------------------------------------------------------------------
+  ; I2C register map
+  ;------------------------------------------------------------------------
+  &i2c_base=0x1401C000
+  
+  ;------------------------------------------------------------------------
+  ; Clock source and debug settings
+  ;------------------------------------------------------------------------
+  D.S SD:&MMSYS_CG_CLR0 %LE %LONG 0xffffffff ; clear cg0
+  D.S SD:&MMSYS_CG_CLR1 %LE %LONG 0xffffffff ; clear cg1
+  ;;D.S SD:&mmsys_base+0x00c08 %LE %LONG 0x00000201 ; fpga con
+  ;;D.S SD:&mmsys_base+0x0004c %LE %LONG 0x00000000 ; dsi out 
+
+;------------------------------------------------------------------------
+;; I2c write function
+;------------------------------------------------------------------------
+&i2c_write_loop=0;
+&i2c_slave_addr=0;
+&i2c_write_addr=0;
+&i2c_write_data=0;
+&i2c_read_data=0;
+
+while (&i2c_write_loop<0x19)
+(
+; DSI GPIO mux select
+;----------------------------
+if (&i2c_write_loop==0x00)
+(
+  &i2c_slave_addr=0x18;
+  &i2c_write_addr=0x00;
+  &i2c_write_data=0x10;
+)
+
+; ABB reference clock LPF
+;----------------------------
+if (&i2c_write_loop==0x01)
+(
+  &i2c_slave_addr=0x20;
+  &i2c_write_addr=0x42;
+  &i2c_write_data=0x01;
+)
+
+; Reference clock from ARMPLL
+;----------------------------
+if (&i2c_write_loop==0x02)
+(
+  &i2c_slave_addr=0x20;
+  &i2c_write_addr=0x43;
+  &i2c_write_data=0x01;
+)
+if (&i2c_write_loop==0x03)
+(
+  &i2c_slave_addr=0x20;
+  &i2c_write_addr=0x05;
+  &i2c_write_data=0x01;
+)
+if (&i2c_write_loop==0x04)
+(
+  &i2c_slave_addr=0x20;
+  &i2c_write_addr=0x22;
+  &i2c_write_data=0x01;
+)
+
+; MIPI TX Config
+;----------------------------
+; DSI_BG_CON (fast_charge=0)
+if (&i2c_write_loop==0x05)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x44;
+  &i2c_write_data=0x83;
+)
+; DSI_TOP_CON
+if (&i2c_write_loop==0x06)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x40;
+  &i2c_write_data=0x82;
+)
+; DSI0_CON
+if (&i2c_write_loop==0x07)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x00;
+  &i2c_write_data=0x03;
+)
+; DSI_PLL_PWR (pwr_on=1)
+if (&i2c_write_loop==0x08)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x68;
+  &i2c_write_data=0x03;
+)
+; DSI_PLL_PWR (iso_en=0)
+if (&i2c_write_loop==0x09)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x68;
+  &i2c_write_data=0x01;
+)
+; DSI_PLL0_CON0 
+; [2:1] prediv
+; [4:3] txdiv0 (not used)
+; [6:5] txdiv1 (not used)
+; [9:7] posdiv
+if (&i2c_write_loop==0x0a)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x50;
+  &i2c_write_data=((&posdiv&0x1)<<0x7)|(&prediv<<0x1);
+)
+if (&i2c_write_loop==0x0b)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x51;
+  &i2c_write_data=(&posdiv>>0x1)&0x3;
+)
+; DSI_PLL0_CON1
+; [0] fra_en
+; [2] ssc_en
+if (&i2c_write_loop==0x0c)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x54;
+  &i2c_write_data=0x01;
+)
+; DSI_PLL0_CON2
+; [23:0]  pcw (fractional)
+; [30:24] pcw (integer)
+if (&i2c_write_loop==0x0d)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x58;
+  &i2c_write_data=0x00;
+)
+if (&i2c_write_loop==0x0e)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x59;
+  &i2c_write_data=0x00;
+)
+if (&i2c_write_loop==0x0f)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x5a;
+  &i2c_write_data=0x00;
+)
+if (&i2c_write_loop==0x10)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x5b;
+  &i2c_write_data=(&fbkdiv<<2)
+)
+
+; DSI_CLOCK_LANE, [4]:CKLANE_EN=1
+if (&i2c_write_loop==0x11)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x04;
+  &i2c_write_data=0x11;
+)
+; DSI_DATA_LANE_0
+if (&i2c_write_loop==0x12)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x08;
+  &i2c_write_data=0x01;
+)
+; DSI_DATA_LANE_1
+if (&i2c_write_loop==0x13)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x0c;
+  &i2c_write_data=0x01;
+)
+; DSI_DATA_LANE_2
+if (&i2c_write_loop==0x14)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x10;
+  &i2c_write_data=0x01;
+)
+; DSI_DATA_LANE_3
+if (&i2c_write_loop==0x15)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x14;
+  &i2c_write_data=0x01;
+)
+
+; DSI_PLL_TOP 
+; [9:8] mppll_preserve (s2q_div)
+if (&i2c_write_loop==0x16)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x64;
+  &i2c_write_data=0x20;
+)
+
+; MPPLL starts
+;----------------------------
+; DSI_PLL0_CON0 
+; [0] pll_en
+if (&i2c_write_loop==0x17)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x50;
+  &i2c_write_data=((&posdiv&0x1)<<0x7)|(&prediv<<0x1)|0x1;
+)
+
+; MIPI TX source control
+;----------------------------
+if (&i2c_write_loop==0x18)
+(
+  &i2c_slave_addr=0x30;
+  &i2c_write_addr=0x28;
+  &i2c_write_data=0x00;
+)
+
+
+;;------------------------------------------
+;; I2C write
+;;------------------------------------------
+;set 2 byte transfer (address + data)
+D.S SD:&i2c_base+0x014 %LE %LONG 0x002;
+;1 transac
+D.S SD:&i2c_base+0x018 %LE %LONG 0x01;
+;set slave address
+D.S SD:&i2c_base+0x004 %LE %LONG (&i2c_slave_addr<<0x1);
+;prepare data to fifo
+D.S SD:&i2c_base+0x000 %LE %LONG &i2c_write_addr;
+D.S SD:&i2c_base+0x000 %LE %LONG &i2c_write_data;
+;trigger
+D.S SD:&i2c_base+0x024 %LE %LONG 0x01;
+;wait i2c done
+while ((data.long(SD:&i2c_base+0x00C)&0x1)!=0x1)
+(
+  wait 10.ms 
+)
+;write 1 clear
+D.S SD:&i2c_base+0x00C %LE %LONG 0xff;
+
+;;------------------------------------------
+;; I2C read (write address + read data)
+;;------------------------------------------
+;set 1 byte transfer (address)
+D.S SD:&i2c_base+0x014 %LE %LONG 0x001;
+;1 transac
+D.S SD:&i2c_base+0x018 %LE %LONG 0x01;
+;set slave address
+D.S SD:&i2c_base+0x004 %LE %LONG (&i2c_slave_addr<<0x1);
+;prepare data to fifo
+D.S SD:&i2c_base+0x000 %LE %LONG &i2c_write_addr;
+;trigger
+D.S SD:&i2c_base+0x024 %LE %LONG 0x01;
+;wait i2c done
+while ((data.long(SD:&i2c_base+0x00C)&0x1)!=0x1)
+(
+  wait 10.ms 
+)
+;write 1 clear
+D.S SD:&i2c_base+0x00C %LE %LONG 0xff;
+
+;set 1 byte transfer (data)
+D.S SD:&i2c_base+0x014 %LE %LONG 0x001;
+;1 transac
+D.S SD:&i2c_base+0x018 %LE %LONG 0x01;
+;set slave address
+D.S SD:&i2c_base+0x004 %LE %LONG ((&i2c_slave_addr<<0x1)+0x1) ;[0]:write or read
+;trigger
+D.S SD:&i2c_base+0x024 %LE %LONG 0x01;
+;wait i2c done
+while ((data.long(SD:&i2c_base+0x00C)&0x1)!=0x1)
+(
+  wait 10.ms 
+)
+;write 1 clear
+D.S SD:&i2c_base+0x00C %LE %LONG 0xff;
+
+&i2c_read_data=data.long(SD:&i2c_base+0x000);
+
+if (&i2c_read_data==&i2c_write_data)
+(
+PRINT "I2C Success, write addr = " &i2c_write_addr ", read_data=" &i2c_read_data
+)
+else
+(
+PRINT "I2C Fail, write addr = " &i2c_write_addr ", write data = " &i2c_write_data ", read_data=" &i2c_read_data
+wait 5000.ms
+)
+
+&i2c_write_loop=&i2c_write_loop+0x01;
+)
+
+wait 500.ms  ;wait pll stable
+
+PRINT "PLL setting finish!!"

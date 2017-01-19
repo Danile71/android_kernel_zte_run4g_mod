@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Pogoda na żywo 3D</string>
+    <string name="last_update">Ostatnia aktualizacja</string>
+    <string name="no_weather">Stuknij ustawienie, aby dodać miasta</string>
+    <string name="no_network">Brak dostępnych sieci</string>
+    <string name="update_fail">Aktualizacja informacji o pogodzie nie powiodła się</string>
+    <string name="updating">Aktualizowanie</string>
+</resources>

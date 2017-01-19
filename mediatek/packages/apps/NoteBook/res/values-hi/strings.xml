@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">नोटबुक</string>
+    <string name="no_note">कोई नोट नहीं</string>
+    <string name="selectednumber">चयनित</string>
+    <string name="delete_confirm_current">नोट हटा दिया जाएगा।</string>
+    <string name="delete_confirm_one">चयनित नोट हटा दिए जाएगा।</string>
+    <string name="delete_confirm">चयनित नोट हटा दिए जाएँगे।</string>
+    <string name="delete_confirm_title">"हटाएं"</string>
+    <string name="delete_confirm_cancel">"रद्द करें"</string>
+    <string name="delete_confirm_ok">"ठीक"</string>
+    <string name="title_bar_selected">चयनित</string>
+    <string name="editor_full">आप अधिकतम 1500 अक्षर प्रविष्ट कर सकते हैं</string>
+    <string name="sdcard_full" product="tablet">डिवाइस भंडारण में पर्याप्त स्थान नहीं है। कृपया कुछ स्थान खाली करें।</string>
+    <string name="sdcard_full" product="default">फ़ोन भंडारण में पर्याप्त स्थान नहीं है। कृपया कुछ स्थान खाली करें।</string>
+    <string name="save_none">रिक्त नोट नहीं बनते</string>
+    <string name="empty_note">रिक्त नोट</string>
+    <string name="delete_progress">हटाया जा रहा है</string>
+    <string name="title_notes_list">नोटबुक</string>
+    <string name="title_notes_view">पठन</string>
+    <string name="title_notes_edit">"पूर्ण"</string>
+    <string name="title_loading">लोड हो रहा है...</string>
+    <string name="menu_delete">सारे नोट हटाएँ</string>
+    <string name="delete_all_notes_confirm">सारे नोट हटा दिए जाएँगे।</string>
+    <string name="note_saved">नोट सहेजा गया</string>
+    <string name="no_selected">कोई नोट चयनित नहीं</string>
+    <string name="menu_sort_by_modify">संशोधन समय के अनुसार क्रमबद्ध करें</string>
+    <string name="menu_sort_by_tab">टैब के अनुसार क्रमबद्ध करें</string>
+    <string name="menu_work">"कार्यालय"</string>
+    <string name="menu_personal">"व्यक्तिगत"</string>
+    <string name="menu_family">पारिवारिक मामला</string>
+    <string name="menu_study">अध्ययन</string>
+    <string name="menu_none">अवर्गीकृत</string>
+    <string name="menu_add_button">"नई"</string>
+    <string name="menu_delete_button">"हटाएं"</string>
+    <string name="menu_edit_button">"संपादित करें"</string>
+    <string name="menu_deselect_all_button">"सभी का चयन रद्द करें"</string>
+    <string name="menu_select_all_button">सभी को चुनें</string>
+    <string name="month">"मि."</string>
+    <string name="day">दि</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> चयनित </string>
+    <string name="type_note">नोट टाइप करें</string>
+</resources>

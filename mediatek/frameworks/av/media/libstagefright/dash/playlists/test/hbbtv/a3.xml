@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright Digital TV Labs 2012 -->
+<MPD xmlns="urn:mpeg:DASH:schema:MPD:2011" minimumUpdatePeriod="PT15.00S" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:hbbtv:dash:profile:isoff-live:2012" type="dynamic" availabilityStartTime="2009-03-07T14:30:00Z">
+  <Period id="period.1" />
+</MPD>
+

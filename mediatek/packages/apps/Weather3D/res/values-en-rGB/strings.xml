@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3D live weather</string>
+    <string name="last_update">Last updated</string>
+    <string name="no_weather">Tap setting to add cities</string>
+    <string name="no_network">No network available</string>
+    <string name="update_fail">Cannot update weather</string>
+    <string name="updating">Updating</string>
+</resources>

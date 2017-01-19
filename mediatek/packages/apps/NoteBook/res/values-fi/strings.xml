@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Kannettava tietokone</string>
+    <string name="no_note">Ei muistiinpanoja</string>
+    <string name="selectednumber">Valittu</string>
+    <string name="delete_confirm_current">Muistiinpano poistetaan.</string>
+    <string name="delete_confirm_one">Valittu muistiinpano poistetaan.</string>
+    <string name="delete_confirm">Valitut muistiinpanot poistetaan.</string>
+    <string name="delete_confirm_title">"Poista"</string>
+    <string name="delete_confirm_cancel">"Peruuta"</string>
+    <string name="delete_confirm_ok">"OK"</string>
+    <string name="title_bar_selected">Valittu</string>
+    <string name="editor_full">Voit syöttää enintään 1.500 merkkiä</string>
+    <string name="sdcard_full" product="tablet">Laitteen tallennustilassa ei ole tarpeeksi tilaa. Vapauta hieman tallennustilaa.</string>
+    <string name="sdcard_full" product="default">Puhelimen tallennustilassa ei ole tarpeeksi tilaa. Vapauta hieman tallennustilaa.</string>
+    <string name="save_none">Tyhjää muistiinpanoa ei luotu</string>
+    <string name="empty_note">Tyhjä muistiinpano</string>
+    <string name="delete_progress">Poistetaan</string>
+    <string name="title_notes_list">Kannettava tietokone</string>
+    <string name="title_notes_view">Lukeminen</string>
+    <string name="title_notes_edit">"Valmis"</string>
+    <string name="title_loading">Ladataan…</string>
+    <string name="menu_delete">Poista kaikki muistiinpanot</string>
+    <string name="delete_all_notes_confirm">Kaikki muistiinpanot poistetaan.</string>
+    <string name="note_saved">Muistiinpano tallennettu</string>
+    <string name="no_selected">Muistiinpanoja ei ole valittu</string>
+    <string name="menu_sort_by_modify">Lajittelu muokkausajan mukaan</string>
+    <string name="menu_sort_by_tab">Lajittelu välilehtien mukaan</string>
+    <string name="menu_work">"Työ"</string>
+    <string name="menu_personal">"HENKILÖKOHTAINEN"</string>
+    <string name="menu_family">Perheasiat</string>
+    <string name="menu_study">Opiskelu</string>
+    <string name="menu_none">Luokittelematon</string>
+    <string name="menu_add_button">"uusi"</string>
+    <string name="menu_delete_button">"Poista"</string>
+    <string name="menu_edit_button">"Muokkaa"</string>
+    <string name="menu_deselect_all_button">"Poista kaikki valinnat"</string>
+    <string name="menu_select_all_button">"Valitse kaikki"</string>
+    <string name="month">"m"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> valittu</string>
+    <string name="type_note">Näppäile muistiinpano</string>
+</resources>

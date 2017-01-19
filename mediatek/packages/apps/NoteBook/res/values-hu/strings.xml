@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Notebook</string>
+    <string name="no_note">Nincs jegyzet</string>
+    <string name="selectednumber">Kiválasztva</string>
+    <string name="delete_confirm_current">Megtörténik a jegyzet törlése.</string>
+    <string name="delete_confirm_one">Megtörténik a kijelölt jegyzet törlése.</string>
+    <string name="delete_confirm">Megtörténik a kijelölt jegyzetek törlése.</string>
+    <string name="delete_confirm_title">"Törlés"</string>
+    <string name="delete_confirm_cancel">"Mégse"</string>
+    <string name="delete_confirm_ok">"OK"</string>
+    <string name="title_bar_selected">Kiválasztva</string>
+    <string name="editor_full">Max. 1500 karaktert adhat meg</string>
+    <string name="sdcard_full" product="tablet">Nincs elég szabad hely az eszköz tárolójában. Töröljön néhány fájlt.</string>
+    <string name="sdcard_full" product="default">Nincs elég szabad hely a telefon tárolójában. Töröljön néhány fájlt.</string>
+    <string name="save_none">Nincs létrehozva az üres jegyzet</string>
+    <string name="empty_note">Üres jegyzet</string>
+    <string name="delete_progress">Törlés</string>
+    <string name="title_notes_list">Notebook</string>
+    <string name="title_notes_view">Olvasás</string>
+    <string name="title_notes_edit">"Kész"</string>
+    <string name="title_loading">Betöltés...</string>
+    <string name="menu_delete">Összes jegyzet törlése</string>
+    <string name="delete_all_notes_confirm">Az összes jegyzet törlésre kerül.</string>
+    <string name="note_saved">Jegyzet mentve</string>
+    <string name="no_selected">Nem jelölt ki jegyzetet</string>
+    <string name="menu_sort_by_modify">Rendezés módosítás időpontja szerint</string>
+    <string name="menu_sort_by_tab">Rendezés fülek szerint</string>
+    <string name="menu_work">"Munkahely"</string>
+    <string name="menu_personal">"SZEMÉLYES"</string>
+    <string name="menu_family">Családi ügy</string>
+    <string name="menu_study">Tanulás</string>
+    <string name="menu_none">Nem kategorizált</string>
+    <string name="menu_add_button">"új"</string>
+    <string name="menu_delete_button">"Törlés"</string>
+    <string name="menu_edit_button">"Szerkesztés"</string>
+    <string name="menu_deselect_all_button">"Az összes kijelölés törlése"</string>
+    <string name="menu_select_all_button">Összes kiválasztása</string>
+    <string name="month">"p"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> kiválasztva </string>
+    <string name="type_note">Jegyzet gépelése</string>
+</resources>

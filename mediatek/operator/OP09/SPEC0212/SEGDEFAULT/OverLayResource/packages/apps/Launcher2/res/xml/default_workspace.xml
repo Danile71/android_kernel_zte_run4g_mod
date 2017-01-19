@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher">
+    <!-- Far Left screen [0], for bookmarks and CT apps. -->
+     <favorite
+        launcher:packageName="com.android.utk"
+        launcher:className="com.android.utk.UtkLauncherActivity"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+
+     <favorite
+        launcher:packageName=""
+        launcher:className=""
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="0" />
+
+    <folder
+        launcher:title="@string/link_folder_name"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="3" >
+	<shortcut
+            launcher:title="@string/url_name_sina"
+            launcher:icon="@drawable/ic_launcher_shortcut_browser_bookmark"
+            launcher:uri="http://www.sina.com.cn/#Intent;action=android.intent.action.VIEW;S.com.android.browser.application_id=-2257206480588696184;end"
+        />
+
+	<shortcut
+            launcher:title="@string/url_name_sohu"
+            launcher:icon="@drawable/ic_launcher_shortcut_browser_bookmark"
+            launcher:uri="http://www.sohu.com/#Intent;action=android.intent.action.VIEW;S.com.android.browser.application_id=3796359432737691776;end"
+        />
+
+	<shortcut
+            launcher:title="@string/url_name_ifeng"
+            launcher:icon="@drawable/ic_launcher_shortcut_browser_bookmark"
+            launcher:uri="http://www.ifeng.com/#Intent;action=android.intent.action.VIEW;S.com.android.browser.application_id=6078515087428887376;end"
+        />
+
+        <shortcut
+            launcher:title="@string/url_name_xinhuanet"
+            launcher:icon="@drawable/ic_launcher_shortcut_browser_bookmark"
+            launcher:uri="http://www.xinhuanet.com/#Intent;action=android.intent.action.VIEW;S.com.android.browser.application_id=-241249896721939256;end"
+        />
+
+        <shortcut
+            launcher:title="@string/url_name_hiCDMA"
+            launcher:icon="@drawable/ic_launcher_shortcut_browser_bookmark"
+            launcher:uri="http://www.hiCDMA.com/#Intent;action=android.intent.action.VIEW;S.com.android.browser.application_id=-9145331599478247208;end"
+        />
+
+        <shortcut
+            launcher:title="@string/url_name_people"
+            launcher:icon="@drawable/ic_launcher_shortcut_browser_bookmark"
+            launcher:uri="http://www.people.com.cn/#Intent;action=android.intent.action.VIEW;S.com.android.browser.application_id=-9145331599478247206;end"
+        />
+
+    </folder>
+    <!-- Left screen [1], for OP09 apps -->
+    <favorite
+        launcher:packageName="com.lectek.android.ecp"
+        launcher:className="com.lectek.android.ecp.ui.login.LoginActivity"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0" />
+
+    <favorite
+        launcher:packageName="com.ct.client"
+        launcher:className="com.ct.client.Mains"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" />
+
+    <favorite
+        launcher:packageName="com.mediatek.vnet"
+        launcher:className="com.mediatek.vnet.VNet"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="0" />
+
+    <favorite
+        launcher:packageName="com.besttone.elocal"
+        launcher:className="com.besttone.elocal.LoadingActivity"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="0" />
+
+    <favorite
+        launcher:packageName="com.lectek.android.sfreader"
+        launcher:className="com.lectek.android.sfreader.ui.SplashActivity"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1" />
+
+    <favorite
+        launcher:packageName="com.telecom.video"
+        launcher:className="com.telecom.video.ui.activity.LoadingActivity"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="1" />
+
+    <favorite
+        launcher:packageName="com.corp21cn.mail189"
+        launcher:className="com.corp21cn.mailapp.activity.ClientIntroducePage"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="1" />
+
+    <favorite
+        launcher:packageName="com.eshore.ezone"
+        launcher:className="com.eshore.ezone.StartActivity"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="1" />
+
+    <favorite
+        launcher:packageName="com.pdager"
+        launcher:className="com.pdager.enavi.Act.APIMain"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="2" />
+
+    <favorite
+        launcher:packageName="com.besttone.hall"
+        launcher:className="com.besttone.hall.StartAppActivity"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="2" />
+
+    <favorite
+        launcher:packageName="com.egame"
+        launcher:className="com.egame.app.FlashScreenActivity"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="2" />
+
+    <favorite
+        launcher:packageName="com.chinatelecom.pim"
+        launcher:className="com.chinatelecom.pim.activity.PimLauncherActivity"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="2" />
+
+    <favorite
+        launcher:packageName="com.gwsoft.imusic.controller"
+        launcher:className="com.gwsoft.ui.LoadingActivity"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="3" />
+
+    <favorite
+        launcher:packageName="com.erdo.android.FJDXCartoon"
+        launcher:className="com.erdo.android.FJDXCartoon.Activity_Start"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="3" />
+
+    <favorite
+        launcher:packageName="com.chinatelecom.bestpayclient"
+        launcher:className="com.chinatelecom.bestpayclient.BufferActivity"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="3" />
+
+    <favorite
+        launcher:packageName="telecom.mdesk"
+        launcher:className="telecom.mdesk.Launcher"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="3" />
+
+    <!-- Middle screen [2] -->
+    <favorite
+        launcher:packageName="com.android.deskclock"
+        launcher:className="com.android.deskclock.DeskClock"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.android.settings"
+        launcher:className="com.android.settings.Settings"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.android.gallery3d"
+        launcher:className="com.android.camera.CameraLauncher"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.android.quicksearchbox"
+        launcher:className="com.android.quicksearchbox.SearchActivity"
+        launcher:screen="2"
+        launcher:x="3"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.android.calendar"
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="1" />
+    <favorite
+        launcher:packageName="com.android.gallery3d"
+        launcher:className="com.android.gallery3d.app.Gallery"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="1" />
+    <favorite
+        launcher:packageName="com.mediatek.filemanager"
+        launcher:className="com.mediatek.filemanager.FileManagerOperationActivity"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="1" />
+    <favorite
+        launcher:packageName="com.android.music"
+        launcher:className="com.android.music.MusicBrowserActivity"
+        launcher:screen="2"
+        launcher:x="3"
+        launcher:y="1" />
+
+    <!-- Right screen [3] -->
+    <favorite
+        launcher:packageName="com.android.calculator2"
+        launcher:className="com.android.calculator2.Calculator"
+        launcher:screen="3"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.mediatek.op09.plugin"
+        launcher:className="com.mediatek.op09.plugin.InternationalRoaming"
+        launcher:screen="3"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.mediatek.todos"
+        launcher:className="com.mediatek.todos.TodosActivity"
+        launcher:screen="3"
+        launcher:x="2"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName=""
+        launcher:className=""
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.mediatek.csm"
+        launcher:className="com.mediatek.csm.CustomerServiceMenu"
+        launcher:screen="3"
+        launcher:x="0"
+        launcher:y="1" />
+    <favorite
+        launcher:packageName="com.android.providers.downloads.ui"
+        launcher:className="com.android.providers.downloads.ui.DownloadList"
+        launcher:screen="3"
+        launcher:x="1"
+        launcher:y="1" />
+    <favorite
+        launcher:packageName=""
+        launcher:className=""
+        launcher:screen="3"
+        launcher:x="2"
+        launcher:y="1" />
+    <favorite
+        launcher:packageName="com.mediatek.FMRadio"
+        launcher:className="com.mediatek.FMRadio.FMRadioActivity"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="1" />
+    <favorite
+        launcher:packageName="com.android.email"
+        launcher:className="com.android.email.activity.Welcome"
+        launcher:screen="3"
+        launcher:x="0"
+        launcher:y="2" />
+    <favorite
+        launcher:packageName="com.android.soundrecorder"
+        launcher:className="com.android.soundrecorder.SoundRecorder"
+        launcher:screen="3"
+        launcher:x="1"
+        launcher:y="2" />
+    <favorite
+        launcher:packageName="com.android.providers.downloads"
+        launcher:className="com.android.providers.downloads.LaunchDownloadDirActivity"
+        launcher:screen="3"
+        launcher:x="2"
+        launcher:y="2" />
+
+    <!-- Far-right screen [4] -->
+    <appwidget
+        launcher:packageName="com.mediatek.appwidget.weather"
+        launcher:className="com.mediatek.appwidget.weather.WeatherWidgetProvider"
+        launcher:screen="4"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="4" />
+        
+    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    <favorite
+        launcher:packageName="com.android.mms"
+        launcher:className="com.android.mms.ui.BootActivity"
+        launcher:container="-101"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.android.dialer"
+        launcher:className="com.android.dialer.DialtactsActivity"
+        launcher:container="-101"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.activities.PeopleActivity"
+        launcher:container="-101"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0" />
+    <favorite
+        launcher:packageName="com.android.browser"
+        launcher:className="com.android.browser.BrowserActivity"
+        launcher:container="-101"
+        launcher:screen="4"
+        launcher:x="4"
+        launcher:y="0" />
+</favorites>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="import_to">"Uvozi v"</string>
+    <string name="import_button">"Ali želite uvoziti # v koledar?"</string>
+    <string name="cancel">"Ali res želite preklicati prenos?\nPritisnite Naprej za nadaljevanje prenosa\n Pritisnite Zavrzi za opustitev prenosa in izbris prenesene datoteke"</string>
+    <string name="no_access_toast">"Računa ni bilo mogoče najti. Najprej dodajte račun"</string>
+    <string name="null_name">"Brez"</string>
+    <string name="import_message">"Ali želite uvoziti # v koledar?"</string>
+    <string name="calendar_lable">"Koledar: "</string>
+    <string name="date_lable">"Datum: "</string>
+    <string name="import_title">"Pomemben dogodek v koledarju"</string>
+    <string name="importing">"Uvoz ..."</string>
+    <string name="import_complete">"Uvoz končan"</string>
+    <string name="open">"V aplikacijah OpenGL ES 2.0 omogoči 4x MSAA"</string>
+    <string name="done">"Končano"</string>
+    <string name="progresszero">"0%"</string>
+    <string name="import_vcs_failed">"Uvoz dogodka ni uspel."</string>
+    <string name="title_lable">"Naslov: %1$s"</string>
+    <string name="no_syncable_calendars">"Uvozi ni mogoč"</string>
+    <string name="no_calendars_found">"Ta račun ne podpira sinhronizacije koledarja ali pa se zadnja sinhronizacija še ni zaključila."</string>
+    <string name="retry">Napaka pri prenosu. Kasneje poskusim znova.</string>
+    <string name="give_up">Seja je bila prekinjena z oddaljene strani (prejet SUPL END)</string>
+    <string name="open_calendar_failed">"Koledar ni na voljo."</string>
+    <string name="loading">"Nalaganje …"</string>
+    <string name="not_support_multi_events">"Datoteka z več dogodki ni podprta."</string>
+</resources>

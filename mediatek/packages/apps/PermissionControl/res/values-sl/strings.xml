@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Nadzor dovoljenj</string>
+    <string name="accept_perm">"Dovoli"</string>
+    <string name="deny_perm">"Zavrni"</string>
+    <string name="notify_check_hint">Ne opomni me več.</string>
+	<string name="notify_dialog_title">"Varnostno opozorilo"</string>
+	<string name="notify_dialog_msg_body">Aplikacija <xliff:g id="pkg_name">%s</xliff:g> poskuša pridobiti dovoljenje za <xliff:g id="perm_name">%s</xliff:g>.</string>
+	<string name="time_count_down_hint">(Samodejno zavrni po <xliff:g id="time">%s</xliff:g> s.)</string>
+    <string name="notification_control_state_title">Dovoljenje aplikacije</string>
+    <string name="notification_control_state_summary">Upravljanje dovoljenj aplikacije ni v uporabi.</string>
+    <string name="toast_deny_msg_body">Aplikaciji <xliff:g id="pkg_name">%s</xliff:g> ni bilo dodeljeno dovoljenje za <xliff:g id="perm_name">%s</xliff:g>.</string>
+    <string name="manage_permission_app_label">Dovoljenja aplikacije</string>
+    <string name="manage_permission_summary">Upravljajte dovoljenja aplikacije, da zaščitite varnost in zasebnost</string>
+    <string name="permissions_label">"Dovoljenja"</string>
+    <string name="apps">"Programi"</string>
+    <string name="no_applications">"Ni programov."</string>
+    <string name="version_text">"različica <xliff:g id="VERSION_NUM">%1$s</xliff:g>"</string>
+    <string name="app_count_unit_single">"Program"</string>
+    <string name="app_count_unit_plural">"Programi"</string>
+    <string name="perm_count_unit_single">Dovoljenje</string>
+    <string name="perm_count_unit_plural">"Dovoljenja"</string>
+    <string name="no_app_use_perm">Tega dovoljenja en uporablja nobena aplikacija.</string>
+    <string name="no_perm_is_used">Teh dovoljenj en uporablja nobena aplikacija.</string>
+    <string name="notify_user_switch_on">Vklopite stikalo, če želite upravljati dovoljenja za aplikacijo.</string>
+    <string name="alert_dlg_title">Želite izklopiti zaščito?</string>
+    <string name="alert_dlg_mgs">Aplikacijam bo samodejno dodeljeno dovoljenje brez vaše potrditve.</string>
+    <string name="foreground_notification_title">V uporabi je upravljanje dovoljenj za aplikacijo</string>
+    <string name="foreground_notification_summary">Dotaknite se za ogled podrobnih nastavitev dovoljenj za aplikacijo.</string>
+    <string name="auto_boot_pref_title">Upravljanje samodejnega zagona</string>
+    <string name="auto_boot_pref_summary">Aplikaciji dovolite ali preprečite samodejni zagon ob zagonu sistema</string>
+    <string name="no_auto_boot_app">Ni aplikacij, ki se samodejno zaženejo.</string>
+    <plurals name="autoboot_app_desc_allow">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g> dovoljena aplikacija,</item>
+        <item quantity="other">Št. dovoljenih aplikacij: <xliff:g id="app_count">%1$d</xliff:g>,</item>
+    </plurals>
+   <plurals name="autoboot_app_desc_deny">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g> zavrnjena aplikacija.</item>
+        <item quantity="other">Št. zavrnjenih aplikacij: <xliff:g id="app_count">%1$d</xliff:g>.</item>
+   </plurals>
+</resources>

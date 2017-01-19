@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"Avanti"</string>
+    <string name="scroll_left_bar_title">Scorrere per visualizzare altre modalità d’acquisizione</string>
+    <string name="zoome_title">Ingrandimento/riduzione</string>
+    <string name="vcs_guide_summary">Dì il nome per trovare i contatti.\nProva!</string>
+    <string name="vcs_guide_title">Ricerca contatto vocale</string>
+    <string name="camera_mav_title">Spostarsi a sinistra dell’oggetto e iniziare la ripresa</string>
+    <string name="refocus_guide_title">"Fare clic sull'immagine per cambiare la posizione di messa a fuoco"</string>
+    <string name="vcs_guide_title1">Dire il nome per trovare il contatto</string>
+    <string name="vcs_guide_title2">Tocca qui per abilitare la funzione.\nProva!</string>    
+</resources>

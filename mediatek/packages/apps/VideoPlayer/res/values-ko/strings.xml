@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="video_app_name">"동영상"</string>
+    <string name="scanning">"SD 카드를 스캔하는 중…"</string>  
+    <string name="sdcard_missing_message">"전화기에 SD 카드가 삽입되지 않았습니다."</string>  
+    <string name="video_list_empty">"동영상 없음."</string> 
+    <string name="detail_title">"제목: %1$s"</string>  
+    <string name="detail_date_taken">"촬영: %1$s"</string>  
+    <string name="detail_path">"경로: %1$s"</string>  
+    <string name="detail_filesize">"파일 크기: %1$s"</string>  
+    <string name="detail_duration">"기간: %1$s"</string>  
+    <string name="media_detail">"자세히"</string>  
+    <string name="delete">"삭제"</string>  
+    <string name="delete_tip">"%1$s을(를) 삭제하시겠습니까?"</string>  
+    <string name="delete_progress">"%1$s을(를) 삭제하는 중 ..."</string> 
+	<string name="max_video">최대 비디오 수</string>
+	<string name="hotknot">HotKnot</string>
+    <string name="share">공유</string>
+    <string name="deselect_all">"모두 선택취소"</string>
+    <string name="select_all">"모두 선택"</string>
+    <string name="selected">선택됨</string>
+    <string name="delete_selection_one">"선택한 항목을 삭제할까요?"</string>
+    <string name="delete_selection_more">"선택한 항목을 삭제할까요?"</string>
+    <string name="select_item">"항목 선택"</string>
+</resources>

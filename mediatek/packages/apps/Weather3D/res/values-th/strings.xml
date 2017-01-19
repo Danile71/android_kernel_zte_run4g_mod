@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">รายงานอากาศสด 3 มิติ</string>  
+    <string name="last_update">การอัพเดทล่าสุด</string>  
+    <string name="no_weather">แตะที่การตั้งค่าเพื่อเพิ่มเมือง</string>  
+    <string name="no_network">ไม่มีเครือข่ายให้ใช้งาน</string>  
+    <string name="update_fail">อัพเดทอากาศไม่สำเร็จ</string>  
+    <string name="updating">กำลังอัพเดต</string>  
+</resources>

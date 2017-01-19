@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ՀաճախորդներիՍպասարկմանՄենյու</string>
+    <string name="title_activity_main">ՀաճախորդներիՍպասարկմանՄենյու</string>
+    <string name="title">Հաճախորդների Սպասարկման Մենյու</string>
+    <string name="customer_hotline">Հաճախորդների թեժ գիծ</string>
+    <string name="mobile_ehall">Բջջային e-hall</string>
+    <string name="subscription">Իմ բաժանորդագրությունը</string>
+    <string name="prl_update">PRL թարմացում</string>
+    <string name="global_hotline">Գլոբալ թեժ գիծ</string>
+    <string name="guide">Հեռախոսի Սպասարկման Ուղեցույց</string>
+    <string name="hotline_desc">China Telecom-ի Հաճախորդների սպասարկման թեժ գիծը 10000 է, իսկ ինքնասպասարկման թեժ գիծը` 10001: Եթե գտնվում եք ազգային ռոումինգի տարածքում և ցանկանում եք զանգահարել տեղական Հաճախորդների թեժ գծին, ապա պետք է սկզբում ավելացնեք տարածքային կոդը:</string>
+    <string name="hotline">10000</string>
+    <string name="self_hotline">10001</string>
+    <string name="message">"Ուղարկել հաղորդագրություն"</string>
+    <string name="wap">wap</string>
+    <string name="subscription_inquiry">Բաժանորդագրության հարցում</string>
+    <string name="service_unscribe">Ծառայության ապաբաժանորդագրում</string>
+    <string name="global_hotline_desc">Եթե արտերկրում եք կամ Հոնգ Կոնգի, Մակաոյի կամ Թայվանի տարածքային ռոումինգում, ապա կարող եք հավաքել +8618918910000, որը China Telecom-ի գլոբալ թեժ գիծն է: Այս սարքով այն անվճար է: Խնդրում ենք կարդալ ռոումինգի ողջույնի հաղորդագրությունը` մանրամասների հետ ծանոթանալու համար: Կարող եք նաև այցելել` http://manyou.ct10000.com</string>
+    <string name="sum_search_networks">"Որոնել բոլոր հասանելի ցանցերը"</string>
+    <string name="send_ok">Հաջողությամբ ուղարկվեց</string>
+    <string name="send_fail">Չհաջողվեց ուղարկել հաղորդագրությունը</string>
+    <string name="sending">Ստուգել զանգողի ID-ն ուղարկելու ծառայությունը</string>
+    <string name="to">Կոնտակտը տպելու համար որևէ ծրագիր մատչելի չէ:</string>
+    <string name="sim_not_available">Խնդրում ենք համոզվել, որ China Telecom-ի ձեր UIM քարտը մատչելի է</string>
+    <string name="search_networks">"Որոնել բոլոր հասանելի ցանցերը"</string>
+    <string name="waiting_networks">Խնդրում ենք մինչ կտտացնելը սպասեք մի պահ, երբ հեռացնում եք ցանցային կապակցումը</string>
+    <string name="guide_desc">"MediaTek հաճախորդների սպասարկման թեժ գիծ`
+010-82861128 MediaTek-ի պաշտոնական կայք` http://www.mediatek.com"</string>
+</resources>

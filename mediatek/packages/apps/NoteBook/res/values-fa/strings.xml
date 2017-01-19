@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">نوت بوک</string>
+    <string name="no_note">بدون یادداشت</string>
+    <string name="selectednumber">انتخاب شده</string>
+    <string name="delete_confirm_current">اين یادداشت حذف خواهد شد.</string>
+    <string name="delete_confirm_one">یادداشت انتخابی حذف می‌شود.</string>
+    <string name="delete_confirm">یادداشت های انتخابی حذف می‌شوند.</string>
+    <string name="delete_confirm_title">"حذف"</string>
+    <string name="delete_confirm_cancel">"لغو"</string>
+    <string name="delete_confirm_ok">"تأیید"</string>
+    <string name="title_bar_selected">انتخاب شده</string>
+    <string name="editor_full">حداکثر 1500 نویسه را می توانید وارد کنید</string>
+    <string name="sdcard_full" product="tablet">حافظه ذخیره‌سازی دستگاه دارای فضای کافی نیست. لطفاً فضای بیشتری ایجاد کنید.</string>
+    <string name="sdcard_full" product="default">حافظه ذخیره‌سازی تلفن دارای فضای کافی نیست. لطفاً فضای بیشتری ایجاد کنید.</string>
+    <string name="save_none">یادداشت خالی ایجاد نمی شود</string>
+    <string name="empty_note">یادداشت خالی</string>
+    <string name="delete_progress">در حال حذف</string>
+    <string name="title_notes_list">نوت بوک</string>
+    <string name="title_notes_view">خواندن</string>
+    <string name="title_notes_edit">"انجام شد"</string>
+    <string name="title_loading">در حال بارگذاری...</string>
+    <string name="menu_delete">حذف همه یادداشتها</string>
+    <string name="delete_all_notes_confirm">همه یادداشت‌ها حذف می‌شوند.</string>
+    <string name="note_saved">ذخیره نشده</string>
+    <string name="no_selected">هیچ یادداشتی انتخاب نشد</string>
+    <string name="menu_sort_by_modify">مرتب‌سازی برحسب زمان تغییر</string>
+    <string name="menu_sort_by_tab">مرتب‌سازی برحسب زبانه</string>
+    <string name="menu_work">"محل کار"</string>
+    <string name="menu_personal">"شخصی"</string>
+    <string name="menu_family">موضوع خانوادگی</string>
+    <string name="menu_study">مطالعه</string>
+    <string name="menu_none">بدون دسته بندي</string>
+    <string name="menu_add_button">"جدید"</string>
+    <string name="menu_delete_button">"حذف"</string>
+    <string name="menu_edit_button">"ویرایش"</string>
+    <string name="menu_deselect_all_button">"لغو انتخاب همه"</string>
+    <string name="menu_select_all_button">انتخاب همه</string>
+    <string name="month">"د"</string>
+    <string name="day">د</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> انتخاب شد </string>
+    <string name="type_note">تایپ یادداشت</string>
+</resources>

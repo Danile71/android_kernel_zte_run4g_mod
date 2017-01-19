@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Рұқсат беруді басқару</string>
+    <string name="accept_perm">Рұқсат ету</string>
+    <string name="deny_perm">Тыйым салу</string>
+    <string name="notify_check_hint">Қайта еске салмау.</string>
+	<string name="notify_dialog_title">Қауіпсіздік ескертуі</string>
+	<string name="notify_dialog_msg_body"><xliff:g id="pkg_name">%s</xliff:g> әрекеттенуде <xliff:g id="perm_name">%s</xliff:g>.</string>
+	<string name="time_count_down_hint">(<xliff:g id="time">%s</xliff:g> секундтан кейін автоматты түрде бас тарту.)</string>
+    <string name="notification_control_state_title">Бағдарлама рұқсаты</string>
+    <string name="notification_control_state_summary">Бағдарлама рұқсатын басқару жабық.</string>
+    <string name="toast_deny_msg_body"><xliff:g id="pkg_name">%s</xliff:g> бас тартылды <xliff:g id="perm_name">%s</xliff:g>.</string>
+    <string name="manage_permission_app_label">Бағдарлама рұқсаттары</string>
+    <string name="manage_permission_summary">Бағдарлама рұқсаттарын қауіпсіздік және жеке қорғау үшін басқару</string>
+    <string name="permissions_label">Рұқсаттар</string>
+    <string name="apps">Қолданбалар</string>
+    <string name="no_applications">Қолданбалар жоқ.</string>
+    <string name="version_text"><xliff:g id="version_num">%1$s</xliff:g> нұсқасы</string>
+    <string name="app_count_unit_single">Қолданба</string>
+    <string name="app_count_unit_plural">Қолданбалар</string>
+    <string name="perm_count_unit_single">Рұқсат</string>
+    <string name="perm_count_unit_plural">Рұқсаттар</string>
+    <string name="no_app_use_perm">Ешқандай бағдарламалар бұл рұқсатты пайдаланбайды.</string>
+    <string name="no_perm_is_used">Ешқандай рұқсаттарды бұл бағдарлама пайдаланбайды.</string>
+    <string name="notify_user_switch_on">Бағдарлама рұқсаттарын басқару үшін қосқышты бұрыңыз.</string>
+    <string name="alert_dlg_title">Қорғауды өшіру керек пе?</string>
+    <string name="alert_dlg_mgs">Бағдарламалар сіздің растауыңызсыз рұқсаттарды тікелей алады.</string>
+    <string name="foreground_notification_title">Бағдарлама рұқсатын басқару іске қосылуда</string>
+    <string name="foreground_notification_summary">Бағдарлама рұқсаттары үшін нақты параметрлерді көру үшін түртіңіз.</string>
+    <string name="auto_boot_pref_title">Авто-іске қосуды басқару</string>
+    <string name="auto_boot_pref_summary">Жүйенің іске қосылуы барысында бағдарламаның авто-іске қосуына көмектеседі немесе бас тартады</string>
+    <string name="no_auto_boot_app">Автоматты іске қосылатын бағдарламалар жоқ.</string>
+    <plurals name="autoboot_app_desc_allow">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g> бағдарлама рұқсат етілген,</item>
+        <item quantity="other"><xliff:g id="app_count">%1$d</xliff:g> бағдарлама рұқсат етілген,</item>
+    </plurals>
+   <plurals name="autoboot_app_desc_deny">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g> бағдарламаға тыйым салынған.</item>
+        <item quantity="other"><xliff:g id="app_count">%1$d</xliff:g> бағдарламаға тыйым салынған.</item>
+   </plurals>
+</resources>

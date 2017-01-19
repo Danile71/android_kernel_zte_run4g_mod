@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<MPD
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:dolby="http://www.dolby.com/ns/online/DASH"
+ xmlns="urn:mpeg:DASH:schema:MPD:2011"
+ xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011"
+ type="static"
+ mediaPresentationDuration="PT0H1M14.432S"
+ minBufferTime="PT4S"
+ profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:hbbtv:dash:profile:isoff-live:2012">
+
+ <Period start="PT0S">
+    <AdaptationSet mimeType="video/mp4" codecs="avc1.4d401e" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video.1000" frameRate="25" width="720" sar="16:9" height="576" scanType="interlaced">
+        <SegmentTemplate startNumber="0" duration="3000" initialization="720x576i_1000Kbps_1.14min_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_1.14min_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+    </AdaptationSet>
+    <!-- Audio -->
+    <AdaptationSet mimeType="audio/mp4" codecs="ec-3" lang="en" segmentAlignment="true" startWithSAP="1">
+      <Accessibility schemeIdUri="urn:tva:metadata:cs:AudioPurposeCS:2007" value="6"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+      <SegmentTemplate timescale="48000"
+        media="EAC3_256K_1.14m_3secseg_CChk_contch/256kbps_E-AC3_6ch_1m14s_CChk_A_256000_.fmp4/256kbps_E-AC3_6ch_1m14s_CChk_A_$Bandwidth$_$Number$.m4s"
+        initialization="EAC3_256K_1.14m_3secseg_CChk_contch/256kbps_E-AC3_6ch_1m14s_CChk_A_256000_.fmp4/256kbps_E-AC3_6ch_1m14s_CChk_A_$Bandwidth$_0.mp4">
+        <SegmentTimeline>
+          <S t="0" d="145920" r="24"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="1" bandwidth="256000" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:dolby:dash:audio_channel_configuration:2011" value="A000"/>
+      </Representation>
+    </AdaptationSet>
+ </Period>
+</MPD>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">CellConnectionService</string>
+	<string name="button_ok">"OK"</string>
+	<string name="button_cancel">"キャンセル"</string>
+	<string name="confirm_radio_title">SIMはOFFです</string>
+	<string name="confirm_radio_title_uim">UIMオフ</string>
+	<string name="confirm_radio_title_card">カードオフ</string>
+	<string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> 		はOFFになっています。このSIMカードをONにしますか？</string>
+  <string name="confirm_radio_msg_uim"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>は現在オフです。このUIMカードをオンにしますか？</string>
+  <string name="confirm_radio_msg_card"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>は現在オフです。このカードをオンにしますか？</string>
+	<string name="confirm_radio_flight_mode_on_and_msg">機内モードがONになっており、</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> 		はOFFになっています。機内モードをOFFにしてSIMカードをONにしますか？</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_uim"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g>は現在オフです。機内モードをオフにして、このUIMカードをオンにしますか？</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_card"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g>は現在オフです。機内モードをオフにして、このカードをオンにしますか？</string>	
+	<string name="confirm_radio_flight_mode_on_sim_on_msg">機内モードがONになっています。機内モードをOFFにしますか？</string>  
+	<string name="confirm_radio_msg_single">機内モードがONになっています。OFFにしますか？</string>
+	<string name="confirm_pin_title">SIMがロックされています</string>
+	<string name="confirm_pin_title_uim">UIMロック済み</string>
+	<string name="confirm_pin_title_card">カードロック済み</string>
+	<string name="confirm_pin_msg">選択されたSIMカードはロックされています。まず、アンロックしてください。</string>
+	<string name="confirm_pin_msg_uim">選択されたUIMカードは現在ロックされています。最初にロックを解除してください。</string>
+	<string name="confirm_pin_msg_card">選択されたカードは現在ロックされています。最初にロックを解除してください。</string>
+	<string name="confirm_simmelock_title">SIM MEがロックされています</string>
+	<string name="confirm_simmelock_msg">選択されたSIMスロットはロックされています。まず、アンロックしてください。</string>
+	<string name="confirm_simmelock_msg_uim">選択されたUIMスロットは現在ロックされています。最初にロックを解除してください。</string>
+	<string name="confirm_simmelock_msg_card">選択されたスロットは現在ロックされています。最初にロックを解除してください。</string>
+	<string name="confirm_fdn_title">FDNは有効です</string>
+	<string name="confirm_fdn_msg">固定電話番号は有効になりました。</string>
+	<string name="confirm_roaming_title">ローミング警告</string>
+	<string name="confirm_roaming_msg">使用しようとしているSIMカードはローミング中です。ローカルで利用可能なSIMは存在しません。続行しますか？</string>
+	<string name="confirm_roaming_msg_uim">あなたが使用しようとしているUIMカードは、現在ローミング中です。ローカルUIMは現在使用できません。続行しますか？</string>
+	<string name="confirm_roaming_msg_card">あなたが使用しようとしているカードは、現在ローミング中です。ローカルカードは現在使用できません。続行しますか？</string>
+  <string name="confirm_roaming_withPrefer_msg">使用しようとしているSIMカードはローミング中です。ローカルのSIMカードにて続行しますか？</string>
+  <string name="confirm_roaming_withPrefer_msg_uim">あなたが使用しようとしているSIMカードは、現在ローミング中です。ローカルUIMから続行しますか？</string>
+  <string name="confirm_roaming_withPrefer_msg_card">あなたが使用しようとしているSIMカードは、現在ローミング中です。ローカルカードから続行しますか？</string>
+  <string name="confirm_roaming_lbutton">"次へ"</string>
+  <string name="confirm_roaming_rbutton">"キャンセル"</string>
+  <string name="confirm_roamingWithPrefer_lbutton">ローカルSIM</string>
+  <string name="confirm_roamingWithPrefer_lbutton_uim">ローカルUIM</string>
+  <string name="confirm_roamingWithPrefer_lbutton_card">ローカルカード</string>
+  <string name="confirm_roamingWithPrefer_rbutton">ローミングSIM</string>
+  <string name="confirm_roamingWithPrefer_rbutton_uim">ローミングUIM</string>
+  <string name="confirm_roamingWithPrefer_rbutton_card">ローミングカード</string>
+	<string name="confirm_roaming_for3Sims_msg">使用しようとしているSIMカードはローミング中です。続行しますか？</string>
+  <string name="confirm_roaming_for3Sims_msg_uim">あなたが使用しようとしているUIMカードは、現在ローミング中です。続行しますか？</string>
+  <string name="confirm_roaming_for3Sims_msg_card">あなたが使用しようとしているカードは、現在ローミング中です。続行しますか？</string>
+	<string name="confirm_radio_lbutton">"ONにする"</string>
+	<string name="confirm_unlock_lbutton">"ロック解除"</string>
+	<string name="confirm_unlock_fail">操作はキャンセルされました</string>
+	<string name="confirm_turnon_radio_fail">操作はキャンセルされました</string>
+	<string name="confirm_permit_roaming_fail">ローミングSIMにてこの操作をキャンセルできます</string>
+	<string name="confirm_permit_roaming_fail_uim">ローミングUIMでこの操作をキャンセルします</string>
+	<string name="confirm_permit_roaming_fail_card">ローミングカードでこの操作をキャンセルします</string>
+	<string name="confirm_sim_locked_message">SIMカードは恒久的にロックされています</string>
+	<string name="confirm_sim_locked_message_uim">UIMカードは永久にロックされています</string>
+	<string name="confirm_sim_locked_message_card">カードは永久にロックされています</string>	
+    <string name="confirm_slot_locked_message">スロットは恒久的にロックされています</string>
+	<string name="button_yes">"はい"</string>  
+	<string name="button_no">"いいえ"</string>  
+</resources>

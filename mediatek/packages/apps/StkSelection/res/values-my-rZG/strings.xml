@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM ပစၥည္းကိရိယာ</string>
+    <string name="activity_not_found" product="tablet">ပ႐ိုဂရမ္အား သင့္ပစၥည္းတြင္ မသြင္းထားပါ။</string>
+    <string name="activity_not_found" product="default">ပ႐ိုဂရမ္အား သင့္ဖုန္းတြင္ မသြင္းထားပါ။</string>
+    <string name="simlock_toolkit">"SIM တူးလ္ကစ္"</string>
+    <string name="no_sim_card_inserted" product="default">SIM တူးလ္ကစ္တ္ စတင္ရန္ SIM ကိုထည့္ပါ။</string>
+    <string name="airplane_mode_on" product="default">ေလယာဥ္ပ်ံမုဒ္ကို ဖြင့္ထားစဥ္ကတည္းက SIM တူးလ္ကစ္တ္ မစတင္ႏိုင္ပါ။</string>
+    <string name="lable_sim_not_ready"> SIM တူးလ္ကစ္တ္ အဆင္သင့္မျဖစ္ေသးပါ (သို႔) မေထာက္ပံ့ႏိုင္ပါ</string>
+</resources>

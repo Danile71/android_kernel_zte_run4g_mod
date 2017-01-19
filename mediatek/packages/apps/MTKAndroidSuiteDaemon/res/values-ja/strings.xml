@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTK Androidスイートデーモン</string>
+    <string name="noti_main_service_started">MTK Androidスイートデーモンが開始されました。</string>
+    <string name="noti_main_service_running">MTK Androidスイートデーモンが実行されています。</string>
+    <string name="noti_main_service_stopped">MTK Androidスイートデーモンが停止しました。</string>
+    <string name="noti_main_service_backup">MTK Androidスイートデーモンをバックアップしています。</string>
+</resources>

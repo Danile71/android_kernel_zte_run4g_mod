@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<MPD
+  xmlns="urn:mpeg:dash:schema:mpd:2011"
+  type="static"
+  mediaPresentationDuration="PT7211S"
+  minBufferTime="PT3S"
+  profiles="urn:mpeg:dash:profile:isoff-on-demand:2011, http://www.ssstm.sony.co.jp/xmlns/metadata/mpeg/dash/profile/senvu/2012">
+
+  <BaseURL>http://cdn.mpeg-dash.com/</BaseURL>
+
+  <Period id="1" duration="PT7211S">
+    <!-- Adaptation Set for Track 1 -->
+    <AdaptationSet  id="1" group="1" contentType="video" mimeType="video/mp4" par="16:9" sar="1:1" minBandwidth="2200000" maxBandwidth="9000000" minWidth="854" maxWidth="1920" minHeight="480" maxHeight="1080" frameRate="24000/1001" scanType="progressive" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="1" bandwidth="9000000" width="1920" height="1080" mediaStreamStructureId="1" codecs="avc1.644028">
+        <BaseURL>Video77.mp4</BaseURL>
+      </Representation>
+      <Representation id="2" bandwidth="2200000" width="854" height="480" mediaStreamStructureId="1" codecs="avc1.4D401E">
+        <BaseURL>Video78.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 2 -->
+    <AdaptationSet  id="2" group="2" contentType="audio" mimeType="audio/mp4" codecs="mp4a.40.2" audioSamplingRate="48000" lang="en" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <AudioChannelConfiguration  schemeIdUri="urn:mpeg:dash:role:2011" value="2"/>
+      <Representation id="3" bandwidth="96000">
+        <BaseURL>Audio41.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <!-- Adaptation Set for Track 3 -->
+    <AdaptationSet  id="3" group="3" contentType="text" mimeType="application/mp4" codecs="ttml" par="16:9" sar="1:1" lang="en">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="4" bandwidth="0" width="1920" height="1080">
+        <BaseURL>Subtitle105.mp4</BaseURL>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

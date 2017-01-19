@@ -1,0 +1,512 @@
+make
+make[1]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'
+make  all-recursive
+make[2]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'
+Making all in src
+make[3]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+make  all-recursive
+make[4]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+make[5]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+Compiling xercesc/util/Base64.cpp
+Compiling xercesc/util/BinFileInputStream.cpp
+Compiling xercesc/util/BinInputStream.cpp
+Compiling xercesc/util/BinMemInputStream.cpp
+Compiling xercesc/util/BitSet.cpp
+Compiling xercesc/util/DefaultPanicHandler.cpp
+Compiling xercesc/util/EncodingValidator.cpp
+Compiling xercesc/util/HeaderDummy.cpp
+Compiling xercesc/util/HexBin.cpp
+Compiling xercesc/util/KVStringPair.cpp
+Compiling xercesc/util/Mutexes.cpp
+Compiling xercesc/util/PanicHandler.cpp
+Compiling xercesc/util/PlatformUtils.cpp
+Compiling xercesc/util/PSVIUni.cpp
+Compiling xercesc/util/QName.cpp
+Compiling xercesc/util/regx/ASCIIRangeFactory.cpp
+Compiling xercesc/util/regx/BlockRangeFactory.cpp
+Compiling xercesc/util/regx/BMPattern.cpp
+Compiling xercesc/util/regx/CharToken.cpp
+Compiling xercesc/util/regx/ClosureToken.cpp
+Compiling xercesc/util/regx/ConcatToken.cpp
+Compiling xercesc/util/regx/Match.cpp
+Compiling xercesc/util/regx/Op.cpp
+Compiling xercesc/util/regx/OpFactory.cpp
+Compiling xercesc/util/regx/ParenToken.cpp
+Compiling xercesc/util/regx/ParserForXMLSchema.cpp
+Compiling xercesc/util/regx/RangeFactory.cpp
+Compiling xercesc/util/regx/RangeToken.cpp
+Compiling xercesc/util/regx/RangeTokenMap.cpp
+Compiling xercesc/util/regx/RegularExpression.cpp
+Compiling xercesc/util/regx/RegxParser.cpp
+Compiling xercesc/util/regx/RegxUtil.cpp
+Compiling xercesc/util/regx/StringToken.cpp
+Compiling xercesc/util/regx/Token.cpp
+Compiling xercesc/util/regx/TokenFactory.cpp
+Compiling xercesc/util/regx/UnicodeRangeFactory.cpp
+Compiling xercesc/util/regx/UnionToken.cpp
+Compiling xercesc/util/regx/XMLRangeFactory.cpp
+Compiling xercesc/util/regx/XMLUniCharacter.cpp
+Compiling xercesc/util/StringPool.cpp
+Compiling xercesc/util/SynchronizedStringPool.cpp
+Compiling xercesc/util/TransService.cpp
+Compiling xercesc/util/XMemory.cpp
+Compiling xercesc/util/XML256TableTranscoder.cpp
+Compiling xercesc/util/XML88591Transcoder.cpp
+Compiling xercesc/util/XMLAbstractDoubleFloat.cpp
+Compiling xercesc/util/XMLASCIITranscoder.cpp
+Compiling xercesc/util/XMLBigDecimal.cpp
+Compiling xercesc/util/XMLBigInteger.cpp
+Compiling xercesc/util/XMLChar.cpp
+Compiling xercesc/util/XMLChTranscoder.cpp
+Compiling xercesc/util/XMLDateTime.cpp
+Compiling xercesc/util/XMLDouble.cpp
+Compiling xercesc/util/XMLEBCDICTranscoder.cpp
+Compiling xercesc/util/XMLException.cpp
+Compiling xercesc/util/XMLFloat.cpp
+Compiling xercesc/util/XMLIBM1047Transcoder.cpp
+Compiling xercesc/util/XMLIBM1140Transcoder.cpp
+Compiling xercesc/util/XMLInitializer.cpp
+Compiling xercesc/util/XMLMsgLoader.cpp
+Compiling xercesc/util/XMLNumber.cpp
+Compiling xercesc/util/XMLString.cpp
+Compiling xercesc/util/XMLStringTokenizer.cpp
+Compiling xercesc/util/XMLUCS4Transcoder.cpp
+Compiling xercesc/util/XMLUni.cpp
+Compiling xercesc/util/XMLUri.cpp
+Compiling xercesc/util/XMLURL.cpp
+Compiling xercesc/util/XMLUTF16Transcoder.cpp
+Compiling xercesc/util/XMLUTF8Transcoder.cpp
+Compiling xercesc/util/XMLWin1252Transcoder.cpp
+Compiling xercesc/dom/DOMException.cpp
+Compiling xercesc/dom/DOMLSException.cpp
+Compiling xercesc/dom/DOMRangeException.cpp
+Compiling xercesc/dom/DOMXPathException.cpp
+Compiling xercesc/dom/impl/DOMAttrImpl.cpp
+Compiling xercesc/dom/impl/DOMAttrMapImpl.cpp
+Compiling xercesc/dom/impl/DOMAttrNSImpl.cpp
+Compiling xercesc/dom/impl/DOMCDATASectionImpl.cpp
+Compiling xercesc/dom/impl/DOMCharacterDataImpl.cpp
+Compiling xercesc/dom/impl/DOMChildNode.cpp
+Compiling xercesc/dom/impl/DOMCommentImpl.cpp
+Compiling xercesc/dom/impl/DOMConfigurationImpl.cpp
+Compiling xercesc/dom/impl/DOMDeepNodeListImpl.cpp
+Compiling xercesc/dom/impl/DOMDocumentFragmentImpl.cpp
+Compiling xercesc/dom/impl/DOMDocumentImpl.cpp
+Compiling xercesc/dom/impl/DOMDocumentTypeImpl.cpp
+Compiling xercesc/dom/impl/DOMElementImpl.cpp
+Compiling xercesc/dom/impl/DOMElementNSImpl.cpp
+Compiling xercesc/dom/impl/DOMEntityImpl.cpp
+Compiling xercesc/dom/impl/DOMEntityReferenceImpl.cpp
+Compiling xercesc/dom/impl/DOMErrorImpl.cpp
+Compiling xercesc/dom/impl/DOMImplementationImpl.cpp
+Compiling xercesc/dom/impl/DOMImplementationListImpl.cpp
+Compiling xercesc/dom/impl/DOMImplementationRegistry.cpp
+Compiling xercesc/dom/impl/DOMLocatorImpl.cpp
+Compiling xercesc/dom/impl/DOMNamedNodeMapImpl.cpp
+Compiling xercesc/dom/impl/DOMNodeIDMap.cpp
+Compiling xercesc/dom/impl/DOMNodeImpl.cpp
+Compiling xercesc/dom/impl/DOMNodeIteratorImpl.cpp
+Compiling xercesc/dom/impl/DOMNodeListImpl.cpp
+Compiling xercesc/dom/impl/DOMNodeVector.cpp
+Compiling xercesc/dom/impl/DOMNormalizer.cpp
+Compiling xercesc/dom/impl/DOMNotationImpl.cpp
+Compiling xercesc/dom/impl/DOMParentNode.cpp
+Compiling xercesc/dom/impl/DOMProcessingInstructionImpl.cpp
+Compiling xercesc/dom/impl/DOMRangeImpl.cpp
+Compiling xercesc/dom/impl/DOMStringListImpl.cpp
+Compiling xercesc/dom/impl/DOMStringPool.cpp
+Compiling xercesc/dom/impl/DOMTextImpl.cpp
+Compiling xercesc/dom/impl/DOMTreeWalkerImpl.cpp
+Compiling xercesc/dom/impl/DOMTypeInfoImpl.cpp
+Compiling xercesc/dom/impl/DOMLSSerializerImpl.cpp
+Compiling xercesc/dom/impl/DOMLSInputImpl.cpp
+Compiling xercesc/dom/impl/DOMLSOutputImpl.cpp
+Compiling xercesc/dom/impl/DOMXPathExpressionImpl.cpp
+Compiling xercesc/dom/impl/DOMXPathNSResolverImpl.cpp
+Compiling xercesc/dom/impl/DOMXPathResultImpl.cpp
+Compiling xercesc/dom/impl/XSDElementNSImpl.cpp
+Compiling xercesc/framework/BinOutputStream.cpp
+Compiling xercesc/framework/LocalFileFormatTarget.cpp
+Compiling xercesc/framework/LocalFileInputSource.cpp
+Compiling xercesc/framework/MemBufFormatTarget.cpp
+Compiling xercesc/framework/MemBufInputSource.cpp
+Compiling xercesc/framework/psvi/PSVIAttribute.cpp
+Compiling xercesc/framework/psvi/PSVIAttributeList.cpp
+Compiling xercesc/framework/psvi/PSVIElement.cpp
+Compiling xercesc/framework/psvi/PSVIItem.cpp
+Compiling xercesc/framework/psvi/XSAnnotation.cpp
+Compiling xercesc/framework/psvi/XSAttributeDeclaration.cpp
+Compiling xercesc/framework/psvi/XSAttributeGroupDefinition.cpp
+Compiling xercesc/framework/psvi/XSAttributeUse.cpp
+Compiling xercesc/framework/psvi/XSComplexTypeDefinition.cpp
+Compiling xercesc/framework/psvi/XSElementDeclaration.cpp
+Compiling xercesc/framework/psvi/XSFacet.cpp
+Compiling xercesc/framework/psvi/XSIDCDefinition.cpp
+Compiling xercesc/framework/psvi/XSModel.cpp
+Compiling xercesc/framework/psvi/XSModelGroup.cpp
+Compiling xercesc/framework/psvi/XSModelGroupDefinition.cpp
+Compiling xercesc/framework/psvi/XSMultiValueFacet.cpp
+Compiling xercesc/framework/psvi/XSNamespaceItem.cpp
+Compiling xercesc/framework/psvi/XSNotationDeclaration.cpp
+Compiling xercesc/framework/psvi/XSObject.cpp
+Compiling xercesc/framework/psvi/XSParticle.cpp
+Compiling xercesc/framework/psvi/XSSimpleTypeDefinition.cpp
+Compiling xercesc/framework/psvi/XSTypeDefinition.cpp
+Compiling xercesc/framework/psvi/XSValue.cpp
+Compiling xercesc/framework/psvi/XSWildcard.cpp
+Compiling xercesc/framework/StdInInputSource.cpp
+Compiling xercesc/framework/StdOutFormatTarget.cpp
+Compiling xercesc/framework/URLInputSource.cpp
+Compiling xercesc/framework/Wrapper4DOMLSInput.cpp
+Compiling xercesc/framework/Wrapper4InputSource.cpp
+Compiling xercesc/framework/XMLAttDef.cpp
+Compiling xercesc/framework/XMLAttDefList.cpp
+Compiling xercesc/framework/XMLAttr.cpp
+Compiling xercesc/framework/XMLBuffer.cpp
+Compiling xercesc/framework/XMLBufferMgr.cpp
+Compiling xercesc/framework/XMLContentModel.cpp
+Compiling xercesc/framework/XMLDTDDescription.cpp
+Compiling xercesc/framework/XMLElementDecl.cpp
+Compiling xercesc/framework/XMLEntityDecl.cpp
+Compiling xercesc/framework/XMLFormatter.cpp
+Compiling xercesc/framework/XMLGrammarDescription.cpp
+Compiling xercesc/framework/XMLGrammarPoolImpl.cpp
+Compiling xercesc/framework/XMLNotationDecl.cpp
+Compiling xercesc/framework/XMLRecognizer.cpp
+Compiling xercesc/framework/XMLRefInfo.cpp
+Compiling xercesc/framework/XMLSchemaDescription.cpp
+Compiling xercesc/framework/XMLValidator.cpp
+Compiling xercesc/internal/BinFileOutputStream.cpp
+Compiling xercesc/internal/BinMemOutputStream.cpp
+Compiling xercesc/internal/DGXMLScanner.cpp
+Compiling xercesc/internal/ElemStack.cpp
+Compiling xercesc/internal/IGXMLScanner.cpp
+Compiling xercesc/internal/IGXMLScanner2.cpp
+Compiling xercesc/internal/MemoryManagerImpl.cpp
+Compiling xercesc/internal/ReaderMgr.cpp
+Compiling xercesc/internal/SGXMLScanner.cpp
+Compiling xercesc/internal/ValidationContextImpl.cpp
+Compiling xercesc/internal/VecAttributesImpl.cpp
+Compiling xercesc/internal/VecAttrListImpl.cpp
+Compiling xercesc/internal/WFXMLScanner.cpp
+Compiling xercesc/internal/XMLReader.cpp
+Compiling xercesc/internal/XMLScanner.cpp
+Compiling xercesc/internal/XMLScannerResolver.cpp
+Compiling xercesc/internal/XProtoType.cpp
+Compiling xercesc/internal/XSAXMLScanner.cpp
+Compiling xercesc/internal/XSerializeEngine.cpp
+Compiling xercesc/internal/XSObjectFactory.cpp
+Compiling xercesc/internal/XTemplateSerializer.cpp
+Compiling xercesc/parsers/AbstractDOMParser.cpp
+Compiling xercesc/parsers/DOMLSParserImpl.cpp
+Compiling xercesc/parsers/SAX2XMLFilterImpl.cpp
+Compiling xercesc/parsers/SAX2XMLReaderImpl.cpp
+Compiling xercesc/parsers/SAXParser.cpp
+Compiling xercesc/parsers/XercesDOMParser.cpp
+Compiling xercesc/sax/Dummy.cpp
+Compiling xercesc/sax/InputSource.cpp
+Compiling xercesc/sax/SAXException.cpp
+Compiling xercesc/sax/SAXParseException.cpp
+Compiling xercesc/sax2/sax2Dummy.cpp
+Compiling xercesc/validators/common/AllContentModel.cpp
+Compiling xercesc/validators/common/CMAny.cpp
+Compiling xercesc/validators/common/CMBinaryOp.cpp
+Compiling xercesc/validators/common/CMUnaryOp.cpp
+Compiling xercesc/validators/common/ContentLeafNameTypeVector.cpp
+Compiling xercesc/validators/common/ContentSpecNode.cpp
+Compiling xercesc/validators/common/DFAContentModel.cpp
+Compiling xercesc/validators/common/Grammar.cpp
+Compiling xercesc/validators/common/GrammarResolver.cpp
+Compiling xercesc/validators/common/MixedContentModel.cpp
+Compiling xercesc/validators/common/SimpleContentModel.cpp
+Compiling xercesc/validators/datatype/AbstractNumericFacetValidator.cpp
+Compiling xercesc/validators/datatype/AbstractNumericValidator.cpp
+Compiling xercesc/validators/datatype/AbstractStringValidator.cpp
+Compiling xercesc/validators/datatype/AnySimpleTypeDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/AnyURIDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/Base64BinaryDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/BooleanDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/DatatypeValidator.cpp
+Compiling xercesc/validators/datatype/DatatypeValidatorFactory.cpp
+Compiling xercesc/validators/datatype/DateDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/DateTimeDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/DateTimeValidator.cpp
+Compiling xercesc/validators/datatype/DayDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/DecimalDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/DoubleDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/DurationDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/ENTITYDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/FloatDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/HexBinaryDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/IDDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/IDREFDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/ListDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/MonthDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/MonthDayDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/NameDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/NCNameDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/NOTATIONDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/QNameDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/StringDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/TimeDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/UnionDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/XMLCanRepGroup.cpp
+Compiling xercesc/validators/datatype/YearDatatypeValidator.cpp
+Compiling xercesc/validators/datatype/YearMonthDatatypeValidator.cpp
+Compiling xercesc/validators/DTD/DTDAttDef.cpp
+Compiling xercesc/validators/DTD/DTDAttDefList.cpp
+Compiling xercesc/validators/DTD/DTDElementDecl.cpp
+Compiling xercesc/validators/DTD/DTDEntityDecl.cpp
+Compiling xercesc/validators/DTD/DTDGrammar.cpp
+Compiling xercesc/validators/DTD/DTDScanner.cpp
+Compiling xercesc/validators/DTD/DTDValidator.cpp
+Compiling xercesc/validators/DTD/XMLDTDDescriptionImpl.cpp
+Compiling xercesc/validators/schema/ComplexTypeInfo.cpp
+Compiling xercesc/validators/schema/GeneralAttributeCheck.cpp
+Compiling xercesc/validators/schema/identity/FieldActivator.cpp
+Compiling xercesc/validators/schema/identity/FieldValueMap.cpp
+Compiling xercesc/validators/schema/identity/IC_Field.cpp
+Compiling xercesc/validators/schema/identity/IC_Key.cpp
+Compiling xercesc/validators/schema/identity/IC_KeyRef.cpp
+Compiling xercesc/validators/schema/identity/IC_Selector.cpp
+Compiling xercesc/validators/schema/identity/IC_Unique.cpp
+Compiling xercesc/validators/schema/identity/IdentityConstraint.cpp
+Compiling xercesc/validators/schema/identity/IdentityConstraintHandler.cpp
+Compiling xercesc/validators/schema/identity/ValueStore.cpp
+Compiling xercesc/validators/schema/identity/ValueStoreCache.cpp
+Compiling xercesc/validators/schema/identity/XercesXPath.cpp
+Compiling xercesc/validators/schema/identity/XPathMatcher.cpp
+Compiling xercesc/validators/schema/identity/XPathMatcherStack.cpp
+Compiling xercesc/validators/schema/identity/XPathSymbols.cpp
+Compiling xercesc/validators/schema/NamespaceScope.cpp
+Compiling xercesc/validators/schema/SchemaAttDef.cpp
+Compiling xercesc/validators/schema/SchemaAttDefList.cpp
+Compiling xercesc/validators/schema/SchemaElementDecl.cpp
+Compiling xercesc/validators/schema/SchemaGrammar.cpp
+Compiling xercesc/validators/schema/SchemaInfo.cpp
+Compiling xercesc/validators/schema/SchemaSymbols.cpp
+Compiling xercesc/validators/schema/SchemaValidator.cpp
+Compiling xercesc/validators/schema/SubstitutionGroupComparator.cpp
+Compiling xercesc/validators/schema/TraverseSchema.cpp
+Compiling xercesc/validators/schema/XercesAttGroupInfo.cpp
+Compiling xercesc/validators/schema/XercesElementWildcard.cpp
+Compiling xercesc/validators/schema/XercesGroupInfo.cpp
+Compiling xercesc/validators/schema/XMLSchemaDescriptionImpl.cpp
+Compiling xercesc/validators/schema/XSDDOMParser.cpp
+Compiling xercesc/validators/schema/XSDErrorReporter.cpp
+Compiling xercesc/validators/schema/XSDLocator.cpp
+Compiling xercesc/validators/schema/XUtil.cpp
+Compiling xercesc/xinclude/XIncludeDOMDocumentProcessor.cpp
+Compiling xercesc/xinclude/XIncludeLocation.cpp
+Compiling xercesc/xinclude/XIncludeUtils.cpp
+Compiling xercesc/util/Transcoders/Iconv/IconvTransService.cpp
+Compiling xercesc/util/MsgLoaders/InMemory/InMemMsgLoader.cpp
+Compiling xercesc/util/MutexManagers/PosixMutexMgr.cpp
+Compiling xercesc/util/FileManagers/PosixFileMgr.cpp
+Compiling stricmp.c
+Compiling strnicmp.c
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2  -release 3.1  -o libxerces-c.la -rpath /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib xercesc/util/Base64.lo xercesc/util/BinFileInputStream.lo xercesc/util/BinInputStream.lo xercesc/util/BinMemInputStream.lo xercesc/util/BitSet.lo xercesc/util/DefaultPanicHandler.lo xercesc/util/EncodingValidator.lo xercesc/util/HeaderDummy.lo xercesc/util/HexBin.lo xercesc/util/KVStringPair.lo xercesc/util/Mutexes.lo xercesc/util/PanicHandler.lo xercesc/util/PlatformUtils.lo xercesc/util/PSVIUni.lo xercesc/util/QName.lo xercesc/util/regx/ASCIIRangeFactory.lo xercesc/util/regx/BlockRangeFactory.lo xercesc/util/regx/BMPattern.lo xercesc/util/regx/CharToken.lo xercesc/util/regx/ClosureToken.lo xercesc/util/regx/ConcatToken.lo xercesc/util/regx/Match.lo xercesc/util/regx/Op.lo xercesc/util/regx/OpFactory.lo xercesc/util/regx/ParenToken.lo xercesc/util/regx/ParserForXMLSchema.lo xercesc/util/regx/RangeFactory.lo xercesc/util/regx/RangeToken.lo xercesc/util/regx/RangeTokenMap.lo xercesc/util/regx/RegularExpression.lo xercesc/util/regx/RegxParser.lo xercesc/util/regx/RegxUtil.lo xercesc/util/regx/StringToken.lo xercesc/util/regx/Token.lo xercesc/util/regx/TokenFactory.lo xercesc/util/regx/UnicodeRangeFactory.lo xercesc/util/regx/UnionToken.lo xercesc/util/regx/XMLRangeFactory.lo xercesc/util/regx/XMLUniCharacter.lo xercesc/util/StringPool.lo xercesc/util/SynchronizedStringPool.lo xercesc/util/TransService.lo xercesc/util/XMemory.lo xercesc/util/XML256TableTranscoder.lo xercesc/util/XML88591Transcoder.lo xercesc/util/XMLAbstractDoubleFloat.lo xercesc/util/XMLASCIITranscoder.lo xercesc/util/XMLBigDecimal.lo xercesc/util/XMLBigInteger.lo xercesc/util/XMLChar.lo xercesc/util/XMLChTranscoder.lo xercesc/util/XMLDateTime.lo xercesc/util/XMLDouble.lo xercesc/util/XMLEBCDICTranscoder.lo xercesc/util/XMLException.lo xercesc/util/XMLFloat.lo xercesc/util/XMLIBM1047Transcoder.lo xercesc/util/XMLIBM1140Transcoder.lo xercesc/util/XMLInitializer.lo xercesc/util/XMLMsgLoader.lo xercesc/util/XMLNumber.lo xercesc/util/XMLString.lo xercesc/util/XMLStringTokenizer.lo xercesc/util/XMLUCS4Transcoder.lo xercesc/util/XMLUni.lo xercesc/util/XMLUri.lo xercesc/util/XMLURL.lo xercesc/util/XMLUTF16Transcoder.lo xercesc/util/XMLUTF8Transcoder.lo xercesc/util/XMLWin1252Transcoder.lo xercesc/dom/DOMException.lo xercesc/dom/DOMLSException.lo xercesc/dom/DOMRangeException.lo xercesc/dom/DOMXPathException.lo xercesc/dom/impl/DOMAttrImpl.lo xercesc/dom/impl/DOMAttrMapImpl.lo xercesc/dom/impl/DOMAttrNSImpl.lo xercesc/dom/impl/DOMCDATASectionImpl.lo xercesc/dom/impl/DOMCharacterDataImpl.lo xercesc/dom/impl/DOMChildNode.lo xercesc/dom/impl/DOMCommentImpl.lo xercesc/dom/impl/DOMConfigurationImpl.lo xercesc/dom/impl/DOMDeepNodeListImpl.lo xercesc/dom/impl/DOMDocumentFragmentImpl.lo xercesc/dom/impl/DOMDocumentImpl.lo xercesc/dom/impl/DOMDocumentTypeImpl.lo xercesc/dom/impl/DOMElementImpl.lo xercesc/dom/impl/DOMElementNSImpl.lo xercesc/dom/impl/DOMEntityImpl.lo xercesc/dom/impl/DOMEntityReferenceImpl.lo xercesc/dom/impl/DOMErrorImpl.lo xercesc/dom/impl/DOMImplementationImpl.lo xercesc/dom/impl/DOMImplementationListImpl.lo xercesc/dom/impl/DOMImplementationRegistry.lo xercesc/dom/impl/DOMLocatorImpl.lo xercesc/dom/impl/DOMNamedNodeMapImpl.lo xercesc/dom/impl/DOMNodeIDMap.lo xercesc/dom/impl/DOMNodeImpl.lo xercesc/dom/impl/DOMNodeIteratorImpl.lo xercesc/dom/impl/DOMNodeListImpl.lo xercesc/dom/impl/DOMNodeVector.lo xercesc/dom/impl/DOMNormalizer.lo xercesc/dom/impl/DOMNotationImpl.lo xercesc/dom/impl/DOMParentNode.lo xercesc/dom/impl/DOMProcessingInstructionImpl.lo xercesc/dom/impl/DOMRangeImpl.lo xercesc/dom/impl/DOMStringListImpl.lo xercesc/dom/impl/DOMStringPool.lo xercesc/dom/impl/DOMTextImpl.lo xercesc/dom/impl/DOMTreeWalkerImpl.lo xercesc/dom/impl/DOMTypeInfoImpl.lo xercesc/dom/impl/DOMLSSerializerImpl.lo xercesc/dom/impl/DOMLSInputImpl.lo xercesc/dom/impl/DOMLSOutputImpl.lo xercesc/dom/impl/DOMXPathExpressionImpl.lo xercesc/dom/impl/DOMXPathNSResolverImpl.lo xercesc/dom/impl/DOMXPathResultImpl.lo xercesc/dom/impl/XSDElementNSImpl.lo xercesc/framework/BinOutputStream.lo xercesc/framework/LocalFileFormatTarget.lo xercesc/framework/LocalFileInputSource.lo xercesc/framework/MemBufFormatTarget.lo xercesc/framework/MemBufInputSource.lo xercesc/framework/psvi/PSVIAttribute.lo xercesc/framework/psvi/PSVIAttributeList.lo xercesc/framework/psvi/PSVIElement.lo xercesc/framework/psvi/PSVIItem.lo xercesc/framework/psvi/XSAnnotation.lo xercesc/framework/psvi/XSAttributeDeclaration.lo xercesc/framework/psvi/XSAttributeGroupDefinition.lo xercesc/framework/psvi/XSAttributeUse.lo xercesc/framework/psvi/XSComplexTypeDefinition.lo xercesc/framework/psvi/XSElementDeclaration.lo xercesc/framework/psvi/XSFacet.lo xercesc/framework/psvi/XSIDCDefinition.lo xercesc/framework/psvi/XSModel.lo xercesc/framework/psvi/XSModelGroup.lo xercesc/framework/psvi/XSModelGroupDefinition.lo xercesc/framework/psvi/XSMultiValueFacet.lo xercesc/framework/psvi/XSNamespaceItem.lo xercesc/framework/psvi/XSNotationDeclaration.lo xercesc/framework/psvi/XSObject.lo xercesc/framework/psvi/XSParticle.lo xercesc/framework/psvi/XSSimpleTypeDefinition.lo xercesc/framework/psvi/XSTypeDefinition.lo xercesc/framework/psvi/XSValue.lo xercesc/framework/psvi/XSWildcard.lo xercesc/framework/StdInInputSource.lo xercesc/framework/StdOutFormatTarget.lo xercesc/framework/URLInputSource.lo xercesc/framework/Wrapper4DOMLSInput.lo xercesc/framework/Wrapper4InputSource.lo xercesc/framework/XMLAttDef.lo xercesc/framework/XMLAttDefList.lo xercesc/framework/XMLAttr.lo xercesc/framework/XMLBuffer.lo xercesc/framework/XMLBufferMgr.lo xercesc/framework/XMLContentModel.lo xercesc/framework/XMLDTDDescription.lo xercesc/framework/XMLElementDecl.lo xercesc/framework/XMLEntityDecl.lo xercesc/framework/XMLFormatter.lo xercesc/framework/XMLGrammarDescription.lo xercesc/framework/XMLGrammarPoolImpl.lo xercesc/framework/XMLNotationDecl.lo xercesc/framework/XMLRecognizer.lo xercesc/framework/XMLRefInfo.lo xercesc/framework/XMLSchemaDescription.lo xercesc/framework/XMLValidator.lo xercesc/internal/BinFileOutputStream.lo xercesc/internal/BinMemOutputStream.lo xercesc/internal/DGXMLScanner.lo xercesc/internal/ElemStack.lo xercesc/internal/IGXMLScanner.lo xercesc/internal/IGXMLScanner2.lo xercesc/internal/MemoryManagerImpl.lo xercesc/internal/ReaderMgr.lo xercesc/internal/SGXMLScanner.lo xercesc/internal/ValidationContextImpl.lo xercesc/internal/VecAttributesImpl.lo xercesc/internal/VecAttrListImpl.lo xercesc/internal/WFXMLScanner.lo xercesc/internal/XMLReader.lo xercesc/internal/XMLScanner.lo xercesc/internal/XMLScannerResolver.lo xercesc/internal/XProtoType.lo xercesc/internal/XSAXMLScanner.lo xercesc/internal/XSerializeEngine.lo xercesc/internal/XSObjectFactory.lo xercesc/internal/XTemplateSerializer.lo xercesc/parsers/AbstractDOMParser.lo xercesc/parsers/DOMLSParserImpl.lo xercesc/parsers/SAX2XMLFilterImpl.lo xercesc/parsers/SAX2XMLReaderImpl.lo xercesc/parsers/SAXParser.lo xercesc/parsers/XercesDOMParser.lo xercesc/sax/Dummy.lo xercesc/sax/InputSource.lo xercesc/sax/SAXException.lo xercesc/sax/SAXParseException.lo xercesc/sax2/sax2Dummy.lo xercesc/validators/common/AllContentModel.lo xercesc/validators/common/CMAny.lo xercesc/validators/common/CMBinaryOp.lo xercesc/validators/common/CMUnaryOp.lo xercesc/validators/common/ContentLeafNameTypeVector.lo xercesc/validators/common/ContentSpecNode.lo xercesc/validators/common/DFAContentModel.lo xercesc/validators/common/Grammar.lo xercesc/validators/common/GrammarResolver.lo xercesc/validators/common/MixedContentModel.lo xercesc/validators/common/SimpleContentModel.lo xercesc/validators/datatype/AbstractNumericFacetValidator.lo xercesc/validators/datatype/AbstractNumericValidator.lo xercesc/validators/datatype/AbstractStringValidator.lo xercesc/validators/datatype/AnySimpleTypeDatatypeValidator.lo xercesc/validators/datatype/AnyURIDatatypeValidator.lo xercesc/validators/datatype/Base64BinaryDatatypeValidator.lo xercesc/validators/datatype/BooleanDatatypeValidator.lo xercesc/validators/datatype/DatatypeValidator.lo xercesc/validators/datatype/DatatypeValidatorFactory.lo xercesc/validators/datatype/DateDatatypeValidator.lo xercesc/validators/datatype/DateTimeDatatypeValidator.lo xercesc/validators/datatype/DateTimeValidator.lo xercesc/validators/datatype/DayDatatypeValidator.lo xercesc/validators/datatype/DecimalDatatypeValidator.lo xercesc/validators/datatype/DoubleDatatypeValidator.lo xercesc/validators/datatype/DurationDatatypeValidator.lo xercesc/validators/datatype/ENTITYDatatypeValidator.lo xercesc/validators/datatype/FloatDatatypeValidator.lo xercesc/validators/datatype/HexBinaryDatatypeValidator.lo xercesc/validators/datatype/IDDatatypeValidator.lo xercesc/validators/datatype/IDREFDatatypeValidator.lo xercesc/validators/datatype/ListDatatypeValidator.lo xercesc/validators/datatype/MonthDatatypeValidator.lo xercesc/validators/datatype/MonthDayDatatypeValidator.lo xercesc/validators/datatype/NameDatatypeValidator.lo xercesc/validators/datatype/NCNameDatatypeValidator.lo xercesc/validators/datatype/NOTATIONDatatypeValidator.lo xercesc/validators/datatype/QNameDatatypeValidator.lo xercesc/validators/datatype/StringDatatypeValidator.lo xercesc/validators/datatype/TimeDatatypeValidator.lo xercesc/validators/datatype/UnionDatatypeValidator.lo xercesc/validators/datatype/XMLCanRepGroup.lo xercesc/validators/datatype/YearDatatypeValidator.lo xercesc/validators/datatype/YearMonthDatatypeValidator.lo xercesc/validators/DTD/DTDAttDef.lo xercesc/validators/DTD/DTDAttDefList.lo xercesc/validators/DTD/DTDElementDecl.lo xercesc/validators/DTD/DTDEntityDecl.lo xercesc/validators/DTD/DTDGrammar.lo xercesc/validators/DTD/DTDScanner.lo xercesc/validators/DTD/DTDValidator.lo xercesc/validators/DTD/XMLDTDDescriptionImpl.lo xercesc/validators/schema/ComplexTypeInfo.lo xercesc/validators/schema/GeneralAttributeCheck.lo xercesc/validators/schema/identity/FieldActivator.lo xercesc/validators/schema/identity/FieldValueMap.lo xercesc/validators/schema/identity/IC_Field.lo xercesc/validators/schema/identity/IC_Key.lo xercesc/validators/schema/identity/IC_KeyRef.lo xercesc/validators/schema/identity/IC_Selector.lo xercesc/validators/schema/identity/IC_Unique.lo xercesc/validators/schema/identity/IdentityConstraint.lo xercesc/validators/schema/identity/IdentityConstraintHandler.lo xercesc/validators/schema/identity/ValueStore.lo xercesc/validators/schema/identity/ValueStoreCache.lo xercesc/validators/schema/identity/XercesXPath.lo xercesc/validators/schema/identity/XPathMatcher.lo xercesc/validators/schema/identity/XPathMatcherStack.lo xercesc/validators/schema/identity/XPathSymbols.lo xercesc/validators/schema/NamespaceScope.lo xercesc/validators/schema/SchemaAttDef.lo xercesc/validators/schema/SchemaAttDefList.lo xercesc/validators/schema/SchemaElementDecl.lo xercesc/validators/schema/SchemaGrammar.lo xercesc/validators/schema/SchemaInfo.lo xercesc/validators/schema/SchemaSymbols.lo xercesc/validators/schema/SchemaValidator.lo xercesc/validators/schema/SubstitutionGroupComparator.lo xercesc/validators/schema/TraverseSchema.lo xercesc/validators/schema/XercesAttGroupInfo.lo xercesc/validators/schema/XercesElementWildcard.lo xercesc/validators/schema/XercesGroupInfo.lo xercesc/validators/schema/XMLSchemaDescriptionImpl.lo xercesc/validators/schema/XSDDOMParser.lo xercesc/validators/schema/XSDErrorReporter.lo xercesc/validators/schema/XSDLocator.lo xercesc/validators/schema/XUtil.lo xercesc/xinclude/XIncludeDOMDocumentProcessor.lo xercesc/xinclude/XIncludeLocation.lo xercesc/xinclude/XIncludeUtils.lo       xercesc/util/Transcoders/Iconv/IconvTransService.lo   xercesc/util/MsgLoaders/InMemory/InMemMsgLoader.lo    xercesc/util/MutexManagers/PosixMutexMgr.lo  xercesc/util/FileManagers/PosixFileMgr.lo   stricmp.lo strnicmp.lo -lpthread
+libtool: link: g++ -shared -nostdlib /usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../../lib/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.4.3/crtbeginS.o  xercesc/util/.libs/Base64.o xercesc/util/.libs/BinFileInputStream.o xercesc/util/.libs/BinInputStream.o xercesc/util/.libs/BinMemInputStream.o xercesc/util/.libs/BitSet.o xercesc/util/.libs/DefaultPanicHandler.o xercesc/util/.libs/EncodingValidator.o xercesc/util/.libs/HeaderDummy.o xercesc/util/.libs/HexBin.o xercesc/util/.libs/KVStringPair.o xercesc/util/.libs/Mutexes.o xercesc/util/.libs/PanicHandler.o xercesc/util/.libs/PlatformUtils.o xercesc/util/.libs/PSVIUni.o xercesc/util/.libs/QName.o xercesc/util/regx/.libs/ASCIIRangeFactory.o xercesc/util/regx/.libs/BlockRangeFactory.o xercesc/util/regx/.libs/BMPattern.o xercesc/util/regx/.libs/CharToken.o xercesc/util/regx/.libs/ClosureToken.o xercesc/util/regx/.libs/ConcatToken.o xercesc/util/regx/.libs/Match.o xercesc/util/regx/.libs/Op.o xercesc/util/regx/.libs/OpFactory.o xercesc/util/regx/.libs/ParenToken.o xercesc/util/regx/.libs/ParserForXMLSchema.o xercesc/util/regx/.libs/RangeFactory.o xercesc/util/regx/.libs/RangeToken.o xercesc/util/regx/.libs/RangeTokenMap.o xercesc/util/regx/.libs/RegularExpression.o xercesc/util/regx/.libs/RegxParser.o xercesc/util/regx/.libs/RegxUtil.o xercesc/util/regx/.libs/StringToken.o xercesc/util/regx/.libs/Token.o xercesc/util/regx/.libs/TokenFactory.o xercesc/util/regx/.libs/UnicodeRangeFactory.o xercesc/util/regx/.libs/UnionToken.o xercesc/util/regx/.libs/XMLRangeFactory.o xercesc/util/regx/.libs/XMLUniCharacter.o xercesc/util/.libs/StringPool.o xercesc/util/.libs/SynchronizedStringPool.o xercesc/util/.libs/TransService.o xercesc/util/.libs/XMemory.o xercesc/util/.libs/XML256TableTranscoder.o xercesc/util/.libs/XML88591Transcoder.o xercesc/util/.libs/XMLAbstractDoubleFloat.o xercesc/util/.libs/XMLASCIITranscoder.o xercesc/util/.libs/XMLBigDecimal.o xercesc/util/.libs/XMLBigInteger.o xercesc/util/.libs/XMLChar.o xercesc/util/.libs/XMLChTranscoder.o xercesc/util/.libs/XMLDateTime.o xercesc/util/.libs/XMLDouble.o xercesc/util/.libs/XMLEBCDICTranscoder.o xercesc/util/.libs/XMLException.o xercesc/util/.libs/XMLFloat.o xercesc/util/.libs/XMLIBM1047Transcoder.o xercesc/util/.libs/XMLIBM1140Transcoder.o xercesc/util/.libs/XMLInitializer.o xercesc/util/.libs/XMLMsgLoader.o xercesc/util/.libs/XMLNumber.o xercesc/util/.libs/XMLString.o xercesc/util/.libs/XMLStringTokenizer.o xercesc/util/.libs/XMLUCS4Transcoder.o xercesc/util/.libs/XMLUni.o xercesc/util/.libs/XMLUri.o xercesc/util/.libs/XMLURL.o xercesc/util/.libs/XMLUTF16Transcoder.o xercesc/util/.libs/XMLUTF8Transcoder.o xercesc/util/.libs/XMLWin1252Transcoder.o xercesc/dom/.libs/DOMException.o xercesc/dom/.libs/DOMLSException.o xercesc/dom/.libs/DOMRangeException.o xercesc/dom/.libs/DOMXPathException.o xercesc/dom/impl/.libs/DOMAttrImpl.o xercesc/dom/impl/.libs/DOMAttrMapImpl.o xercesc/dom/impl/.libs/DOMAttrNSImpl.o xercesc/dom/impl/.libs/DOMCDATASectionImpl.o xercesc/dom/impl/.libs/DOMCharacterDataImpl.o xercesc/dom/impl/.libs/DOMChildNode.o xercesc/dom/impl/.libs/DOMCommentImpl.o xercesc/dom/impl/.libs/DOMConfigurationImpl.o xercesc/dom/impl/.libs/DOMDeepNodeListImpl.o xercesc/dom/impl/.libs/DOMDocumentFragmentImpl.o xercesc/dom/impl/.libs/DOMDocumentImpl.o xercesc/dom/impl/.libs/DOMDocumentTypeImpl.o xercesc/dom/impl/.libs/DOMElementImpl.o xercesc/dom/impl/.libs/DOMElementNSImpl.o xercesc/dom/impl/.libs/DOMEntityImpl.o xercesc/dom/impl/.libs/DOMEntityReferenceImpl.o xercesc/dom/impl/.libs/DOMErrorImpl.o xercesc/dom/impl/.libs/DOMImplementationImpl.o xercesc/dom/impl/.libs/DOMImplementationListImpl.o xercesc/dom/impl/.libs/DOMImplementationRegistry.o xercesc/dom/impl/.libs/DOMLocatorImpl.o xercesc/dom/impl/.libs/DOMNamedNodeMapImpl.o xercesc/dom/impl/.libs/DOMNodeIDMap.o xercesc/dom/impl/.libs/DOMNodeImpl.o xercesc/dom/impl/.libs/DOMNodeIteratorImpl.o xercesc/dom/impl/.libs/DOMNodeListImpl.o xercesc/dom/impl/.libs/DOMNodeVector.o xercesc/dom/impl/.libs/DOMNormalizer.o xercesc/dom/impl/.libs/DOMNotationImpl.o xercesc/dom/impl/.libs/DOMParentNode.o xercesc/dom/impl/.libs/DOMProcessingInstructionImpl.o xercesc/dom/impl/.libs/DOMRangeImpl.o xercesc/dom/impl/.libs/DOMStringListImpl.o xercesc/dom/impl/.libs/DOMStringPool.o xercesc/dom/impl/.libs/DOMTextImpl.o xercesc/dom/impl/.libs/DOMTreeWalkerImpl.o xercesc/dom/impl/.libs/DOMTypeInfoImpl.o xercesc/dom/impl/.libs/DOMLSSerializerImpl.o xercesc/dom/impl/.libs/DOMLSInputImpl.o xercesc/dom/impl/.libs/DOMLSOutputImpl.o xercesc/dom/impl/.libs/DOMXPathExpressionImpl.o xercesc/dom/impl/.libs/DOMXPathNSResolverImpl.o xercesc/dom/impl/.libs/DOMXPathResultImpl.o xercesc/dom/impl/.libs/XSDElementNSImpl.o xercesc/framework/.libs/BinOutputStream.o xercesc/framework/.libs/LocalFileFormatTarget.o xercesc/framework/.libs/LocalFileInputSource.o xercesc/framework/.libs/MemBufFormatTarget.o xercesc/framework/.libs/MemBufInputSource.o xercesc/framework/psvi/.libs/PSVIAttribute.o xercesc/framework/psvi/.libs/PSVIAttributeList.o xercesc/framework/psvi/.libs/PSVIElement.o xercesc/framework/psvi/.libs/PSVIItem.o xercesc/framework/psvi/.libs/XSAnnotation.o xercesc/framework/psvi/.libs/XSAttributeDeclaration.o xercesc/framework/psvi/.libs/XSAttributeGroupDefinition.o xercesc/framework/psvi/.libs/XSAttributeUse.o xercesc/framework/psvi/.libs/XSComplexTypeDefinition.o xercesc/framework/psvi/.libs/XSElementDeclaration.o xercesc/framework/psvi/.libs/XSFacet.o xercesc/framework/psvi/.libs/XSIDCDefinition.o xercesc/framework/psvi/.libs/XSModel.o xercesc/framework/psvi/.libs/XSModelGroup.o xercesc/framework/psvi/.libs/XSModelGroupDefinition.o xercesc/framework/psvi/.libs/XSMultiValueFacet.o xercesc/framework/psvi/.libs/XSNamespaceItem.o xercesc/framework/psvi/.libs/XSNotationDeclaration.o xercesc/framework/psvi/.libs/XSObject.o xercesc/framework/psvi/.libs/XSParticle.o xercesc/framework/psvi/.libs/XSSimpleTypeDefinition.o xercesc/framework/psvi/.libs/XSTypeDefinition.o xercesc/framework/psvi/.libs/XSValue.o xercesc/framework/psvi/.libs/XSWildcard.o xercesc/framework/.libs/StdInInputSource.o xercesc/framework/.libs/StdOutFormatTarget.o xercesc/framework/.libs/URLInputSource.o xercesc/framework/.libs/Wrapper4DOMLSInput.o xercesc/framework/.libs/Wrapper4InputSource.o xercesc/framework/.libs/XMLAttDef.o xercesc/framework/.libs/XMLAttDefList.o xercesc/framework/.libs/XMLAttr.o xercesc/framework/.libs/XMLBuffer.o xercesc/framework/.libs/XMLBufferMgr.o xercesc/framework/.libs/XMLContentModel.o xercesc/framework/.libs/XMLDTDDescription.o xercesc/framework/.libs/XMLElementDecl.o xercesc/framework/.libs/XMLEntityDecl.o xercesc/framework/.libs/XMLFormatter.o xercesc/framework/.libs/XMLGrammarDescription.o xercesc/framework/.libs/XMLGrammarPoolImpl.o xercesc/framework/.libs/XMLNotationDecl.o xercesc/framework/.libs/XMLRecognizer.o xercesc/framework/.libs/XMLRefInfo.o xercesc/framework/.libs/XMLSchemaDescription.o xercesc/framework/.libs/XMLValidator.o xercesc/internal/.libs/BinFileOutputStream.o xercesc/internal/.libs/BinMemOutputStream.o xercesc/internal/.libs/DGXMLScanner.o xercesc/internal/.libs/ElemStack.o xercesc/internal/.libs/IGXMLScanner.o xercesc/internal/.libs/IGXMLScanner2.o xercesc/internal/.libs/MemoryManagerImpl.o xercesc/internal/.libs/ReaderMgr.o xercesc/internal/.libs/SGXMLScanner.o xercesc/internal/.libs/ValidationContextImpl.o xercesc/internal/.libs/VecAttributesImpl.o xercesc/internal/.libs/VecAttrListImpl.o xercesc/internal/.libs/WFXMLScanner.o xercesc/internal/.libs/XMLReader.o xercesc/internal/.libs/XMLScanner.o xercesc/internal/.libs/XMLScannerResolver.o xercesc/internal/.libs/XProtoType.o xercesc/internal/.libs/XSAXMLScanner.o xercesc/internal/.libs/XSerializeEngine.o xercesc/internal/.libs/XSObjectFactory.o xercesc/internal/.libs/XTemplateSerializer.o xercesc/parsers/.libs/AbstractDOMParser.o xercesc/parsers/.libs/DOMLSParserImpl.o xercesc/parsers/.libs/SAX2XMLFilterImpl.o xercesc/parsers/.libs/SAX2XMLReaderImpl.o xercesc/parsers/.libs/SAXParser.o xercesc/parsers/.libs/XercesDOMParser.o xercesc/sax/.libs/Dummy.o xercesc/sax/.libs/InputSource.o xercesc/sax/.libs/SAXException.o xercesc/sax/.libs/SAXParseException.o xercesc/sax2/.libs/sax2Dummy.o xercesc/validators/common/.libs/AllContentModel.o xercesc/validators/common/.libs/CMAny.o xercesc/validators/common/.libs/CMBinaryOp.o xercesc/validators/common/.libs/CMUnaryOp.o xercesc/validators/common/.libs/ContentLeafNameTypeVector.o xercesc/validators/common/.libs/ContentSpecNode.o xercesc/validators/common/.libs/DFAContentModel.o xercesc/validators/common/.libs/Grammar.o xercesc/validators/common/.libs/GrammarResolver.o xercesc/validators/common/.libs/MixedContentModel.o xercesc/validators/common/.libs/SimpleContentModel.o xercesc/validators/datatype/.libs/AbstractNumericFacetValidator.o xercesc/validators/datatype/.libs/AbstractNumericValidator.o xercesc/validators/datatype/.libs/AbstractStringValidator.o xercesc/validators/datatype/.libs/AnySimpleTypeDatatypeValidator.o xercesc/validators/datatype/.libs/AnyURIDatatypeValidator.o xercesc/validators/datatype/.libs/Base64BinaryDatatypeValidator.o xercesc/validators/datatype/.libs/BooleanDatatypeValidator.o xercesc/validators/datatype/.libs/DatatypeValidator.o xercesc/validators/datatype/.libs/DatatypeValidatorFactory.o xercesc/validators/datatype/.libs/DateDatatypeValidator.o xercesc/validators/datatype/.libs/DateTimeDatatypeValidator.o xercesc/validators/datatype/.libs/DateTimeValidator.o xercesc/validators/datatype/.libs/DayDatatypeValidator.o xercesc/validators/datatype/.libs/DecimalDatatypeValidator.o xercesc/validators/datatype/.libs/DoubleDatatypeValidator.o xercesc/validators/datatype/.libs/DurationDatatypeValidator.o xercesc/validators/datatype/.libs/ENTITYDatatypeValidator.o xercesc/validators/datatype/.libs/FloatDatatypeValidator.o xercesc/validators/datatype/.libs/HexBinaryDatatypeValidator.o xercesc/validators/datatype/.libs/IDDatatypeValidator.o xercesc/validators/datatype/.libs/IDREFDatatypeValidator.o xercesc/validators/datatype/.libs/ListDatatypeValidator.o xercesc/validators/datatype/.libs/MonthDatatypeValidator.o xercesc/validators/datatype/.libs/MonthDayDatatypeValidator.o xercesc/validators/datatype/.libs/NameDatatypeValidator.o xercesc/validators/datatype/.libs/NCNameDatatypeValidator.o xercesc/validators/datatype/.libs/NOTATIONDatatypeValidator.o xercesc/validators/datatype/.libs/QNameDatatypeValidator.o xercesc/validators/datatype/.libs/StringDatatypeValidator.o xercesc/validators/datatype/.libs/TimeDatatypeValidator.o xercesc/validators/datatype/.libs/UnionDatatypeValidator.o xercesc/validators/datatype/.libs/XMLCanRepGroup.o xercesc/validators/datatype/.libs/YearDatatypeValidator.o xercesc/validators/datatype/.libs/YearMonthDatatypeValidator.o xercesc/validators/DTD/.libs/DTDAttDef.o xercesc/validators/DTD/.libs/DTDAttDefList.o xercesc/validators/DTD/.libs/DTDElementDecl.o xercesc/validators/DTD/.libs/DTDEntityDecl.o xercesc/validators/DTD/.libs/DTDGrammar.o xercesc/validators/DTD/.libs/DTDScanner.o xercesc/validators/DTD/.libs/DTDValidator.o xercesc/validators/DTD/.libs/XMLDTDDescriptionImpl.o xercesc/validators/schema/.libs/ComplexTypeInfo.o xercesc/validators/schema/.libs/GeneralAttributeCheck.o xercesc/validators/schema/identity/.libs/FieldActivator.o xercesc/validators/schema/identity/.libs/FieldValueMap.o xercesc/validators/schema/identity/.libs/IC_Field.o xercesc/validators/schema/identity/.libs/IC_Key.o xercesc/validators/schema/identity/.libs/IC_KeyRef.o xercesc/validators/schema/identity/.libs/IC_Selector.o xercesc/validators/schema/identity/.libs/IC_Unique.o xercesc/validators/schema/identity/.libs/IdentityConstraint.o xercesc/validators/schema/identity/.libs/IdentityConstraintHandler.o xercesc/validators/schema/identity/.libs/ValueStore.o xercesc/validators/schema/identity/.libs/ValueStoreCache.o xercesc/validators/schema/identity/.libs/XercesXPath.o xercesc/validators/schema/identity/.libs/XPathMatcher.o xercesc/validators/schema/identity/.libs/XPathMatcherStack.o xercesc/validators/schema/identity/.libs/XPathSymbols.o xercesc/validators/schema/.libs/NamespaceScope.o xercesc/validators/schema/.libs/SchemaAttDef.o xercesc/validators/schema/.libs/SchemaAttDefList.o xercesc/validators/schema/.libs/SchemaElementDecl.o xercesc/validators/schema/.libs/SchemaGrammar.o xercesc/validators/schema/.libs/SchemaInfo.o xercesc/validators/schema/.libs/SchemaSymbols.o xercesc/validators/schema/.libs/SchemaValidator.o xercesc/validators/schema/.libs/SubstitutionGroupComparator.o xercesc/validators/schema/.libs/TraverseSchema.o xercesc/validators/schema/.libs/XercesAttGroupInfo.o xercesc/validators/schema/.libs/XercesElementWildcard.o xercesc/validators/schema/.libs/XercesGroupInfo.o xercesc/validators/schema/.libs/XMLSchemaDescriptionImpl.o xercesc/validators/schema/.libs/XSDDOMParser.o xercesc/validators/schema/.libs/XSDErrorReporter.o xercesc/validators/schema/.libs/XSDLocator.o xercesc/validators/schema/.libs/XUtil.o xercesc/xinclude/.libs/XIncludeDOMDocumentProcessor.o xercesc/xinclude/.libs/XIncludeLocation.o xercesc/xinclude/.libs/XIncludeUtils.o xercesc/util/Transcoders/Iconv/.libs/IconvTransService.o xercesc/util/MsgLoaders/InMemory/.libs/InMemMsgLoader.o xercesc/util/MutexManagers/.libs/PosixMutexMgr.o xercesc/util/FileManagers/.libs/PosixFileMgr.o .libs/stricmp.o .libs/strnicmp.o   -lpthread -L/usr/lib/gcc/x86_64-linux-gnu/4.4.3 -L/usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../.. -L/usr/lib/x86_64-linux-gnu -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-linux-gnu/4.4.3/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/4.4.3/../../../../lib/crtn.o    -Wl,-soname -Wl,libxerces-c-3.1.so -o .libs/libxerces-c-3.1.so
+libtool: link: (cd ".libs" && rm -f "libxerces-c.so" && ln -s "libxerces-c-3.1.so" "libxerces-c.so")
+libtool: link: ( cd ".libs" && rm -f "libxerces-c.la" && ln -s "../libxerces-c.la" "libxerces-c.la" )
+make[5]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+make[4]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+make[3]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+Making all in tests
+make[3]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/tests'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/tests'
+Making all in samples
+make[3]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/samples'
+Compiling src/CreateDOMDocument/CreateDOMDocument.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o CreateDOMDocument src/CreateDOMDocument/CreateDOMDocument.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/CreateDOMDocument src/CreateDOMDocument/CreateDOMDocument.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/DOMCount/DOMCount.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o DOMCount src/DOMCount/DOMCount.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/DOMCount src/DOMCount/DOMCount.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/DOMPrint/DOMPrint.cpp
+Compiling src/DOMPrint/DOMPrintErrorHandler.cpp
+Compiling src/DOMPrint/DOMPrintFilter.cpp
+Compiling src/DOMPrint/DOMTreeErrorReporter.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o DOMPrint src/DOMPrint/DOMPrint.o src/DOMPrint/DOMPrintErrorHandler.o src/DOMPrint/DOMPrintFilter.o src/DOMPrint/DOMTreeErrorReporter.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/DOMPrint src/DOMPrint/DOMPrint.o src/DOMPrint/DOMPrintErrorHandler.o src/DOMPrint/DOMPrintFilter.o src/DOMPrint/DOMTreeErrorReporter.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/EnumVal/EnumVal.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o EnumVal src/EnumVal/EnumVal.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/EnumVal src/EnumVal/EnumVal.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/MemParse/MemParse.cpp
+Compiling src/MemParse/MemParseHandlers.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o MemParse src/MemParse/MemParse.o src/MemParse/MemParseHandlers.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/MemParse src/MemParse/MemParse.o src/MemParse/MemParseHandlers.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/PParse/PParse.cpp
+Compiling src/PParse/PParseHandlers.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o PParse src/PParse/PParse.o src/PParse/PParseHandlers.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/PParse src/PParse/PParse.o src/PParse/PParseHandlers.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/PSVIWriter/PSVIWriter.cpp
+Compiling src/PSVIWriter/PSVIWriterHandlers.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o PSVIWriter src/PSVIWriter/PSVIWriter.o src/PSVIWriter/PSVIWriterHandlers.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/PSVIWriter src/PSVIWriter/PSVIWriter.o src/PSVIWriter/PSVIWriterHandlers.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/Redirect/Redirect.cpp
+Compiling src/Redirect/RedirectHandlers.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o Redirect src/Redirect/Redirect.o src/Redirect/RedirectHandlers.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/Redirect src/Redirect/Redirect.o src/Redirect/RedirectHandlers.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/SAX2Count/SAX2Count.cpp
+Compiling src/SAX2Count/SAX2CountHandlers.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o SAX2Count src/SAX2Count/SAX2Count.o src/SAX2Count/SAX2CountHandlers.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/SAX2Count src/SAX2Count/SAX2Count.o src/SAX2Count/SAX2CountHandlers.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/SAX2Print/SAX2FilterHandlers.cpp
+Compiling src/SAX2Print/SAX2Print.cpp
+Compiling src/SAX2Print/SAX2PrintHandlers.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o SAX2Print src/SAX2Print/SAX2FilterHandlers.o src/SAX2Print/SAX2Print.o src/SAX2Print/SAX2PrintHandlers.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/SAX2Print src/SAX2Print/SAX2FilterHandlers.o src/SAX2Print/SAX2Print.o src/SAX2Print/SAX2PrintHandlers.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/SAXCount/SAXCount.cpp
+Compiling src/SAXCount/SAXCountHandlers.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o SAXCount src/SAXCount/SAXCount.o src/SAXCount/SAXCountHandlers.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/SAXCount src/SAXCount/SAXCount.o src/SAXCount/SAXCountHandlers.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/SAXPrint/SAXPrint.cpp
+Compiling src/SAXPrint/SAXPrintHandlers.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o SAXPrint src/SAXPrint/SAXPrint.o src/SAXPrint/SAXPrintHandlers.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/SAXPrint src/SAXPrint/SAXPrint.o src/SAXPrint/SAXPrintHandlers.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/SCMPrint/SCMPrint.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o SCMPrint src/SCMPrint/SCMPrint.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/SCMPrint src/SCMPrint/SCMPrint.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/SEnumVal/SEnumVal.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o SEnumVal src/SEnumVal/SEnumVal.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/SEnumVal src/SEnumVal/SEnumVal.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/StdInParse/StdInParse.cpp
+Compiling src/StdInParse/StdInParseHandlers.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o StdInParse src/StdInParse/StdInParse.o src/StdInParse/StdInParseHandlers.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/StdInParse src/StdInParse/StdInParse.o src/StdInParse/StdInParseHandlers.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+Compiling src/XInclude/XInclude.cpp
+/bin/sh ../libtool --tag=CXX   --mode=link g++  -O2    -o XInclude src/XInclude/XInclude.o ../src/libxerces-c.la -lpthread
+libtool: link: g++ -O2 -o .libs/XInclude src/XInclude/XInclude.o  ../src/.libs/libxerces-c.so -lpthread -Wl,-rpath -Wl,/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+make[3]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/samples'
+make[3]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'
+make[3]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'
+make[2]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'
+make[1]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'
+make install
+make[1]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'
+Making install in src
+make[2]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+make  install-recursive
+make[3]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+make[4]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+make[5]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+test -z "/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib" || /bin/mkdir -p "/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libxerces-c.la '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib'
+libtool: install: /usr/bin/install -c .libs/libxerces-c-3.1.so /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib/libxerces-c-3.1.so
+libtool: install: (cd /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib && { ln -s -f libxerces-c-3.1.so libxerces-c.so || { rm -f libxerces-c.so && ln -s libxerces-c-3.1.so libxerces-c.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxerces-c.lai /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib/libxerces-c.la
+libtool: finish: PATH="/mtkoss/ccache/3.1.4/i686/bin:/mtkeda/perforce/linux26x86_64_2010.2:/mtkeda/perforce/linux26x86_64_2010.2/p4v/bin:/mtkeda/perforce/linux26x86_64_2010.2:/mtkeda/perforce/linux26x86_64_2010.2/p4v/bin:/mtkoss/lttv/0.12.38-ubuntu-10.04/x86_64/bin:/mtkoss/arm-2010q1/bin:/mtkoss/ctags/5.8-ubuntu-10.04/x86_64/bin:/mtkoss/eclipse/3.5-sr2-adt10-ubuntu-10.04:/mtkoss/arm-eabi/4.4.0-ubuntu-10.04/x86_64/bin:/mtkoss/jdk/1.5.0_17-ubuntu-10.04/x86_64/bin:/mtkoss/wine/1.1.33-ubuntu-10.04/x86_64/bin:/usr/bin:/bin:/usr/sbin:/sbin:/mtkoss/android_sdk/android_sdk_4.0/tools:/mtkeda/dsptk-md32/8.1.0.18:/mtkeda/dsptk-md32/8.1.0.18/System:/mtkeda/dsptk-md32/8.1.0.18/Md32:/mtkeda/IPDesigner/12R1.35-64/pseudo-bin:/mtkeda/IPDesigner/12R1.35-64/retargetable-12R1/bin/LNa64bin:/mtkeda/IPDesigner/12R1.35-64/retargetable-12R1/bin:/mtkoss/ccache/3.1.4/i686/bin:/mtkeda/perforce/linux26x86_64_2010.2:/mtkeda/perforce/linux26x86_64_2010.2/p4v/bin:/mtkeda/perforce/linux26x86_64_2010.2:/mtkeda/perforce/linux26x86_64_2010.2/p4v/bin:/mtkoss/lttv/0.12.38-ubuntu-10.04/x86_64/bin:/mtkoss/arm-2010q1/bin:/mtkoss/ctags/5.8-ubuntu-10.04/x86_64/bin:/mtkoss/eclipse/3.5-sr2-adt10-ubuntu-10.04:/mtkoss/arm-eabi/4.4.0-ubuntu-10.04/x86_64/bin:/mtkoss/jdk/1.5.0_17-ubuntu-10.04/x86_64/bin:/mtkoss/wine/1.1.33-ubuntu-10.04/x86_64/bin:/usr/bin:/bin:/usr/sbin:/sbin:/mtkoss/android_sdk/android_sdk_4.0/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/mtkeda/IT/bin:/mtkeda/IT/sbin:/mtkeda/apb:/mtkeda/Utility/LM_daemon/Synopsys/11.6/Linux/amd64/bin:/mtkeda/ado/bin/ubuntu/:/mtkeda/IT/bin:/mtkeda/IT/sbin:/mtkeda/apb:/mtkeda/Utility/LM_daemon/Synopsys/11.6/Linux/amd64/bin:/mtkeda/ado/bin/ubuntu/:/sbin" ldconfig -n /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include" || /bin/mkdir -p "/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include"
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util'
+ /usr/bin/install -c -m 644  xercesc/util/ArrayIndexOutOfBoundsException.hpp xercesc/util/Base64.hpp xercesc/util/BaseRefVectorOf.hpp xercesc/util/BaseRefVectorOf.c xercesc/util/BinFileInputStream.hpp xercesc/util/BinInputStream.hpp xercesc/util/BinMemInputStream.hpp xercesc/util/BitOps.hpp xercesc/util/BitSet.hpp xercesc/util/CountedPointer.hpp xercesc/util/CountedPointer.c xercesc/util/DefaultPanicHandler.hpp xercesc/util/EmptyStackException.hpp xercesc/util/EncodingValidator.hpp xercesc/util/FlagJanitor.hpp xercesc/util/FlagJanitor.c xercesc/util/Hashers.hpp xercesc/util/Hash2KeysSetOf.hpp xercesc/util/Hash2KeysSetOf.c xercesc/util/HexBin.hpp xercesc/util/IllegalArgumentException.hpp xercesc/util/InvalidCastException.hpp xercesc/util/IOException.hpp xercesc/util/Janitor.hpp xercesc/util/Janitor.c xercesc/util/KeyRefPair.hpp xercesc/util/KeyRefPair.c xercesc/util/KeyValuePair.hpp xercesc/util/KeyValuePair.c xercesc/util/KVStringPair.hpp xercesc/util/Mutexes.hpp xercesc/util/LogicalPath.c xercesc/util/NameIdPool.hpp xercesc/util/NameIdPool.c xercesc/util/NoSuchElementException.hpp xercesc/util/NullPointerException.hpp xercesc/util/NumberFormatException.hpp xercesc/util/OutOfMemoryException.hpp xercesc/util/PanicHandler.hpp xercesc/util/ParseException.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util'
+ /usr/bin/install -c -m 644  xercesc/util/PlatformUtils.hpp xercesc/util/PSVIUni.hpp xercesc/util/QName.hpp xercesc/util/RefArrayOf.hpp xercesc/util/RefArrayOf.c xercesc/util/RefArrayVectorOf.hpp xercesc/util/RefArrayVectorOf.c xercesc/util/RefHash2KeysTableOf.hpp xercesc/util/RefHash2KeysTableOf.c xercesc/util/RefHash3KeysIdPool.hpp xercesc/util/RefHash3KeysIdPool.c xercesc/util/RefHashTableOf.hpp xercesc/util/RefHashTableOf.c xercesc/util/RefStackOf.hpp xercesc/util/RefStackOf.c xercesc/util/RefVectorOf.hpp xercesc/util/RefVectorOf.c xercesc/util/RuntimeException.hpp xercesc/util/SchemaDateTimeException.hpp xercesc/util/SecurityManager.hpp xercesc/util/StringPool.hpp xercesc/util/SynchronizedStringPool.hpp xercesc/util/TranscodingException.hpp xercesc/util/TransENameMap.hpp xercesc/util/TransENameMap.c xercesc/util/TransService.hpp xercesc/util/UnexpectedEOFException.hpp xercesc/util/UnsupportedEncodingException.hpp xercesc/util/UTFDataFormatException.hpp xercesc/util/ValueArrayOf.hpp xercesc/util/ValueArrayOf.c xercesc/util/ValueHashTableOf.hpp xercesc/util/ValueHashTableOf.c xercesc/util/ValueStackOf.hpp xercesc/util/ValueStackOf.c xercesc/util/ValueVectorOf.hpp xercesc/util/ValueVectorOf.c xercesc/util/XercesDefs.hpp xercesc/util/XercesVersion.hpp xercesc/util/XMemory.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/dom'
+ /usr/bin/install -c -m 644  xercesc/dom/DOM.hpp xercesc/dom/DOMAttr.hpp xercesc/dom/DOMCDATASection.hpp xercesc/dom/DOMCharacterData.hpp xercesc/dom/DOMComment.hpp xercesc/dom/DOMConfiguration.hpp xercesc/dom/DOMDocument.hpp xercesc/dom/DOMDocumentFragment.hpp xercesc/dom/DOMDocumentRange.hpp xercesc/dom/DOMDocumentTraversal.hpp xercesc/dom/DOMDocumentType.hpp xercesc/dom/DOMElement.hpp xercesc/dom/DOMEntity.hpp xercesc/dom/DOMEntityReference.hpp xercesc/dom/DOMError.hpp xercesc/dom/DOMErrorHandler.hpp xercesc/dom/DOMException.hpp xercesc/dom/DOMImplementation.hpp xercesc/dom/DOMImplementationList.hpp xercesc/dom/DOMImplementationLS.hpp xercesc/dom/DOMImplementationRegistry.hpp xercesc/dom/DOMImplementationSource.hpp xercesc/dom/DOMLocator.hpp xercesc/dom/DOMLSException.hpp xercesc/dom/DOMLSInput.hpp xercesc/dom/DOMLSOutput.hpp xercesc/dom/DOMLSParser.hpp xercesc/dom/DOMLSParserFilter.hpp xercesc/dom/DOMLSResourceResolver.hpp xercesc/dom/DOMLSSerializer.hpp xercesc/dom/DOMLSSerializerFilter.hpp xercesc/dom/DOMMemoryManager.hpp xercesc/dom/DOMNamedNodeMap.hpp xercesc/dom/DOMNode.hpp xercesc/dom/DOMNodeFilter.hpp xercesc/dom/DOMNodeIterator.hpp xercesc/dom/DOMNodeList.hpp xercesc/dom/DOMNotation.hpp xercesc/dom/DOMProcessingInstruction.hpp xercesc/dom/DOMPSVITypeInfo.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/dom'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/dom/impl'
+ /usr/bin/install -c -m 644  xercesc/dom/impl/DOMAttrImpl.hpp xercesc/dom/impl/DOMAttrMapImpl.hpp xercesc/dom/impl/DOMAttrNSImpl.hpp xercesc/dom/impl/DOMCasts.hpp xercesc/dom/impl/DOMCDATASectionImpl.hpp xercesc/dom/impl/DOMCharacterDataImpl.hpp xercesc/dom/impl/DOMChildNode.hpp xercesc/dom/impl/DOMCommentImpl.hpp xercesc/dom/impl/DOMConfigurationImpl.hpp xercesc/dom/impl/DOMDeepNodeListImpl.hpp xercesc/dom/impl/DOMDeepNodeListPool.hpp xercesc/dom/impl/DOMDeepNodeListPool.c xercesc/dom/impl/DOMDocumentFragmentImpl.hpp xercesc/dom/impl/DOMDocumentImpl.hpp xercesc/dom/impl/DOMDocumentTypeImpl.hpp xercesc/dom/impl/DOMElementImpl.hpp xercesc/dom/impl/DOMElementNSImpl.hpp xercesc/dom/impl/DOMEntityImpl.hpp xercesc/dom/impl/DOMEntityReferenceImpl.hpp xercesc/dom/impl/DOMErrorImpl.hpp xercesc/dom/impl/DOMImplementationImpl.hpp xercesc/dom/impl/DOMImplementationListImpl.hpp xercesc/dom/impl/DOMLocatorImpl.hpp xercesc/dom/impl/DOMNamedNodeMapImpl.hpp xercesc/dom/impl/DOMNodeIDMap.hpp xercesc/dom/impl/DOMNodeImpl.hpp xercesc/dom/impl/DOMNodeIteratorImpl.hpp xercesc/dom/impl/DOMNodeListImpl.hpp xercesc/dom/impl/DOMNodeVector.hpp xercesc/dom/impl/DOMNormalizer.hpp xercesc/dom/impl/DOMNotationImpl.hpp xercesc/dom/impl/DOMParentNode.hpp xercesc/dom/impl/DOMProcessingInstructionImpl.hpp xercesc/dom/impl/DOMRangeImpl.hpp xercesc/dom/impl/DOMStringListImpl.hpp xercesc/dom/impl/DOMStringPool.hpp xercesc/dom/impl/DOMTextImpl.hpp xercesc/dom/impl/DOMTreeWalkerImpl.hpp xercesc/dom/impl/DOMTypeInfoImpl.hpp xercesc/dom/impl/DOMLSSerializerImpl.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/dom/impl'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/validators/schema/identity'
+ /usr/bin/install -c -m 644  xercesc/validators/schema/identity/FieldActivator.hpp xercesc/validators/schema/identity/FieldValueMap.hpp xercesc/validators/schema/identity/IC_Field.hpp xercesc/validators/schema/identity/IC_Key.hpp xercesc/validators/schema/identity/IC_KeyRef.hpp xercesc/validators/schema/identity/IC_Selector.hpp xercesc/validators/schema/identity/IC_Unique.hpp xercesc/validators/schema/identity/IdentityConstraint.hpp xercesc/validators/schema/identity/IdentityConstraintHandler.hpp xercesc/validators/schema/identity/ValueStore.hpp xercesc/validators/schema/identity/ValueStoreCache.hpp xercesc/validators/schema/identity/XercesXPath.hpp xercesc/validators/schema/identity/XPathException.hpp xercesc/validators/schema/identity/XPathMatcher.hpp xercesc/validators/schema/identity/XPathMatcherStack.hpp xercesc/validators/schema/identity/XPathSymbols.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/validators/schema/identity'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util/FileManagers'
+ /usr/bin/install -c -m 644  xercesc/util/FileManagers/PosixFileMgr.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util/FileManagers'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/xinclude'
+ /usr/bin/install -c -m 644  xercesc/xinclude/XIncludeDOMDocumentProcessor.hpp xercesc/xinclude/XIncludeLocation.hpp xercesc/xinclude/XIncludeUtils.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/xinclude'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util/MutexManagers'
+ /usr/bin/install -c -m 644  xercesc/util/MutexManagers/PosixMutexMgr.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util/MutexManagers'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/parsers'
+ /usr/bin/install -c -m 644  xercesc/parsers/AbstractDOMParser.hpp xercesc/parsers/DOMLSParserImpl.hpp xercesc/parsers/SAX2XMLFilterImpl.hpp xercesc/parsers/SAX2XMLReaderImpl.hpp xercesc/parsers/SAXParser.hpp xercesc/parsers/XercesDOMParser.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/parsers'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/dom/impl'
+ /usr/bin/install -c -m 644  xercesc/dom/impl/DOMLSInputImpl.hpp xercesc/dom/impl/DOMLSOutputImpl.hpp xercesc/dom/impl/DOMXPathExpressionImpl.hpp xercesc/dom/impl/DOMXPathNSResolverImpl.hpp xercesc/dom/impl/DOMXPathResultImpl.hpp xercesc/dom/impl/XSDElementNSImpl.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/dom/impl'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/validators/schema'
+ /usr/bin/install -c -m 644  xercesc/validators/schema/ComplexTypeInfo.hpp xercesc/validators/schema/GeneralAttributeCheck.hpp xercesc/validators/schema/NamespaceScope.hpp xercesc/validators/schema/PSVIDefs.hpp xercesc/validators/schema/SchemaAttDef.hpp xercesc/validators/schema/SchemaAttDefList.hpp xercesc/validators/schema/SchemaElementDecl.hpp xercesc/validators/schema/SchemaGrammar.hpp xercesc/validators/schema/SchemaInfo.hpp xercesc/validators/schema/SchemaSymbols.hpp xercesc/validators/schema/SchemaValidator.hpp xercesc/validators/schema/SubstitutionGroupComparator.hpp xercesc/validators/schema/TraverseSchema.hpp xercesc/validators/schema/XercesAttGroupInfo.hpp xercesc/validators/schema/XercesElementWildcard.hpp xercesc/validators/schema/XercesGroupInfo.hpp xercesc/validators/schema/XMLSchemaDescriptionImpl.hpp xercesc/validators/schema/XSDDOMParser.hpp xercesc/validators/schema/XSDErrorReporter.hpp xercesc/validators/schema/XSDLocator.hpp xercesc/validators/schema/XUtil.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/validators/schema'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util'
+ /usr/bin/install -c -m 644  xercesc/util/XML256TableTranscoder.hpp xercesc/util/XML88591Transcoder.hpp xercesc/util/XMLAbstractDoubleFloat.hpp xercesc/util/XMLASCIITranscoder.hpp xercesc/util/XMLBigDecimal.hpp xercesc/util/XMLBigInteger.hpp xercesc/util/XMLChar.hpp xercesc/util/XMLChTranscoder.hpp xercesc/util/XMLDateTime.hpp xercesc/util/XMLDOMMsg.hpp xercesc/util/XMLDouble.hpp xercesc/util/XMLEBCDICTranscoder.hpp xercesc/util/XMLEntityResolver.hpp xercesc/util/XMLEnumerator.hpp xercesc/util/XMLException.hpp xercesc/util/XMLExceptMsgs.hpp xercesc/util/XMLFileMgr.hpp xercesc/util/XMLFloat.hpp xercesc/util/XMLIBM1047Transcoder.hpp xercesc/util/XMLIBM1140Transcoder.hpp xercesc/util/XMLInitializer.hpp xercesc/util/XMLInteger.hpp xercesc/util/XMLMutexMgr.hpp xercesc/util/XMLMsgLoader.hpp xercesc/util/XMLNetAccessor.hpp xercesc/util/XMLNumber.hpp xercesc/util/XMLResourceIdentifier.hpp xercesc/util/XMLString.hpp xercesc/util/XMLStringTokenizer.hpp xercesc/util/XMLUCS4Transcoder.hpp xercesc/util/XMLUni.hpp xercesc/util/XMLUniDefs.hpp xercesc/util/XMLUri.hpp xercesc/util/XMLURL.hpp xercesc/util/XMLUTF16Transcoder.hpp xercesc/util/XMLUTF8Transcoder.hpp xercesc/util/XMLWin1252Transcoder.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/validators/DTD'
+ /usr/bin/install -c -m 644  xercesc/validators/DTD/DocTypeHandler.hpp xercesc/validators/DTD/DTDAttDef.hpp xercesc/validators/DTD/DTDAttDefList.hpp xercesc/validators/DTD/DTDElementDecl.hpp xercesc/validators/DTD/DTDEntityDecl.hpp xercesc/validators/DTD/DTDGrammar.hpp xercesc/validators/DTD/DTDScanner.hpp xercesc/validators/DTD/DTDValidator.hpp xercesc/validators/DTD/XMLDTDDescriptionImpl.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/validators/DTD'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/sax2'
+ /usr/bin/install -c -m 644  xercesc/sax2/Attributes.hpp xercesc/sax2/ContentHandler.hpp xercesc/sax2/DeclHandler.hpp xercesc/sax2/DefaultHandler.hpp xercesc/sax2/LexicalHandler.hpp xercesc/sax2/SAX2XMLFilter.hpp xercesc/sax2/SAX2XMLReader.hpp xercesc/sax2/XMLReaderFactory.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/sax2'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/internal'
+ /usr/bin/install -c -m 644  xercesc/internal/BinFileOutputStream.hpp xercesc/internal/BinMemOutputStream.hpp xercesc/internal/CharTypeTables.hpp xercesc/internal/DGXMLScanner.hpp xercesc/internal/ElemStack.hpp xercesc/internal/EndOfEntityException.hpp xercesc/internal/IANAEncodings.hpp xercesc/internal/IGXMLScanner.hpp xercesc/internal/MemoryManagerImpl.hpp xercesc/internal/ReaderMgr.hpp xercesc/internal/SGXMLScanner.hpp xercesc/internal/ValidationContextImpl.hpp xercesc/internal/VecAttributesImpl.hpp xercesc/internal/VecAttrListImpl.hpp xercesc/internal/WFXMLScanner.hpp xercesc/internal/XMLInternalErrorHandler.hpp xercesc/internal/XMLReader.hpp xercesc/internal/XMLScanner.hpp xercesc/internal/XMLScannerResolver.hpp xercesc/internal/XProtoType.hpp xercesc/internal/XSAXMLScanner.hpp xercesc/internal/XSerializable.hpp xercesc/internal/XSerializationException.hpp xercesc/internal/XSerializeEngine.hpp xercesc/internal/XSObjectFactory.hpp xercesc/internal/XTemplateSerializer.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/internal'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/validators/datatype'
+ /usr/bin/install -c -m 644  xercesc/validators/datatype/AbstractNumericFacetValidator.hpp xercesc/validators/datatype/AbstractNumericValidator.hpp xercesc/validators/datatype/AbstractStringValidator.hpp xercesc/validators/datatype/AnySimpleTypeDatatypeValidator.hpp xercesc/validators/datatype/AnyURIDatatypeValidator.hpp xercesc/validators/datatype/Base64BinaryDatatypeValidator.hpp xercesc/validators/datatype/BooleanDatatypeValidator.hpp xercesc/validators/datatype/DatatypeValidator.hpp xercesc/validators/datatype/DatatypeValidatorFactory.hpp xercesc/validators/datatype/DateDatatypeValidator.hpp xercesc/validators/datatype/DateTimeDatatypeValidator.hpp xercesc/validators/datatype/DateTimeValidator.hpp xercesc/validators/datatype/DayDatatypeValidator.hpp xercesc/validators/datatype/DecimalDatatypeValidator.hpp xercesc/validators/datatype/DoubleDatatypeValidator.hpp xercesc/validators/datatype/DurationDatatypeValidator.hpp xercesc/validators/datatype/ENTITYDatatypeValidator.hpp xercesc/validators/datatype/FloatDatatypeValidator.hpp xercesc/validators/datatype/HexBinaryDatatypeValidator.hpp xercesc/validators/datatype/IDDatatypeValidator.hpp xercesc/validators/datatype/IDREFDatatypeValidator.hpp xercesc/validators/datatype/InvalidDatatypeFacetException.hpp xercesc/validators/datatype/InvalidDatatypeValueException.hpp xercesc/validators/datatype/ListDatatypeValidator.hpp xercesc/validators/datatype/MonthDatatypeValidator.hpp xercesc/validators/datatype/MonthDayDatatypeValidator.hpp xercesc/validators/datatype/NameDatatypeValidator.hpp xercesc/validators/datatype/NCNameDatatypeValidator.hpp xercesc/validators/datatype/NOTATIONDatatypeValidator.hpp xercesc/validators/datatype/QNameDatatypeValidator.hpp xercesc/validators/datatype/StringDatatypeValidator.hpp xercesc/validators/datatype/TimeDatatypeValidator.hpp xercesc/validators/datatype/UnionDatatypeValidator.hpp xercesc/validators/datatype/XMLCanRepGroup.hpp xercesc/validators/datatype/YearDatatypeValidator.hpp xercesc/validators/datatype/YearMonthDatatypeValidator.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/validators/datatype'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/framework/psvi'
+ /usr/bin/install -c -m 644  xercesc/framework/psvi/PSVIAttribute.hpp xercesc/framework/psvi/PSVIAttributeList.hpp xercesc/framework/psvi/PSVIElement.hpp xercesc/framework/psvi/PSVIHandler.hpp xercesc/framework/psvi/PSVIItem.hpp xercesc/framework/psvi/XSAnnotation.hpp xercesc/framework/psvi/XSAttributeDeclaration.hpp xercesc/framework/psvi/XSAttributeGroupDefinition.hpp xercesc/framework/psvi/XSAttributeUse.hpp xercesc/framework/psvi/XSComplexTypeDefinition.hpp xercesc/framework/psvi/XSConstants.hpp xercesc/framework/psvi/XSElementDeclaration.hpp xercesc/framework/psvi/XSFacet.hpp xercesc/framework/psvi/XSIDCDefinition.hpp xercesc/framework/psvi/XSModel.hpp xercesc/framework/psvi/XSModelGroup.hpp xercesc/framework/psvi/XSModelGroupDefinition.hpp xercesc/framework/psvi/XSMultiValueFacet.hpp xercesc/framework/psvi/XSNamedMap.hpp xercesc/framework/psvi/XSNamedMap.c xercesc/framework/psvi/XSNamespaceItem.hpp xercesc/framework/psvi/XSNotationDeclaration.hpp xercesc/framework/psvi/XSObject.hpp xercesc/framework/psvi/XSParticle.hpp xercesc/framework/psvi/XSSimpleTypeDefinition.hpp xercesc/framework/psvi/XSTypeDefinition.hpp xercesc/framework/psvi/XSValue.hpp xercesc/framework/psvi/XSWildcard.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/framework/psvi'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util/Transcoders/Iconv'
+ /usr/bin/install -c -m 644  xercesc/util/Transcoders/Iconv/IconvTransService.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util/Transcoders/Iconv'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/sax'
+ /usr/bin/install -c -m 644  xercesc/sax/AttributeList.hpp xercesc/sax/DocumentHandler.hpp xercesc/sax/DTDHandler.hpp xercesc/sax/EntityResolver.hpp xercesc/sax/ErrorHandler.hpp xercesc/sax/HandlerBase.hpp xercesc/sax/InputSource.hpp xercesc/sax/Locator.hpp xercesc/sax/Parser.hpp xercesc/sax/SAXException.hpp xercesc/sax/SAXParseException.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/sax'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/dom'
+ /usr/bin/install -c -m 644  xercesc/dom/DOMRange.hpp xercesc/dom/DOMRangeException.hpp xercesc/dom/DOMStringList.hpp xercesc/dom/DOMText.hpp xercesc/dom/DOMTreeWalker.hpp xercesc/dom/DOMTypeInfo.hpp xercesc/dom/DOMUserDataHandler.hpp xercesc/dom/DOMXPathEvaluator.hpp xercesc/dom/DOMXPathException.hpp xercesc/dom/DOMXPathExpression.hpp xercesc/dom/DOMXPathNamespace.hpp xercesc/dom/DOMXPathNSResolver.hpp xercesc/dom/DOMXPathResult.hpp xercesc/dom/StDOMNode.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/dom'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util/MsgLoaders/InMemory'
+ /usr/bin/install -c -m 644  xercesc/util/MsgLoaders/InMemory/InMemMsgLoader.hpp xercesc/util/MsgLoaders/InMemory/XercesMessages_en_US.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util/MsgLoaders/InMemory'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/framework'
+ /usr/bin/install -c -m 644  xercesc/framework/BinOutputStream.hpp xercesc/framework/LocalFileFormatTarget.hpp xercesc/framework/LocalFileInputSource.hpp xercesc/framework/MemBufFormatTarget.hpp xercesc/framework/MemBufInputSource.hpp xercesc/framework/MemoryManager.hpp xercesc/framework/StdInInputSource.hpp xercesc/framework/StdOutFormatTarget.hpp xercesc/framework/URLInputSource.hpp xercesc/framework/ValidationContext.hpp xercesc/framework/Wrapper4DOMLSInput.hpp xercesc/framework/Wrapper4InputSource.hpp xercesc/framework/XMLAttDef.hpp xercesc/framework/XMLAttDefList.hpp xercesc/framework/XMLAttr.hpp xercesc/framework/XMLBuffer.hpp xercesc/framework/XMLBufferMgr.hpp xercesc/framework/XMLContentModel.hpp xercesc/framework/XMLDocumentHandler.hpp xercesc/framework/XMLDTDDescription.hpp xercesc/framework/XMLElementDecl.hpp xercesc/framework/XMLEntityDecl.hpp xercesc/framework/XMLEntityHandler.hpp xercesc/framework/XMLErrorCodes.hpp xercesc/framework/XMLErrorReporter.hpp xercesc/framework/XMLFormatter.hpp xercesc/framework/XMLGrammarDescription.hpp xercesc/framework/XMLGrammarPool.hpp xercesc/framework/XMLGrammarPoolImpl.hpp xercesc/framework/XMLNotationDecl.hpp xercesc/framework/XMLPScanToken.hpp xercesc/framework/XMLRecognizer.hpp xercesc/framework/XMLRefInfo.hpp xercesc/framework/XMLSchemaDescription.hpp xercesc/framework/XMLValidator.hpp xercesc/framework/XMLValidityCodes.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/framework'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/validators/common'
+ /usr/bin/install -c -m 644  xercesc/validators/common/AllContentModel.hpp xercesc/validators/common/CMAny.hpp xercesc/validators/common/CMBinaryOp.hpp xercesc/validators/common/CMLeaf.hpp xercesc/validators/common/CMRepeatingLeaf.hpp xercesc/validators/common/CMNode.hpp xercesc/validators/common/CMStateSet.hpp xercesc/validators/common/CMUnaryOp.hpp xercesc/validators/common/ContentLeafNameTypeVector.hpp xercesc/validators/common/ContentSpecNode.hpp xercesc/validators/common/DFAContentModel.hpp xercesc/validators/common/Grammar.hpp xercesc/validators/common/GrammarResolver.hpp xercesc/validators/common/MixedContentModel.hpp xercesc/validators/common/SimpleContentModel.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/validators/common'
+/bin/mkdir -p '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util/regx'
+ /usr/bin/install -c -m 644  xercesc/util/regx/ASCIIRangeFactory.hpp xercesc/util/regx/BlockRangeFactory.hpp xercesc/util/regx/BMPattern.hpp xercesc/util/regx/CharToken.hpp xercesc/util/regx/ClosureToken.hpp xercesc/util/regx/ConcatToken.hpp xercesc/util/regx/Match.hpp xercesc/util/regx/Op.hpp xercesc/util/regx/OpFactory.hpp xercesc/util/regx/ParenToken.hpp xercesc/util/regx/ParserForXMLSchema.hpp xercesc/util/regx/RangeFactory.hpp xercesc/util/regx/RangeToken.hpp xercesc/util/regx/RangeTokenMap.hpp xercesc/util/regx/RegularExpression.hpp xercesc/util/regx/RegxDefs.hpp xercesc/util/regx/RegxParser.hpp xercesc/util/regx/RegxUtil.hpp xercesc/util/regx/StringToken.hpp xercesc/util/regx/Token.hpp xercesc/util/regx/TokenFactory.hpp xercesc/util/regx/TokenInc.hpp xercesc/util/regx/UniCharTable.hpp xercesc/util/regx/UnicodeRangeFactory.hpp xercesc/util/regx/UnionToken.hpp xercesc/util/regx/XMLRangeFactory.hpp xercesc/util/regx/XMLUniCharacter.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util/regx'
+test -z "/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util" || /bin/mkdir -p "/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util"
+ /usr/bin/install -c -m 644 ../src/xercesc/util/Xerces_autoconf_config.hpp '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/include/xercesc/util'
+make[5]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+make[4]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+make[3]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+make[2]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/src'
+Making install in tests
+make[2]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/tests'
+make[3]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/tests'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/tests'
+make[2]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/tests'
+Making install in samples
+make[2]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/samples'
+make[3]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/samples'
+test -z "/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin" || /bin/mkdir -p "/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin"
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c CreateDOMDocument DOMCount DOMPrint EnumVal MemParse PParse PSVIWriter Redirect SAX2Count SAX2Print SAXCount SAXPrint SCMPrint SEnumVal StdInParse XInclude '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin'
+libtool: install: /usr/bin/install -c .libs/CreateDOMDocument /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/CreateDOMDocument
+libtool: install: /usr/bin/install -c .libs/DOMCount /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/DOMCount
+libtool: install: /usr/bin/install -c .libs/DOMPrint /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/DOMPrint
+libtool: install: /usr/bin/install -c .libs/EnumVal /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/EnumVal
+libtool: install: /usr/bin/install -c .libs/MemParse /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/MemParse
+libtool: install: /usr/bin/install -c .libs/PParse /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/PParse
+libtool: install: /usr/bin/install -c .libs/PSVIWriter /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/PSVIWriter
+libtool: install: /usr/bin/install -c .libs/Redirect /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/Redirect
+libtool: install: /usr/bin/install -c .libs/SAX2Count /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/SAX2Count
+libtool: install: /usr/bin/install -c .libs/SAX2Print /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/SAX2Print
+libtool: install: /usr/bin/install -c .libs/SAXCount /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/SAXCount
+libtool: install: /usr/bin/install -c .libs/SAXPrint /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/SAXPrint
+libtool: install: /usr/bin/install -c .libs/SCMPrint /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/SCMPrint
+libtool: install: /usr/bin/install -c .libs/SEnumVal /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/SEnumVal
+libtool: install: /usr/bin/install -c .libs/StdInParse /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/StdInParse
+libtool: install: /usr/bin/install -c .libs/XInclude /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/bin/XInclude
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/samples'
+make[2]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/samples'
+make[2]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'
+make[3]: Entering directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib/pkgconfig" || /bin/mkdir -p "/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib/pkgconfig"
+ /usr/bin/install -c -m 644 xerces-c.pc '/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces/lib/pkgconfig'
+make[3]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'
+make[2]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'
+make[1]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'

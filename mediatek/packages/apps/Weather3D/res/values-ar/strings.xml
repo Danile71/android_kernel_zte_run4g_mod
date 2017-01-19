@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">الطقس المباشر ثلاثي الأبعاد</string>  
+    <string name="last_update">تاريخ التحديث الأخير</string>  
+    <string name="no_weather">انقر فوق إعداد لإضافة مدن</string>  
+    <string name="no_network">الشبكة غير متاحة</string>  
+    <string name="update_fail">فشل تحديث الطقس</string>  
+    <string name="updating">تحديث</string>  
+</resources>

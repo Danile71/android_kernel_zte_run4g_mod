@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Direkt 3D-väder</string>
+    <string name="last_update">Senaste uppdaterad</string>
+    <string name="no_weather">Tryck på inställning för att lägga till städer</string>
+    <string name="no_network">Inget nätverk finns tillgängligt</string>
+    <string name="update_fail">Väderuppdatering misslyckades</string>
+    <string name="updating">Uppdaterar</string>
+</resources>

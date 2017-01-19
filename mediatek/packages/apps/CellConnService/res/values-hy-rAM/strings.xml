@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">CellConnectionService</string>
+	<string name="button_ok">"Լավ"</string>
+	<string name="button_cancel">"Չեղարկել"</string>
+	<string name="confirm_radio_title">SIM-ն անջատված է</string>
+	<string name="confirm_radio_title_uim">UIM-ն անջատված է</string>
+	<string name="confirm_radio_title_card">Քարտն անջատված է</string>
+	<string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> այժմ անջատված է: Կցանկանա՞ք միացնել այս SIM քարտը:</string>
+  <string name="confirm_radio_msg_uim"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>-ն   այժմ անջատված է: Կցանկանա՞ք միացնել այս UIM քարտը:</string>
+  <string name="confirm_radio_msg_card"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g>-ն   այժմ անջատված է: Կցանկանա՞ք միացնել այս քարտը:</string>
+	<string name="confirm_radio_flight_mode_on_and_msg">Միացված է թռիչքի ռեժիմը և </string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> այժմ անջատված է: Կցանկանա՞ք անջատել թռիչքի ռեժիմը և միացնել այս SIM քարտը:</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_uim"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g>-ն   այժմ անջատված է: Կցանկանա՞ք անջատել թռիչքի ռեժիմը և միացնել այս UIM քարտը:</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_card"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g>-ն   այժմ անջատված է: Կցանկանա՞ք անջատել թռիչքի ռեժիմը և միացնել այս քարտը:</string>	
+	<string name="confirm_radio_flight_mode_on_sim_on_msg">Միացված է թռիչքի ռեժիմը: Կցանկանա՞ք անջատել թռիչքի ռեժիմը:</string>  
+	<string name="confirm_radio_msg_single">Միացված է օդանավի ռեժիմը, ցանկանու՞մ եք անջատել այն:</string>
+	<string name="confirm_pin_title">SIM-ը կողպված է</string>
+	<string name="confirm_pin_title_uim">UIM-ը կողպված է</string>
+	<string name="confirm_pin_title_card">Քարտը կողպված է</string>
+	<string name="confirm_pin_msg">Ընտրված SIM քարտը այժմ կողպված է: Խնդրում ենք նախ ապակողպել այն:</string>
+	<string name="confirm_pin_msg_uim">Ընտրված UIM քարտն այժմ կողպված է: Խնդրում ենք նախ ապակողպել այն:</string>
+	<string name="confirm_pin_msg_card">Ընտրված քարտն այժմ կողպված է: Խնդրում ենք նախ ապակողպել այն:</string>
+	<string name="confirm_simmelock_title">SIM ME-ը կողպված է</string>
+	<string name="confirm_simmelock_msg">Ընտրված SIM փորակը այժմ կողպված է: Խնդրում ենք նախ ապակողպել այն:</string>
+	<string name="confirm_simmelock_msg_uim">Ընտրված UIM փորակն այժմ կողպված է: Խնդրում ենք նախ ապակողպել այն:</string>
+	<string name="confirm_simmelock_msg_card">Ընտրված փորակն այժմ կողպված է: Խնդրում ենք նախ ապակողպել այն:</string>
+	<string name="confirm_fdn_title">FDN-ն ակտիվացած է</string>
+	<string name="confirm_fdn_msg">Ամրակայված հեռախոսահամարները ակտիվացած է:</string>
+	<string name="confirm_roaming_title">Ռոումինգի զգուշացում</string>
+	<string name="confirm_roaming_msg">SIM քարտը, որ պատրաստվում եք օգտագործել, այժմ ռոումինգի մեջ է: Այժմ մատչելի չէ ոչ մի տեղական SIM: Ցանկանու՞մ եք շարունակել:</string>
+	<string name="confirm_roaming_msg_uim">UIM քարտը, որ պատրաստվում եք օգտագործել, այժմ ռոումինգի մեջ է: Այժմ մատչելի չէ ոչ մի տեղական UIM: Ցանկանու՞մ եք շարունակել:</string>
+	<string name="confirm_roaming_msg_card">Քարտը, որ պատրաստվում եք օգտագործել, այժմ ռոումինգի մեջ է:
+Այժմ մատչելի չէ ոչ մի տեղական Քարտ: Ցանկանու՞մ եք շարունակել:</string>
+  <string name="confirm_roaming_withPrefer_msg">SIM քարտը, որ պատրաստվում եք օգտագործել, այժմ ռոումինգի մեջ է: Ցանկանու՞մ եք շարունակել տեղական SIM-ի միջոցով:</string>
+  <string name="confirm_roaming_withPrefer_msg_uim">SIM քարտը, որ պատրաստվում եք օգտագործել, այժմ ռոումինգի մեջ է:
+Ցանկանու՞մ եք շարունակել տեղական UIM-ի միջոցով:</string>
+  <string name="confirm_roaming_withPrefer_msg_card">SIM քարտը, որ պատրաստվում եք օգտագործել, այժմ ռոումինգի մեջ է:
+Ցանկանու՞մ եք շարունակել տեղական Քարտի միջոցով:</string>
+  <string name="confirm_roaming_lbutton">"Շարունակել"</string>
+  <string name="confirm_roaming_rbutton">"Չեղարկել"</string>
+  <string name="confirm_roamingWithPrefer_lbutton">Տեղական SIM</string>
+  <string name="confirm_roamingWithPrefer_lbutton_uim">Տեղական UIM</string>
+  <string name="confirm_roamingWithPrefer_lbutton_card">Տեղական Քարտ</string>
+  <string name="confirm_roamingWithPrefer_rbutton">Ռոումինգ SIM</string>
+  <string name="confirm_roamingWithPrefer_rbutton_uim">Ռոումինգ UIM</string>
+  <string name="confirm_roamingWithPrefer_rbutton_card">Ռոումինգ Քարտ</string>
+	<string name="confirm_roaming_for3Sims_msg">SIM քարտը, որ պատրաստվում եք օգտագործել, այժմ ռոումինգի մեջ է: Ցանկանու՞մ եք շարունակել:</string>
+  <string name="confirm_roaming_for3Sims_msg_uim">UIM քարտը, որ պատրաստվում եք օգտագործել, այժմ ռոումինգի մեջ է:
+Ցանկանու՞մ եք շարունակել:</string>
+  <string name="confirm_roaming_for3Sims_msg_card">Քարտը, որ պատրաստվում եք օգտագործել, այժմ ռոումինգի մեջ է:
+Ցանկանու՞մ եք շարունակել:</string>
+	<string name="confirm_radio_lbutton">"Միացնել"</string>
+	<string name="confirm_unlock_lbutton">"Ապակողպել"</string>
+	<string name="confirm_unlock_fail">Գործողությունը չեղարկված է</string>
+	<string name="confirm_turnon_radio_fail">Գործողությունը չեղարկված է</string>
+	<string name="confirm_permit_roaming_fail">Դուք չեղարկել եք այս գործողությունը ռոումինգ SIM-ի մեջ</string>
+	<string name="confirm_permit_roaming_fail_uim">Դուք չեղարկել եք այս գործողությունը ռոումինգ UIM-ի մեջ</string>
+	<string name="confirm_permit_roaming_fail_card">Դուք չեղարկել եք այս գործողությունը ռոումինգ Քարտի մեջ</string>
+	<string name="confirm_sim_locked_message">SIM քարտը մշտապես կողպվել է</string>
+	<string name="confirm_sim_locked_message_uim">UIM քարտը մշտապես կողպվել է</string>
+	<string name="confirm_sim_locked_message_card">Քարտը մշտապես կողպվել է</string>	
+    <string name="confirm_slot_locked_message">Փորակը մշտապես կողպվել է</string>
+	<string name="button_yes">"Այո"</string>  
+	<string name="button_no">"Ոչ"</string>  
+</resources>

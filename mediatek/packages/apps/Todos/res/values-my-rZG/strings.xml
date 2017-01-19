@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources> 
+    <string name="app_name">လုပ္ေဆာင္ရန္မ်ား</string>
+    <string name="app_header">လုပ္ေဆာင္ရန္</string>
+    <string name="todos_title">လုပ္ေဆာင္ရန္</string>
+    <string name="dones_title">ၿပီးၿပီ</string>
+    <string name="todo_details_title">လုပ္ေဆာင္ရန္ အေသးစိတ္မ်ား</string>
+    <string name="no_expire_date">သက္တမ္းကုန္ဆံုးသည့္ေန႔စြဲမပါ</string>
+    <string name="valid_date_range">ကာလမွာ ၁၉၇၀ မွ ၂၀၃၆ အထိျဖစ္သည္</string>
+    <string name="btn_done">ၿပီးၿပီ</string>
+    <string name="btn_cancel">မလုပ္ပါ</string>
+    <string name="todos_empty_info">ဘာမွမရွိ\n လုပ္ေဆာင္ရန္ အသစ္ထည့္ရန္ အသာပုတ္ပါ</string>
+    <string name="dones_empty_info">ဘာမွမရွိ</string>
+    <string name="delete">ဖ်က္ပါ</string>
+    <string name="cancel">မလုပ္ပါ</string>
+    <string name="delete_item">ဤအေၾကာင္းအရာကို ဖ်က္မည္</string>
+    <string name="delete_selected_items">ဤအေၾကာင္းအရာမ်ားကို ဖ်က္မည္</string>
+    <string name="done_time_format">%Y-%m-%d %H:%M တြင္ၿပီးစီးသည္</string>
+    <string name="due_day_time_format" translateable="false">%Y-%m-%d</string>
+    <string name="operator_failed">လုပ္ငန္းလုပ္ေဆာင္ျခင္းမေအာင္ျမင္</string>
+    <string name="back_title">မွတ္စု</string>
+    <string name="back_message">လက္ရွိတည္းျဖတ္ျခင္းကို သင္ဆက္ မလုပ္ေတာ့ဘူးလား။</string>
+    <string name="ok">အိုေက</string>
+    <string name="add_new_todo">လုပ္ေဆာင္ရန္အသစ္</string>
+    <string name="edit_todo">လုပ္ေဆာင္ရန္ကို တည္းျဖတ္ပါ</string>
+    <string name="todo_detail">လုပ္ေဆာင္ရန္ အေသးစိတ္မ်ား</string>
+    <string name="done_detail">ျပီးစီးမႈ အေသးစိတ္</string>
+    <string name="text_full">စာလံုးေနာက္ထပ္ မထည့္ႏိုင္ေတာ့ပါ</string>
+    <string name="hint_title">ဂုဏ္ပုဒ္</string>
+    <string name="hint_details">အေသးစိတ္</string>
+    <string name="separate" translateable="false">|</string>
+    <string name="select_all">အားလံုးကို ေရြးခ်ယ္ပါ</string>
+    <string name="deselect_all">"အားလံုးကို မေရြးခ်ယ္ပါ"</string>
+    <string name="mark_done">လုပ္ေဆာင္ရန္ အျဖစ္ အမွတ္အသားေပးရန္</string>
+    <string name="mark_todo">လုပ္ေဆာင္ၿပီးၿပီ အျဖစ္ အမွတ္အသားေပးရန္</string>
+    <string name="todo_discarded">စြန္႔ပစ္လိုက္ေသာ လုပ္ေဆာင္ရန္</string>
+    <string name="prompt_date_before_today">သက္တမ္းကုန္မည့္ ေန႔စြဲမွာ လက္ရွိေန႔စြဲထက္ ေစာ၍မရပါ။</string>
+    <string name="selected_count">%d ေရြးခ်ယ္ၿပီး</string>
+    <string name="unselect_all">ေရြးထားျခင္းမ်ား အားလံုးျဖဳတ္ရန္</string>
+    <string name="more_than_999">999+</string>
+</resources>

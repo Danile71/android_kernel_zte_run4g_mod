@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Notebook</string>
+    <string name="no_note">Žádné poznámky</string>
+    <string name="selectednumber">Vybráno</string>
+    <string name="delete_confirm_current">Tato poznámka bude odstraněna.</string>
+    <string name="delete_confirm_one">Vybraná poznámka bude odstraněna.</string>
+    <string name="delete_confirm">Vybrané poznámky budou odstraněny.</string>
+    <string name="delete_confirm_title">"Smazat"</string>
+    <string name="delete_confirm_cancel">"Zrušit"</string>
+    <string name="delete_confirm_ok">"OK"</string>
+    <string name="title_bar_selected">Vybráno</string>
+    <string name="editor_full">Lze zadat max. 1 500 znaků</string>
+    <string name="sdcard_full" product="tablet">Nedostatek místa v paměti zařízení. Uvolněte část paměti.</string>
+    <string name="sdcard_full" product="default">Nedostatek místa v paměti telefonu. Uvolněte část paměti.</string>
+    <string name="save_none">Prázdná poznámka není vytvořena</string>
+    <string name="empty_note">Prázdná poznámka</string>
+    <string name="delete_progress">Odstraňování</string>
+    <string name="title_notes_list">Notebook</string>
+    <string name="title_notes_view">Načítání</string>
+    <string name="title_notes_edit">"Hotovo"</string>
+    <string name="title_loading">Načítání...</string>
+    <string name="menu_delete">Odstranit všechny poznámky</string>
+    <string name="delete_all_notes_confirm">Všechny poznámky budou odstraněny.</string>
+    <string name="note_saved">Neuloženo</string>
+    <string name="no_selected">Není vybrána žádná poznámka</string>
+    <string name="menu_sort_by_modify">Seřadit podle času úprav</string>
+    <string name="menu_sort_by_tab">Seřadit podle karet</string>
+    <string name="menu_work">"Práce"</string>
+    <string name="menu_personal">"OSOBNÍ"</string>
+    <string name="menu_family">Rodinná záležitost</string>
+    <string name="menu_study">Studium</string>
+    <string name="menu_none">Bez kategorie</string>
+    <string name="menu_add_button">"nová"</string>
+    <string name="menu_delete_button">"Smazat"</string>
+    <string name="menu_edit_button">"Upravit"</string>
+    <string name="menu_deselect_all_button">"Zrušit celý výběr"</string>
+    <string name="menu_select_all_button">Vybrat vše</string>
+    <string name="month">"m"</string>
+    <string name="day">p</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> vybráno </string>
+    <string name="type_note">Zadat poznámku</string>
+</resources>

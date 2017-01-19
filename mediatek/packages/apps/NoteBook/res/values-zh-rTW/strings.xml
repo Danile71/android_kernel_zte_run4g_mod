@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">筆記本</string>
+    <string name="no_note">無備註</string>
+    <string name="selectednumber">已選</string>
+    <string name="delete_confirm_current">將刪除此則備註。</string>
+    <string name="delete_confirm_one">將刪除已選備註。</string>
+    <string name="delete_confirm_title">刪除</string>
+    <string name="delete_confirm_cancel">取消</string>
+    <string name="delete_confirm">將刪除已選備註。</string>
+    <string name="delete_confirm_ok">確定</string>
+    <string name="title_bar_selected">已選</string>
+    <string name="editor_full">你最多可輸入1500個字元</string>
+    <string name="sdcard_full" product="tablet">本裝置儲存體沒有足夠空間。請釋放一些儲存空間。</string>
+    <string name="sdcard_full" product="default">本手機儲存系統沒有足夠空間。請釋放一些儲存空間。</string>
+    <string name="save_none">未建立空白備註</string>
+    <string name="empty_note">空白備註</string>
+    <string name="delete_progress">正在刪除</string>
+   
+    <string name="title_notes_list">筆記本</string>
+    <string name="title_notes_view">正在讀取</string>
+    <string name="title_notes_edit">完成</string>
+    <string name="menu_delete">刪除所有備註</string>
+    <string name="delete_all_notes_confirm">將刪除所有備註。</string>
+    <string name="title_loading">正在載入...</string>
+
+    <string name="note_saved">備註已儲存</string>
+    <string name="no_selected">未選取任何備註</string>
+
+    <string name="menu_sort_by_modify">按照修改時間排序</string>
+    <string name="menu_sort_by_tab">按照索引標籤排序</string>
+    <string name="menu_work">工作項目</string>
+    <string name="menu_personal">個人事項</string>
+    <string name="menu_family">家族事項</string>
+    <string name="menu_study">研讀</string>
+    <string name="menu_none">未分類</string>
+
+    <string name="menu_add_button">新增</string>
+    <string name="menu_edit_button">編輯</string>
+    <string name="menu_delete_button">刪除</string>
+    <string name="menu_deselect_all_button">取消全選</string>
+    <string name="menu_select_all_button">全選</string>
+    
+    <string name="month">月</string>
+    <string name="day">日</string>
+    
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g>已選</string>
+    <string name="type_note">輸入備註</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="camera_mav_title_margin_top">23dp</dimen>
+</resources>

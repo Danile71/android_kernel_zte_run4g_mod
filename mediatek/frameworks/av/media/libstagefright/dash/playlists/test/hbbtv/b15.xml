@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright Digital TV Labs 2012 -->
+<MPD xmlns="urn:mpeg:DASH:schema:MPD:2011" mediaPresentationDuration="PT6M0S" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:hbbtv:dash:profile:isoff-live:2012" type="static">
+  <Period duration="PT1M0S" start="PT0.00S">
+    <AdaptationSet mimeType="audio/mp4" segmentAlignment="true" lang="en">
+      <Representation bandwidth="96000" codecs="mp4a.40.02" id="audio.96" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_1min_3secseg_desc/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_1min_3secseg_desc/media-01.fmp4/audio/seg-$Number%04d$.m4f" startNumber="0" timescale="1000" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="56000" id="video.1.56" codecs="avc1.4d401e" frameRate="25" sar="4:3" width="352" height="288" scanType="progressive">
+        <SegmentTemplate duration="10000" initialization="352x288p_56Kbps_1min_10secseg_MP30_43/media-01.fmp4/video/1/init.mp4" media="352x288p_56Kbps_1min_10secseg_MP30_43/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period duration="PT5M0S" start="PT1M0S">
+    <AdaptationSet mimeType="audio/mp4" codecs="ec-3" lang="en" segmentAlignment="true" startWithSAP="1">
+      <Representation id="audio.2.128" bandwidth="128000" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:dolby:dash:audio_channel_configuration:2011" value="A000"/>
+        <SegmentTemplate timescale="48000"
+          media="EAC3_128K_3secseg/128kbps_E-AC3_2ch_5min_A_128000_.fmp4/128kbps_E-AC3_2ch_5min_A_128000_$Number$.m4s"
+          initialization="EAC3_128K_3secseg/128kbps_E-AC3_2ch_5min_A_128000_.fmp4/128kbps_E-AC3_2ch_5min_A_128000_0.mp4">
+          <SegmentTimeline>
+            <S t="0" d="145920" r="98"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="56000" id="video.2.56" codecs="avc1.4d401e" frameRate="25" sar="4:3" width="352" height="288" scanType="progressive">
+        <SegmentTemplate duration="10000" initialization="352x288p_56Kbps_10secseg_MP30_43/media-01.fmp4/video/1/init.mp4" media="352x288p_56Kbps_10secseg_MP30_43/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
+

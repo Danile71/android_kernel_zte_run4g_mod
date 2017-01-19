@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources> 
+    <string name="app_name">Tasques pendents</string>
+    <string name="app_header">TASCA PENDENT</string>
+    <string name="todos_title">TASCA PENDENT</string>
+    <string name="dones_title">"Fet"</string>
+    <string name="todo_details_title">Detalls de tasca pendent</string>
+    <string name="no_expire_date">No hi ha cap data de venciment</string>
+    <string name="valid_date_range">L’interval de dates va del 1970 al 2036</string>
+    <string name="btn_done">"Fet"</string>
+    <string name="btn_cancel">"Cancel·la"</string>
+    <string name="todos_empty_info">No hi ha cap element\n Toca per afegir tasca pendent nova</string>
+    <string name="dones_empty_info">No hi ha cap element</string>
+    <string name="delete">"Suprimeix"</string>
+    <string name="cancel">"Cancel·la"</string>
+    <string name="delete_item">"Aquest element s'eliminarà."</string>
+    <string name="delete_selected_items">"Aquests elements s'eliminaran."</string>
+    <string name="done_time_format">Fet el %Y-%m-%d %H:%M</string>
+    <string name="due_day_time_format" translateable="false">"%Y-%m-%d"</string>
+    <string name="operator_failed">L’operació ha fallat</string>
+    <string name="back_title">"Nota"</string>
+    <string name="back_message">Vols deixar l’edició actual?</string>
+    <string name="ok">"D\'acord"</string>
+    <string name="add_new_todo">Tasca pendent nova</string>
+    <string name="edit_todo">Edita la tasca pendent</string>
+    <string name="todo_detail">Detalls de la tasca pendent</string>
+    <string name="done_detail">Detalls de compleció</string>
+    <string name="text_full">No poden introduir-se més caràcters</string>
+    <string name="hint_title">"Títol"</string>
+    <string name="hint_details">"Detalls"</string>
+    <string name="separate" translateable="false">|</string>
+    <string name="select_all">"Selecciona-ho tot"</string>
+    <string name="deselect_all">"Anul·la la selecció de tot"</string>
+    <string name="mark_done">Marca-ho com a tasca pendent</string>
+    <string name="mark_todo">Marca-ho com a fet</string>
+    <string name="todo_discarded">Tasca pendent descartada</string>
+    <string name="prompt_date_before_today">La data de venciment no pot ser anterior a l’actual.</string>
+    <string name="selected_count">%d seleccionats</string>
+    <string name="unselect_all">Desmarca tots els seleccionats</string>
+    <string name="more_than_999">999+</string>
+</resources>

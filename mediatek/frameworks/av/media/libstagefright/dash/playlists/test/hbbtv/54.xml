@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright Digital TV Labs 2012 -->
+<MPD xmlns="urn:mpeg:DASH:schema:MPD:2011" mediaPresentationDuration="PT0H1M29.952S" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:hbbtv:dash:profile:isoff-live:2012" type="static">
+  <Period duration="PT5M0S" start="PT0.00S">
+    <AdaptationSet mimeType="video/mp4" codecs="avc1.4d401e" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video.1000" frameRate="25" width="720" sar="16:9" height="576" scanType="interlaced">
+        <SegmentTemplate startNumber="0" duration="3000" initialization="720x576i_1000Kbps_1.30min_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_1.30min_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" codecs="ec-3" lang="en" segmentAlignment="true" startWithSAP="1">
+      <Accessibility schemeIdUri="urn:tva:metadata:cs:AudioPurposeCS:2007" value="6"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+      <SegmentTemplate timescale="48000"
+        media="EAC3_448K_1.30min_3secseg_71ch/71_CC_DDP448kbps_A_448000_.fmp4/71_CC_DDP448kbps_A_$Bandwidth$_$Number$.m4s"
+        initialization="EAC3_448K_1.30min_3secseg_71ch/71_CC_DDP448kbps_A_448000_.fmp4/71_CC_DDP448kbps_A_$Bandwidth$_0.mp4">
+        <SegmentTimeline>
+          <S t="0" d="145920" r="29"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="1" bandwidth="448000" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:dolby:dash:audio_channel_configuration:2011" value="FA01"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
+

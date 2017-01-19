@@ -1,0 +1,50 @@
+
+
+
+#mydiv {
+    background-color:#F8C33D;
+    background-color:#FFF2C4;
+    width:1200px;
+    height:750px;
+    float:left;
+}
+#mydiv2 {
+    text-align:center;
+}            
+
+#mySlider {
+    margin:auto;
+}
+
+#layerInfoSummary {
+    background-color:#BFBFBF;
+    width:400px;
+    /*height:200px;*/
+    float:right;
+}            
+#layerDetail {
+    background-color:#BAAAAA;
+    width:400px;
+    /*height:200px;*/
+    float:right;
+}            
+#layerList{
+    background-color:white;
+    width:400px;
+    height:650px;
+    float:right;
+}
+
+#layerCompose
+{
+  position: absolute;
+  left: 50px;
+  top: 500px; 
+  fill-opacity:0.1;
+  stroke-opacity:0.9;
+  zoom: 35%;
+  stroke:black ;
+  stroke-width:10 ; 
+  fill:pink ;
+}            
+            

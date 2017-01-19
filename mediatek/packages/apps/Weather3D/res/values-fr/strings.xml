@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">Météo live 3D</string>  
+    <string name="last_update">Dernière mise à jour</string>  
+    <string name="no_weather">Touchez le réglage pour ajouter des villes</string>  
+    <string name="no_network">Aucun réseau disponible</string>  
+    <string name="update_fail">Echec de la mise à jour météo</string>  
+    <string name="updating">Mise à jour en cours</string>  
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <skip/>
+    <string name="wallpapers">MTK жанды түсқағаздар</string>
+    <skip/>
+    <string name="vlw">Видео түсқағаз</string>
+    <string name="vlw_desc">Жанды түсқағаз ретінде видео орнату.</string>
+    <string name="VideoScene_error_text_invalid_progressive_playback">Кешіріңіз, видеоны бұл құрылғыда ойнату мүмкін емес.</string>
+    <string name="VideoScene_error_text_unknown">Кешіріңіз, бұл видеоны ойнату мүмкін емес.</string>
+    <string name="VideoScene_error_media_removed">Медиафайл жойылды</string>
+	<string name="VideoScene_error_sdcard_unmounted">SD карта шығарылды</string>
+	<string name="VideoScene_info_wait_sdcard">SD картаның дайын болуын күтуе</string>
+	<string name="VideoScene_error_media_not_found">Медиа файлы қазір жоқ</string>
+	<string name="VideoScene_error_be_set">Кешіріңіз, видеоны түсқағаз ретінде орнату мүмкін емес</string>
+    <string name="VideoEditor_error_title">Видеоны ойнату мүмкін емес</string>
+    <string name="VideoEditor_error_button">OK</string>
+    <string name="VideoEditor_error_no_video_selected">Видео таңдалмады</string>
+	<string name="VideoEditor_warning_limited_duration">Ойнату үшін кемінде бір секундтық видео таңдаңыз</string>
+	<string name="VideoScene_reload_after_mount">SD картадан видео жүктелуде, күтіңіз.</string>
+    <string name="select_video">SD карта</string>
+    <string name="select_default">Әдепкі</string>
+    <string name="select">Видеоны таңдау</string>
+    <string name="set_wallpaper">түсқағаз орнату</string>
+    <string name="title">Видео түсқағаз</string>
+    <string name="default_title">Әдепкі видео</string>
+    <string name="capture_video">Камера</string>
+    <string name="menu_item_add_item">SD картадан видео таңдау</string>
+    <string name="group_video">Бір видео таңдау</string>
+    <string name="group_folder">Қалта таңдау</string>
+    <string name="folder_info">видеоларды&lt;br&gt;таңдау орны&lt;br&gt;</string>
+</resources>

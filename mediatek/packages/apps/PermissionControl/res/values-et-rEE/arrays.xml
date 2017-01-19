@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="permission_label">
+        <item>Helistage</item>
+        <item>Käivita mitme osalejaga kõne</item>
+	    <item>"SMS-i saatmine"</item>
+	    <item>"MMS-i saatmine"</item>
+	    <item>Alusta heli salvestust</item>
+	    <item>Read SMS</item>
+	    <item>Muuda SMS-i</item>
+	    <item>Loe MMS-i</item>
+	    <item>Muuda MMS-i</item>
+	    <item>Read contacts</item>
+	    <item>Modify contacts</item>
+	    <item>Kõnelogide lugemine</item>
+	    <item>Muuda kõnelogisid</item>
+	    <item>Hangi positsioon</item>
+	    <item>Kasutage kaamerat</item>
+	    <item>Lülita sisse andmeühendus</item>
+	    <item>Lülita WiFi sisse</item>
+	    <item>"Lülitage Bluetooth sisse"</item>
+	    <item>Kasutage rakendust HotKnot</item>
+    </string-array>
+    <string-array name="perm_status_entry">
+        <item>"Luba alati"</item>
+        <item>Küsi alati</item>
+        <item>Keeldu alati</item>
+    </string-array>
+    <string-array name="confirm_msg_body">
+        <item>helistage</item>
+        <item>käivita mitme osalejaga kõne</item>
+        <item>saada SMS</item>
+        <item>saada MMS</item>
+        <item>alusta heli salvestust</item>
+        <item>read SMS</item>
+        <item>muuda SMS-i</item>
+        <item>MMS-i lugemine</item>
+        <item>muuda MMS-i</item>
+        <item>read contacts</item>
+        <item>modify contacts</item>
+        <item>kõnelogide lugemine</item>
+        <item>muuda kõnelogisid</item>
+        <item>määrake oma hetkeasukoht</item>
+        <item>kasutage kaamerat</item>
+        <item>lülita sisse andmeühendus</item>
+        <item>Lülita WiFi sisse</item>
+        <item>"Lülitage Bluetooth sisse"</item>
+        <item>kasutage rakendust HotKnot</item>
+    </string-array>
+</resources>

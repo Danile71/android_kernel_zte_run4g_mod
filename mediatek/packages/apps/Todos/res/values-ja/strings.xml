@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources> 
+    <string name="app_name">やること一覧</string>
+    <string name="app_header">やること</string>
+    <string name="todos_title">やること</string>
+    <string name="dones_title">"完了"</string>
+    <string name="todo_details_title">やることの詳細</string>
+    <string name="no_expire_date">期限無し</string>
+    <string name="valid_date_range">期間は1970から2036です。</string>
+    <string name="btn_done">"完了"</string>
+    <string name="btn_cancel">"キャンセル"</string>
+    <string name="todos_empty_info">アイテムが存在しません\nタップして新しくやることを追加できます</string>
+    <string name="dones_empty_info">アイテムが存在しません</string>
+    <string name="delete">"削除"</string>
+    <string name="cancel">"キャンセル"</string>
+    <string name="delete_item">このアイテムは削除されます</string>
+    <string name="delete_selected_items">以下のアイテムは削除されます</string>
+    <string name="done_time_format">完了日時： %Y-%m-%d %H:%M</string>
+    <string name="due_day_time_format" translateable="false">%Y-%m-%d</string>
+    <string name="operator_failed">操作失敗</string>
+    <string name="back_title">"メモ"</string>
+    <string name="back_message">現在の編集作業を中止しますか？</string>
+    <string name="ok">"OK"</string>
+    <string name="add_new_todo">新規のやること</string>
+    <string name="edit_todo">やることを編集</string>
+    <string name="todo_detail">やることの詳細</string>
+    <string name="done_detail">完了内容の詳細</string>
+    <string name="text_full">これ以上の文字は入力できません\</string>
+    <string name="hint_title">"タイトル"</string>
+    <string name="hint_details">"詳細情報"</string>
+    <string name="separate" translateable="false">|</string>
+    <string name="select_all">"すべて選択"</string>
+    <string name="deselect_all">"選択をすべて解除"</string>
+    <string name="mark_done">やること、にする</string>
+    <string name="mark_todo">完了にする</string>
+    <string name="todo_discarded">やることは破棄されました</string>
+    <string name="prompt_date_before_today">期限は現在の日時より以前に設定できません。</string>
+    <string name="selected_count">%dが選択されました</string>
+    <string name="unselect_all">全て非選択にする</string>
+    <string name="more_than_999">999+</string>
+</resources>

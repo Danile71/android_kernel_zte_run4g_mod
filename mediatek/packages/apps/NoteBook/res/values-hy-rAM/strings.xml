@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Գրառումների տետր</string>
+    <string name="no_note">Նշումներ չկան</string>
+    <string name="selectednumber">Ընտրված է</string>
+    <string name="delete_confirm_current">Նշումը կջնջվի:</string>
+    <string name="delete_confirm_one">Ընտրված նշումը կջնջվի:</string>
+    <string name="delete_confirm">Ընտրված նշումները կջնջվեն:</string>
+    <string name="delete_confirm_title">"Ջնջել"</string>
+    <string name="delete_confirm_cancel">"Չեղարկել"</string>
+    <string name="delete_confirm_ok">"Լավ"</string>
+    <string name="title_bar_selected">Ընտրված է</string>
+    <string name="editor_full">Կարող եք ներմուծել առավելագույնը 1500 գրանշան</string>
+    <string name="sdcard_full" product="tablet">Սարքի պահոցում չկա բավարար տարածք: Խնդրում ենք ազատել որոշ տարածք:</string>
+    <string name="sdcard_full" product="default">Հեռախոսի պահոցում չկա բավարար տարածք: Խնդրում ենք ազատել որոշ տարածք:</string>
+    <string name="save_none">Դատարկ նշումը չստեղծվեց</string>
+    <string name="empty_note">Դատարկ նշում</string>
+    <string name="delete_progress">Ջնջում</string>
+    <string name="title_notes_list">Գրառումների տետր</string>
+    <string name="title_notes_view">Կարդում է</string>
+    <string name="title_notes_edit">"Կատարված է"</string>
+    <string name="title_loading">Բեռնում է...</string>
+    <string name="menu_delete">Ջնջել բոլոր նշումները</string>
+    <string name="delete_all_notes_confirm">Բոլոր նշումները կջնջվեն:</string>
+    <string name="note_saved">Նշումը պահվեց</string>
+    <string name="no_selected">Չի ընտրված ոչ մի նշում</string>
+    <string name="menu_sort_by_modify">Տեսակավորել` ըստ փոփոխման ժամի</string>
+    <string name="menu_sort_by_tab">Տեսակավորել` ըստ ներդիրների</string>
+    <string name="menu_work">"Աշխատանքային"</string>
+    <string name="menu_personal">"Անձնական"</string>
+    <string name="menu_family">Ընտանեկան գործեր</string>
+    <string name="menu_study">Ուսում</string>
+    <string name="menu_none">Չդասակարգված</string>
+    <string name="menu_add_button">"նոր"</string>
+    <string name="menu_delete_button">"Ջնջել"</string>
+    <string name="menu_edit_button">"Խմբագրել"</string>
+    <string name="menu_deselect_all_button">"Ապանշել բոլորը"</string>
+    <string name="menu_select_all_button">Ընտրել բոլորը</string>
+    <string name="month">"ր"</string>
+    <string name="day">Օր</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> ընտրված է</string>
+    <string name="type_note">Մուտքագրել նշում</string>
+</resources>

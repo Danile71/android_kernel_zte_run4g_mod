@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">3D ζωντανή καιρικές συνθήκες</string>
+    <string name="last_update">Τελευταία ενημέρωση</string>
+    <string name="no_weather">Πιέστε τη ρύθμιση για την προσθήκη πόλεων</string>
+    <string name="no_network">Κανένα διαθέσιμο δίκτυο</string>
+    <string name="update_fail">Αποτυχία ενημέρωσης καιρού</string>
+    <string name="updating">Ενημέρωση</string>
+</resources>

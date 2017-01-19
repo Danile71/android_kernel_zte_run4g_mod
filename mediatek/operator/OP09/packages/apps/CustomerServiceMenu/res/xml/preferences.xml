@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="main_panel">
+    <!-- opens a subscreen of settings -->
+    <PreferenceScreen
+        android:key="ehall"
+        android:persistent="false"
+        android:title="@string/mobile_ehall"
+        android:icon="@drawable/ic_ehall" >
+        <Preference
+            android:key="pref_message"
+            android:title="@string/message" >
+            <intent android:action="android.intent.action.SENDTO"
+                android:data="smsto:10001" />
+        </Preference>
+        <Preference
+            android:key="pref_wap"
+            android:title="@string/wap">
+            <intent android:action="android.intent.action.VIEW" android:data="http://wap.ct10000.com" />
+        </Preference>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="subscription"
+        android:persistent="false"
+        android:title="@string/subscription"
+        android:icon="@drawable/ic_subscription" >
+        <Preference
+            android:key="pref_subscribe"
+            android:title="@string/subscription_inquiry" />
+        <Preference
+            android:key="pref_unsubscribe"
+            android:title="@string/service_unscribe" />
+    </PreferenceScreen>
+
+    <Preference
+        android:key="pref_prl"
+        android:persistent="false"
+        android:title="@string/prl_update"
+        android:icon="@drawable/ic_prl_update" >
+        <intent android:action="android.intent.action.SENDTO"
+                android:data="smsto:10659165" />
+    </Preference>
+
+    <PreferenceScreen
+        android:key="customer_hotline"
+        android:persistent="false"
+        android:title="@string/customer_hotline"
+        android:icon="@drawable/ic_customer_hotline" >
+        <Preference
+            android:key="desc"
+            android:title="@string/hotline_desc"
+            android:layout="@layout/customized_preference" />
+        <Preference
+            android:key="pref_hotline"
+            android:title="@string/hotline" >
+            <intent android:action="android.intent.action.VIEW" android:data="tel:10000" />
+        </Preference>
+        <Preference
+            android:key="pref_self_hotline"
+            android:title="@string/self_hotline" >
+            <intent android:action="android.intent.action.VIEW" android:data="tel:10001" />
+        </Preference>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="global_hotline"
+        android:persistent="false"
+        android:title="@string/global_hotline"
+        android:icon="@drawable/ic_global_hotline" >
+        <Preference
+            android:key="pref_hotline"
+            android:summary="@string/global_hotline_desc"
+            android:layout="@layout/customized_preference" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="guide"
+        android:persistent="false"
+        android:title="@string/guide"
+        android:icon="@drawable/ic_guide" >
+        <Preference
+            android:key="pref_guide"
+            android:summary="@string/guide_desc"
+            android:layout="@layout/customized_preference" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

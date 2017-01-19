@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.mom.test.function.rec"
+    android:sharedUserId="android.uid.system">
+
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="com.mediatek.mom.test.function.rec"
+                     android:label="MoMS REC function checking"/>
+</manifest>
+

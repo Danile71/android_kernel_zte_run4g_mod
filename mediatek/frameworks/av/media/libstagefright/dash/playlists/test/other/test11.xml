@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created with mod_smooth_streaming(version=1.4.46)-->
+
+<MPD
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="urn:mpeg:dash:schema:mpd:2011"
+  xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011"
+  type="static"
+  mediaPresentationDuration="PT3M19.800S"
+  minBufferTime="PT10S"
+  profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:hbbtv:dash:profile:isoff-live:2012">
+  <Period>
+    <BaseURL>dash/round6-
+    </BaseURL>
+    <AdaptationSet
+      mimeType="audio/mp4"
+      segmentAlignment="true">
+      <SegmentTemplate
+        timescale="44100"
+        media="audio=$Bandwidth$-$Time$.dash"
+        initialization="audio=$Bandwidth$.dash">
+        <SegmentTimeline>
+          <S
+            t="0"
+            d="177152" />
+          <S
+            d="171008" />
+          <S
+            d="142336" />
+          <S
+            d="177152" />
+          <S
+            d="96256" />
+          <S
+            d="177152" />
+          <S
+            d="151552" />
+          <S
+            d="176128" />
+          <S
+            d="95232" />
+          <S
+            d="104448" />
+          <S
+            d="153600" />
+          <S
+            d="91136" />
+          <S
+            d="123904" />
+          <S
+            d="93184" />
+          <S
+            d="155648" />
+          <S
+            d="137216" />
+          <S
+            d="176128" />
+          <S
+            d="177152" />
+          <S
+            d="108544" />
+          <S
+            d="138240" />
+          <S
+            d="153600" />
+          <S
+            d="176128" />
+          <S
+            d="107520" />
+          <S
+            d="160768" />
+          <S
+            d="147456" />
+          <S
+            d="97280" />
+          <S
+            d="123904" />
+          <S
+            d="135168" />
+          <S
+            d="141312" />
+          <S
+            d="92160" />
+          <S
+            d="134144" />
+          <S
+            d="176128" />
+          <S
+            d="167936" />
+          <S
+            d="147456" />
+          <S
+            d="123904" />
+          <S
+            d="171008" />
+          <S
+            d="155648" />
+          <S
+            d="140288" />
+          <S
+            d="136192" />
+          <S
+            d="99328" />
+          <S
+            d="108544" />
+          <S
+            d="107520" />
+          <S
+            d="90112" />
+          <S
+            d="134144" />
+          <S
+            d="146432" />
+          <S
+            d="109568" />
+          <S
+            d="126976" />
+          <S
+            d="124928" />
+          <S
+            d="95232" />
+          <S
+            d="106496" />
+          <S
+            d="109568" />
+          <S
+            d="120832" />
+          <S
+            d="129024" />
+          <S
+            d="144384" />
+          <S
+            d="90112" />
+          <S
+            d="92160" />
+          <S
+            d="112640" />
+          <S
+            d="123904" />
+          <S
+            d="132096" />
+          <S
+            d="91136" />
+          <S
+            d="95232" />
+          <S
+            d="99328" />
+          <S
+            d="176128"
+            r="1" />
+          <S
+            d="99328" />
+          <S
+            d="110592" />
+          <S
+            d="104448" />
+          <S
+            d="38912" />
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation
+        id="audio=94000"
+        bandwidth="94000"
+        codecs="mp4a.40.2"
+        audioSamplingRate="44100">
+        <AudioChannelConfiguration
+          schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011"
+          value="2">
+        </AudioChannelConfiguration>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet
+      mimeType="video/mp4"
+      par="16:9"
+      segmentAlignment="true"
+      startWithSAP="1">
+      <SegmentTemplate
+        timescale="1000"
+        media="video=$Bandwidth$-$Time$.dash"
+        initialization="video=$Bandwidth$.dash">
+        <SegmentTimeline>
+          <S
+            t="0"
+            d="4000" />
+          <S
+            d="3880" />
+          <S
+            d="3240" />
+          <S
+            d="4000" />
+          <S
+            d="2200" />
+          <S
+            d="4000" />
+          <S
+            d="3440" />
+          <S
+            d="4000" />
+          <S
+            d="2160" />
+          <S
+            d="2360" />
+          <S
+            d="3480" />
+          <S
+            d="2080" />
+          <S
+            d="2800" />
+          <S
+            d="2120" />
+          <S
+            d="3520" />
+          <S
+            d="3120" />
+          <S
+            d="4000"
+            r="1" />
+          <S
+            d="2480" />
+          <S
+            d="3120" />
+          <S
+            d="3480" />
+          <S
+            d="4000" />
+          <S
+            d="2440" />
+          <S
+            d="3640" />
+          <S
+            d="3360" />
+          <S
+            d="2200" />
+          <S
+            d="2800" />
+          <S
+            d="3080" />
+          <S
+            d="3200" />
+          <S
+            d="2080" />
+          <S
+            d="3040" />
+          <S
+            d="4000" />
+          <S
+            d="3800" />
+          <S
+            d="3360" />
+          <S
+            d="2800" />
+          <S
+            d="3880" />
+          <S
+            d="3520" />
+          <S
+            d="3200" />
+          <S
+            d="3080" />
+          <S
+            d="2240" />
+          <S
+            d="2480" />
+          <S
+            d="2440" />
+          <S
+            d="2040" />
+          <S
+            d="3040" />
+          <S
+            d="3320" />
+          <S
+            d="2480" />
+          <S
+            d="2880" />
+          <S
+            d="2840" />
+          <S
+            d="2160" />
+          <S
+            d="2400" />
+          <S
+            d="2480" />
+          <S
+            d="2760" />
+          <S
+            d="2920" />
+          <S
+            d="3280" />
+          <S
+            d="2040" />
+          <S
+            d="2080" />
+          <S
+            d="2560" />
+          <S
+            d="2800" />
+          <S
+            d="3000" />
+          <S
+            d="2080" />
+          <S
+            d="2160" />
+          <S
+            d="2240" />
+          <S
+            d="4000"
+            r="1" />
+          <S
+            d="2240" />
+          <S
+            d="2520" />
+          <S
+            d="2360" />
+          <S
+            d="1000" />
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation
+        id="video=393000"
+        bandwidth="393000"
+        codecs="avc1.42C014"
+        width="400"
+        height="225"
+        scanType="progressive">
+      </Representation>
+      <Representation
+        id="video=904000"
+        bandwidth="904000"
+        codecs="avc1.42C01E"
+        width="711"
+        height="400"
+        scanType="progressive">
+      </Representation>
+      <Representation
+        id="video=2059000"
+        bandwidth="2059000"
+        codecs="avc1.42C01F"
+        width="1280"
+        height="720"
+        scanType="progressive">
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

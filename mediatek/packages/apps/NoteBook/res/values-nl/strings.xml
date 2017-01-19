@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Notebook</string>
+    <string name="no_note">Geen notities</string>
+    <string name="selectednumber">Geselecteerd</string>
+    <string name="delete_confirm_current">De notitie wordt verwijderd.</string>
+    <string name="delete_confirm_one">De geselecteerde notitie wordt verwijderd.</string>
+    <string name="delete_confirm">De geselecteerde notities worden verwijderd.</string>
+    <string name="delete_confirm_title">"Verwijderen"</string>
+    <string name="delete_confirm_cancel">"Annuleren"</string>
+    <string name="delete_confirm_ok">"OK"</string>
+    <string name="title_bar_selected">Geselecteerd</string>
+    <string name="editor_full">U kunt maximaal 1500 tekens invoeren</string>
+    <string name="sdcard_full" product="tablet">Onvoldoende ruimte in de apparaatopslag. Maak ruimte vrij.</string>
+    <string name="sdcard_full" product="default">Onvoldoende ruimte in de telefoonopslag. Maak ruimte vrij.</string>
+    <string name="save_none">Lege notitie is niet gemaakt</string>
+    <string name="empty_note">Lege notitie</string>
+    <string name="delete_progress">Verwijderen</string>
+    <string name="title_notes_list">Notebook</string>
+    <string name="title_notes_view">Lezen</string>
+    <string name="title_notes_edit">"Gereed"</string>
+    <string name="title_loading">Wordt geladen...</string>
+    <string name="menu_delete">Alle notities wissen</string>
+    <string name="delete_all_notes_confirm">Alle notities worden verwijderd.</string>
+    <string name="note_saved">Notitie opgeslagen</string>
+    <string name="no_selected">Geen notitie geselecteerd</string>
+    <string name="menu_sort_by_modify">Sorteren op bewerkingstijd</string>
+    <string name="menu_sort_by_tab">Sorteren op tabs</string>
+    <string name="menu_work">"Werk"</string>
+    <string name="menu_personal">"PERSOONLIJK"</string>
+    <string name="menu_family">Gezinszaken</string>
+    <string name="menu_study">Studie</string>
+    <string name="menu_none">Niet gecategoriseerd</string>
+    <string name="menu_add_button">"nieuw"</string>
+    <string name="menu_delete_button">"Verwijderen"</string>
+    <string name="menu_edit_button">"Bewerken"</string>
+    <string name="menu_deselect_all_button">"Alle selecties opheffen"</string>
+    <string name="menu_select_all_button">Alles selecteren</string>
+    <string name="month">"m"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> geselecteerd </string>
+    <string name="type_note">Typ notitie</string>
+</resources>

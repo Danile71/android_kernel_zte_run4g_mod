@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3D direkte vær</string>
+    <string name="last_update">Sist oppdatert</string>
+    <string name="no_weather">Trykk innstilling for å legge til byer</string>
+    <string name="no_network">Ingen nettverk tilgjengelige</string>
+    <string name="update_fail">Oppdatering av vær mislyktes</string>
+    <string name="updating">Oppdaterer</string>
+</resources>

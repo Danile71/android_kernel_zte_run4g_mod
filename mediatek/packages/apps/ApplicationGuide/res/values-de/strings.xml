@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"Weiter"</string>
+    <string name="scroll_left_bar_title">Zur Anzeige weiterer Aufnahmemodi blättern</string>
+    <string name="zoome_title">Vergrößern/verkleinern</string>
+    <string name="vcs_guide_summary">Sprechen Sie zum Finden von Kontakten einfach den gewünschten Namen.\nProbieren Sie es aus!</string>
+    <string name="vcs_guide_title">Sprachkontaktsuche</string>
+    <string name="camera_mav_title">Bitte beginnen Sie die Aufnahme an der linken Seite des Motivs.</string>
+    <string name="refocus_guide_title">Klicken Sie auf das Bild zum Ändern der Fokusposition</string>
+    <string name="vcs_guide_title1">Namen zur Suche nach Kontakten aussprechen.</string>
+    <string name="vcs_guide_title2">Zum Aktivieren der Funktion hier tippen.\nJetzt ausprobieren!</string>    
+</resources>

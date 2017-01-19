@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Контрола дозвола</string>
+    <string name="accept_perm">"Дозволи"</string>
+    <string name="deny_perm">"Одбиј"</string>
+    <string name="notify_check_hint">Немој поново подсећати.</string>
+	<string name="notify_dialog_title">"Безбедносно упозорење"</string>
+	<string name="notify_dialog_msg_body"><xliff:g id="pkg_name">%s</xliff:g> покушава да <xliff:g id="perm_name">%s</xliff:g>.</string>
+	<string name="time_count_down_hint">(Аутоматски одбиј после <xliff:g id="time">%s</xliff:g> секунди.)</string>
+    <string name="notification_control_state_title">Дозвола апликације</string>
+    <string name="notification_control_state_summary">Управљање дозволама апликације је затворено.</string>
+    <string name="toast_deny_msg_body"><xliff:g id="pkg_name">%s</xliff:g> нема дозволу да <xliff:g id="perm_name">%s</xliff:g>.</string>
+    <string name="manage_permission_app_label">Дозволе апликације</string>
+    <string name="manage_permission_summary">Управљајте дозволама апликације за заштиту сигурности и приватности</string>
+    <string name="permissions_label">"Дозволе"</string>
+    <string name="apps">"Апликације"</string>
+    <string name="no_applications">"Нема апликација."</string>
+    <string name="version_text">"верзија <xliff:g id="VERSION_NUM">%1$s</xliff:g>"</string>
+    <string name="app_count_unit_single">"Апликација"</string>
+    <string name="app_count_unit_plural">"Апликације"</string>
+    <string name="perm_count_unit_single">Дозвола</string>
+    <string name="perm_count_unit_plural">"Дозволе"</string>
+    <string name="no_app_use_perm">Нема апликација које користе ову дозволу.</string>
+    <string name="no_perm_is_used">Ова апликација не користи дозволе.</string>
+    <string name="notify_user_switch_on">Укључите прекидач за управљање дозволама апликације.</string>
+    <string name="alert_dlg_title">Желите ли да искључите заштиту?</string>
+    <string name="alert_dlg_mgs">Апликације ће директно добити дозволе без ваше потврде.</string>
+    <string name="foreground_notification_title">Управљање дозволама апликације је покренуто</string>
+    <string name="foreground_notification_summary">Додирните да бисте погледали детаљна подешавања за дозволе апликације.</string>
+    <string name="auto_boot_pref_title">Управљање аутоматским покретањем</string>
+    <string name="auto_boot_pref_summary">Дозволите или одбијте аутоматско покретање апликације приликом покретања система</string>
+    <string name="no_auto_boot_app">Нема аутоматског покретања апликација.</string>
+    <plurals name="autoboot_app_desc_allow">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g> апликација дозвољена,</item>
+        <item quantity="other"><xliff:g id="app_count">%1$d</xliff:g> апликације дозвољене,</item>
+    </plurals>
+   <plurals name="autoboot_app_desc_deny">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g> апликација одбијена.</item>
+        <item quantity="other"><xliff:g id="app_count">%1$d</xliff:g> апликације одбијене.</item>
+   </plurals>
+</resources>

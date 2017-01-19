@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">اگلا</string>
+    <string name="scroll_left_bar_title">کیپچر کے مزید وضع دیکھنے کیلئے اسکرول کریں</string>
+    <string name="zoome_title">ژوم ان/ آؤٹ</string>
+    <string name="vcs_guide_summary">رابطے تلاش کرنے کیلئے ان کا نام لیں۔\n اسے آزمائیں!</string>
+    <string name="vcs_guide_title">وائس کنٹیکٹ سرچ</string>
+    <string name="camera_mav_title">براہ کرم اس چیز کے بائیں جانب حائیں اور پھر اسے شوٹ کرنا شروع کریں</string>
+    <string name="refocus_guide_title">فوکس کی جگہ تبدیل کرنے کے لیے تصویر پر کلک کریں</string>
+    <string name="vcs_guide_title1">رابطے تلاش کرنے کے لیے نام بولیں۔</string>
+    <string name="vcs_guide_title2">فنکشن فعال کرنے کے لیے یہاں ٹیپ کریں۔\nاسے آزمائیں!</string>    
+</resources>

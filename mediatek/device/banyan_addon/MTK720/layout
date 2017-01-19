@@ -1,0 +1,98 @@
+parts {
+    portrait {
+        background {
+            image   background_port.png
+        }
+        notifications {
+            led {
+                image   led.png
+                    x   241
+                    y   152
+            }
+            vibrator {
+                image   vibrator.png
+                    x   465
+                    y   1522
+            }
+        }
+    }
+    landscape {
+        background {
+            image   background_land.png
+        }
+        notifications {
+            led {
+                image   led.png
+                    x   195
+                    y   762
+            }
+            vibrator {
+                image   vibrator.png
+                    x   1565
+                    y   405
+            }
+        }
+    }
+
+    device {
+        display {
+            width   720
+            height  1280
+            x       0
+            y       0
+        }
+    }
+    
+}
+
+layouts {
+
+    portrait {
+        width     1080
+        height    1860
+        color     0xe0e0e0
+        event     EV_SW:0:1
+
+        part1 {
+            name    portrait
+            x       0
+            y       0
+        }
+
+        part2 {
+            name    device
+            x       180
+            y       208
+        }
+    }
+
+    landscape {
+        width     1860
+        height    1080
+        color     0xe0e0e0
+        event     EV_SW:0:0
+
+        part1 {
+            name    landscape
+            x       0
+            y       0
+        }
+
+        part2 {
+            name      device
+            x         251
+            y         840
+            rotation  3
+        }
+    }
+
+}
+
+keyboard {
+    charmap qwerty2
+}
+
+network {
+    speed  full
+    delay  none
+}

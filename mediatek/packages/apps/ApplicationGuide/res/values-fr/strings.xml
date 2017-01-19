@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"Suivant"</string>
+    <string name="scroll_left_bar_title">"Faites défiler pour afficher d'autres modes de capture"</string>
+    <string name="zoome_title">Zoom avant/arrière</string>
+    <string name="vcs_guide_summary">Prononcez un nom pour trouver les contacts.\nEssayez!</string>
+    <string name="vcs_guide_title">Recherche vocale des contacts</string>
+    <string name="camera_mav_title">"Veuillez vous déplacer sur la gauche de l'objet et commencez à capturer."</string>
+    <string name="refocus_guide_title">"Cliquez sur l'image pour modifier l'emplacement de la mise au point"</string>
+    <string name="vcs_guide_title1">Prononcez le nom pour trouver les contacts.</string>
+    <string name="vcs_guide_title2">Touchez ici pour activer la fonction.\nEssayez-la!</string>    
+</resources>

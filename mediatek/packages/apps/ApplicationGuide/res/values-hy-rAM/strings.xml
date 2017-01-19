@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="next">"Հաջորդը"</string>
+    <string name="scroll_left_bar_title">Որորել՝ դիտելու համար ավելի շատ կորզման ռեժիմներ</string>
+    <string name="zoome_title">Խոշորացնել/փոքրացնել</string>
+    <string name="vcs_guide_summary">Արտաբերեք անունը` կոնտակտների մեջ գտնելու համար:\nՓորձեք կրկին:</string>
+    <string name="vcs_guide_title">Ձայնով կոնտակտի որոնում</string>
+    
+    <string name="vcs_guide_title1">Արտաբերեք անունը` կոնտակտների մեջ գտնելու համար:</string>
+    <string name="vcs_guide_title2">Հպեք այստեղ` գործառույթն ակտիվացնելու համար:\nՓորձեք այն:</string>    
+    <string name="camera_mav_title">Շարժվեք դեպի առարկայի ձախ կողմը և սկսեք լուսանկարել այն </string>
+    <string name="refocus_guide_title">Կտտացրեք պատկերը՝ կիզակետի դիրքը փոխելու համար</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="enable_mode_list">
+        <item name="enable_mode_entry_restore">ိုယခင္အဆင္အျပင္ကို အသံုးျပဳပါ</item>
+        <item name="enable_mode_entry_start_new">အဆင္အျပင္ အသစ္မ်ားကို တည္ေဆာက္ပါ</item>
+    </string-array>
+</resources>

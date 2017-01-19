@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="video_app_name">"Videopleier"</string>
+    <string name="scanning">"SD kaardi skaneerimine..."</string>
+    <string name="sdcard_missing_message">"SD kaarti ei ole telefoni sisestatud."</string>
+    <string name="video_list_empty">"Videod puuduvad."</string>
+    <string name="detail_title">"Pealkiri: %1$s"</string>
+    <string name="detail_date_taken">"Võetud : %1$s"</string>
+    <string name="detail_path">"Tee: %1$s"</string>
+    <string name="detail_filesize">"Faili suurus: %1$s"</string>
+    <string name="detail_duration">"Kestus: %1$s"</string>
+    <string name="media_detail">"Üksikasjad"</string>
+    <string name="delete">"Kustuta"</string>
+    <string name="delete_tip">"Kustutan üksuse %1$s?"</string>
+    <string name="delete_progress">"Üksuse %1$s kustutamine ..."</string>
+	<string name="max_video">Max videoid</string>
+	<string name="hotknot">HotKnot</string>
+    <string name="share">Jaga</string>
+    <string name="deselect_all">"Tühista kõik valikud"</string>
+    <string name="select_all">Vali kõik</string>
+    <string name="selected">valitud</string>
+    <string name="delete_selection_one">Kustutada valitud üksus?</string>
+    <string name="delete_selection_more">Kustutada valitud üksused?</string>
+    <string name="select_item">"Valige üksus"</string>
+</resources>

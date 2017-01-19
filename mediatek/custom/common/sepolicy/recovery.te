@@ -1,0 +1,36 @@
+# ==============================================
+# Policy File of /system/binrecovery Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type recovery_exec , exec_type, file_type;
+type recovery ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive recovery;
+init_daemon_domain(recovery)
+
+
+# 20131122 Add Set Property Rule
+allow recovery  property_type:property_service set;
+allow kernel platform_app_data_file:dir { write search create add_name };
+allow kernel platform_app_data_file:file { read write create open setattr };
+allow kernel rootfs:dir remove_name;
+allow kernel rootfs:file unlink;
+allow kernel block_device:blk_file ioctl;
+allow kernel sdcard_external:dir open;
+allow kernel system_data_file:fifo_file { create setattr };

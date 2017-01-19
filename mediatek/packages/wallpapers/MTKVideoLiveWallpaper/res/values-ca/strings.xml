@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <skip/>
+    <string name="wallpapers">Fons de pantalla MTK animat</string>
+    <skip/>
+    <string name="vlw">Fons de pantalla de vídeo</string>
+    <string name="vlw_desc">Estableix un vídeo com a fons de pantalla animat.</string>
+    <string name="VideoScene_error_text_invalid_progressive_playback">"Aquest vídeo no es pot reproduir al dispositiu."</string>
+    <string name="VideoScene_error_text_unknown">"No es pot reproduir aquest vídeo."</string>
+    <string name="VideoScene_error_media_removed">El fitxer multimèdia s’ha suprimit</string>
+	<string name="VideoScene_error_sdcard_unmounted">La targeta SD no està instal·lada</string>
+	<string name="VideoScene_info_wait_sdcard">S’està esperant per preparar la targeta SD</string>
+	<string name="VideoScene_error_media_not_found">El fitxer multimèdia ara no existeix</string>
+	<string name="VideoScene_error_be_set">Malauradament, el vídeo no es pot establir com a fons de pantalla de vídeo</string>
+    <string name="VideoEditor_error_title">"No es pot reproduir el vídeo"</string>
+    <string name="VideoEditor_error_button">"D\'acord"</string>
+    <string name="VideoEditor_error_no_video_selected">No s’ha seleccionat cap vídeo</string>
+	<string name="VideoEditor_warning_limited_duration">Selecciona com a mínim un vídeo de 1 segon per reproduir</string>
+	<string name="VideoScene_reload_after_mount">S’està carregant el vídeo de la targeta SD, espera un moment.</string>
+    <string name="select_video">"Targeta SD"</string>
+    <string name="select_default">"Predeterminat"</string>
+    <string name="select">"Selecciona un vídeo"</string>
+    <string name="set_wallpaper">"Estableix el fons de pantalla"</string>
+    <string name="title">Fons de pantalla de vídeo</string>
+    <string name="default_title">Vídeo predeterminat</string>
+    <string name="capture_video">"Càmera"</string>
+    <string name="menu_item_add_item">Selecciona un vídeo de la targeta SD</string>
+    <string name="group_video">Selecciona un sol vídeo</string>
+    <string name="group_folder">Selecciona la carpeta</string>
+    <string name="folder_info">vídeo(s)&lt;br&gt;de&lt;br&gt;</string>
+</resources>

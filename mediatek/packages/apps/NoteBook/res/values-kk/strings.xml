@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Жазу кітапшасы</string>
+    <string name="no_note">Ескертпелер жоқ</string>
+    <string name="selectednumber">таңдалған</string>
+    <string name="delete_confirm_current">Ескертпе жойылады.</string>
+    <string name="delete_confirm_one">Таңдалған ескертпе жойылады.</string>
+    <string name="delete_confirm">Таңдалған ескертпелер жойылады.</string>
+    <string name="delete_confirm_title">Жою</string>
+    <string name="delete_confirm_cancel">Болдырмау</string>
+    <string name="delete_confirm_ok">OK</string>
+    <string name="title_bar_selected">таңдалған</string>
+    <string name="editor_full">Максималды 1500 таңба енгізе аласыз.</string>
+    <string name="sdcard_full" product="tablet">Құрылғының жадындағы бос орын жеткіліксіз. Біраз орынды бсоатыңыз.</string>
+    <string name="sdcard_full" product="default">Телефон жадындағы бос орын жеткіліксіз. Біраз орын босатыңыз.</string>
+    <string name="save_none">Бос ескертпе жасалмайды.</string>
+    <string name="empty_note">Бос ескертпе </string>
+    <string name="delete_progress">Жойылуда</string>
+    <string name="title_notes_list">Жазу кітапшасы</string>
+    <string name="title_notes_view">Оқу</string>
+    <string name="title_notes_edit">Дайын</string>
+    <string name="title_loading">Жүктелуде...</string>
+    <string name="menu_delete">Барлық ескертпелерді жою</string>
+    <string name="delete_all_notes_confirm">Ескертпелердің барлығы жойылады.</string>
+    <string name="note_saved">Ескертпе сақталды</string>
+    <string name="no_selected">Бірде-бір ескертпе сақталмады</string>
+    <string name="menu_sort_by_modify">Өзгертілген уақыт бойынша сұрыптау</string>
+    <string name="menu_sort_by_tab">Қойындылар бойынша сұрыптау</string>
+    <string name="menu_work">Жұмыс</string>
+    <string name="menu_personal">ЖЕКЕ ДЕРЕКТЕР</string>
+    <string name="menu_family">Отбасылық шаруа</string>
+    <string name="menu_study">Оқу</string>
+    <string name="menu_none">Санаты жоқ</string>
+    <string name="menu_add_button">Жаңа хабар жазу</string>
+    <string name="menu_delete_button">Жою</string>
+    <string name="menu_edit_button">Өңдеу</string>
+    <string name="menu_deselect_all_button">"Барлық белгілерді алу"</string>
+    <string name="menu_select_all_button">Барлығын белгілеу</string>
+    <string name="month">мин.</string>
+    <string name="day">D</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> таңдалды</string>
+    <string name="type_note">Ескертпені теру</string>
+</resources>

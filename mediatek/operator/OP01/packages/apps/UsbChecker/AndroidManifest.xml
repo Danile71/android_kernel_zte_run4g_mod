@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.usbchecker"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+        
+    <application
+        android:persistent="true"
+        android:allowBackup="false"
+        android:allowClearUserData="false">
+        <activity
+            android:name="com.mediatek.usbchecker.UsbCheckerActivity"
+            android:theme="@*android:style/Theme.Holo.Dialog.Alert"
+            android:excludeFromRecents="true" >
+        </activity>
+        
+        <service
+            android:name="com.mediatek.usbchecker.UsbCheckerService">
+        </service>
+        
+        <receiver
+            android:name="com.mediatek.usbchecker.UsbCheckerReceiver">
+            <intent-filter android:priority="0x7FFFFFFF">
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.hardware.usb.action.USB_STATE"/>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN_IPO" />
+                <!-- <action android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </receiver>
+        
+        <service
+            android:name="com.mediatek.usbchecker.ext.UsbCheckerExt"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.mediatek.settings.ext.IDevExt" />
+            </intent-filter>
+
+            <meta-data
+                android:name="class"
+                android:value="com.mediatek.usbchecker.ext.UsbCheckerExt" />
+        </service>
+        
+    </application>
+
+</manifest>

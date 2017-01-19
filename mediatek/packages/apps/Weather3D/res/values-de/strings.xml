@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">3D-Livewetter</string>  
+    <string name="last_update">Zuletzt aktualisiert</string>  
+    <string name="no_weather">Zum Hinzufügen von Städten auf Einstellung tippen</string>  
+    <string name="no_network">Kein Netzwerk verfügbar</string>  
+    <string name="update_fail">Wetterdaten nicht aktualisiert</string>  
+    <string name="updating">Aktualisierung</string>  
+</resources>

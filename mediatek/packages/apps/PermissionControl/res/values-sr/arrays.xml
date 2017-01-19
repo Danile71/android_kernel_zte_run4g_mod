@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="permission_label">
+        <item>Позивај</item>
+        <item>Започни позиве са више страна</item>
+	    <item>"слање SMS порука"</item>
+	    <item>"Пошаљи MMS"</item>
+	    <item>Покрени снимање звука</item>
+	    <item>Read SMS</item>
+	    <item>Измени SMS</item>
+	    <item>Читај MMS</item>
+	    <item>Измени MMS</item>
+	    <item>Read contacts</item>
+	    <item>Modify contacts</item>
+	    <item>Читај евиденције позива</item>
+	    <item>Измени евиденције позива</item>
+	    <item>Преузми позицију</item>
+	    <item>Користи камеру</item>
+	    <item>Укључи везу за пренос података</item>
+	    <item>"Укључивање Wi-Fi мреже"</item>
+	    <item>"Укључи Bluetooth"</item>
+	    <item>Користи HotKnot</item>
+    </string-array>
+    <string-array name="perm_status_entry">
+        <item>"Увек дозволи"</item>
+        <item>Увек питај</item>
+        <item>Увек одбиј</item>
+    </string-array>
+    <string-array name="confirm_msg_body">
+        <item>позови</item>
+        <item>Започни позиве са више страна</item>
+        <item>пошаљи SMS</item>
+        <item>пошаљи MMS</item>
+        <item>покрени снимање звука</item>
+        <item>read SMS</item>
+        <item>измени SMS</item>
+        <item>читај MMS</item>
+        <item>измени MMS</item>
+        <item>read contacts</item>
+        <item>modify contacts</item>
+        <item>читај евиденције позива</item>
+        <item>измени евиденције позива</item>
+        <item>лоцирајте своју тренутну позицију</item>
+        <item>користи камеру</item>
+        <item>укључи везу за пренос података</item>
+        <item>"Укључивање Wi-Fi мреже"</item>
+        <item>"Укључи Bluetooth"</item>
+        <item>користи HotKnot</item>
+    </string-array>
+</resources>

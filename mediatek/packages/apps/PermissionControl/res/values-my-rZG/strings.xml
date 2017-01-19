@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ခြင့္ျပဳခ်က္ ထိန္းခ်ဳပ္မႈ</string>
+    <string name="accept_perm">ခြင့္ျပဳပါ</string>
+    <string name="deny_perm">ျငင္းပယ္</string>
+    <string name="notify_check_hint">ေနာက္တစ္ႀကိမ္ သတိမေပးပါႏွင့္။</string>
+	<string name="notify_dialog_title">လံုျခံဳေရးသတိေပးခ်က္မ်ား</string>
+	<string name="notify_dialog_msg_body"><xliff:g id="pkg_name">%s</xliff:g> သည္ <xliff:g id="perm_name">%s</xliff:g> သို႔ ႀကိဳးစားေနသည္။</string>
+	<string name="time_count_down_hint">(<xliff:g id="time">%s</xliff:g> စကၠန္႔ၾကာေသာအခါ အလိုအေလ်ာက္ ျငင္းပယ္ပါ။)</string>
+    <string name="notification_control_state_title">ပ႐ိုဂရမ္ခြင့္ျပဳခ်က္</string>
+    <string name="notification_control_state_summary">ပ႐ိုဂရမ္ခြင့္ျပဳခ်က္ စီမံခန္႔ခြဲမႈကို ပိတ္ထားသည္။</string>
+    <string name="toast_deny_msg_body"><xliff:g id="pkg_name">%s</xliff:g> ကို <xliff:g id="perm_name">%s</xliff:g> သို႔ ျငင္းပယ္လိုက္သည္။</string>
+    <string name="manage_permission_app_label">ပ႐ိုဂရမ္ခြင့္ျပဳခ်က္မ်ား</string>
+    <string name="manage_permission_summary">လံုျခံဳေရးႏွင့္ ကိုယ္ေရးကိုယ္တာ အခ်က္ကာကြယ္ျခင္း အတြက္ ပ႐ိုဂရမ္ခြင့္ျပဳခ်က္မ်ားကို စီမံခန္႔ခြဲပါ</string>
+    <string name="permissions_label">ခြင့္ျပဳခ်က္မ်ား</string>
+    <string name="apps">လုပ္ငန္းသံုး ပ႐ိုဂရမ္</string>
+    <string name="no_applications">အသုံးခ် ပ႐ိုဂရမ္မရွိ။</string>
+    <string name="version_text">ဗားရွင္း  <xliff:g id="version_num">%1$s</xliff:g>  </string>
+    <string name="app_count_unit_single">ပ႐ိုဂရမ္</string>
+    <string name="app_count_unit_plural">လုပ္ငန္းသံုး ပ႐ိုဂရမ္</string>
+    <string name="perm_count_unit_single">ခြင့္ျပဳခ်က္</string>
+    <string name="perm_count_unit_plural">ခြင့္ျပဳခ်က္မ်ား</string>
+    <string name="no_app_use_perm">မည္သည့္ ပ႐ိုဂရမ္မွ ဤခြင့္ျပဳခ်က္ကို မသံုးပါ။</string>
+    <string name="no_perm_is_used">မည္သည့္ ခြင့္ျပဳခ်က္မ်ားကိုမွ ဤပ႐ိုဂရမ္ အသံုးမျပဳပါ</string>
+    <string name="notify_user_switch_on">ပ႐ိုဂရမ္ ခြင့္ျပဳခ်က္မ်ားကို စီမံခန္႔ခြဲရန္ ခလုတ္ကို ဖြင့္ပါ။</string>
+    <string name="alert_dlg_title">ကာကြယ္ထားျခင္းကို ပိတ္မလား။</string>
+    <string name="alert_dlg_mgs">သင့္အတည္ျပဳခ်က္မရွိပဲ ပ႐ိုဂရမ္သည္ ခြင့္ျပဳခ်က္မ်ား တိုက္႐ိုက္ ရလိမ့္မည္။</string>
+    <string name="foreground_notification_title">ပ႐ိုဂရမ္ခြင့္ျပဳခ်က္ စီမံခန္႔ခြဲမႈကို ဖြင့္ထားသည္။</string>
+    <string name="foreground_notification_summary">ပ႐ိုဂရမ္ ခြင့္ျပဳခ်က္မ်ားအတြက္ အေသးစိတ္ အဆင္အျပင္မ်ားကို ၾကည့္ရန္ တို႔ထိပါ။</string>
+    <string name="auto_boot_pref_title">အလိုအေလ်ာက္ စတင္ျခင္း စီမံခန္႔ခြဲမႈ</string>
+    <string name="auto_boot_pref_summary">စနစ္ဖြင့္ခ်ိန္တြင္ ပ႐ိုဂရမ္ အလိုအေလ်ာက္ စတင္ျခင္းကို ခြင့္ျပဳပါ သို႔မဟုတ္ ျငင္းပယ္ပါ</string>
+    <string name="no_auto_boot_app">အလိုအေလ်ာက္ စတင္ျခင္း ပ႐ိုဂရမ္မ်ား မရွိပါ။</string>
+    <plurals name="autoboot_app_desc_allow">
+        <item quantity="one">ပ႐ိုဂရမ္ <xliff:g id="app_count">%1$d</xliff:g> ခုကို ခြင့္ျပဳၿပီး၊</item>
+        <item quantity="other">ပ႐ိုဂရမ္ <xliff:g id="app_count">%1$d</xliff:g> ခုကို ခြင့္ျပဳၿပီး၊</item>
+    </plurals>
+   <plurals name="autoboot_app_desc_deny">
+        <item quantity="one">ပ႐ိုဂရမ္ <xliff:g id="app_count">%1$d</xliff:g> ခုကို ျငင္းပယ္ၿပီး။</item>
+        <item quantity="other">ပ႐ိုဂရမ္ <xliff:g id="app_count">%1$d</xliff:g> ခုကို ျငင္းပယ္ၿပီး။</item>
+   </plurals>
+</resources>

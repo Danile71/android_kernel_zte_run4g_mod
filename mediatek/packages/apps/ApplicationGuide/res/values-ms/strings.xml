@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"Seterusnya"</string>
+    <string name="scroll_left_bar_title">Tatal untuk melihat lagi mod tangkapan</string>
+    <string name="zoome_title">Zum ke dalam/ke luar</string>
+    <string name="vcs_guide_summary">Sebutkan nama untuk mencari kenalan.\nCubalah!</string>
+    <string name="vcs_guide_title">Carian Suara Kenalan</string>
+    <string name="camera_mav_title">Sila bergerak ke sebelah kiri objek dan mula merakamnya</string>
+    <string name="refocus_guide_title">Klik pada imej untuk menukar kedudukan fokus</string>
+    <string name="vcs_guide_title1">Sebutkan nama untuk mencari kenalan.</string>
+    <string name="vcs_guide_title2">Ketik di sini untuk mendayakan fungsi ini.\nCuba sekarang!</string>    
+</resources>

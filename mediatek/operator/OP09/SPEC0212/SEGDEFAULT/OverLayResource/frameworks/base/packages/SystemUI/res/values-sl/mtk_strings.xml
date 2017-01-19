@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sim_switch_tip">Ta kartica UIM/SIM je bila nastavljena kot privzeta kartica UIM/SIM za <xliff:g>%s</xliff:g>. Če želite spremeniti privzeto kartico UIM/SIM, pridržite vrstico stanja in jo povlecite navzdol.</string>
+    <string name="sim_management">UPRAVLJANJE KARTICE UIM/SIM</string>
+    <string name="data_connection_connected">Omogočena je podatkovna povezava na kartici UIM/SIM [<xliff:g>%s</xliff:g>]</string>
+    <string name="gemini_3g_disable_warning">"Storitev 3G ni na voljo s to izbrano kartico UIM/SIM. Zaradi tega bo prenos podatkov morda počasnejši. Nastavitve storitve 3G spremenite tako, da izberete Nastavitve &gt; Brezžična komunikacija in omrežja &gt; Mobilna omrežja. Ali res želite izbrati to kartico UIM/SIM?"</string>
+    <string name="gemini_3g_disable_warning_cu">"Storitev 3G ni na voljo s to izbrano kartico UIM/SIM. Zaradi tega bo prenos podatkov morda počasnejši. Nastavitve storitve 3G spremenite tako, da izberete Nastavitve &gt; Upravljanje kartice UIM/SIM. Ali res želite izbrati to kartico UIM/SIM?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Najprej morate omogočiti podatkovno gostovanje za to kartico UIM/SIM, s čimer se bodo morda stroški gostovanja v tujem omrežju znatno povečali. Ali res želite omogočiti podatkovno gostovanje in izbrati to kartico UIM/SIM?"</string>
+    <string name="gemini_3g_disable_warning_case1">"Storitev 3G ni na voljo s to izbrano kartico UIM/SIM. Zaradi tega bo prenos podatkov morda počasnejši. Nastavitve storitve 3G spremenite tako, da izberete Nastavitve &gt; Brezžična komunikacija in omrežja &gt; Mobilna omrežja. Ali res želite izbrati to kartico UIM/SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Storitev 3G ni na voljo s to izbrano kartico UIM/SIM. Zaradi tega bo prenos podatkov morda počasnejši. Nastavitve storitve 3G spremenite tako, da izberete Nastavitve &gt; Upravljanje kartice UIM/SIM. Ali res želite izbrati to kartico UIM/SIM?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Najprej morate omogočiti podatkovno gostovanje za to kartico UIM/SIM, s čimer se bodo morda stroški gostovanja v tujem omrežju znatno povečali. Poleg tega storitev 3G ni na voljo za to kartico UIM/SIM. Zaradi tega bo prenos podatkov morda počasnejši. Nastavitve storitve spremenite tako, da izberete Nastavitve &gt; Brezžična komunikacija in omrežja &gt; Mobilna omrežja. Ali res želite omogočiti podatkovno gostovanje in izbrati to kartico UIM/SIM?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Najprej morate omogočiti podatkovno gostovanje za to kartico UIM/SIM, s čimer se bodo morda stroški gostovanja v tujem omrežju znatno povečali. Poleg tega storitev 3G ni na voljo za to kartico UIM/SIM. Zaradi tega bo prenos podatkov morda počasnejši. Nastavitve storitve spremenite tako, da izberete Nastavitve &gt; Upravljanje kartice UIM/SIM. Ali res želite omogočiti podatkovno gostovanje in izbrati to kartico UIM/SIM?"</string>
+    <string name="confirm_radio_title">Kartica UIM/SIM je izklopljena</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> je zdaj izklopljen. Ali želite vklopiti to kartico UIM/SIM?</string>
+    <string name="application_guide_title">﻿Switch to default UIM/SIM card</string>
+    <string name="application_guide_content">Podrsnite navzdol po seznamu obvestil, da preklopite na privzeto kartico UIM/SIM.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"다음"</string>
+    <string name="scroll_left_bar_title">스크롤하여 더 많은 캡처 모드를 봅니다</string>
+    <string name="zoome_title">확대/축소</string>
+    <string name="vcs_guide_summary">이름을 말해 연락처를 찾으십시오.\n시도하십시오!</string>
+    <string name="vcs_guide_title">음성 연락처 검색</string>
+    <string name="camera_mav_title">피사체 왼쪽으로 이동하여 촬영을 시작하십시오.</string>
+    <string name="refocus_guide_title">초점 위치를 변경하려면 이미지를 클릭하십시오</string>
+    <string name="vcs_guide_title1">연락처를 찾으려면 이름을 말하세요.</string>
+    <string name="vcs_guide_title2">여기를 누르면 기능이 활성화됩니다.\n시도해보십시오!</string>    
+</resources>

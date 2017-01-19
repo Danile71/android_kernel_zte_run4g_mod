@@ -1,0 +1,22 @@
+#pc
+
+INSTALL_DIR=$(shell pwd)/../lib/xerces
+
+
+all:xerces_pc
+
+xerces_pc:
+	make
+	make install
+	
+clean:
+	make clean
+	make distclean
+
+
+config_1:
+	CFLAGS="-O2"  CXXFLAGS="-O2" ./configure --disable-static --disable-network --disable-sse2 --enable-transcoder-iconv --prefix=$(INSTALL_DIR) 	
+
+config_arm:
+	CFLAGS="-O2"  CXXFLAGS="-O2 -g -fPIC" ./configure \
+		--build=i686-pc-linux --host=arm-linux --disable-static --disable-network --disable-sse2 --enable-transcoder-iconv --prefix=$(INSTALL_DIR)

@@ -1,0 +1,26 @@
+
+package com.mediatek.mediatekdm.volte.imsio;
+
+import com.mediatek.ims.ImsManager;
+import com.mediatek.mediatekdm.iohandler.PlainStringHandler;
+
+public class RCSUserNameHandler extends PlainStringHandler {
+
+    private final ImsManager mImsManager;
+
+    public RCSUserNameHandler(String uri, ImsManager manager) {
+        super(uri);
+        mImsManager = manager;
+    }
+
+    @Override
+    protected String readValue() {
+        return mImsManager.readImsAuthInfoMo().getUserName();
+    }
+
+    @Override
+    protected void writeValue(String value) {
+        mImsManager.readImsAuthInfoMo().setUserName(value);
+    }
+
+}

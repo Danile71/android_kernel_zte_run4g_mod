@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">CellConnectionService</string>
+	<string name="button_ok">OK</string>
+	<string name="button_cancel">Болдырмау</string>
+	<string name="confirm_radio_title">SIM-карта өшірулі</string>
+	<string name="confirm_radio_title_uim">UIM өшірілді</string>
+	<string name="confirm_radio_title_card">Карта өшірілді</string>
+	<string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> қазір өшірілді. Осы SIM картаны іске қосу қажет пе?</string>
+  <string name="confirm_radio_msg_uim"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> өшірілді. Осы UIM картасын іске қосу қажет пе?</string>
+  <string name="confirm_radio_msg_card"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> өшірілді. Осы картаны іске қосу қажет пе?</string>
+	<string name="confirm_radio_flight_mode_on_and_msg">Ұшу режимі іске қосулы және</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> қазір өшірілді. Ұшу режимін өшіріп, осы SIM картаны іске қосу қажет пе? </string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_uim"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> қазір өшірілді. Ұшу режимін өшіру өшіріп, осы UIM картасын іске қосу қажет пе?</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_card"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> қазір өшірілді. Ұшу режимін өшіру өшіріп, осы картаны іске қосу қажет пе?</string>	
+	<string name="confirm_radio_flight_mode_on_sim_on_msg">Ұшу режимі іске қосылған. Ұшу режимін өшіру қажет пе?</string>  
+	<string name="confirm_radio_msg_single">Қазір ұшақ режимі қосулы, өшіргіңіз келе ме?</string>
+	<string name="confirm_pin_title">SIM карта құлыпталды</string>
+	<string name="confirm_pin_title_uim">UIM құлыпталды</string>
+	<string name="confirm_pin_title_card">Карта құлыпталды</string>
+	<string name="confirm_pin_msg">Таңдалған SIM карта қазір құлыпталды. Алдымен оны құлыптан босатыңыз.</string>
+	<string name="confirm_pin_msg_uim">Таңдалған UIM картасы қазір құлыпталды. Алдымен оны құлыптан босатыңыз.</string>
+	<string name="confirm_pin_msg_card">Таңдалған карта қазір құлыпталды. Алдымен оны құлыптан босатыңыз.</string>
+	<string name="confirm_simmelock_title">SIM ME картасы құлыпталды</string>
+	<string name="confirm_simmelock_msg">Таңдалған SIM карта ұяшығы қазір құлыпталды. Алдымен оны құлыптан босатыңыз.</string>
+	<string name="confirm_simmelock_msg_uim">Таңдалған UIM ұяшығы қазір құлыпталды. Алдымен оны құлыптан босатыңыз.</string>
+	<string name="confirm_simmelock_msg_card">Таңдалған ұяшық қазір құлыпталды. Алдымен оны құлыптан босатыңыз. </string>
+	<string name="confirm_fdn_title">Белгіленген теру нөмірлері (FDN) іске қосылған</string>
+	<string name="confirm_fdn_msg">Бекітілген теру нөмірлері іске қосылды.</string>
+	<string name="confirm_roaming_title">Роуминг ескертуі</string>
+	<string name="confirm_roaming_msg">Таңдалған SIM карта роуминг режимінде жұмыс істейді. Жергілікті SIM карта жоқ. Жалғастыру қажет пе?</string>
+	<string name="confirm_roaming_msg_uim">Сіз қолданайын деп жатқан UIM картасы роумингке қосылған. Қазір жергілікті UIM қолжетімсіз. Жалғастыру қажет пе?</string>
+	<string name="confirm_roaming_msg_card">Сіз қолданайын деп жатқан карта роумингке қосылған. Қазір жергілікті карта қолжетімсіз. Жалғастыру қажет пе?</string>
+  <string name="confirm_roaming_withPrefer_msg">Таңдалған SIM карта роуминг режимінде жұмыс істейді. Жергілікті SIM арқылы жалғастыру қажет пе?</string>
+  <string name="confirm_roaming_withPrefer_msg_uim">Сіз қолданайын деп жатқан карта роумингке қосылған. Жергілікті UIM арқылы жалғастыру қажет пе?</string>
+  <string name="confirm_roaming_withPrefer_msg_card">Сіз қолданайын деп жатқан карта роумингке қосылған. Жергілікті карта арқылы жалғастыру қажет пе?</string>
+  <string name="confirm_roaming_lbutton">Жалғастыру</string>
+  <string name="confirm_roaming_rbutton">Болдырмау</string>
+  <string name="confirm_roamingWithPrefer_lbutton">Жергілікті түрде сақтау SIM карта</string>
+  <string name="confirm_roamingWithPrefer_lbutton_uim">Жергілікті UIM</string>
+  <string name="confirm_roamingWithPrefer_lbutton_card">Жергілікті карта</string>
+  <string name="confirm_roamingWithPrefer_rbutton">SIM карта роумингі</string>
+  <string name="confirm_roamingWithPrefer_rbutton_uim">Роуминг UIM картасы</string>
+  <string name="confirm_roamingWithPrefer_rbutton_card">Роуминг картасы</string>
+	<string name="confirm_roaming_for3Sims_msg">Таңдалған SIM карта роуминг режимінде жұмыс істейді. Жалғастыру қажет пе?</string>
+  <string name="confirm_roaming_for3Sims_msg_uim">Сіз қолданайын деп жатқан UIM картасы роумингке қосылған. Жалғастыру қажет пе?</string>
+  <string name="confirm_roaming_for3Sims_msg_card">Сіз қолданайын деп жатқан карта роумингке қосылған. Жалғастыру қажет пе?</string>
+	<string name="confirm_radio_lbutton">Қосу</string>
+	<string name="confirm_unlock_lbutton">Құлыптан босату</string>
+	<string name="confirm_unlock_fail">Операция болдырылмады</string>
+	<string name="confirm_turnon_radio_fail">Операция болдырылмады</string>
+	<string name="confirm_permit_roaming_fail">Сіз осы операцияны роумингтегі SIM карта үшін өшірдіңіз</string>
+	<string name="confirm_permit_roaming_fail_uim">Осы әрекетті роумингке қосылған UIM картасында болдырмадыңыз </string>
+	<string name="confirm_permit_roaming_fail_card">Осы әрекетті роумингке қосылған картада болдырмадыңыз </string>
+	<string name="confirm_sim_locked_message">SIM карта біржолата құлыпталды</string>
+	<string name="confirm_sim_locked_message_uim">UIM картасы біржола құлыпталды</string>
+	<string name="confirm_sim_locked_message_card">Карта біржола құлыпталды</string>	
+    <string name="confirm_slot_locked_message">Ұяшық біржолата құлыпталды</string>
+	<string name="button_yes">Иә</string>  
+	<string name="button_no">Жоқ</string>  
+</resources>

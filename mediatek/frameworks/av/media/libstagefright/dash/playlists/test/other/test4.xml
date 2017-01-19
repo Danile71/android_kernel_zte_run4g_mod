@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="urn:mpeg:dash:schema:mpd:2011" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011" 
+	type="static" mediaPresentationDuration="PT3256S" minBufferTime="PT1.2S" 
+	profiles="urn:mpeg:dash:profile:isoff-on-demand:2011"> 
+	<!-- Encrypted BaseURL element --> 
+	<EncryptedData Type='http://www.w3.org/2001/04/xmlenc#Element' xmlns='http://www.w3.org/2001/04/xmlenc#'> 
+		<EncryptionMethod Algorithm='http://www.w3.org/2001/04/xmlenc#aes128-ctr'/> 
+		<KeyInfo xmlns='http://www.w3.org/2000/09/xmldsig#'> 
+			<KeyName>baseurl</KeyName> 
+		</KeyInfo> <CipherData> 
+		<CipherValue>jubafOqNEpcwR3RdFsT7bCqnXPBe5ELh5u4VEy19MzxkXRgr=</CipherValue> </CipherData>
+		 </EncryptedData> <Period> <AdaptationSet mimeType="audio/mp4" codecs="mp4a.0x40" lang="en"> 
+		 	<Representation id="1" bandwidth="64000"> <BaseURL>7657412348.mp4</BaseURL> </Representation> 
+		 	</AdaptationSet> <AdaptationSet mimeType="video/mp4" codecs="avc1.4d0228"> <Representation id="2" bandwidth="512000" width="320" height="240"> 
+		 		<BaseURL>56363634.mp4</BaseURL> 
+		 		</Representation> 
+		 		</AdaptationSet> 
+		 		</Period>
+		 		 </MPD>

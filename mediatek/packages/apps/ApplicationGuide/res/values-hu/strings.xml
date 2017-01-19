@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"Tovább"</string>
+    <string name="scroll_left_bar_title">Görgessen további rögzítési módokhoz</string>
+    <string name="zoome_title">Nagyítás/Kicsinyítés</string>
+    <string name="vcs_guide_summary">Mondja ki a nevét a partner megkereséséhez.\nPróbálja ki!</string>
+    <string name="vcs_guide_title">Partnerkeresés hanggal</string>
+    <string name="camera_mav_title">Lépjen a téma bal oldalára, majd kezdje el rögzíteni.</string>
+    <string name="refocus_guide_title">Kattintson a képre a fókusz helyzetének módosításához</string>
+    <string name="vcs_guide_title1">Mondja ki a keresett partner nevét.</string>
+    <string name="vcs_guide_title2">Itt érintse meg a funkció engedélyezéséhez.\nPróbálja ki!</string>    
+</resources>

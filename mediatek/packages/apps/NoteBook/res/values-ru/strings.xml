@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Записная книжка</string>
+    <string name="no_note">Нет записей</string>
+    <string name="selectednumber">Выбран</string>
+    <string name="delete_confirm_current">Запись будет удалена.</string>
+    <string name="delete_confirm_one">Выбранная запись будет удалена.</string>
+    <string name="delete_confirm">Выбранные записи будут удалены.</string>
+    <string name="delete_confirm_title">"Удалить"</string>
+    <string name="delete_confirm_cancel">"Отмена"</string>
+    <string name="delete_confirm_ok">"ОК"</string>
+    <string name="title_bar_selected">Выбран</string>
+    <string name="editor_full">Можно ввести макс. 1500 символов</string>
+    <string name="sdcard_full" product="tablet">Недостаточно места в памяти устройства. Освободите место.</string>
+    <string name="sdcard_full" product="default">Недостаточно места в памяти телефона. Освободите место.</string>
+    <string name="save_none">Невозможно создать пустую запись</string>
+    <string name="empty_note">Пустая запись</string>
+    <string name="delete_progress">Удаление</string>
+    <string name="title_notes_list">Записная книжка</string>
+    <string name="title_notes_view">Чтение</string>
+    <string name="title_notes_edit">"Готово"</string>
+    <string name="title_loading">Загрузка…</string>
+    <string name="menu_delete">Удалить все записи</string>
+    <string name="delete_all_notes_confirm">Будут удалены все записи.</string>
+    <string name="note_saved">Запись сохранена</string>
+    <string name="no_selected">Запись не выбрана</string>
+    <string name="menu_sort_by_modify">Сортировать по изменению времени</string>
+    <string name="menu_sort_by_tab">Сортировать по вкладкам</string>
+    <string name="menu_work">"Рабочий"</string>
+    <string name="menu_personal">"ЛИЧНЫЕ ДАННЫЕ"</string>
+    <string name="menu_family">Семейные дела</string>
+    <string name="menu_study">Учеба</string>
+    <string name="menu_none">Без категории</string>
+    <string name="menu_add_button">"новый"</string>
+    <string name="menu_delete_button">"Удалить"</string>
+    <string name="menu_edit_button">"Изменить"</string>
+    <string name="menu_deselect_all_button">"Отменить все"</string>
+    <string name="menu_select_all_button">Выбрать все</string>
+    <string name="month">"м."</string>
+    <string name="day">Д</string>
+    <string name="selected_item_count">Выбрано  <xliff:g id="count">%d</xliff:g>  </string>
+    <string name="type_note">Наберите запись</string>
+</resources>

@@ -1,0 +1,32 @@
+[display_primary_memory_test basic]
+	this ut uses memory session and primary session to display multiple layers. 
+	If layer_num > primary_session_max_layers memory session will be used for cascade.
+	Just use session_test -x to get help message:
+        printf("usage: %s"\
+            " [-w layer_width]"\
+            " [-h layer_height]"\
+            " [-l layer_num]"\
+            " [-f frame_num]"\
+            " [-p primary_session_layer_num]"\
+            " [-m memory_session_layer_num]"\
+            , argv[0]);\
+	
+[display_primary_memory_test design]
+1.
+	/* producer thread
+	 * produce frames and prepare them to display.
+	 * if layer_num > primary_session_layer_num, 
+	 * memory session will be used to compose some layers.
+	 * It put created frames to prepare_buf_Q
+	 */
+2. 
+	/* displayer thread
+	 * dequeue a frame from prepare_buf_Q,
+	 * and then set to display driver, and trigger display.
+	 * After triggered, it put this frame into release_buf_Q for wait & release.
+	 */
+3. 
+	/* buffer cleaner thread
+	 * It dequeue frame from release_buf_Q, wait it's fence (for display done)
+	 * then free it.
+	 */

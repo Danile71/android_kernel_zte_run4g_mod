@@ -1,0 +1,1137 @@
+make clean
+make[1]: Entering directory `/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/test'
+rm -rf main main.o
+cd .. && make clean
+make[2]: Entering directory `/proj/mtk94010/Android_mpeg_dash/MPDPlaylists'
+rm -rf libMPDPlaylists.so /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDBaseUrl.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDContentProtection.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSegment.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSubrepresentation.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/AltovaException.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/CMPDSchema.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/dash_static.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StdAfx.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/XmlException.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.o
+make[2]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/MPDPlaylists'
+make[1]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/test'
+cd .. && make
+make[1]: Entering directory `/proj/mtk94010/Android_mpeg_dash/MPDPlaylists'
+make clean
+make[2]: Entering directory `/proj/mtk94010/Android_mpeg_dash/MPDPlaylists'
+rm -rf libMPDPlaylists.so /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDBaseUrl.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDContentProtection.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSegment.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSubrepresentation.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/AltovaException.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/CMPDSchema.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/dash_static.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StdAfx.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/XmlException.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.o
+make[2]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/MPDPlaylists'
+make libMPDPlaylists.so
+make[2]: Entering directory `/proj/mtk94010/Android_mpeg_dash/MPDPlaylists'
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDAdaptationset.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.cpp:75:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDAdaptationset.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.cpp:75:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.cpp: In member function ‘bool android_dash::MPDAdaptationset::parserAdp(MPDSchema::CPeriodType*, MPDSchema::CPeriodType_ex*, MPDSchema::CAdaptationSetType*, MPDSchema::CAdaptationSetType_ex*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.cpp:292: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.cpp:322: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.cpp: In member function ‘bool android_dash::MPDAdaptationset::findRepByBandwidth(android_dash::MPDRepresentation**, uint64_t)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.cpp:505: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.cpp: In member function ‘bool android_dash::MPDAdaptationset::findRepByBandwidthWithGap(uint64_t, int64_t&, android_dash::MPDRepresentation**)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.cpp:578: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDAdaptationset.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.cpp:75:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDBaseUrl.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDBaseUrl.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDBaseUrl.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDBaseUrl.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDBaseUrl.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDBaseUrl.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDBaseUrl.cpp: In member function ‘void android_dash::MPDBaseUrl::baseUrlDebug()’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDBaseUrl.cpp:101: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 3 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDBaseUrl.cpp:101: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 4 has type ‘uint32_t’
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDBaseUrl.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDBaseUrl.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDContentProtection.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDContentProtection.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDBaseUrl.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDContentProtection.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDContentProtection.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDBaseUrl.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDContentProtection.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDContentProtection.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDContentProtection.cpp: In member function ‘bool android_dash::MPDContentProtection::parserPc(MPDSchema::CContentProtectionType*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDContentProtection.cpp:104: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDContentProtection.cpp:125: warning: taking address of temporary
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDBaseUrl.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDContentProtection.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDContentProtection.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDAdaptationset.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPeriod.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:77:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDAdaptationset.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPeriod.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:77:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp: In member function ‘bool android_dash::MPDPeriod::getMediaNumber(uint32_t&, android_dash::MPDPeriod::PeriodMediaType, android_dash::MPDPeriod::PeriodNumberType)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:221: warning: suggest parentheses around assignment used as truth value
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp: In member function ‘bool android_dash::MPDPeriod::parserPeriod(MPDSchema::CMPDtype*, MPDSchema::CMPDtype_ex*, uint32_t)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:246: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp: In member function ‘bool android_dash::MPDPeriod::initAdaptionSet(MPDSchema::CPeriodType*, MPDSchema::CPeriodType_ex*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:306: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:321: warning: zero-length gnu_printf format string
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:341: warning: zero-length gnu_printf format string
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:360: warning: zero-length gnu_printf format string
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:379: warning: zero-length gnu_printf format string
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:398: warning: zero-length gnu_printf format string
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp: In member function ‘bool android_dash::MPDPeriod::setCurrentLanguage(std::string, android_dash::MPDPeriod::PeriodMediaType)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:455: warning: cannot pass objects of non-POD type ‘struct std::string’ through ‘...’; call will abort at runtime
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:455: warning: format ‘%s’ expects type ‘char*’, but argument 3 has type ‘int’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp: In member function ‘bool android_dash::MPDPeriod::findRepForVideoByBitrate(android_dash::MPDAdaptationset**, android_dash::MPDRepresentation**, uint64_t)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:751: warning: unused variable ‘adpIndex’
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDAdaptationset.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPeriod.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.cpp:77:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDAdaptationset.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPeriod.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPlaylist.h:79,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDAdaptationset.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPeriod.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPlaylist.h:79,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp: In member function ‘bool android_dash::MPDPlaylist::parserMPD(MPDParser*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:274: warning: comparison of unsigned expression >= 0 is always true
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp: In member function ‘bool android_dash::MPDPlaylist::getCurrentPeriod(android_dash::MPDPeriod**)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:332: warning: format ‘%d’ expects type ‘int’, but argument 4 has type ‘size_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp: At global scope:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:323: warning: unused parameter ‘period’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp: In member function ‘bool android_dash::MPDPlaylist::findPeriodByTime(uint64_t, android_dash::MPDPeriod**)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:527: warning: format ‘%s’ expects type ‘char*’, but argument 3 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:527: warning: format ‘%s’ expects type ‘char*’, but argument 4 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:534: warning: format ‘%lld’ expects type ‘long long int’, but argument 3 has type ‘uint64_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp: In member function ‘void android_dash::MPDPlaylist::playlistDebug()’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:672: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 3 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:672: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 4 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:673: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 3 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:673: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 4 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:676: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 3 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:676: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 4 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:677: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 3 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:677: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 4 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:679: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 3 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:679: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 4 has type ‘int’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:680: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 4 has type ‘int’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:681: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 3 has type ‘int’
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDAdaptationset.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPeriod.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPlaylist.h:79,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:103:47: warning: backslash and newline separated by space
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDAdaptationset.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPeriod.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPlaylist.h:79,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:80:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDAdaptationset.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPeriod.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPlaylist.h:79,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:80:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp: In member function ‘bool android_dash::MPDPlaylists::getUrl(android_dash::MPDPlaylists::MPDURLInfo&)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:755: warning: format ‘%lld’ expects type ‘long long int’, but argument 3 has type ‘uint64_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:755: warning: format ‘%lld’ expects type ‘long long int’, but argument 4 has type ‘uint64_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp: At global scope:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:1249: warning: unused parameter ‘time’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp: In member function ‘void android_dash::MPDPlaylists::playlistsDebug()’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:1283: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 3 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:1283: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 4 has type ‘uint32_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:1284: warning: format ‘%llu’ expects type ‘long long unsigned int’, but argument 3 has type ‘uint64_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:1284: warning: format ‘%llu’ expects type ‘long long unsigned int’, but argument 4 has type ‘uint64_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:1285: warning: format ‘%llu’ expects type ‘long long unsigned int’, but argument 3 has type ‘uint64_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:1291: warning: format ‘%d’ expects type ‘int’, but argument 4 has type ‘pthread_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:1298: warning: format ‘%llu’ expects type ‘long long unsigned int’, but argument 3 has type ‘android_dash::MPDPlaylist*’
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDAdaptationset.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPeriod.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDPlaylist.h:79,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.cpp:80:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp:77:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp:77:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp: In member function ‘bool android_dash::MPDRepresentation::parserRep(MPDSchema::CPeriodType*, MPDSchema::CPeriodType_ex*, MPDSchema::CAdaptationSetType*, MPDSchema::CAdaptationSetType_ex*, MPDSchema::CRepresentationType*, MPDSchema::CRepresentationType_ex*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp:270: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp:317: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp: In member function ‘bool android_dash::MPDRepresentation::initSegmentFromList(MPDSchema::CSegmentListType_ex*, MPDSchema::CSegmentListType*, double, double)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp:639: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp: In member function ‘bool android_dash::MPDRepresentation::initSegmentUrl(MPDSchema::CPeriodType*, MPDSchema::CPeriodType_ex*, MPDSchema::CAdaptationSetType*, MPDSchema::CAdaptationSetType_ex*, MPDSchema::CRepresentationType*, MPDSchema::CRepresentationType_ex*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp:1202: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp:1215: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp:1253: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp:1267: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp:1313: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp:1326: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp: In member function ‘void android_dash::MPDRepresentation::repDebug()’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp:1521: warning: format ‘%lld’ expects type ‘long long int’, but argument 3 has type ‘uint64_t’
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDRepresentation.h:80,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.cpp:77:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSegment.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSegment.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSegment.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSegment.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSegment.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSegment.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSegment.cpp: In member function ‘void android_dash::MPDSegment::segmentDebug()’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSegment.cpp:101: warning: format ‘%lld’ expects type ‘long long int’, but argument 3 has type ‘uint64_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSegment.cpp:101: warning: format ‘%lld’ expects type ‘long long int’, but argument 4 has type ‘uint64_t’
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSegment.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSegment.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSubrepresentation.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSubrepresentation.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSubrepresentation.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSubrepresentation.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSubrepresentation.cpp: In member function ‘void android_dash::MPDSubrepresentation::subrepDebug()’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSubrepresentation.cpp:122: warning: format ‘%lld’ expects type ‘long long int’, but argument 4 has type ‘uint64_t’
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include/MPDSubrepresentation.h:81,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSubrepresentation.cpp:76:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/AltovaException.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/AltovaException.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/CMPDSchema.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/CMPDSchema.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/dash_static.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/dash_static.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/dash_static.cpp:28:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/dash_static.cpp:28:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/dash_static.cpp: In static member function ‘static int dash_static::dash_handle::handle_byte_range(std::string&, unsigned int&)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/dash_static.cpp:359: warning: comparison is always false due to limited range of data type
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/dash_static.cpp:28:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:27:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:27:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp: In member function ‘bool MPDParser::init()’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:66: warning: format ‘%s’ expects type ‘char*’, but argument 3 has type ‘XMLFileLoc’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:66: warning: format ‘%s’ expects type ‘char*’, but argument 4 has type ‘const XMLCh*’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:71: warning: format ‘%s’ expects type ‘char*’, but argument 3 has type ‘const XMLCh*’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp: In member function ‘bool MPDParser::destory()’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:125: warning: format ‘%s’ expects type ‘char*’, but argument 3 has type ‘XMLFileLoc’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:125: warning: format ‘%s’ expects type ‘char*’, but argument 4 has type ‘const XMLCh*’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:130: warning: format ‘%s’ expects type ‘char*’, but argument 3 has type ‘const XMLCh*’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:138: warning: exception of type ‘altova::Exception’ will be caught
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:133: warning:    by earlier handler for ‘altova::Exception’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp: In member function ‘mpd_parser_result MPDParser::parser(std::string&, DataType)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:324: warning: format ‘%s’ expects type ‘char*’, but argument 3 has type ‘XMLFileLoc’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:324: warning: format ‘%s’ expects type ‘char*’, but argument 4 has type ‘const XMLCh*’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:329: warning: format ‘%s’ expects type ‘char*’, but argument 3 has type ‘const XMLCh*’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:337: warning: exception of type ‘altova::Exception’ will be caught
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:332: warning:    by earlier handler for ‘altova::Exception’
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.cpp:27:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:27:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:27:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘int MPDSchema::CSType_ex::get_start_time_for_r(int)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:105: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:111: warning: format ‘%d’ expects type ‘int’, but argument 3 has type ‘size_t’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘void MPDSchema::CSegmentTimelineType_ex::segmenttimeline_init(MPDSchema::CSegmentTimelineType*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:199: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘void MPDSchema::CRepresentationType_ex::representation_init(MPDSchema::CRepresentationType*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:398: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:403: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:408: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:446: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 3 has type ‘unsigned int’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘void MPDSchema::CSegmentBaseType_ex::segmentbase_init(MPDSchema::CSegmentBaseType*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:630: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 2 has type ‘unsigned int’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:630: warning: format ‘%lu’ expects type ‘long unsigned int’, but argument 3 has type ‘unsigned int’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In constructor ‘MPDSchema::CMultipleSegmentBaseType_ex::CMultipleSegmentBaseType_ex(MPDSchema::CMultipleSegmentBaseType*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:816: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘void MPDSchema::CMultipleSegmentBaseType_ex::cmultisegmentbase_init(MPDSchema::CMultipleSegmentBaseType*, bool)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:839: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘std::string MPDSchema::CSegmentTemplateType_ex::handle_url(std::string, std::string, int, long long int, long int)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:1046: warning: format ‘%d’ expects type ‘int’, but argument 3 has type ‘long long int’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘void MPDSchema::CAdaptationSetType_ex::AdaptationSet_init(MPDSchema::CAdaptationSetType*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:1366: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:1400: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:1406: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:1411: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘void MPDSchema::CAdaptationSetType_ex::merge_segment_info(MPDSchema::CPeriodType_ex*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:1586: warning: enumeration value ‘none_segment’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:1586: warning: enumeration value ‘segment_list’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘void MPDSchema::CPeriodType_ex::period_init(MPDSchema::CPeriodType*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:1903: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:1910: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:1922: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:1927: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:1932: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:1953: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘void MPDSchema::CMPDtype_ex::mpd_init(MPDSchema::CMPDtype*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:2085: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:2120: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:2126: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:2292: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:2376: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:2382: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:2435: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:2441: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘double MPDSchema::CMPDtype_ex::get_minbufferTime()’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:2640: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘double MPDSchema::CMPDtype_ex::get_minimumUpdatePeriod()’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:2659: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘long long int MPDSchema::CMPDtype_ex::get_availabilityStartTime()’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:2678: warning: taking address of temporary
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp: In member function ‘long long int MPDSchema::CMPDtype_ex::get_availabilityEndTime()’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:2697: warning: taking address of temporary
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.cpp:27:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp: At global scope:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:31: warning: missing initializer for member ‘altova::NamespaceInfo::NamespaceURI’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:31: warning: missing initializer for member ‘altova::NamespaceInfo::Prefix’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:31: warning: missing initializer for member ‘altova::NamespaceInfo::TypeBegin’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:31: warning: missing initializer for member ‘altova::NamespaceInfo::TypeEnd’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Namespace’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::LocalName’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::BaseType’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::MemberBegin’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::MemberEnd’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Facets’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Whitespace’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:120: warning: missing initializer for member ‘altova::TypeInfo::Formatter’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:388: warning: missing initializer for member ‘altova::MemberInfo::NamespaceURI’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:388: warning: missing initializer for member ‘altova::MemberInfo::LocalName’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:388: warning: missing initializer for member ‘altova::MemberInfo::ContainingType’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:388: warning: missing initializer for member ‘altova::MemberInfo::DataType’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:388: warning: missing initializer for member ‘altova::MemberInfo::Flags’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:388: warning: missing initializer for member ‘altova::MemberInfo::MinOccurs’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:388: warning: missing initializer for member ‘altova::MemberInfo::MaxOccurs’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:550: warning: missing initializer for member ‘altova::FacetInfo::FacetName’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:550: warning: missing initializer for member ‘altova::FacetInfo::StringValue’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:550: warning: missing initializer for member ‘altova::FacetInfo::IntValue’
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/altova_xml_prefix.h:34: warning: ignoring #pragma comment 
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:23,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.h:18,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:20:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.h:18,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:20:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp: At global scope:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:453: warning: unused parameter ‘pMemberInfo’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:459: warning: unused parameter ‘pMemberInfo’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:465: warning: unused parameter ‘pMemberInfo’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:470: warning: unused parameter ‘pMemberInfo’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:475: warning: unused parameter ‘pMemberInfo’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:480: warning: unused parameter ‘pMemberInfo’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:486: warning: unused parameter ‘pMemberInfo’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:491: warning: unused parameter ‘pMemberInfo’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:496: warning: unused parameter ‘pMemberInfo’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:506: warning: unused parameter ‘pMemberInfo’
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:23,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.h:18,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.cpp:20:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:19:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:19:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp: In function ‘unsigned int altova::PrepareNumber(char_type*, const char_type*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:282: warning: enumeration value ‘MantissaBeforePoint’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:282: warning: enumeration value ‘AfterPointNeedNoDigit’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:282: warning: enumeration value ‘AfterExponentNeedNoDigit’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:282: warning: enumeration value ‘StateCount’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:282: warning: enumeration value ‘Invalid’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:299: warning: enumeration value ‘Start’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:299: warning: enumeration value ‘AfterSign’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:299: warning: enumeration value ‘AfterPoint’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:299: warning: enumeration value ‘AfterExponentE’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:299: warning: enumeration value ‘AfterExponentSign’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:299: warning: enumeration value ‘StateCount’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:299: warning: enumeration value ‘Invalid’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp: In function ‘altova::TValueComponents altova::ParseIntCore(__gnu_cxx::__normal_iterator<const char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, const __gnu_cxx::__normal_iterator<const char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >&)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:422: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp: In function ‘altova::ParseResult altova::ParseInteger(const char_type*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:455: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp: In static member function ‘static int altova::CoreTypes::CastToInt(long long unsigned int)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:544: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp: In static member function ‘static string_type altova::CoreTypes::CastToString(double)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:860: warning: unused variable ‘factor’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp: In static member function ‘static string_type altova::CoreTypes::CastToString(const altova::DateTime&, altova::CoreTypes::DateTimeFormat)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1092: warning: enumeration value ‘DateTimeFormat_W3_time’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1092: warning: enumeration value ‘DateTimeFormat_W3_gYear’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1092: warning: enumeration value ‘DateTimeFormat_W3_gYearMonth’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1092: warning: enumeration value ‘DateTimeFormat_W3_gMonth’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1092: warning: enumeration value ‘DateTimeFormat_W3_gMonthDay’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1092: warning: enumeration value ‘DateTimeFormat_W3_gDay’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1092: warning: enumeration value ‘DateTimeFormat_S_Seconds’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1092: warning: enumeration value ‘DateTimeFormat_S_Days’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1111: warning: enumeration value ‘DateTimeFormat_W3_date’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1111: warning: enumeration value ‘DateTimeFormat_W3_time’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1111: warning: enumeration value ‘DateTimeFormat_W3_gYear’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1111: warning: enumeration value ‘DateTimeFormat_W3_gYearMonth’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1111: warning: enumeration value ‘DateTimeFormat_W3_gMonth’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1111: warning: enumeration value ‘DateTimeFormat_W3_gMonthDay’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1111: warning: enumeration value ‘DateTimeFormat_W3_gDay’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1111: warning: enumeration value ‘DateTimeFormat_S_Seconds’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1111: warning: enumeration value ‘DateTimeFormat_S_Days’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1122: warning: enumeration value ‘DateTimeFormat_W3_date’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp: In function ‘bool altova::TryParseDateTime(const string_type&, unsigned int, altova::DateTime&)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1641: warning: suggest explicit braces to avoid ambiguous ‘else’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp: At global scope:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1698: warning: unused parameter ‘format’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp: In function ‘bool altova::<unnamed>::ParseDateTime(const string_type&, int&, long long int&)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1992: warning: enumeration value ‘k_Time’ not handled in switch
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:1992: warning: enumeration value ‘k_Bad’ not handled in switch
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:19:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp: In function ‘std::string altovaitoa(T, int) [with T = unsigned int]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:991:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:55: warning: comparison of unsigned expression < 0 is always false
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp: In function ‘std::string altovaitoa(T, int) [with T = long long unsigned int]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:993:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:55: warning: comparison of unsigned expression < 0 is always false
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp: At global scope:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:377: warning: ‘__gnu_cxx::__normal_iterator<const char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > > altova::IgnoreExponent(__gnu_cxx::__normal_iterator<const char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, const __gnu_cxx::__normal_iterator<const char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >&)’ defined but not used
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:391: warning: ‘bool altova::IsEqualString(__gnu_cxx::__normal_iterator<const char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, const __gnu_cxx::__normal_iterator<const char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, const char_type*)’ defined but not used
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.cpp:411: warning: ‘altova::TValueComponents altova::ParseIntCore(__gnu_cxx::__normal_iterator<const char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, const __gnu_cxx::__normal_iterator<const char*, std::basic_string<char, std::char_traits<char>, std::allocator<char> > >&)’ defined but not used
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StdAfx.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StdAfx.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StdAfx.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StdAfx.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/mpdschema_prefix.h:33,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StdAfx.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.cpp:2:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/XmlException.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/XmlException.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/XmlException.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/altova_xml_prefix.h:34: warning: ignoring #pragma comment 
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/XmlException.cpp:18:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:21,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/XmlException.cpp:18:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.h:20,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/XmlException.cpp:18:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:23,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h: In constructor ‘altova::Duration::Duration(const altova::YearMonthDuration&, const altova::DayTimeDuration&)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:126: warning: ‘altova::Duration::yearMonth’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:125: warning:   ‘altova::DayTimeDuration altova::Duration::dayTime’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.cpp:307: warning:   when initialized here
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:23,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.h:19,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.cpp:16:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -c /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.cpp -o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/xerces/include -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/../lib/uriparser/include/uriparser -W -Wall -g -fPIC -pipe -D__STDC_LIMIT_MACROS
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:23,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.h:18,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.cpp:17:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘std::vector<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::basic_string<char, std::char_traits<char>, std::allocator<char> > > > altova::meta::SimpleType::CollectFacets(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:157: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘unsigned int altova::meta::SimpleType::GetFacetFallback(const char_type*, const char_type*, unsigned int) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:175: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In member function ‘const char_type* altova::meta::SimpleType::GetFacet(const char_type*) const’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:196: warning: comparison between signed and unsigned integer expressions
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.h:18,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.cpp:17:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Error::Error(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:32: warning: ‘altova::Error::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:31: warning:   ‘const std::exception* altova::Error::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:34: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h: In constructor ‘altova::Exception::Exception(const string_type&, const std::exception*)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:46: warning: ‘altova::Exception::m_message’ will be initialized after
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:45: warning:   ‘const std::exception* altova::Exception::m_inner’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:48: warning:   when initialized here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.cpp: At global scope:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.cpp:216: warning: unused parameter ‘value’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.cpp:216: warning: unused parameter ‘facet’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.cpp:216: warning: unused parameter ‘whitespaceNormalization’
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.cpp: In member function ‘virtual std::vector<unsigned char, std::allocator<unsigned char> > altova::XmlFormatter::ParseBinary(const string_type&)’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.cpp:541: warning: comparison is always false due to limited range of data type
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.cpp:547: warning: comparison is always false due to limited range of data type
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.cpp:563: warning: comparison is always false due to limited range of data type
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.cpp:572: warning: comparison is always false due to limited range of data type
+In file included from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/exception.h:23,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.h:18,
+                 from /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.cpp:17:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::TypeInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:134:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::NamespaceInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:136:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::FacetInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:162:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h: In function ‘T* altova::GetTableEntry(T*, unsigned int) [with T = const altova::MemberInfo]’:
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:251:   instantiated from here
+/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.h:118: warning: comparison between signed and unsigned integer expressions
+g++ -shared -Wl,-export-dynamic /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDAdaptationset.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDBaseUrl.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDContentProtection.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPeriod.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylist.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDPlaylists.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDRepresentation.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSegment.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/playlist/src/MPDSubrepresentation.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/AltovaException.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/CMPDSchema.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/dash_static.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDParser.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema_ex.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/MPDSchema-typeinfo.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/Node.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/SchemaTypes.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StdAfx.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/StructInfo.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/XmlException.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-datetime.o /proj/mtk94010/Android_mpeg_dash/MPDPlaylists/src/parser/xs-types.o -o libMPDPlaylists.so
+make[2]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/MPDPlaylists'
+make[1]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/MPDPlaylists'
+make main
+make[1]: Entering directory `/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/test'
+g++ -c main.cpp -o main.o -I/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/test/../include -W -Wall -g -fPIC -pipe
+g++ -fPIC main.o -o main -L/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/test/../ -lMPDPlaylists -L/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/test/../../lib/uriparser/lib -luriparser -L/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/test/../../lib/xerces/lib -lxerces-c
+make[1]: Leaving directory `/proj/mtk94010/Android_mpeg_dash/MPDPlaylists/test'

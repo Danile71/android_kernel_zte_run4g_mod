@@ -1,0 +1,10 @@
+prefix=/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Xerces-C++
+Description: Validating XML parser library for C++
+Version: 3.1.1
+Libs: -L${libdir} -lxerces-c
+Cflags: -I${includedir}

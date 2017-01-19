@@ -1,0 +1,6 @@
+m4trace:aclocal.m4:972: -1- m4_include([m4/libtool.m4])
+m4trace:aclocal.m4:973: -1- m4_include([m4/ltoptions.m4])
+m4trace:aclocal.m4:974: -1- m4_include([m4/ltsugar.m4])
+m4trace:aclocal.m4:975: -1- m4_include([m4/ltversion.m4])
+m4trace:aclocal.m4:976: -1- m4_include([m4/lt~obsolete.m4])
+m4trace:aclocal.m4:977: -1- m4_include([m4/pkg.m4])

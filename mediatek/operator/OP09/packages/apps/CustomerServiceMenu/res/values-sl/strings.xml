@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">CustomerServiceMenu</string>
+    <string name="title_activity_main">CustomerServiceMenu</string>
+    <string name="title">Meni storitev za stranke</string>
+    <string name="customer_hotline">Telefonska številka oddelka za podporo strankam</string>
+    <string name="mobile_ehall">Mobilna e-dvorana</string>
+    <string name="subscription">Moja naročnina</string>
+    <string name="prl_update">Posodobitev PRL-ja</string>
+    <string name="global_hotline">Globalna telefonska številka oddelka za podporo strankam</string>
+    <string name="guide">Vodnik za telefonske storitve</string>
+    <string name="hotline_desc">Telefonska številka oddelka za podporo strankam podjetja China Telecom je 10000, telefonska številka samopostrežne storitve pa 10001. Če gostujete v tujem omrežju in želite poklicati lokalno telefonsko številko oddelka za podporo strankam, morate pred številko dodati območno kodo.</string>
+    <string name="hotline">10000</string>
+    <string name="self_hotline">10001</string>
+    <string name="message">"Sporočilo"</string>
+    <string name="wap">WAP</string>
+    <string name="subscription_inquiry">Poizvedba glede naročnine</string>
+    <string name="service_unscribe">Odpoved naročnine na storitev</string>
+    <string name="global_hotline_desc">Ko ste v tujini ali gostujete v državah Hongkong, Macao in Tajvan, lahko pokličete +8618918910000, globalno telefonsko številko oddelka za podporo strankam podjetja China Telecom. Če kličete iz te naprave, je številka brezplačna. Podrobnosti najdete v pozdravnem sporočilu ob gostovanju. Obiščete lahko tudi spletno mesto http://manyou.ct10000.com</string>
+    <string name="sum_search_networks">"Najdi vsa razpoložljiva omrežja"</string>
+    <string name="send_ok">Sporočilo je bilo poslano</string>
+    <string name="send_fail">Sporočila ni bilo mogoče poslati</string>
+    <string name="sending">Preverite storitev pošiljanja ID klicatelja</string>
+    <string name="to">Za tiskanje stika ni na voljo noben program.</string>
+    <string name="sim_not_available">Preverite, ali je na voljo vaša kartica UIM podjetja China Telecom</string>
+    <string name="search_networks">"Najdi vsa razpoložljiva omrežja"</string>
+    <string name="waiting_networks">Pri odstranjevanju omrežne povezave počakajte trenutek, preden kliknete</string>
+    <string name="guide_desc">"Telefonska številka oddelka za podporo strankam podjetja MediaTek: 010-82861128 Uradno spletno mesto podjetja MediaTek: http://www.mediatek.com"</string>
+</resources>

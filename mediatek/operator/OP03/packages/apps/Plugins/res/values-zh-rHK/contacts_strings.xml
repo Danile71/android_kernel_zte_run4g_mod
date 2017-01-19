@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_done">"完成"</string>
+    <string name="submenu_emergency_contacts">緊急聯絡人</string>
+    <string name="menu_deleteContact">"刪除"</string>
+    <string name="menu_select_all">選擇全部</string>
+    <string name="menu_select_none">全不選擇</string>
+    <string name="menu_new_contact_action_bar">"新漸層"</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> 已選擇</string>
+    <string name="multichoice_no_select_alert">"沒有項目被選擇"</string>
+    <string name="aas_custom_title">USIM標籤給予更多號碼</string>
+    <string name="aas_phone_type_none">"無"</string>
+    <string name="aas_new_dialog_title">加入新標籤</string>
+    <string name="ass_rename_dialog_title">修改標籤</string>
+    <string name="aas_delele_dialog_message">刪除標籤會影響所有已連結的附加號碼。你確定嗎？</string>
+    <string name="aas_name_invalid">標籤名無效。請輸入另外一個。</string>
+    <string name="aas_name_exist">這個標籤已經存在。</string>
+    <string name="aas_usim_full">沒有空間給新的標籤。</string>
+    <string name="ass_edit_assert_message">修改標籤會影響所有已連結的附加號碼。你確定嗎？</string>
+    <string name="aas_new_fail">創建標籤失敗。</string>
+    <string name="aas_edit_fail">未能重新命名 <xliff:g id="aas">%s</xliff:g> 。</string>
+    <string name="aas_delete_fail">刪除<xliff:g id="aas">%s</xliff:g> 失敗。</string>
+    <string name="aas_phone_primary">私密號碼</string>
+    <string name="aas_phone_additional">新增號碼</string>
+</resources>

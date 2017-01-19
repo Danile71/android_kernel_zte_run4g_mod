@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="video_app_name">"Videos"</string>
+    <string name="scanning">"Nuskaitoma SD kortelė..."</string>
+    <string name="sdcard_missing_message">"Jūsų telefone neįdėta SD kortelė."</string>
+    <string name="video_list_empty">"Vaizdo įrašų nėra."</string>
+    <string name="detail_title">"Pavadinimas : %1$s"</string>
+    <string name="detail_date_taken">"Užimta : %1$s"</string>
+    <string name="detail_path">"Kelias : %1$s"</string>
+    <string name="detail_filesize">"Failo dydis : %1$s"</string>
+    <string name="detail_duration">"Trukmė : %1$s"</string>
+    <string name="media_detail">"Daugiau"</string>
+    <string name="delete">"Trinti"</string>
+    <string name="delete_tip">"Trinti %1$s?"</string>
+    <string name="delete_progress">"Trinama %1$s ..."</string>
+	<string name="max_video">Maksimalus vaizdo įrašų skaičius</string>
+	<string name="hotknot">HotKnot</string>
+    <string name="share">"Bendrinti"</string>
+    <string name="deselect_all">"Atšaukti visų pasirinkimą"</string>
+    <string name="select_all">"Pasirinkti viską"</string>
+    <string name="selected">Pasirinkta</string>
+    <string name="delete_selection_one">"Ištrinti pasirinktą elementą?"</string>
+    <string name="delete_selection_more">"Ištrinti pasirink. elementus?"</string>
+    <string name="select_item">"Pasirinkti elementą"</string>
+</resources>

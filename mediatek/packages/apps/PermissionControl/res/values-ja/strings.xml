@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">パーミッション制御</string>
+    <string name="accept_perm">"許可する"</string>
+    <string name="deny_perm">"許可しない"</string>
+    <string name="notify_check_hint">再度通知しない。</string>
+	<string name="notify_dialog_title">"セキュリティ警告"</string>
+	<string name="notify_dialog_msg_body"><xliff:g id="pkg_name">%s</xliff:g>は<xliff:g id="perm_name">%s</xliff:g>を試みています。</string>
+	<string name="time_count_down_hint">（<xliff:g id="time">%s</xliff:g>秒後に自動的に拒否する）。</string>
+    <string name="notification_control_state_title">アプリのパーミッション</string>
+    <string name="notification_control_state_summary">アプリのパーミッション管理は閉じられました。</string>
+    <string name="toast_deny_msg_body"><xliff:g id="pkg_name">%s</xliff:g>は<xliff:g id="perm_name">%s</xliff:g>を拒否しています。</string>
+    <string name="manage_permission_app_label">アプリのパーミッション</string>
+    <string name="manage_permission_summary">セキュリティとプライバシー保護のためのアプリ権限を管理する</string>
+    <string name="permissions_label">"許可"</string>
+    <string name="apps">"アプリ"</string>
+    <string name="no_applications">"アプリはありません。"</string>
+    <string name="version_text">"バージョン<xliff:g id="VERSION_NUM">%1$s</xliff:g>"</string>
+    <string name="app_count_unit_single">"アプリ"</string>
+    <string name="app_count_unit_plural">"アプリ"</string>
+    <string name="perm_count_unit_single">許可</string>
+    <string name="perm_count_unit_plural">"許可"</string>
+    <string name="no_app_use_perm">アプリはこの権限を使用しません。</string>
+    <string name="no_perm_is_used">このアプリは権限を使用しません。</string>
+    <string name="notify_user_switch_on">アプリの権限を管理するために、スイッチをオンにします。</string>
+    <string name="alert_dlg_title">保護を無効にしますか？</string>
+    <string name="alert_dlg_mgs">アプリは確認をせずに直接、権限を取得します。</string>
+    <string name="foreground_notification_title">アプリのパーミッション管理は実行中です</string>
+    <string name="foreground_notification_summary">タッチして、アプリの権限の詳細設定を表示します。</string>
+    <string name="auto_boot_pref_title">自動開始管理</string>
+    <string name="auto_boot_pref_summary">システム起動時にアプリの自動開始を許可または拒否する</string>
+    <string name="no_auto_boot_app">自動開始アプリはありません。</string>
+    <plurals name="autoboot_app_desc_allow">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g>アプリが許可されています，</item>
+        <item quantity="other"><xliff:g id="app_count">%1$d</xliff:g>アプリが許可されています，</item>
+    </plurals>
+   <plurals name="autoboot_app_desc_deny">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g>アプリが拒否されています。</item>
+        <item quantity="other"><xliff:g id="app_count">%1$d</xliff:g>アプリが拒否されています。</item>
+   </plurals>
+</resources>

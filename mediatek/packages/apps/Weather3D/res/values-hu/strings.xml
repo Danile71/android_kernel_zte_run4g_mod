@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">3D élő időjárás jelentés</string>  
+    <string name="last_update">Utoljára frissítve</string>   
+    <string name="no_weather">Érintse meg a beállítást városok hozzáadásához</string>  
+    <string name="no_network">Nincs elérhető hálózat</string>  
+    <string name="update_fail">Az időjárás frissítése sikertelen</string>  
+    <string name="updating">Frissítés</string>  
+</resources>

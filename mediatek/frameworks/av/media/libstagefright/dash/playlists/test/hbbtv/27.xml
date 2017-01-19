@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright Digital TV Labs 2012 -->
+<MPD mediaPresentationDuration="PT5M0S" xmlns="urn:mpeg:DASH:schema:MPD:2011" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:hbbtv:dash:profile:isoff-live:2012" type="static">
+  <Period duration="PT5M0S" start="PT0.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1000000" id="video.1000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="3000" initialization="720x576i_1000Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" lang="en" segmentAlignment="true">
+      <Representation bandwidth="96000" startWithSAP="1" id="audio.1" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_ar/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_ar/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.2" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_br/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_br/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.3" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_co/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_co/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.4" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_de/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_de/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.5" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_en/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_en/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.6" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_en-GB/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_en-GB/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.7" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_en-US/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_en-US/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.8" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_es/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_es/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.9" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_eu/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_eu/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.10" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_fr/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_fr/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.11" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_fr-BE/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_fr-BE/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.12" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_fr-CH/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_fr-CH/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.13" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_fr-FR/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_fr-FR/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.14" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_fr-LU/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_fr-LU/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.15" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_fr-MC/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_fr-MC/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="96000" startWithSAP="1" id="audio.16" codecs="mp4a.40.02" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate duration="3029" initialization="HEAAC_96K_3secseg_it/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg_it/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

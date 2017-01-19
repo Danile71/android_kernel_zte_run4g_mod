@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Σημειωματάριο</string>
+    <string name="no_note">Δεν υπάρχουν σημειώσεις</string>
+    <string name="selectednumber">Έχει γίνει επιλογή</string>
+    <string name="delete_confirm_current">Η σημείωση θα διαγραφεί.</string>
+    <string name="delete_confirm_one">Η επιλεγμένη σημείωση θα διαγραφεί.</string>
+    <string name="delete_confirm">Οι επιλεγμένες σημειώσεις θα διαγραφούν.</string>
+    <string name="delete_confirm_title">"Διαγραφή"</string>
+    <string name="delete_confirm_cancel">"Ακύρωση"</string>
+    <string name="delete_confirm_ok">"OK"</string>
+    <string name="title_bar_selected">Έχει γίνει επιλογή</string>
+    <string name="editor_full">Μπορείτε να εισαγάγετε έως 1500 χαρακτήρες</string>
+    <string name="sdcard_full" product="tablet">Ο χώρος αποθήκευσης της συσκευής δεν έχει αρκετό χώρο. Απελευθερώστε χώρο αποθήκευσης.</string>
+    <string name="sdcard_full" product="default">Ο χώρος αποθήκευσης του τηλεφώνου δεν έχει αρκετό χώρο. Απελευθερώστε χώρο αποθήκευσης.</string>
+    <string name="save_none">Δεν δημιουργείται κενή σημείωση</string>
+    <string name="empty_note">Κενή σημείωση</string>
+    <string name="delete_progress">Διαγραφή</string>
+    <string name="title_notes_list">Σημειωματάριο</string>
+    <string name="title_notes_view">Ανάγνωση</string>
+    <string name="title_notes_edit">"Τέλος"</string>
+    <string name="title_loading">Φόρτωση…</string>
+    <string name="menu_delete">Διαγραφή όλων των σημειώσεων</string>
+    <string name="delete_all_notes_confirm">Όλες οι σημειώσεις θα διαγραφούν.</string>
+    <string name="note_saved">Η σημείωση έχει αποθηκευτεί</string>
+    <string name="no_selected">Δεν έχει επιλεγεί σημείωση</string>
+    <string name="menu_sort_by_modify">Ταξινόμηση κατά ημερομηνία τροποποίησης</string>
+    <string name="menu_sort_by_tab">Ταξινόμηση κατά καρτέλες</string>
+    <string name="menu_work">"Εργασία"</string>
+    <string name="menu_personal">"ΠΡΟΣΩΠΙΚΟΣ"</string>
+    <string name="menu_family">Οικογενειακή υπόθεση</string>
+    <string name="menu_study">Μελέτη</string>
+    <string name="menu_none">Χωρίς κατηγοριοποίηση</string>
+    <string name="menu_add_button">"νέο"</string>
+    <string name="menu_delete_button">"Διαγραφή"</string>
+    <string name="menu_edit_button">"Επεξεργασία"</string>
+    <string name="menu_deselect_all_button">"Κατάργηση επιλογής όλων"</string>
+    <string name="menu_select_all_button">Επιλογή όλων</string>
+    <string name="month">"λ."</string>
+    <string name="day">Δ</string>
+    <string name="selected_item_count">Επιλέχθηκαν  <xliff:g id="count">%d</xliff:g>  </string>
+    <string name="type_note">Πληκτρολόγηση σημείωσης</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3D прогноза на живо</string>
+    <string name="last_update">Актуализирано последно</string>
+    <string name="no_weather">Чукнете на настройки за добавяне на градове</string>
+    <string name="no_network">Няма достъпна мрежа</string>
+    <string name="update_fail">Неуспешно актуализиране на прогнозата </string>
+    <string name="updating">Актуализиране</string>
+</resources>

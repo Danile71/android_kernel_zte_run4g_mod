@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"Berikutnya"</string>
+    <string name="scroll_left_bar_title">Gulir untuk melihat mode pengambilan lainnya</string>
+    <string name="zoome_title">Perbesar/perkecil</string>
+    <string name="vcs_guide_summary">Sebutkan nama untuk menemukan kontak.\nCoba!</string>
+    <string name="vcs_guide_title">Pancarian Kontak Melalui Suara</string>
+    <string name="camera_mav_title">Pindah ke sebelah kiri objek, lalu mulai ambil gambar.</string>
+    <string name="refocus_guide_title">Klik gambar untuk mengubah posisi fokus</string>
+    <string name="vcs_guide_title1">Sebutkan nama untuk menemukan kontak.</string>
+    <string name="vcs_guide_title2">Ketuk di sini untuk mengaktifkan fungsi.\nCoba!</string>    
+</resources>

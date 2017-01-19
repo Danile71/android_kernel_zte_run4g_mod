@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">CustomerServiceMenu</string>
+    <string name="title_activity_main">CustomerServiceMenu</string>
+	<!-- Main menus -->
+    <string name="title">Customer Service Menu</string>
+    <string name="customer_hotline">Customer Hotline</string>
+    <string name="mobile_ehall">Mobile e-hall</string>
+    <string name="subscription">My subscription</string>
+    <string name="prl_update">PRL update</string>
+    <string name="global_hotline">Global Hotline</string>
+    <string name="guide">Phone Service Guide</string>
+    <!-- Sub menus -->
+    <string name="hotline_desc">Customer Hotline of China Telecom is 10000 and self-service Hotline is 10001. When you are national roaming, if you want to dial the local Customer Hotline, it needs add the area code before.</string>
+    <string name="hotline">10000</string>
+    <string name="self_hotline">10001</string>
+    <string name="message">Message</string>
+    <string name="wap">wap</string>
+    <string name="subscription_inquiry">Subscription Inquiry</string>
+    <string name="service_unscribe">Service unscribe</string>
+    <string name="global_hotline_desc">When you are overseas or Hong Kong, Macao and Taiwan regions roaming, you can dial +8618918910000 which is Global Hotline of China Telecom. Through this device is free. Please refer to the roaming welcome message to see the details. You also can visit http://manyou.ct10000.com</string>
+
+    <!-- Messages shown to user -->
+    <string name="send_ok">Send successfully</string>
+    <string name="send_fail">Failed to send the message</string>
+    <string name="sending">"Sending "</string>
+    <string name="to">" to "</string>
+    <string name="sim_not_available">Please make sure your China Telecom UIM card is available</string>
+    <string name="search_networks">Search for all available networks</string>
+    <string name="waiting_networks">Please wait for a moment to click when disposing network connection</string>
+
+    <!-- translatable=false -->
+    <string name="prl_addr" translatable="false">10659165</string>
+    <string name="prl_data" translatable="false">PRL</string>
+    <string name="hotline_addr" translatable="false">10000</string>
+    <string name="self_hotline_addr" translatable="false">10001</string>
+    <string name="subscribe_data" translatable="false">0000</string>
+    <string name="unsubscribe_data" translatable="false">00000</string>
+    <string name="ehall_message_data" translatable="false">10001</string>
+
+    <!-- Please OEM fill in this -->
+    <string name="guide_desc"> "MediaTek customer service Hotline: 010-82861128 MediaTek official website: http://www.mediatek.com" </string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Clima 3D en vivo</string>
+    <string name="last_update">Última vez actualizado</string>
+    <string name="no_weather">Toque ajustes para añadir ciudades</string>
+    <string name="no_network">Sin red disponible</string>
+    <string name="update_fail">Actualizar falla clima</string>
+    <string name="updating">Actualizando</string>
+</resources>

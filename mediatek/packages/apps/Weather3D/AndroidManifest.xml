@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mediatek.weather3dwidget">
+    <uses-sdk android:minSdkVersion="19" />
+
+    <!-- only show widget in the launcher which also has this permission -->
+    <uses-permission android:name="android.permission.ADVANCED_WIDGET_API" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application android:icon="@drawable/ic_weather" android:label="@string/app_name" android:hardwareAccelerated="true">
+    <!-- Broadcast Receiver that will process AppWidget updates -->
+        <receiver android:name=".WeatherWidget" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.weather.action.SCROLL" />
+                <action android:name="com.weather.action.CITYLIST_CHANGED" />
+                <action android:name="com.weather.action.WEATHER_CHANGED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="com.weather3d.action.ATTACH" />
+                <action android:name="com.weather3d.action.CHECK" />
+                <action android:name="com.mediatek.intent.action.SETTINGS_PACKAGE_DATA_CLEARED" />
+                <action android:name="com.weather3d.action.SCREEN_OFF" />
+                <action android:name="com.weather3d.action.UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+            android:resource="@xml/weather_widget_provider" />
+        </receiver>
+
+        <service android:name=".UpdateService"/>
+
+        <activity
+                android:name=".WeatherActivity"
+                android:label="@string/app_name"
+                android:screenOrientation="portrait"
+                android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+
+        <receiver android:name=".NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

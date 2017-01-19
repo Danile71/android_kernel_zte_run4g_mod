@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="permission_label">
+        <item>Қоңырау шалу</item>
+        <item>Бірнеше адамға қоңырау шалу</item>
+	    <item>SMS жіберу</item>
+	    <item>MMS жіберу</item>
+	    <item>Дыбыс жазуды бастау</item>
+	    <item>Read SMS</item>
+	    <item>SMS өзгерту</item>
+	    <item>MMS оқу</item>
+	    <item>MMS өзгерту</item>
+	    <item>Read contacts</item>
+	    <item>Modify contacts</item>
+	    <item>Қоңырау журналын оқу</item>
+	    <item>Қоңырау журналдарын өзгерту</item>
+	    <item>Күйді алу</item>
+	    <item>Камераны пайдалану</item>
+	    <item>Деректер байланысын қосу</item>
+	    <item>Wi-Fi қосу</item>
+	    <item>Bluetooth қосу</item>
+	    <item>HotKnot пайдалану</item>
+    </string-array>
+    <string-array name="perm_status_entry">
+        <item>Әрқашан рұқсат ету</item>
+        <item>Әрқашан сұрау</item>
+        <item>Әрқашан бас тарту</item>
+    </string-array>
+    <string-array name="confirm_msg_body">
+        <item>қоңырау шалу</item>
+        <item>Бірнеше адамға қоңырау шалу</item>
+        <item>SMS жіберу</item>
+        <item>MMS жіберу</item>
+        <item>Дыбыс жазуды бастау</item>
+        <item>read SMS</item>
+        <item>SMS өзгерту</item>
+        <item>MMS оқу</item>
+        <item>MMS өзгерту</item>
+        <item>read contacts</item>
+        <item>modify contacts</item>
+        <item>Қоңырау журналын оқу</item>
+        <item>қоңырау журналдарын өзгерту</item>
+        <item>Ағымдағы күйге қол жеткізу</item>
+        <item>камераны пайдалану</item>
+        <item>Деректер байланысын қосу</item>
+        <item>Wi-Fi қосу</item>
+        <item>Bluetooth қосу</item>
+        <item>HotKnot пайдалану</item>
+    </string-array>
+</resources>

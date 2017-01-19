@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">תחזית מזג אוויר חיה בתלת ממד</string>  
+    <string name="last_update">עדכון אחרון</string>  
+    <string name="no_weather">הקש על הגדרות כדי להוסיף ערים</string>  
+    <string name="no_network">אין רשת זמינה</string>  
+    <string name="update_fail">עדכון מזג האוויר נכשל</string>  
+    <string name="updating">מעדכן</string>  
+</resources>

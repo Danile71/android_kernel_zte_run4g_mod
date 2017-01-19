@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Бележница</string>
+    <string name="no_note">Нема белешки</string>
+    <string name="selectednumber">изабрано</string>
+    <string name="delete_confirm_current">Белешка ће бити избрисана.</string>
+    <string name="delete_confirm_one">Изабрана белешка ће бити избрисана.</string>
+    <string name="delete_confirm">Изабране белешке ће бити избрисане.</string>
+    <string name="delete_confirm_title">"Избриши"</string>
+    <string name="delete_confirm_cancel">"Откажи"</string>
+    <string name="delete_confirm_ok">"Потврди"</string>
+    <string name="title_bar_selected">изабрано</string>
+    <string name="editor_full">Можете да унесете највише 1500 знакова</string>
+    <string name="sdcard_full" product="tablet">Меморија уређаја нема довољно простора. Ослободите простор.</string>
+    <string name="sdcard_full" product="default">Меморија телефона нема довољно простора. Ослободите простор.</string>
+    <string name="save_none">Празна белешка није креирана</string>
+    <string name="empty_note">Празна белешка</string>
+    <string name="delete_progress">Брисање</string>
+    <string name="title_notes_list">Бележница</string>
+    <string name="title_notes_view">Читање</string>
+    <string name="title_notes_edit">"Готово"</string>
+    <string name="title_loading">Учитавање...</string>
+    <string name="menu_delete">Избриши све белешке</string>
+    <string name="delete_all_notes_confirm">Све белешке ће бити избрисане.</string>
+    <string name="note_saved">Белешка сачувана</string>
+    <string name="no_selected">Белешка није сачувана </string>
+    <string name="menu_sort_by_modify">Поређај по времену измене</string>
+    <string name="menu_sort_by_tab">Поређај по картицама</string>
+    <string name="menu_work">"Посао"</string>
+    <string name="menu_personal">"ЛИЧНО"</string>
+    <string name="menu_family">Породица</string>
+    <string name="menu_study">Студије</string>
+    <string name="menu_none">Није категоризовано</string>
+    <string name="menu_add_button">"ново"</string>
+    <string name="menu_delete_button">"Избриши"</string>
+    <string name="menu_edit_button">"Измени"</string>
+    <string name="menu_deselect_all_button">"Опозови све изборе"</string>
+    <string name="menu_select_all_button">"Изабери све"</string>
+    <string name="month">"м"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> изабрано</string>
+    <string name="type_note">Укуцај белешку</string>
+</resources>

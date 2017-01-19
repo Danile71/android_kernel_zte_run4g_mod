@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"Ďalej"</string>
+    <string name="scroll_left_bar_title">Prejdite na zobrazenie viacerých režimov zachytenia</string>
+    <string name="zoome_title">Zväčšiť/Zmenšiť</string>
+    <string name="vcs_guide_summary">Ak chcete nájsť kontakt, vyslovte meno\nSkúste to!</string>
+    <string name="vcs_guide_title">Hlasové vyhľadávanie kontaktu</string>
+    <string name="camera_mav_title">Prejdite na ľavú stranu objektu a začnite ho fotiť.</string>
+    <string name="refocus_guide_title">Ak chcete zmeniť polohu zaostrenia, kliknite na obrázok</string>
+    <string name="vcs_guide_title1">Ak chcete nájsť kontakty, vyslovte meno.</string>
+    <string name="vcs_guide_title2">Ak chcete zapnúť funkciu, ťuknite sem.\nSkúste to!</string>    
+</resources>

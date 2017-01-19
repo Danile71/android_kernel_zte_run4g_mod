@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="next">"次へ"</string>
+    <string name="scroll_left_bar_title">スクロールすると、さらに多くのキャプチャーモードが見られます</string>
+    <string name="zoome_title">拡大/縮小</string>
+    <string name="vcs_guide_summary">連絡先を検索する名前を言ってください。\n試してください！</string>
+    <string name="vcs_guide_title">音声連絡先検索</string>
+    
+    <string name="vcs_guide_title1">連絡先を検索するために、名前を言ってください。</string>
+    <string name="vcs_guide_title2">機能を有効にするために、ここをタップします。\n試してください。</string>    
+    <string name="camera_mav_title">オブジェクトの左側に移動し、その撮影を開始してください</string>
+    <string name="refocus_guide_title">フォーカス位置を変更するには、画像をクリックします</string>
+</resources>

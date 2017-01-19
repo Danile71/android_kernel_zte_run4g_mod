@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Märkmik</string>
+    <string name="no_note">Märkmeid pole</string>
+    <string name="selectednumber">valitud</string>
+    <string name="delete_confirm_current">Märge kustutatakse.</string>
+    <string name="delete_confirm_one">Valitud märge kustutatakse.</string>
+    <string name="delete_confirm">Valitud märkmed kustutatakse.</string>
+    <string name="delete_confirm_title">"Kustuta"</string>
+    <string name="delete_confirm_cancel">"Tühista"</string>
+    <string name="delete_confirm_ok">"OK"</string>
+    <string name="title_bar_selected">valitud</string>
+    <string name="editor_full">Saate sisestada max 1500 märki</string>
+    <string name="sdcard_full" product="tablet">Seadme mälus ei ole piisavalt ruumi. Vabastage veidi ruumi.</string>
+    <string name="sdcard_full" product="default">Telefoni mälus ei ole piisavalt ruumi. Vabastage veidi ruumi.</string>
+    <string name="save_none">Tühja märget ei loodud</string>
+    <string name="empty_note">Tühi märge</string>
+    <string name="delete_progress">Kustutamine</string>
+    <string name="title_notes_list">Märkmik</string>
+    <string name="title_notes_view">Lugemine</string>
+    <string name="title_notes_edit">"Valmis"</string>
+    <string name="title_loading">Laadimine...</string>
+    <string name="menu_delete">Kustuta kõik märkmed</string>
+    <string name="delete_all_notes_confirm">Kõik märkmed kustutatakse.</string>
+    <string name="note_saved">Märge salvestatud</string>
+    <string name="no_selected">Ühtegi märget pole valitud</string>
+    <string name="menu_sort_by_modify">Sordi muudetud kellaaja järgi</string>
+    <string name="menu_sort_by_tab">Sordi vahekaartide järgi</string>
+    <string name="menu_work">"Töö"</string>
+    <string name="menu_personal">"ISIKLIK"</string>
+    <string name="menu_family">Perekondlik küsimus</string>
+    <string name="menu_study">Uuring</string>
+    <string name="menu_none">Liigitamata</string>
+    <string name="menu_add_button">"uus"</string>
+    <string name="menu_delete_button">"Kustuta"</string>
+    <string name="menu_edit_button">"Muuda"</string>
+    <string name="menu_deselect_all_button">"Tühista kõik valikud"</string>
+    <string name="menu_select_all_button">Vali kõik</string>
+    <string name="month">"m"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> valitud</string>
+    <string name="type_note">Tipi märge</string>
+</resources>

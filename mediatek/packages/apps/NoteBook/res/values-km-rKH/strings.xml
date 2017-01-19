@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">សៀវភៅកត់ត្រា</string>
+    <string name="no_note">គ្មានកំណត់សម្គាល់</string>
+    <string name="selectednumber">បានជ្រើសរើស</string>
+    <string name="delete_confirm_current">នឹងលុបចោលកំណត់សម្គាល់។</string>
+    <string name="delete_confirm_one">នឹងលុបចោលកំណត់សម្គាល់ដែលបានជ្រើសរើស។</string>
+    <string name="delete_confirm">នឹងលុបចោលកំណត់សម្គាល់ដែលបានជ្រើសរើស។</string>
+    <string name="delete_confirm_title">"លុប"</string>
+    <string name="delete_confirm_cancel">"បោះ​បង់"</string>
+    <string name="delete_confirm_ok">"យល់​ព្រម"</string>
+    <string name="title_bar_selected">បានជ្រើសរើស</string>
+    <string name="editor_full">អ្នកអាចវាយបញ្ចូលអតិ. 1500 តួ</string>
+    <string name="sdcard_full" product="tablet">បន្ទុកនៃឧបករណ៍/ទូរសព្ទគ្មានចន្លោះគ្រប់គ្រាន់។ សូមលុបឯកសារខ្លះចោល។</string>
+    <string name="sdcard_full" product="default">បន្ទុកនៃទូរសព្ទគ្មានចន្លោះគ្រប់គ្រាន់។ សូមលុបឯកសារខ្លះចោល។</string>
+    <string name="save_none">មិនបង្កើតកំណត់សម្គាល់ទទេ។</string>
+    <string name="empty_note">កំណត់សម្គាល់ទទេ</string>
+    <string name="delete_progress">កំពុងលុបចោល</string>
+    <string name="title_notes_list">សៀវភៅកត់ត្រា</string>
+    <string name="title_notes_view">កំពុងអាន</string>
+    <string name="title_notes_edit">"ធ្វើ​រួច"</string>
+    <string name="title_loading">កំពុងឡូត ...</string>
+    <string name="menu_delete">លុបចោលកំណត់សម្គាល់ទាំងអស់</string>
+    <string name="delete_all_notes_confirm">នឹងលុបចោលកំណត់សម្គាល់ទាំងអស់។</string>
+    <string name="note_saved">បានរក្សាទុក​កំណត់សម្គាល់</string>
+    <string name="no_selected">គ្មានកំណត់សម្គាល់ត្រូវបានជ្រើសរើស</string>
+    <string name="menu_sort_by_modify">តម្រៀបតាមពេលកែសម្រួល</string>
+    <string name="menu_sort_by_tab">តម្រៀបតាមថេប</string>
+    <string name="menu_work">"កន្លែង​ធ្វើការ"</string>
+    <string name="menu_personal">"ផ្ទាល់ខ្លួន"</string>
+    <string name="menu_family">កិច្ចការគ្រួសារ</string>
+    <string name="menu_study">ការសិក្សា</string>
+    <string name="menu_none">ដែលមិនរៀបតាមប្រភេទ</string>
+    <string name="menu_add_button">"ថ្មី"</string>
+    <string name="menu_delete_button">"លុប"</string>
+    <string name="menu_edit_button">"កែ"</string>
+    <string name="menu_deselect_all_button">"មិន​ជ្រើស​ទាំងអស់"</string>
+    <string name="menu_select_all_button">ជ្រើសរើសយកទាំងអស់</string>
+    <string name="month">"នាទី"</string>
+    <string name="day">ធ្នូ</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> បានជ្រើសរើស </string>
+    <string name="type_note">វាយកំណត់សម្គាល់</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="enable_mode_list">
+        <item name="enable_mode_entry_restore">алдыңғы параметрлерді орнату</item>
+        <item name="enable_mode_entry_start_new">жаңа параметрлерді орнату</item>
+    </string-array>
+</resources>

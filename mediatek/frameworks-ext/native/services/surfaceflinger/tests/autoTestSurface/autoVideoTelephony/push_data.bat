@@ -1,0 +1,13 @@
+adb push ../data/LGE.yv12                        /data
+adb push ../data/BigShips_1280x720_1.i420        /data
+adb push ../data/football_qvga_1.i420            /data
+adb push ../data/indoor_slow_1.i420              /data
+rem adb push ../data/Kimono1_1920x1088_1.i420        /data
+rem adb push ../data/mobile_qcif_1.i420              /data
+rem adb push ../data/newyork_640x368_1.i420          /data
+rem adb push ../data/out_176_144.i420                /data
+rem adb push ../data/school_640x480_1.i420           /data
+rem adb push ../data/prv03.i420                      /data
+rem adb push ../data/ibmbw_720x480_mtk.yuv           /data
+rem adb push ../data/VT_dialer_w1080_h1776_s1088.raw /data
+adb push ../data/bg_grey_64x64_rgba.raw          /data

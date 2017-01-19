@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright Digital TV Labs 2012 -->
+<MPD xmlns="urn:mpeg:DASH:schema:MPD:2011" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:hbbtv:dash:profile:isoff-live:2012" type="static" mediaPresentationDuration="PT5M0S">
+  <Period start="PT0S">
+    <SegmentTemplate timescale="48000">
+      <SegmentTimeline>
+        <S t="0" d="143360" r="99" />
+        <S t="14336000" d="86016" r="0" />
+      </SegmentTimeline>
+    </SegmentTemplate>
+    <AdaptationSet mimeType="audio/mp4" codecs="mp4a.40.02" segmentAlignment="true" lang="en">
+      <Representation bandwidth="96000" id="audio" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate media="HEAAC_96K_3secseg_tml/segments/seg-.fmp4/timeline-$Time$.m4s" initialization="HEAAC_96K_3secseg_tml/segments/seg-.fmp4/dashfile.mp4" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1">
+      <Representation bandwidth="1000000" codecs="avc1.4d401e" id="video.1000" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="3000" initialization="720x576i_1000Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" startNumber="0" timescale="1000" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="video_app_name">"ဗီဒီယို ဖြင့္စက္"</string>
+    <string name="scanning">"SD ကတ္ကို စကင္စစ္ေနသည္ …."</string>
+    <string name="sdcard_missing_message">"သင့္ ဖုန္းတြင္ SD ကတ္ ထည့္ထားျခင္း မရွိပါ။"</string>
+    <string name="video_list_empty">"ဗီဒီယိုမ်ားမရွိ။"</string>
+    <string name="detail_title">"ေခါင္းစဥ္ - %1$s"</string>
+    <string name="detail_date_taken">"ေနရာယူေသာ - %1$s"</string>
+    <string name="detail_path">"လမ္းေၾကာင္း - %1$s"</string>
+    <string name="detail_filesize">"ဖိုင္ အရြယ္အစား - %1$s"</string>
+    <string name="detail_duration">"ၾကာခ်ိန္ - %1$s"</string>
+    <string name="media_detail">"အေသးစိတ္မ်ား"</string>
+    <string name="delete">"ဖ်က္ပစ္သည္"</string>
+    <string name="delete_tip">"%1$s ကို ဖ်က္ပစ္ မည္လား။"</string>
+    <string name="delete_progress">"%1$s ကို ဖ်က္ပစ္ ေနသည္…."</string>
+	<string name="max_video">အမ်ားဆုံးဗီဒီယိုမ်ား</string>
+	<string name="hotknot">HotKnot</string>
+    <string name="share">ေဝမွ်ပါ</string>
+    <string name="deselect_all">"အားလံုးကို မေရြးခ်ယ္ပါ"</string>
+    <string name="select_all">အားလံုးကို ေရြးခ်ယ္ပါ</string>
+    <string name="selected">​ေရြးခ်ယ္ထားေသာ</string>
+    <string name="delete_selection_one">ေရြးခ်ယ္ထားေသာအေၾကာင္းအရာကိုဖ်က္မလား။</string>
+    <string name="delete_selection_more">ေရြးခ်ယ္ထားေသာ အေၾကာင္းအရာမ်ားကို ဖ်က္မလား။</string>
+    <string name="select_item">Select item</string>
+</resources>

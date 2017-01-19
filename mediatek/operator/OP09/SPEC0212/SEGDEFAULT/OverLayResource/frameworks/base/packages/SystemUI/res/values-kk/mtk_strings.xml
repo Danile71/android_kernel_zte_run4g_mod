@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sim_switch_tip">Осы UIM/SIM <xliff:g>%s</xliff:g> үшін әдепкі UIM/SIM картасы ретінде орнатылды. Әдепкі UIM/SIM өзгерту үшін Күй жолағын ұстап төменге апарыңыз.</string>
+    <string name="sim_management">UIM/SIM БАСҚАРУ</string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] UIM/SIM картасы деректерінің байланысы қосылды</string>
+    <string name="gemini_3g_disable_warning">"Таңдалған UIM/SIM үшін 3G қызметі қолжетімсіз. Ол деректердің баяу жүктелуіне әкелуі мүмкін. 3G қызметінің параметрін мәзірдегі Параметрлер &gt; Сымсыз байланыс және желілер &gt; Мобильді желілер бойынша өзгертуге болады. Осы UIM/SIM таңдау қажет пе?"</string>
+    <string name="gemini_3g_disable_warning_cu">"Таңдалған UIM/SIM үшін 3G қызметі қолжетімсіз. Ол деректердің баяу жүктелуіне әкелуі мүмкін. 3G қызметінің параметрін мәзірдегі Параметрлер &gt; UIM/SIM басқару бойынша өзгертуге болады. Осы UIM/SIM таңдау қажет пе?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Осы UIM/SIM үшін алдымен деректер роумингін қосу қажет, ол деректер тасымалының құнын айтарлықтай арттыруы мүмкін! Деректер роумингін қосып, осы UIM/SIM таңдау қажет пе?"</string>
+    <string name="gemini_3g_disable_warning_case1">Таңдалған UIM/SIM үшін 3G қызметі қолжетімсіз. Ол деректердің баяу жүктелуіне әкелуі мүмкін. 3G қызметінің параметрін мәзірдегі Параметрлер &gt; Сымсыз байланыс және желілер &gt; Мобильді желілер бойынша өзгертуге болады. Осы UIM/SIM таңдау қажет пе?</string>
+    <string name="gemini_3g_disable_warning_case2">Таңдалған UIM/SIM үшін 3G қызметі қолжетімсіз. Ол деректердің баяу жүктелуіне әкелуі мүмкін. 3G қызметінің параметрін мәзірдегі Параметрлер &gt; UIM/SIM басқару бойынша өзгертуге болады. Осы UIM/SIM таңдау қажет пе?</string>
+    <string name="gemini_3g_disable_warning_case3">Осы UIM/SIM үшін алдымен роуминг қосылуы қажет, алайда ол роуминг төлемінің айтарлықтай шығынына әкелуі мүмкін! Сонымен қатар, 3G қызметі осы UIM/SIM үшін қолжетімсіз. Ол деректердің баяу жүктелуіне әкелуі мүмкін. 3G қызметінің параметрін мәзірдегі Параметрлер &gt; Сымсыз байланыстар және желілер &gt; Мобильді желілер бойынша өзгертуге болады. Роуминг қызметін қосып, осы UIM/SIM таңдау қажет пе?</string>
+    <string name="gemini_3g_disable_warning_case4">Осы UIM/SIM үшін алдымен роуминг қосылуы қажет, алайда ол роуминг төлемінің айтарлықтай шығынына әкелуі мүмкін! Сонымен қатар, 3G қызметі осы UIM/SIM үшін қолжетімсіз. Ол деректердің баяу жүктелуіне әкелуі мүмкін. 3G қызметінің параметрін мәзірдегі Параметрлер &gt; UIM/SIM басқару бойынша өзгертуге болады. Роуминг қызметін қосып, осы UIM/SIM таңдау қажет пе?</string>
+    <string name="confirm_radio_title">UIM/SIM өшірулі</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> қазір өшірулі. Осы UIM/SIM картасын қосу қажет пе?</string>
+    <string name="application_guide_title">﻿Switch to default UIM/SIM card</string>
+    <string name="application_guide_content">Әдепкі UIM/SIM картасына ауыстыру үшін хабарландыру тізімін төмен сырғытыңыз</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">ႏုတ္ဘြတ္(ခ္)</string>
+    <string name="no_note">မွတ္စုမ်ားမရွိ</string>
+    <string name="selectednumber">​ေရြးခ်ယ္ထားေသာ</string>
+    <string name="delete_confirm_current">မွတ္စုကို ဖ်က္လိမ့္မည္။</string>
+    <string name="delete_confirm_one">ေရြးထားေသာ မွတ္စုကို ဖ်က္လိမ့္မည္။</string>
+    <string name="delete_confirm">ေရြးထားေသာ မွတ္စုမ်ားကို ဖ်က္လိမ့္မည္။</string>
+    <string name="delete_confirm_title">ဖ်က္ပါ</string>
+    <string name="delete_confirm_cancel">မလုပ္ပါ</string>
+    <string name="delete_confirm_ok">အိုေက</string>
+    <string name="title_bar_selected">​ေရြးခ်ယ္ထားေသာ</string>
+    <string name="editor_full">အမ်ားဆံုး စာလံုးေရ ၁၅၀ဝ ထည့္သြင္းႏိုင္သည္</string>
+    <string name="sdcard_full" product="tablet">ကိရိယာတြင္ သိမ္းဆည္းရန္ ေနရာလြတ္ အလံုအေလာက္မရွိပါ။ အခ်ဳိ႕ သိမ္းဆည္းထားမႈမ်ားကို ေလွ်ာ့ခ်ပါ။</string>
+    <string name="sdcard_full" product="default">ဖုန္းတြင္ သိမ္းဆည္းရန္ ေနရာလြတ္ အလံုအေလာက္မရွိပါ။ အခ်ဳိ႕ သိမ္းဆည္းထားမႈမ်ားကို ေလွ်ာ့ခ်ပါ။</string>
+    <string name="save_none">မွတ္စုအလြတ္ကို မဖန္တီးႏိုင္ပါ</string>
+    <string name="empty_note">မွတ္စုအလြတ္</string>
+    <string name="delete_progress">ဖ်က္သိမ္းေနသည္</string>
+    <string name="title_notes_list">ႏုတ္ဘြတ္(ခ္)</string>
+    <string name="title_notes_view">ဖတ္ေနသည္</string>
+    <string name="title_notes_edit">ၿပီးၿပီ</string>
+    <string name="title_loading">ဖြင့္ေနဆဲ…</string>
+    <string name="menu_delete">မွတ္စုအားလံုးကို ဖ်က္ပါ</string>
+    <string name="delete_all_notes_confirm">မွတ္စုအားလံုးကို ဖ်က္လိမ့္မည္</string>
+    <string name="note_saved">မွတ္စုသိမ္းၿပီး</string>
+    <string name="no_selected">ေရြးထားေသာမွတ္စုမရွိ</string>
+    <string name="menu_sort_by_modify">ေျပာင္းခဲ့ေသာ ရက္စြဲအလိုက္ စီပါ</string>
+    <string name="menu_sort_by_tab">တက္ဘ္အလိုက္ စီပါ</string>
+    <string name="menu_work">အလုပ္</string>
+    <string name="menu_personal">ကိုယ္ပိုင္</string>
+    <string name="menu_family">မိသားစုေရးရာ</string>
+    <string name="menu_study">ေလ့လာပါ</string>
+    <string name="menu_none">အုပ္စုမခြဲထားေသာ</string>
+    <string name="menu_add_button">အသစ္</string>
+    <string name="menu_delete_button">ဖ်က္ပါ</string>
+    <string name="menu_edit_button">တည္းျဖတ္ပါ</string>
+    <string name="menu_deselect_all_button">"အားလံုးကို မေရြးခ်ယ္ပါ"</string>
+    <string name="menu_select_all_button">အားလံုးကို ေရြးခ်ယ္ပါ</string>
+    <string name="month">မတ္</string>
+    <string name="day">D</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> ေရြးခ်ယ္ၿပီး </string>
+    <string name="type_note">မွတ္စု ေရးသြင္းပါ</string>
+</resources>

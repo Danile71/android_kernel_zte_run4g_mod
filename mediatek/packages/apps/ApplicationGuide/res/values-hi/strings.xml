@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"अगला"</string>
+    <string name="scroll_left_bar_title">और अधिक कैप्चर मोड देखने के लिए स्क्रॉल करें</string>
+    <string name="zoome_title">ज़ूम इन/आउट</string>
+    <string name="vcs_guide_summary">संपर्क खोजने के लिए उसका नाम बोलें।\nइसे आजमाएँ!</string>
+    <string name="vcs_guide_title">संपर्क की ध्वनि खोज</string>
+    <string name="camera_mav_title">कृपया वस्तु के बाएँ जाएँ और उसे शूट करना आरंभ करें</string>
+    <string name="refocus_guide_title">फ़ोकस स्थिति बदलने के लिए छवि को क्लिक करें</string>
+    <string name="vcs_guide_title1">संपर्क खोजने के लिए नाम बोलें।</string>
+    <string name="vcs_guide_title2">फ़ंक्शन सक्षम करने के लिए यहाँ टैप करें।\nइसे आजमाएं!</string>    
+</resources>

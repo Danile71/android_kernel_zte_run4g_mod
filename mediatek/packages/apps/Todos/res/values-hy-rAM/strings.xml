@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources> 
+    <string name="app_name">Առաջադրանքներ</string>
+    <string name="app_header">ԱՌԱՋԱԴՐԱՆՔ</string>
+    <string name="todos_title">ԱՌԱՋԱԴՐԱՆՔ</string>
+    <string name="dones_title">"Կատարված է"</string>
+    <string name="todo_details_title">Առաջադրանքի մանրամասներ</string>
+    <string name="no_expire_date">Սպառման ժամկետ առկա չէ</string>
+    <string name="valid_date_range">Ամսաթվի ընդգրկույթը սկսվում է 1970-ից մինչև 2036-ը</string>
+    <string name="btn_done">"Կատարված է"</string>
+    <string name="btn_cancel">"Չեղարկել"</string>
+    <string name="todos_empty_info">Որևէ միավոր առկա չէ\n Հպեք նոր առաջադրանք ավելացնելու համար:</string>
+    <string name="dones_empty_info">Որևէ միավոր առկա չէ</string>
+    <string name="delete">"Ջնջել"</string>
+    <string name="cancel">"Չեղարկել"</string>
+    <string name="delete_item">Այս միավորը կջնջվի</string>
+    <string name="delete_selected_items">Այս միավորները կջնջվեն</string>
+    <string name="done_time_format">Արված է %Y-%m-%d %H:%M</string>
+    <string name="due_day_time_format" translateable="false">"%Y-%m-%d"</string>
+    <string name="operator_failed">Գործողությունը ձախողվեց</string>
+    <string name="back_title">Ծանուցում</string>
+    <string name="back_message">Դուք ցանկանու՞մ եք հրաժարվել ընթացիկ խմբագրումից:</string>
+    <string name="ok">"Լավ"</string>
+    <string name="add_new_todo">Նոր առաջադրանք</string>
+    <string name="edit_todo">Խմբագրել առաջադրանքը</string>
+    <string name="todo_detail">Առաջադրանքի մանրամասն</string>
+    <string name="done_detail">Արված մանրամասն</string>
+    <string name="text_full">Հնարավոր չէ ներածել ավելի գրանշաններ</string>
+    <string name="hint_title">"Վերնագիր"</string>
+    <string name="hint_details">"Մանրամասներ"</string>
+    <string name="separate" translateable="false">|</string>
+    <string name="select_all">Ընտրել բոլորը</string>
+    <string name="deselect_all">"Ապանշել բոլորը"</string>
+    <string name="mark_done">Նշել որպես առաջադրանք</string>
+    <string name="mark_todo">Նշել որպես արված</string>
+    <string name="todo_discarded">Առաջադրանքը հրաժարված է</string>
+    <string name="prompt_date_before_today">Սպառման ժամկետը չպետք է լինի ավելի վաղ, քան ընթացիկ ամսաթիվը:</string>
+    <string name="selected_count">%d-ը ընտրված է</string>
+    <string name="unselect_all">Ապընտրել բոլորը</string>
+    <string name="more_than_999">999+</string>
+</resources>

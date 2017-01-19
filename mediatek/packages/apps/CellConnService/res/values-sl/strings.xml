@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">CellConnectionService</string>
+	<string name="button_ok">"V redu"</string>
+	<string name="button_cancel">"Prekliči"</string>
+	<string name="confirm_radio_title">Kartica SIM je onemogočena</string>
+	<string name="confirm_radio_title_uim">Kartica UIM je izklopljena</string>
+	<string name="confirm_radio_title_card">Kartica je izklopljena</string>
+	<string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> 		je zdaj izključen. Ali želite omogočiti to kartico SIM?</string>
+  <string name="confirm_radio_msg_uim"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> je zdaj izklopljen. Ali želite vklopiti to kartico UIM?</string>
+  <string name="confirm_radio_msg_card"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> je zdaj izklopljen. Ali želite vklopiti to kartico?</string>
+	<string name="confirm_radio_flight_mode_on_and_msg">Vključen je letalski način in</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> 		je zdaj izključen. Ali želite izklopiti letalski način in omogočiti to kartico SIM?</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_uim"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> je zdaj izklopljen. Ali želite izklopiti način v letalu in vklopiti to kartico UIM?</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_card"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> je zdaj izklopljen. Ali želite izklopiti način v letalu in vklopiti to kartico?</string>	
+	<string name="confirm_radio_flight_mode_on_sim_on_msg">Vključen je letalski način. Ali želite izklopiti letalski način?</string>  
+	<string name="confirm_radio_msg_single">Letalski način je vključen; ali ga želite izključiti?</string>
+	<string name="confirm_pin_title">Kartica SIM je zaklenjena</string>
+	<string name="confirm_pin_title_uim">Kartica UIM je zaklenjena</string>
+	<string name="confirm_pin_title_card">Kartica je zaklenjena</string>
+	<string name="confirm_pin_msg">Izbrana kartica SIM je zdaj zaklenjena. Najprej jo 		odklenite.</string>
+	<string name="confirm_pin_msg_uim">Izbrana kartica UIM je zaklenjena. Najprej jo odklenite.</string>
+	<string name="confirm_pin_msg_card">Izbrana kartica je zaklenjena. Najprej jo odklenite.</string>
+	<string name="confirm_simmelock_title">Kartica SIM ME je zaklenjena</string>
+	<string name="confirm_simmelock_msg">Izbrana reža za kartice SIM je zdaj zaklenjena. Najprej jo 		odklenite.</string>
+	<string name="confirm_simmelock_msg_uim">Reža je zaklenjena. Najprej jo odklenite.</string>
+	<string name="confirm_simmelock_msg_card">Izbrana reža je zaklenjena. Najprej jo odklenite.</string>
+	<string name="confirm_fdn_title">FDN omogočeno</string>
+	<string name="confirm_fdn_msg">Številka za omejeno klicanje je omogočena.</string>
+	<string name="confirm_roaming_title">Opozorilo o gostovanju</string>
+	<string name="confirm_roaming_msg">Kartica SIM, ki jo želite uporabiti, je zdaj nastavljena na 		gostovanje. Trenutno ni na voljo nobena lokalna kartica SIM. Ali želite nadaljevati?</string>
+	<string name="confirm_roaming_msg_uim">Kartica UIM, ki jo boste uporabili, gostuje v tujem omrežju. Trenutno ni na voljo nobena lokalna kartica UIM. Ali želite nadaljevati?</string>
+	<string name="confirm_roaming_msg_card">Kartica, ki jo boste uporabili, gostuje v tujem omrežju. Trenutno ni na voljo nobena lokalna kartica. Ali želite nadaljevati?</string>
+  <string name="confirm_roaming_withPrefer_msg">Kartica SIM, ki jo želite uporabiti, je zdaj nastavljena na gostovanje. Ali želite nadaljevati preko lokalne kartice SIM?</string>
+  <string name="confirm_roaming_withPrefer_msg_uim">Kartica SIM, ki jo boste uporabili, gostuje v tujem omrežju. Ali želite nadaljevati prek lokalne kartice UIM?</string>
+  <string name="confirm_roaming_withPrefer_msg_card">Kartica SIM, ki jo boste uporabili, gostuje v tujem omrežju. Ali želite nadaljevati prek lokalne kartice?</string>
+  <string name="confirm_roaming_lbutton">"Naprej"</string>
+  <string name="confirm_roaming_rbutton">"Prekliči"</string>
+  <string name="confirm_roamingWithPrefer_lbutton">Lokalna kartica SIM</string>
+  <string name="confirm_roamingWithPrefer_lbutton_uim">Lokalna kartica UIM</string>
+  <string name="confirm_roamingWithPrefer_lbutton_card">Lokalna kartica</string>
+  <string name="confirm_roamingWithPrefer_rbutton">SIM za gostovanje</string>
+  <string name="confirm_roamingWithPrefer_rbutton_uim">Kartica UIM, ki gostuje v tujem omrežju</string>
+  <string name="confirm_roamingWithPrefer_rbutton_card">Kartica, ki gostuje v tujem omrežju</string>
+	<string name="confirm_roaming_for3Sims_msg">Kartica SIM, ki jo želite uporabiti, je zdaj nastavljena na 		gostovanje. Ali želite nadaljevati?</string>
+  <string name="confirm_roaming_for3Sims_msg_uim">Kartica UIM, ki jo boste uporabili, gostuje v tujem omrežju. Ali želite nadaljevati?</string>
+  <string name="confirm_roaming_for3Sims_msg_card">Kartica, ki jo boste uporabili, gostuje v tujem omrežju. Ali želite nadaljevati?</string>
+	<string name="confirm_radio_lbutton">"Vklopi"</string>
+	<string name="confirm_unlock_lbutton">"Odkleni"</string>
+	<string name="confirm_unlock_fail">Postopek je preklican</string>
+	<string name="confirm_turnon_radio_fail">Postopek je preklican</string>
+	<string name="confirm_permit_roaming_fail">To dejanje ste preklicali na gostujoči kartici SIM</string>
+	<string name="confirm_permit_roaming_fail_uim">Dejanje na kartici UIM, ki gostuje v tujem omrežju</string>
+	<string name="confirm_permit_roaming_fail_card">Dejanje na kartici, ki gostuje v tujem omrežju</string>
+	<string name="confirm_sim_locked_message">Kartica SIM je bila trajno zaklenjena</string>
+	<string name="confirm_sim_locked_message_uim">Kartica UIM je bila trajno zaklenjena</string>
+	<string name="confirm_sim_locked_message_card">Kartica je bila trajno zaklenjena</string>	
+    <string name="confirm_slot_locked_message">Reža je bila trajno zaklenjena</string>
+	<string name="button_yes">"Da"</string>  
+	<string name="button_no">"Ne"</string>  
+</resources>

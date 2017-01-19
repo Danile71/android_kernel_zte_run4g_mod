@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3D կենդանի եղանակ</string>
+    <string name="last_update">"Վերջին անգամ թարմացվել է"</string>
+    <string name="no_weather">Հպեք կարգավորումներին` քաղաքներ ավելացնելու համար</string>
+    <string name="no_network">Չկա մատչելի ցանց</string>
+    <string name="update_fail">Եղանակի թարմացումը ձախողվեց</string>
+    <string name="updating">Թարմացվում է </string>
+</resources>

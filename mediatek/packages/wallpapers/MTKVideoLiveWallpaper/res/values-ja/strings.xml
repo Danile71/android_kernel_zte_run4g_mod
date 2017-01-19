@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <skip/>
+    <string name="wallpapers">MTKライブ壁紙</string>
+    <skip/>
+    <string name="vlw">動画壁紙</string>
+    <string name="vlw_desc">動画をライブ壁紙に設定します。</string>
+    <string name="VideoScene_error_text_invalid_progressive_playback">"この動画はご使用の端末でストリーミングできません。"</string>
+    <string name="VideoScene_error_text_unknown">"この動画は再生できません。"</string>
+    <string name="VideoScene_error_media_removed">メディアファイルを削除しました</string>
+	<string name="VideoScene_error_sdcard_unmounted">SDカードが取外されています</string>
+	<string name="VideoScene_info_wait_sdcard">SDカードの準備完了を待っています</string>
+	<string name="VideoScene_error_media_not_found">メディアファイルは既に存在しません</string>
+	<string name="VideoScene_error_be_set">この動画は壁紙に設定できません</string>
+    <string name="VideoEditor_error_title">"動画を再生できません"</string>
+    <string name="VideoEditor_error_button">"OK"</string>
+    <string name="VideoEditor_error_no_video_selected">動画が選択されていません</string>
+	<string name="VideoEditor_warning_limited_duration">最低1秒の再生時間を選択してください</string>
+	<string name="VideoScene_reload_after_mount">動画をSDカードから読み込んでいます。お待ちください</string>
+    <string name="select_video">"SDカード"</string>
+    <string name="select_default">"デフォルト"</string>
+    <string name="select">"動画を選択"</string>
+    <string name="set_wallpaper">"壁紙に設定"</string>
+    <string name="title">動画壁紙</string>
+    <string name="default_title">デフォルト動画</string>
+    <string name="capture_video">"カメラ"</string>
+    <string name="menu_item_add_item">動画をSDカードから選択する</string>
+    <string name="group_video">動画を一つ選択する</string>
+    <string name="group_folder">フォルダを選択する</string>
+    <string name="folder_info">以下からの&lt;br&gt;動画&lt;br&gt;</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3D live vejr</string>
+    <string name="last_update">Senest opdateret</string>
+    <string name="no_weather">Tryk på indstillinger for at tilføje byer</string>
+    <string name="no_network">Intet tilgængeligt netværk</string>
+    <string name="update_fail">Opdatering af vejret mislykkedes</string>
+    <string name="updating">Opdaterer</string>
+</resources>

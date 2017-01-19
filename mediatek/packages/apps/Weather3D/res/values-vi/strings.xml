@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">Thời tiết sống động 3D</string>  
+    <string name="last_update">Cập nhật gần nhất</string>  
+    <string name="no_weather">Chạm cài đặt để thêm các thành phố</string>  
+    <string name="no_network">Mạng chưa có sẵn</string>  
+    <string name="update_fail">Không thể cập nhật thời tiết</string>  
+    <string name="updating">Đang cập nhật</string>  
+</resources>

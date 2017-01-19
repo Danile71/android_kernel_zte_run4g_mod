@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="next">下一步</string>
+    <string name="scroll_left_bar_title">滑动查看更多的拍照模式</string>
+    <string name="zoome_title">放大/缩小</string>
+    <string name="vcs_guide_summary">您可以用语音搜索联系人，\n快试试吧！</string>
+    <string name="vcs_guide_title">贴心联系人</string>
+    <string name="camera_mav_title">请移到物件的左边然后开始拍摄</string>
+    <string name="refocus_guide_title">点击画面以改变对焦的位置</string>
+    <string name="vcs_guide_title1">您可以用语音搜索联系人</string>
+    <string name="vcs_guide_title2">点击这里打开这个功能，\n快试试吧！</string>    
+</resources>

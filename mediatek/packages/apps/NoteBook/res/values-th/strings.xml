@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">โน้ตบุ๊ค</string>
+    <string name="no_note">ไม่มีบันทึกย่อ</string>
+    <string name="selectednumber">เลือกแล้ว</string>
+    <string name="delete_confirm_current">บันทึกย่อจะถูกลบ</string>
+    <string name="delete_confirm_one">บันทึกย่อที่เลือกจะถูกลบ</string>
+    <string name="delete_confirm">บันทึกย่อที่เลือกจะถูกลบ</string>
+    <string name="delete_confirm_title">"ลบ"</string>
+    <string name="delete_confirm_cancel">"ยกเลิก"</string>
+    <string name="delete_confirm_ok">"ตกลง"</string>
+    <string name="title_bar_selected">เลือกแล้ว</string>
+    <string name="editor_full">คุณสามารถป้อนได้มากที่สุด 1500 ตัวอักษร</string>
+    <string name="sdcard_full" product="tablet">ที่เก็บข้อมูลบนอุปกรณ์มีพื้นที่ไม่เพียงพอ โปรดปลดปล่อยพื้นที่บางส่วน</string>
+    <string name="sdcard_full" product="default">ที่เก็บข้อมูลบนโทรศัพท์มีพื้นที่ไม่เพียงพอ โปรดปลดปล่อยพื้นที่บางส่วน</string>
+    <string name="save_none">บันทึกย่อที่ว่างไม่ถูกสร้าง</string>
+    <string name="empty_note">บันทึกย่อที่ว่าง</string>
+    <string name="delete_progress">กำลังลบ</string>
+    <string name="title_notes_list">โน้ตบุ๊ค</string>
+    <string name="title_notes_view">กำลังอ่าน</string>
+    <string name="title_notes_edit">"เสร็จสิ้น"</string>
+    <string name="title_loading">กำลังโหลด...</string>
+    <string name="menu_delete">ลบบันทึกย่อทั้งหมด</string>
+    <string name="delete_all_notes_confirm">บันทึกย่อทั้งหมดจะถูกลบ</string>
+    <string name="note_saved">บันทึกย่อบันทึกแล้ว</string>
+    <string name="no_selected">ไม่มีบันทึกย่อที่เลือก</string>
+    <string name="menu_sort_by_modify">เรียงตามเวลาแก้ไข</string>
+    <string name="menu_sort_by_tab">เรียงตามแท็บ</string>
+    <string name="menu_work">"ที่ทำงาน"</string>
+    <string name="menu_personal">"ส่วนบุคคล"</string>
+    <string name="menu_family">เรื่องครอบครัว</string>
+    <string name="menu_study">เรียน</string>
+    <string name="menu_none">ไม่ได้จัดประเภท</string>
+    <string name="menu_add_button">"ใหม่"</string>
+    <string name="menu_delete_button">"ลบ"</string>
+    <string name="menu_edit_button">"แก้ไข"</string>
+    <string name="menu_deselect_all_button">"ยกเลิกการเลือกทั้งหมด"</string>
+    <string name="menu_select_all_button">เลือกทั้งหมด</string>
+    <string name="month">"น."</string>
+    <string name="day">ธ.ค.</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g>ถูกเลือก </string>
+    <string name="type_note">พิมพ์บันทึกย่อ</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">Weiter</string>
+    <string name="scroll_left_bar_title">Zum Anzeigen weiterer Erfassungsmodi blättern</string>
+    <string name="zoome_title">Vergrößern/Verkleinern</string>
+    <string name="vcs_guide_summary">Sprechen Sie den Namen, um Kontakte zu finden.\nVersuchen Sie es!</string>
+    <string name="vcs_guide_title">Sprachkontaktsuche</string>
+    <string name="camera_mav_title">Bewegen Sie sich nach links vom Objekt und nehmen es auf.</string>
+    <string name="refocus_guide_title">Klicken Sie auf das Bild, um die Schärfenposition zu bestimmen</string>
+    <string name="vcs_guide_title1">Sagen Sie den Namen, um den Kontakt zu suchen.</string>
+    <string name="vcs_guide_title2">Tippen Sie hier, um die Funktion zu aktivieren.\nVersuchen Sie es!</string>    
+</resources>

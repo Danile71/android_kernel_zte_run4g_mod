@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="import_to">"ဤေနရာသို႔တင္ပို႔ရန္"</string>
+    <string name="import_button">"#ကိုျပကၡဒိန္သို႔ သင္တင္ပို႔လိုပါသလား။"</string>
+    <string name="cancel">"ေဒါင္းလုဒ္လုပ္ျခင္းကို တကယ္ ရပ္ဆိုင္းမလား။\nေဒါင္းလုဒ္ဆက္လုပ္ရန္ ဆက္လုပ္မည္ကို ႏွိပ္ပါ\nေဒါင္းလုဒ္ လုပ္ျခင္းအား ျဖဳတ္ခ်ၿပီး ေဒါင္းလုဒ္ လုပ္ထားေသာဖိုင္အား ဖယ္ရွားရန္ ျဖဳတ္ခ်မည္ကို ႏွိပ္ပါ"</string>
+    <string name="no_access_toast">"အေကာင့္ကို ရွာမေတြ႕ပါ။ ေက်းဇူးျပဳ၍ အေကာင့္တစ္ခု အရင္ထည့္ပါ"</string>
+    <string name="null_name">"ဘာမွမရွိ"</string>
+    <string name="import_message">"#ကိုျပကၡဒိန္သို႔ သင္တင္ပို႔လိုပါသလား။"</string>
+    <string name="calendar_lable">"ျပကၡဒိန္-"</string>
+    <string name="date_lable">"ေန႔စြဲ"</string>
+    <string name="import_title">"ျပကၡဒိန္ျဖစ္ရပ္ကို တင္ပို႔ရန္"</string>
+    <string name="importing">"တင္ပို႔ေနသည္..."</string>
+    <string name="import_complete">"တင္ပို႔ျခင္းၿပီးၿပီ"</string>
+    <string name="open">OpenGL ES 2.0 ပ႐ိုဂရမ္မ်ားတြင္ 4x MSAA ကို ဖြင့္ပါ</string>
+    <string name="done">"ၿပီးၿပီ"</string>
+    <string name="progresszero">"0%"</string>
+    <string name="import_vcs_failed">"ျဖစ္ရပ္မ်ား တင္ပို႔ျခင္းမေအာင္ျမင္"</string>
+    <string name="title_lable">"ေခါင္းစဥ္- %1$s"</string>
+    <string name="no_syncable_calendars">တင္ပို႔ရန္မတတ္ႏိုင္ပါ</string>
+    <string name="no_calendars_found">ျပကၡဒိန္အခ်ိန္ကိုက္ လုပ္ေဆာင္ျခင္းအား ဤအေကာင့္က မေထာက္ခံပါ သို႔မဟုတ္ ေနာက္ဆံုးလုပ္ခဲ့ေသာ အခ်ိန္ကိုက္ လုပ္ေဆာင္ျခင္း မၿပီးေသးပါ။</string>
+    <string name="retry">ေပးပို႔ခ်က္မေအာင္ျမင္ပါ။ ေနာက္မွႀကိဳးစားမည္။</string>
+    <string name="give_up">သီးျခားဘက္သည္ က႑ကို ဖ်က္သိမ္းသည္ (SUPL END ကိုလက္ခံပါ)</string>
+    <string name="open_calendar_failed">ျပကၡဒိန္ကို မရရွိႏိုင္ပါ</string>
+    <string name="loading">ဖြင့္ေနဆဲ\u2026</string>
+    <string name="not_support_multi_events">"ျဖစ္ရပ္မ်ားစြာပါေသာ ဖိုင္ကို မေထာက္ပံ့ထားပါ။"</string>
+</resources>

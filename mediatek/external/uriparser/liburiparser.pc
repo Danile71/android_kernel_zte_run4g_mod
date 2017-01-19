@@ -1,0 +1,12 @@
+prefix=/proj/mtk94010/Android_mpeg_dash/uriparser/../lib/uriparser
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: liburiparser
+Description: URI parsing and handling library
+
+Version: 0.7.7
+URL: http://uriparser.sourceforge.net/
+Libs: -L${libdir} -luriparser
+Cflags: -I${includedir}

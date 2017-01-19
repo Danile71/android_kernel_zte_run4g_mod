@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3D live -sää</string>
+    <string name="last_update">Viimeisin päivitys</string>
+    <string name="no_weather">Napauta asetusta lisätäksesi kaupunkeja</string>
+    <string name="no_network">Verkkoa ei käytettävissä</string>
+    <string name="update_fail">Sään päivitys epäonnistui</string>
+    <string name="updating">Päivitetään</string>
+</resources>

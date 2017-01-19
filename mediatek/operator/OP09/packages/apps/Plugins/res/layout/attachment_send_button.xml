@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageButton
+        android:id="@+id/send_slideshow_button_small"
+        style="?android:attr/borderlessButtonStyle"
+        android:src="@drawable/ic_send_sms"
+        android:drawablePadding="0dip"
+         android:layout_width="100dip"
+        android:layout_height="25dip"
+        android:contentDescription="@string/send"
+        />
+    <ImageButton
+        android:id="@+id/send_slideshow_button_big"
+        style="?android:attr/borderlessButtonStyle"
+        android:src="@drawable/ic_send_holo_light"
+        android:drawablePadding="0dip"
+         android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:contentDescription="@string/send"
+        />
+</LinearLayout>

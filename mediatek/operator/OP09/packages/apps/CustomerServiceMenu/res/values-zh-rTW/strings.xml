@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">客戶服務</string>
+    <string name="title_activity_main">客戶服務</string>
+	<!-- Main menus -->
+    <string name="title">客戶服務</string>
+    <string name="customer_hotline">客戶服務熱線</string>
+    <string name="mobile_ehall">掌上營業廳</string>
+    <string name="subscription">業務查詢退訂</string>
+    <string name="prl_update">漫遊列表更新</string>
+    <string name="global_hotline">國際漫遊客服</string>
+    <string name="guide">手機服務指南</string>
+    <!-- Sub menus -->
+    <string name="hotline_desc">中國電信客戶服務熱線10000，自助服務熱線10001，當您在國內漫遊時，撥打歸屬地客戶服務熱線，需加撥歸屬地區號。</string>
+    <string name="hotline">10000</string>
+    <string name="self_hotline">10001</string>
+    <string name="message">短信</string>
+    <string name="wap">wap</string>
+    <string name="subscription_inquiry">已定業務查詢</string>
+    <string name="service_unscribe">已定業務退訂</string>
+    <string name="global_hotline_desc">當您在國際及港澳臺地區漫遊時，可以撥打中國電信國際漫遊客戶服務熱線+8618918910000，通過本機撥打免費，具體撥打方式，請參閱漫遊歡迎短信。您還可以通過互聯網訪問http://manyou.ct10000.com獲得客戶服務。</string>
+
+    <!-- Messages shown to user -->
+    <string name="send_ok">發送成功</string>
+    <string name="send_fail">發送失敗</string>
+    <string name="sending">"正在發送 "</string>
+    <string name="to">" 到 "</string>
+    <string name="sim_not_available">請確保您的中國電信 UIM 卡已插入並且是可用的</string>
+    <string name="search_networks">正在搜尋可用網絡</string>
+    <string name="waiting_networks">正在處理網絡連接，請稍候</string>
+
+    <!-- Please OEM fill in this -->
+    <string name="guide_desc"> "MediaTek 客戶服務熱線: 010-82861128 MediaTek 官方網址: http://www.mediatek.com" </string>
+</resources>

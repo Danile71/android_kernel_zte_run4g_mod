@@ -1,0 +1,4882 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+It was created by xerces-c configure 3.1.1, which was
+generatedchecking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether to use rpath... yes
+checking for g++... g++
+checking for C++ compiler default output file name... a.out
+checking whether the C++ compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking whether ln -s works... yes
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 3458764513820540925
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... (cached) yes
+checking whether g++ accepts -g... (cached) yes
+checking dependency style of g++... (cached) gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether gcc and cc understand -c and -o together... yes
+checking for ANSI C header files... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking for inttypes.h... (cached) yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for memory.h... (cached) yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking nl_types.h usability... yes
+checking nl_types.h presence... yes
+checking for nl_types.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdint.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking for unistd.h... (cached) yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking CoreServices/CoreServices.h usability... no
+checking CoreServices/CoreServices.h presence... no
+checking for CoreServices/CoreServices.h... no
+checking endian.h usability... yes
+checking endian.h presence... yes
+checking for endian.h... yes
+checking machine/endian.h usability... no
+checking machine/endian.h presence... no
+checking for machine/endian.h... no
+checking arpa/nameser_compat.h usability... yes
+checking arpa/nameser_compat.h presence... yes
+checking for arpa/nameser_compat.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... no
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for working volatile... yes
+checking size of wchar_t... 4
+checking for size_t... yes
+checking for ssize_t... yes
+checking for off_t... yes
+checking for size_t... (cached) yes
+checking for inttypes.h... (cached) yes
+checking size of short... 2
+checking size of int... 4
+checking size of long... 8
+checking size of long long... 8
+checking size of __int64... 0
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int64_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for an appropriate signed 16 bit integer type... int16_t
+checking for an appropriate unsigned 16 bit integer type... uint16_t
+checking for an appropriate signed 32 bit integer type... int32_t
+checking for an appropriate unsigned 32 bit integer type... uint32_t
+checking for an appropriate signed 64 bit integer type... int64_t
+checking for an appropriate unsigned 64 bit integer type... uint64_t
+checking whether the compiler recognizes bool as a built-in type... yes
+checking whether the compiler implements namespaces... yes
+checking whether the compiler supports the std namespace... yes
+checking whether the compiler supports ISO C++ standard library... yes
+checking whether the compiler implements L"widestring"... yes
+checking for the pthreads library -lpthreads... no
+checking for the pthreads library -lpthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for getcwd... yes
+checking for pathconf... yes
+checking for realpath... yes
+checking for getaddrinfo... yes
+checking for gethostbyaddr... yes
+checking for gethostbyname... yes
+checking for socket... yes
+checking for clock_gettime... no
+checking for ftime... yes
+checking for gettimeofday... yes
+checking for memmove... yes
+checking for memset... yes
+checking for nl_langinfo... yes
+checking for setlocale... yes
+checking for localeconv... yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for stricmp... no
+checking for strnicmp... no
+checking for strchr... yes
+checking for strdup... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for towupper... yes
+checking for towlower... yes
+checking for mblen... yes
+checking for wcsupr... no
+checking for wcslwr... no
+checking for wcsnicmp... no
+checking for wcsicmp... no
+checking for mbrlen... yes
+checking for wcsrtombs... yes
+checking for mbsrtowcs... yes
+checking if iconv uses const pointers... no
+checking for stricmp... (cached) no
+checking for strnicmp... (cached) no
+checking for towlower... (cached) yes
+checking for towupper... (cached) yes
+checking whether we'll generate prettier make output... yes
+checking for which path delimiter characters to accept... /
+checking for which Mutex Manager to use... POSIX
+checking for curl-config... no
+checking curl/curl.h usability... no
+checking curl/curl.h presence... no
+checking for curl/curl.h... no
+checking for icu-config... no
+checking unicode/ucnv.h usability... no
+checking unicode/ucnv.h presence... no
+checking for unicode/ucnv.h... no
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking for wchar.h... (cached) yes
+checking for string.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking for locale.h... (cached) yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking for endian.h... (cached) yes
+checking for iconv_open... yes
+checking for iconv_close... yes
+checking for iconv... yes
+checking whether we can support the GNU iconv Transcoder... yes
+checking for wchar.h... (cached) yes
+checking for mblen... (cached) yes
+checking for wcstombs... yes
+checking for mbstowcs... yes
+checking whether we can support the iconv Transcoder... yes
+checking whether we can support the ICU Transcoder... no
+checking for which Transcoder to use (choices: -gnuiconv- -ICONV-)... iconv
+checking whether we support the InMemory MsgLoader... yes
+checking whether we support the ICU MsgLoader... no
+checking for nl_types.h... (cached) yes
+checking for catopen... yes
+checking for catclose... yes
+checking for catgets... yes
+checking whether we can support the iconv MsgLoader... yes
+checking for which MsgLoader to use (choices: -inmemory- -iconv-)... inmemory
+checking for which File Manager to use... POSIX
+checking whether the Windows SDK is available and using wchar_t as wide string... no
+checking whether the compiler chokes on a placement operator delete... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/xercesc/util/MsgLoaders/MsgCatalog/Makefile
+config.status: creating tests/Makefile
+config.status: creating samples/Makefile
+config.status: creating xerces-c.pc
+config.status: creating config.h
+config.status: creating src/xercesc/util/Xerces_autoconf_config.hpp
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing libtool-rpath-patch commands
+configure: 
+configure: Report:
+configure:   File Manager: POSIX
+configure:   Mutex Manager: POSIX
+configure:   Transcoder: iconv
+configure:   NetAccessor: disabled
+configure:   Message Loader: inmemory
+$? = 0
+configure:8110: gcc -o conftest -O2   conftest.c  >&5
+configure:8110: $? = 0
+configure:8110: ./conftest
+configure:8110: $? = 0
+configure:8121: result: yes
+configure:8134: checking for sys/types.h
+configure:8134: gcc -c -O2  conftest.c >&5
+configure:8134: $? = 0
+configure:8134: result: yes
+configure:8134: checking for sys/stat.h
+configure:8134: gcc -c -O2  conftest.c >&5
+configure:8134: $? = 0
+configure:8134: result: yes
+configure:8134: checking for stdlib.h
+configure:8134: gcc -c -O2  conftest.c >&5
+configure:8134: $? = 0
+configure:8134: result: yes
+configure:8134: checking for string.h
+configure:8134: gcc -c -O2  conftest.c >&5
+configure:8134: $? = 0
+configure:8134: result: yes
+configure:8134: checking for memory.h
+configure:8134: gcc -c -O2  conftest.c >&5
+configure:8134: $? = 0
+configure:8134: result: yes
+configure:8134: checking for strings.h
+configure:8134: gcc -c -O2  conftest.c >&5
+configure:8134: $? = 0
+configure:8134: result: yes
+configure:8134: checking for inttypes.h
+configure:8134: gcc -c -O2  conftest.c >&5
+configure:8134: $? = 0
+configure:8134: result: yes
+configure:8134: checking for stdint.h
+configure:8134: gcc -c -O2  conftest.c >&5
+configure:8134: $? = 0
+configure:8134: result: yes
+configure:8134: checking for unistd.h
+configure:8134: gcc -c -O2  conftest.c >&5
+configure:8134: $? = 0
+configure:8134: result: yes
+configure:8149: checking for dlfcn.h
+configure:8149: gcc -c -O2  conftest.c >&5
+configure:8149: $? = 0
+configure:8149: result: yes
+configure:8274: checking for C++ compiler version
+configure:8283: g++ --version >&5
+g++ (Ubuntu 4.4.3-4ubuntu5) 4.4.3
+Copyright (C) 2009 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+configure:8294: $? = 0
+configure:8283: g++ -v >&5
+Using built-in specs.
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.4.3-4ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-plugin --enable-objc-gc --disable-werror --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5) 
+configure:8294: $? = 0
+configure:8283: g++ -V >&5
+g++: '-V' option must have argument
+configure:8294: $? = 1
+configure:8283: g++ -qversion >&5
+g++: unrecognized option '-qversion'
+g++: no input files
+configure:8294: $? = 1
+configure:8298: checking whether we are using the GNU C++ compiler
+configure:8326: result: yes
+configure:8335: checking whether g++ accepts -g
+configure:8396: result: yes
+configure:8421: checking dependency style of g++
+configure:8531: result: gcc3
+configure:8554: checking how to run the C++ preprocessor
+configure:8581: g++ -E  conftest.cpp
+configure:8581: $? = 0
+configure:8595: g++ -E  conftest.cpp
+conftest.cpp:22:28: error: ac_nonexistent.h: No such file or directory
+configure:8595: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| /* end confdefs.h.  */
+| #include <ac_nonexistent.h>
+configure:8620: result: g++ -E
+configure:8640: g++ -E  conftest.cpp
+configure:8640: $? = 0
+configure:8654: g++ -E  conftest.cpp
+conftest.cpp:22:28: error: ac_nonexistent.h: No such file or directory
+configure:8654: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| /* end confdefs.h.  */
+| #include <ac_nonexistent.h>
+configure:8858: checking for objdir
+configure:8873: result: .libs
+configure:9169: checking if gcc supports -fno-rtti -fno-exceptions
+configure:9187: gcc -c -O2  -fno-rtti -fno-exceptions conftest.c >&5
+cc1: warning: command line option "-fno-rtti" is valid for C++/ObjC++ but not for C
+configure:9191: $? = 0
+configure:9204: result: no
+configure:9224: checking for gcc option to produce PIC
+configure:9496: result: -fPIC -DPIC
+configure:9508: checking if gcc PIC flag -fPIC -DPIC works
+configure:9526: gcc -c -O2  -fPIC -DPIC -DPIC conftest.c >&5
+configure:9530: $? = 0
+configure:9543: result: yes
+configure:9567: checking if gcc static flag -static works
+configure:9595: result: yes
+configure:9610: checking if gcc supports -c -o file.o
+configure:9631: gcc -c -O2  -o out/conftest2.o conftest.c >&5
+configure:9635: $? = 0
+configure:9657: result: yes
+configure:9665: checking if gcc supports -c -o file.o
+configure:9712: result: yes
+configure:9745: checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries
+configure:10735: result: yes
+configure:10772: checking whether -lc should be explicitly linked in
+configure:10777: gcc -c -O2  conftest.c >&5
+configure:10780: $? = 0
+configure:10795: gcc -shared conftest.o  -v -Wl,-soname -Wl,conftest -o conftest 2\>\&1 \| /bin/grep  -lc  \>/dev/null 2\>\&1
+configure:10798: $? = 0
+configure:10810: result: no
+configure:10974: checking dynamic linker characteristics
+configure:11407: gcc -o conftest -O2   -Wl,-rpath -Wl,/foo conftest.c  >&5
+configure:11407: $? = 0
+configure:11637: result: GNU/Linux ld.so
+configure:11739: checking how to hardcode library paths into programs
+configure:11764: result: immediate
+configure:12284: checking whether stripping libraries is possible
+configure:12289: result: yes
+configure:12324: checking if libtool supports shared libraries
+configure:12326: result: yes
+configure:12329: checking whether to build shared libraries
+configure:12350: result: yes
+configure:12353: checking whether to build static libraries
+configure:12357: result: no
+configure:12507: checking for ld used by g++
+configure:12574: result: /usr/bin/ld -m elf_x86_64
+configure:12581: checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld
+configure:12596: result: yes
+configure:12651: checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries
+configure:13564: result: yes
+configure:13592: g++ -c -O2  conftest.cpp >&5
+configure:13595: $? = 0
+configure:13777: checking for g++ option to produce PIC
+configure:14094: result: -fPIC -DPIC
+configure:14103: checking if g++ PIC flag -fPIC -DPIC works
+configure:14121: g++ -c -O2  -fPIC -DPIC -DPIC conftest.cpp >&5
+configure:14125: $? = 0
+configure:14138: result: yes
+configure:14159: checking if g++ static flag -static works
+configure:14187: result: yes
+configure:14199: checking if g++ supports -c -o file.o
+configure:14220: g++ -c -O2  -o out/conftest2.o conftest.cpp >&5
+configure:14224: $? = 0
+configure:14246: result: yes
+configure:14251: checking if g++ supports -c -o file.o
+configure:14298: result: yes
+configure:14328: checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries
+configure:14357: result: yes
+configure:14494: checking dynamic linker characteristics
+configure:14875: g++ -o conftest -O2   -Wl,-rpath -Wl,/foo conftest.cpp  >&5
+configure:14875: $? = 0
+configure:15105: result: GNU/Linux ld.so
+configure:15156: checking how to hardcode library paths into programs
+configure:15181: result: immediate
+configure:15240: checking whether gcc and cc understand -c and -o together
+configure:15271: gcc -c conftest.cpp -o conftest2.o >&5
+configure:15275: $? = 0
+configure:15281: gcc -c conftest.cpp -o conftest2.o >&5
+configure:15285: $? = 0
+configure:15296: cc -c conftest.cpp >&5
+configure:15300: $? = 0
+configure:15308: cc -c conftest.cpp -o conftest2.o >&5
+configure:15312: $? = 0
+configure:15318: cc -c conftest.cpp -o conftest2.o >&5
+configure:15322: $? = 0
+configure:15340: result: yes
+configure:15385: checking for ANSI C header files
+configure:15489: result: yes
+configure:15497: checking whether time.h and sys/time.h may both be included
+configure:15517: g++ -c -O2  conftest.cpp >&5
+configure:15517: $? = 0
+configure:15524: result: yes
+configure:15542: checking arpa/inet.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking arpa/inet.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for arpa/inet.h
+configure:15542: result: yes
+configure:15542: checking fcntl.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking fcntl.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for fcntl.h
+configure:15542: result: yes
+configure:15542: checking float.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking float.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for float.h
+configure:15542: result: yes
+configure:15542: checking for inttypes.h
+configure:15542: result: yes
+configure:15542: checking langinfo.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking langinfo.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for langinfo.h
+configure:15542: result: yes
+configure:15542: checking limits.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking limits.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for limits.h
+configure:15542: result: yes
+configure:15542: checking locale.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking locale.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for locale.h
+configure:15542: result: yes
+configure:15542: checking for memory.h
+configure:15542: result: yes
+configure:15542: checking netdb.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking netdb.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for netdb.h
+configure:15542: result: yes
+configure:15542: checking netinet/in.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking netinet/in.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for netinet/in.h
+configure:15542: result: yes
+configure:15542: checking nl_types.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking nl_types.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for nl_types.h
+configure:15542: result: yes
+configure:15542: checking stddef.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking stddef.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for stddef.h
+configure:15542: result: yes
+configure:15542: checking for stdint.h
+configure:15542: result: yes
+configure:15542: checking for stdlib.h
+configure:15542: result: yes
+configure:15542: checking for string.h
+configure:15542: result: yes
+configure:15542: checking for strings.h
+configure:15542: result: yes
+configure:15542: checking sys/param.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking sys/param.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for sys/param.h
+configure:15542: result: yes
+configure:15542: checking sys/socket.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking sys/socket.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for sys/socket.h
+configure:15542: result: yes
+configure:15542: checking sys/time.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking sys/time.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for sys/time.h
+configure:15542: result: yes
+configure:15542: checking sys/timeb.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking sys/timeb.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for sys/timeb.h
+configure:15542: result: yes
+configure:15542: checking for unistd.h
+configure:15542: result: yes
+configure:15542: checking wchar.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking wchar.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for wchar.h
+configure:15542: result: yes
+configure:15542: checking wctype.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking wctype.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for wctype.h
+configure:15542: result: yes
+configure:15542: checking CoreServices/CoreServices.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+conftest.cpp:81:39: error: CoreServices/CoreServices.h: No such file or directory
+configure:15542: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| #include <CoreServices/CoreServices.h>
+configure:15542: result: no
+configure:15542: checking CoreServices/CoreServices.h presence
+configure:15542: g++ -E  conftest.cpp
+conftest.cpp:48:39: error: CoreServices/CoreServices.h: No such file or directory
+configure:15542: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| /* end confdefs.h.  */
+| #include <CoreServices/CoreServices.h>
+configure:15542: result: no
+configure:15542: checking for CoreServices/CoreServices.h
+configure:15542: result: no
+configure:15542: checking endian.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking endian.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for endian.h
+configure:15542: result: yes
+configure:15542: checking machine/endian.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+conftest.cpp:82:28: error: machine/endian.h: No such file or directory
+configure:15542: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| #include <machine/endian.h>
+configure:15542: result: no
+configure:15542: checking machine/endian.h presence
+configure:15542: g++ -E  conftest.cpp
+conftest.cpp:49:28: error: machine/endian.h: No such file or directory
+configure:15542: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| /* end confdefs.h.  */
+| #include <machine/endian.h>
+configure:15542: result: no
+configure:15542: checking for machine/endian.h
+configure:15542: result: no
+configure:15542: checking arpa/nameser_compat.h usability
+configure:15542: g++ -c -O2  conftest.cpp >&5
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking arpa/nameser_compat.h presence
+configure:15542: g++ -E  conftest.cpp
+configure:15542: $? = 0
+configure:15542: result: yes
+configure:15542: checking for arpa/nameser_compat.h
+configure:15542: result: yes
+configure:15555: checking for stdbool.h that conforms to C99
+configure:15640: g++ -c -O2  conftest.cpp >&5
+configure:15640: $? = 0
+configure:15647: result: yes
+configure:15649: checking for _Bool
+configure:15649: g++ -c -O2  conftest.cpp >&5
+conftest.cpp: In function 'int main()':
+conftest.cpp:86: error: '_Bool' was not declared in this scope
+configure:15649: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| int
+| main ()
+| {
+| if (sizeof (_Bool))
+| 	 return 0;
+|   ;
+|   return 0;
+| }
+configure:15649: result: no
+configure:15665: checking for an ANSI C-conforming const
+configure:15730: g++ -c -O2  conftest.cpp >&5
+configure:15730: $? = 0
+configure:15737: result: yes
+configure:15745: checking for inline
+configure:15761: g++ -c -O2  conftest.cpp >&5
+configure:15761: $? = 0
+configure:15769: result: inline
+configure:15787: checking for working volatile
+configure:15806: g++ -c -O2  conftest.cpp >&5
+configure:15806: $? = 0
+configure:15813: result: yes
+configure:15826: checking size of wchar_t
+configure:15831: g++ -o conftest -O2   conftest.cpp  >&5
+configure:15831: $? = 0
+configure:15831: ./conftest
+configure:15831: $? = 0
+configure:15846: result: 4
+configure:15856: checking for size_t
+configure:15856: g++ -c -O2  conftest.cpp >&5
+configure:15856: $? = 0
+configure:15856: g++ -c -O2  conftest.cpp >&5
+conftest.cpp: In function 'int main()':
+conftest.cpp:88: error: expected primary-expression before ')' token
+configure:15856: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| int
+| main ()
+| {
+| if (sizeof ((size_t)))
+| 	    return 0;
+|   ;
+|   return 0;
+| }
+configure:15856: result: yes
+configure:15861: checking for ssize_t
+configure:15861: g++ -c -O2  conftest.cpp >&5
+configure:15861: $? = 0
+configure:15861: g++ -c -O2  conftest.cpp >&5
+conftest.cpp: In function 'int main()':
+conftest.cpp:88: error: expected primary-expression before ')' token
+configure:15861: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| int
+| main ()
+| {
+| if (sizeof ((ssize_t)))
+| 	    return 0;
+|   ;
+|   return 0;
+| }
+configure:15861: result: yes
+configure:15867: checking for off_t
+configure:15867: g++ -c -O2  conftest.cpp >&5
+configure:15867: $? = 0
+configure:15867: g++ -c -O2  conftest.cpp >&5
+conftest.cpp: In function 'int main()':
+conftest.cpp:88: error: expected primary-expression before ')' token
+configure:15867: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| int
+| main ()
+| {
+| if (sizeof ((off_t)))
+| 	    return 0;
+|   ;
+|   return 0;
+| }
+configure:15867: result: yes
+configure:15878: checking for size_t
+configure:15878: result: yes
+configure:15893: checking for inttypes.h
+configure:15893: result: yes
+configure:15907: checking size of short
+configure:15912: g++ -o conftest -O2   conftest.cpp  >&5
+configure:15912: $? = 0
+configure:15912: ./conftest
+configure:15912: $? = 0
+configure:15927: result: 2
+configure:15941: checking size of int
+configure:15946: g++ -o conftest -O2   conftest.cpp  >&5
+configure:15946: $? = 0
+configure:15946: ./conftest
+configure:15946: $? = 0
+configure:15961: result: 4
+configure:15975: checking size of long
+configure:15980: g++ -o conftest -O2   conftest.cpp  >&5
+configure:15980: $? = 0
+configure:15980: ./conftest
+configure:15980: $? = 0
+configure:15995: result: 8
+configure:16009: checking size of long long
+configure:16014: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16014: $? = 0
+configure:16014: ./conftest
+configure:16014: $? = 0
+configure:16029: result: 8
+configure:16043: checking size of __int64
+configure:16048: g++ -o conftest -O2   conftest.cpp  >&5
+conftest.cpp: In function 'long int longval()':
+conftest.cpp:90: error: '__int64' was not declared in this scope
+conftest.cpp: In function 'long unsigned int ulongval()':
+conftest.cpp:91: error: '__int64' was not declared in this scope
+conftest.cpp: In function 'int main()':
+conftest.cpp:101: error: '__int64' was not declared in this scope
+configure:16048: $? = 1
+configure: program exited with status 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| static long int longval () { return (long int) (sizeof (__int64)); }
+| static unsigned long int ulongval () { return (long int) (sizeof (__int64)); }
+| #include <stdio.h>
+| #include <stdlib.h>
+| int
+| main ()
+| {
+| 
+|   FILE *f = fopen ("conftest.val", "w");
+|   if (! f)
+|     return 1;
+|   if (((long int) (sizeof (__int64))) < 0)
+|     {
+|       long int i = longval ();
+|       if (i != ((long int) (sizeof (__int64))))
+| 	return 1;
+|       fprintf (f, "%ld", i);
+|     }
+|   else
+|     {
+|       unsigned long int i = ulongval ();
+|       if (i != ((long int) (sizeof (__int64))))
+| 	return 1;
+|       fprintf (f, "%lu", i);
+|     }
+|   /* Do not output a trailing newline, as this causes \r\n confusion
+|      on some platforms.  */
+|   return ferror (f) || fclose (f) != 0;
+| 
+|   ;
+|   return 0;
+| }
+configure:16063: result: 0
+configure:16073: checking for int16_t
+configure:16073: g++ -c -O2  conftest.cpp >&5
+configure:16073: $? = 0
+configure:16073: g++ -c -O2  conftest.cpp >&5
+conftest.cpp: In function 'int main()':
+conftest.cpp:94: error: expected primary-expression before ')' token
+configure:16073: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| int
+| main ()
+| {
+| if (sizeof ((int16_t)))
+| 	    return 0;
+|   ;
+|   return 0;
+| }
+configure:16073: result: yes
+configure:16078: checking for int32_t
+configure:16078: g++ -c -O2  conftest.cpp >&5
+configure:16078: $? = 0
+configure:16078: g++ -c -O2  conftest.cpp >&5
+conftest.cpp: In function 'int main()':
+conftest.cpp:94: error: expected primary-expression before ')' token
+configure:16078: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| int
+| main ()
+| {
+| if (sizeof ((int32_t)))
+| 	    return 0;
+|   ;
+|   return 0;
+| }
+configure:16078: result: yes
+configure:16083: checking for int64_t
+configure:16083: g++ -c -O2  conftest.cpp >&5
+configure:16083: $? = 0
+configure:16083: g++ -c -O2  conftest.cpp >&5
+conftest.cpp: In function 'int main()':
+conftest.cpp:94: error: expected primary-expression before ')' token
+configure:16083: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| int
+| main ()
+| {
+| if (sizeof ((int64_t)))
+| 	    return 0;
+|   ;
+|   return 0;
+| }
+configure:16083: result: yes
+configure:16088: checking for uint16_t
+configure:16088: g++ -c -O2  conftest.cpp >&5
+configure:16088: $? = 0
+configure:16088: g++ -c -O2  conftest.cpp >&5
+conftest.cpp: In function 'int main()':
+conftest.cpp:94: error: expected primary-expression before ')' token
+configure:16088: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| int
+| main ()
+| {
+| if (sizeof ((uint16_t)))
+| 	    return 0;
+|   ;
+|   return 0;
+| }
+configure:16088: result: yes
+configure:16093: checking for uint32_t
+configure:16093: g++ -c -O2  conftest.cpp >&5
+configure:16093: $? = 0
+configure:16093: g++ -c -O2  conftest.cpp >&5
+conftest.cpp: In function 'int main()':
+conftest.cpp:94: error: expected primary-expression before ')' token
+configure:16093: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| int
+| main ()
+| {
+| if (sizeof ((uint32_t)))
+| 	    return 0;
+|   ;
+|   return 0;
+| }
+configure:16093: result: yes
+configure:16098: checking for uint64_t
+configure:16098: g++ -c -O2  conftest.cpp >&5
+configure:16098: $? = 0
+configure:16098: g++ -c -O2  conftest.cpp >&5
+conftest.cpp: In function 'int main()':
+conftest.cpp:94: error: expected primary-expression before ')' token
+configure:16098: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| int
+| main ()
+| {
+| if (sizeof ((uint64_t)))
+| 	    return 0;
+|   ;
+|   return 0;
+| }
+configure:16098: result: yes
+configure:16107: checking for an appropriate signed 16 bit integer type
+configure:16130: result: int16_t
+configure:16136: checking for an appropriate unsigned 16 bit integer type
+configure:16159: result: uint16_t
+configure:16166: checking for an appropriate signed 32 bit integer type
+configure:16189: result: int32_t
+configure:16195: checking for an appropriate unsigned 32 bit integer type
+configure:16218: result: uint32_t
+configure:16224: checking for an appropriate signed 64 bit integer type
+configure:16270: result: int64_t
+configure:16276: checking for an appropriate unsigned 64 bit integer type
+configure:16309: result: uint64_t
+configure:16345: checking whether the compiler recognizes bool as a built-in type
+configure:16372: g++ -c -O2  conftest.cpp >&5
+configure:16372: $? = 0
+configure:16386: result: yes
+configure:16394: checking whether the compiler implements namespaces
+configure:16417: g++ -c -O2  conftest.cpp >&5
+configure:16417: $? = 0
+configure:16431: result: yes
+configure:16439: checking whether the compiler supports the std namespace
+configure:16464: g++ -c -O2  conftest.cpp >&5
+configure:16464: $? = 0
+configure:16478: result: yes
+configure:16486: checking whether the compiler supports ISO C++ standard library
+configure:16516: g++ -c -O2  conftest.cpp >&5
+configure:16516: $? = 0
+configure:16530: result: yes
+configure:16538: checking whether the compiler implements L"widestring"
+configure:16554: g++ -c -O2  conftest.cpp >&5
+configure:16554: $? = 0
+configure:16568: result: yes
+configure:16747: checking for the pthreads library -lpthreads
+configure:16785: gcc -o conftest -O2    conftest.c -lpthreads  >&5
+/usr/bin/ld: cannot find -lpthreads
+collect2: ld returned 1 exit status
+configure:16785: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| /* end confdefs.h.  */
+| #include <pthread.h>
+| int
+| main ()
+| {
+| pthread_t th; pthread_join(th, 0);
+|                      pthread_attr_init(0); pthread_cleanup_push(0, 0);
+|                      pthread_create(0,0,0,0); pthread_cleanup_pop(0);
+| 		     pthread_mutexattr_init(0); pthread_mutexattr_destroy(0);
+|   ;
+|   return 0;
+| }
+configure:16794: result: no
+configure:16747: checking for the pthreads library -lpthread
+configure:16785: gcc -o conftest -O2    conftest.c -lpthread  >&5
+configure:16785: $? = 0
+configure:16794: result: yes
+configure:16813: checking for joinable pthread attribute
+configure:16828: gcc -o conftest -O2    conftest.c -lpthread  >&5
+configure:16828: $? = 0
+configure:16834: result: PTHREAD_CREATE_JOINABLE
+configure:16844: checking if more special flags are required for pthreads
+configure:16851: result: no
+configure:16951: checking for getcwd
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for pathconf
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for realpath
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for getaddrinfo
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for gethostbyaddr
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for gethostbyname
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for socket
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for clock_gettime
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+/tmp/ccUzyonY.o: In function `main':
+conftest.cpp:(.text+0x5): undefined reference to `clock_gettime'
+collect2: ld returned 1 exit status
+configure:16951: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| #define HAVE_PTHREAD 1
+| #define HAVE_GETCWD 1
+| #define HAVE_PATHCONF 1
+| #define HAVE_REALPATH 1
+| #define HAVE_GETADDRINFO 1
+| #define HAVE_GETHOSTBYADDR 1
+| #define HAVE_GETHOSTBYNAME 1
+| #define HAVE_SOCKET 1
+| /* end confdefs.h.  */
+| /* Define clock_gettime to an innocuous variant, in case <limits.h> declares clock_gettime.
+|    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
+| #define clock_gettime innocuous_clock_gettime
+| 
+| /* System header to define __stub macros and hopefully few prototypes,
+|     which can conflict with char clock_gettime (); below.
+|     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
+|     <limits.h> exists even on freestanding compilers.  */
+| 
+| #ifdef __STDC__
+| # include <limits.h>
+| #else
+| # include <assert.h>
+| #endif
+| 
+| #undef clock_gettime
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char clock_gettime ();
+| /* The GNU C library defines this for functions which it implements
+|     to always fail with ENOSYS.  Some functions are actually named
+|     something starting with __ and the normal name is an alias.  */
+| #if defined __stub_clock_gettime || defined __stub___clock_gettime
+| choke me
+| #endif
+| 
+| int
+| main ()
+| {
+| return clock_gettime ();
+|   ;
+|   return 0;
+| }
+configure:16951: result: no
+configure:16951: checking for ftime
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for gettimeofday
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for memmove
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for memset
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for nl_langinfo
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for setlocale
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for localeconv
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for strcasecmp
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for strncasecmp
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for stricmp
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+/tmp/ccf6QhxV.o: In function `main':
+conftest.cpp:(.text+0x5): undefined reference to `stricmp'
+collect2: ld returned 1 exit status
+configure:16951: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| #define HAVE_PTHREAD 1
+| #define HAVE_GETCWD 1
+| #define HAVE_PATHCONF 1
+| #define HAVE_REALPATH 1
+| #define HAVE_GETADDRINFO 1
+| #define HAVE_GETHOSTBYADDR 1
+| #define HAVE_GETHOSTBYNAME 1
+| #define HAVE_SOCKET 1
+| #define HAVE_FTIME 1
+| #define HAVE_GETTIMEOFDAY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_MEMSET 1
+| #define HAVE_NL_LANGINFO 1
+| #define HAVE_SETLOCALE 1
+| #define HAVE_LOCALECONV 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| /* end confdefs.h.  */
+| /* Define stricmp to an innocuous variant, in case <limits.h> declares stricmp.
+|    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
+| #define stricmp innocuous_stricmp
+| 
+| /* System header to define __stub macros and hopefully few prototypes,
+|     which can conflict with char stricmp (); below.
+|     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
+|     <limits.h> exists even on freestanding compilers.  */
+| 
+| #ifdef __STDC__
+| # include <limits.h>
+| #else
+| # include <assert.h>
+| #endif
+| 
+| #undef stricmp
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char stricmp ();
+| /* The GNU C library defines this for functions which it implements
+|     to always fail with ENOSYS.  Some functions are actually named
+|     something starting with __ and the normal name is an alias.  */
+| #if defined __stub_stricmp || defined __stub___stricmp
+| choke me
+| #endif
+| 
+| int
+| main ()
+| {
+| return stricmp ();
+|   ;
+|   return 0;
+| }
+configure:16951: result: no
+configure:16951: checking for strnicmp
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+/tmp/ccdzpMQ2.o: In function `main':
+conftest.cpp:(.text+0x5): undefined reference to `strnicmp'
+collect2: ld returned 1 exit status
+configure:16951: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| #define HAVE_PTHREAD 1
+| #define HAVE_GETCWD 1
+| #define HAVE_PATHCONF 1
+| #define HAVE_REALPATH 1
+| #define HAVE_GETADDRINFO 1
+| #define HAVE_GETHOSTBYADDR 1
+| #define HAVE_GETHOSTBYNAME 1
+| #define HAVE_SOCKET 1
+| #define HAVE_FTIME 1
+| #define HAVE_GETTIMEOFDAY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_MEMSET 1
+| #define HAVE_NL_LANGINFO 1
+| #define HAVE_SETLOCALE 1
+| #define HAVE_LOCALECONV 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| /* end confdefs.h.  */
+| /* Define strnicmp to an innocuous variant, in case <limits.h> declares strnicmp.
+|    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
+| #define strnicmp innocuous_strnicmp
+| 
+| /* System header to define __stub macros and hopefully few prototypes,
+|     which can conflict with char strnicmp (); below.
+|     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
+|     <limits.h> exists even on freestanding compilers.  */
+| 
+| #ifdef __STDC__
+| # include <limits.h>
+| #else
+| # include <assert.h>
+| #endif
+| 
+| #undef strnicmp
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char strnicmp ();
+| /* The GNU C library defines this for functions which it implements
+|     to always fail with ENOSYS.  Some functions are actually named
+|     something starting with __ and the normal name is an alias.  */
+| #if defined __stub_strnicmp || defined __stub___strnicmp
+| choke me
+| #endif
+| 
+| int
+| main ()
+| {
+| return strnicmp ();
+|   ;
+|   return 0;
+| }
+configure:16951: result: no
+configure:16951: checking for strchr
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for strdup
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for strrchr
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for strstr
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for strtol
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for strtoul
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for towupper
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for towlower
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for mblen
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+configure:16951: $? = 0
+configure:16951: result: yes
+configure:16951: checking for wcsupr
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+/tmp/ccn7kIzb.o: In function `main':
+conftest.cpp:(.text+0x5): undefined reference to `wcsupr'
+collect2: ld returned 1 exit status
+configure:16951: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| #define HAVE_PTHREAD 1
+| #define HAVE_GETCWD 1
+| #define HAVE_PATHCONF 1
+| #define HAVE_REALPATH 1
+| #define HAVE_GETADDRINFO 1
+| #define HAVE_GETHOSTBYADDR 1
+| #define HAVE_GETHOSTBYNAME 1
+| #define HAVE_SOCKET 1
+| #define HAVE_FTIME 1
+| #define HAVE_GETTIMEOFDAY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_MEMSET 1
+| #define HAVE_NL_LANGINFO 1
+| #define HAVE_SETLOCALE 1
+| #define HAVE_LOCALECONV 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_TOWUPPER 1
+| #define HAVE_TOWLOWER 1
+| #define HAVE_MBLEN 1
+| /* end confdefs.h.  */
+| /* Define wcsupr to an innocuous variant, in case <limits.h> declares wcsupr.
+|    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
+| #define wcsupr innocuous_wcsupr
+| 
+| /* System header to define __stub macros and hopefully few prototypes,
+|     which can conflict with char wcsupr (); below.
+|     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
+|     <limits.h> exists even on freestanding compilers.  */
+| 
+| #ifdef __STDC__
+| # include <limits.h>
+| #else
+| # include <assert.h>
+| #endif
+| 
+| #undef wcsupr
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char wcsupr ();
+| /* The GNU C library defines this for functions which it implements
+|     to always fail with ENOSYS.  Some functions are actually named
+|     something starting with __ and the normal name is an alias.  */
+| #if defined __stub_wcsupr || defined __stub___wcsupr
+| choke me
+| #endif
+| 
+| int
+| main ()
+| {
+| return wcsupr ();
+|   ;
+|   return 0;
+| }
+configure:16951: result: no
+configure:16951: checking for wcslwr
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+/tmp/cczO6UNi.o: In function `main':
+conftest.cpp:(.text+0x5): undefined reference to `wcslwr'
+collect2: ld returned 1 exit status
+configure:16951: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| #define HAVE_PTHREAD 1
+| #define HAVE_GETCWD 1
+| #define HAVE_PATHCONF 1
+| #define HAVE_REALPATH 1
+| #define HAVE_GETADDRINFO 1
+| #define HAVE_GETHOSTBYADDR 1
+| #define HAVE_GETHOSTBYNAME 1
+| #define HAVE_SOCKET 1
+| #define HAVE_FTIME 1
+| #define HAVE_GETTIMEOFDAY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_MEMSET 1
+| #define HAVE_NL_LANGINFO 1
+| #define HAVE_SETLOCALE 1
+| #define HAVE_LOCALECONV 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_TOWUPPER 1
+| #define HAVE_TOWLOWER 1
+| #define HAVE_MBLEN 1
+| /* end confdefs.h.  */
+| /* Define wcslwr to an innocuous variant, in case <limits.h> declares wcslwr.
+|    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
+| #define wcslwr innocuous_wcslwr
+| 
+| /* System header to define __stub macros and hopefully few prototypes,
+|     which can conflict with char wcslwr (); below.
+|     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
+|     <limits.h> exists even on freestanding compilers.  */
+| 
+| #ifdef __STDC__
+| # include <limits.h>
+| #else
+| # include <assert.h>
+| #endif
+| 
+| #undef wcslwr
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char wcslwr ();
+| /* The GNU C library defines this for functions which it implements
+|     to always fail with ENOSYS.  Some functions are actually named
+|     something starting with __ and the normal name is an alias.  */
+| #if defined __stub_wcslwr || defined __stub___wcslwr
+| choke me
+| #endif
+| 
+| int
+| main ()
+| {
+| return wcslwr ();
+|   ;
+|   return 0;
+| }
+configure:16951: result: no
+configure:16951: checking for wcsnicmp
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+/tmp/ccbSHBMt.o: In function `main':
+conftest.cpp:(.text+0x5): undefined reference to `wcsnicmp'
+collect2: ld returned 1 exit status
+configure:16951: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| #define HAVE_PTHREAD 1
+| #define HAVE_GETCWD 1
+| #define HAVE_PATHCONF 1
+| #define HAVE_REALPATH 1
+| #define HAVE_GETADDRINFO 1
+| #define HAVE_GETHOSTBYADDR 1
+| #define HAVE_GETHOSTBYNAME 1
+| #define HAVE_SOCKET 1
+| #define HAVE_FTIME 1
+| #define HAVE_GETTIMEOFDAY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_MEMSET 1
+| #define HAVE_NL_LANGINFO 1
+| #define HAVE_SETLOCALE 1
+| #define HAVE_LOCALECONV 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_TOWUPPER 1
+| #define HAVE_TOWLOWER 1
+| #define HAVE_MBLEN 1
+| /* end confdefs.h.  */
+| /* Define wcsnicmp to an innocuous variant, in case <limits.h> declares wcsnicmp.
+|    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
+| #define wcsnicmp innocuous_wcsnicmp
+| 
+| /* System header to define __stub macros and hopefully few prototypes,
+|     which can conflict with char wcsnicmp (); below.
+|     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
+|     <limits.h> exists even on freestanding compilers.  */
+| 
+| #ifdef __STDC__
+| # include <limits.h>
+| #else
+| # include <assert.h>
+| #endif
+| 
+| #undef wcsnicmp
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char wcsnicmp ();
+| /* The GNU C library defines this for functions which it implements
+|     to always fail with ENOSYS.  Some functions are actually named
+|     something starting with __ and the normal name is an alias.  */
+| #if defined __stub_wcsnicmp || defined __stub___wcsnicmp
+| choke me
+| #endif
+| 
+| int
+| main ()
+| {
+| return wcsnicmp ();
+|   ;
+|   return 0;
+| }
+configure:16951: result: no
+configure:16951: checking for wcsicmp
+configure:16951: g++ -o conftest -O2   conftest.cpp  >&5
+/tmp/ccHhnrPD.o: In function `main':
+conftest.cpp:(.text+0x5): undefined reference to `wcsicmp'
+collect2: ld returned 1 exit status
+configure:16951: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| #define HAVE_PTHREAD 1
+| #define HAVE_GETCWD 1
+| #define HAVE_PATHCONF 1
+| #define HAVE_REALPATH 1
+| #define HAVE_GETADDRINFO 1
+| #define HAVE_GETHOSTBYADDR 1
+| #define HAVE_GETHOSTBYNAME 1
+| #define HAVE_SOCKET 1
+| #define HAVE_FTIME 1
+| #define HAVE_GETTIMEOFDAY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_MEMSET 1
+| #define HAVE_NL_LANGINFO 1
+| #define HAVE_SETLOCALE 1
+| #define HAVE_LOCALECONV 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_TOWUPPER 1
+| #define HAVE_TOWLOWER 1
+| #define HAVE_MBLEN 1
+| /* end confdefs.h.  */
+| /* Define wcsicmp to an innocuous variant, in case <limits.h> declares wcsicmp.
+|    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
+| #define wcsicmp innocuous_wcsicmp
+| 
+| /* System header to define __stub macros and hopefully few prototypes,
+|     which can conflict with char wcsicmp (); below.
+|     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
+|     <limits.h> exists even on freestanding compilers.  */
+| 
+| #ifdef __STDC__
+| # include <limits.h>
+| #else
+| # include <assert.h>
+| #endif
+| 
+| #undef wcsicmp
+| 
+| /* Override any GCC internal prototype to avoid an error.
+|    Use char because int might match the return type of a GCC
+|    builtin and then its argument prototype would still apply.  */
+| #ifdef __cplusplus
+| extern "C"
+| #endif
+| char wcsicmp ();
+| /* The GNU C library defines this for functions which it implements
+|     to always fail with ENOSYS.  Some functions are actually named
+|     something starting with __ and the normal name is an alias.  */
+| #if defined __stub_wcsicmp || defined __stub___wcsicmp
+| choke me
+| #endif
+| 
+| int
+| main ()
+| {
+| return wcsicmp ();
+|   ;
+|   return 0;
+| }
+configure:16951: result: no
+configure:16965: checking for mbrlen
+configure:16978: g++ -c -O2  conftest.cpp >&5
+configure:16978: $? = 0
+configure:16980: result: yes
+configure:17001: checking for wcsrtombs
+configure:17014: g++ -c -O2  conftest.cpp >&5
+configure:17014: $? = 0
+configure:17016: result: yes
+configure:17037: checking for mbsrtowcs
+configure:17050: g++ -c -O2  conftest.cpp >&5
+configure:17050: $? = 0
+configure:17052: result: yes
+configure:17074: checking if iconv uses const pointers
+configure:17094: g++ -c -O2  conftest.cpp >&5
+conftest.cpp: In function 'int main()':
+conftest.cpp:108: error: invalid conversion from 'const char**' to 'char**'
+conftest.cpp:108: error:   initializing argument 2 of 'size_t iconv(void*, char**, size_t*, char**, size_t*)'
+configure:17094: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| #define HAVE_PTHREAD 1
+| #define HAVE_GETCWD 1
+| #define HAVE_PATHCONF 1
+| #define HAVE_REALPATH 1
+| #define HAVE_GETADDRINFO 1
+| #define HAVE_GETHOSTBYADDR 1
+| #define HAVE_GETHOSTBYNAME 1
+| #define HAVE_SOCKET 1
+| #define HAVE_FTIME 1
+| #define HAVE_GETTIMEOFDAY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_MEMSET 1
+| #define HAVE_NL_LANGINFO 1
+| #define HAVE_SETLOCALE 1
+| #define HAVE_LOCALECONV 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_TOWUPPER 1
+| #define HAVE_TOWLOWER 1
+| #define HAVE_MBLEN 1
+| #define HAVE_MBRLEN 1
+| #define HAVE_WCSRTOMBS 1
+| #define HAVE_MBSRTOWCS 1
+| /* end confdefs.h.  */
+| #include <iconv.h>
+| int
+| main ()
+| {
+| 
+|                                        const char *fromPtr=0;
+|                                        size_t     fromLen=0;
+|                                        char       *toPtr=0;
+|                                        size_t     toLen=0;
+|                                        iconv_t    cv=0;
+|                                        iconv(cv, &fromPtr, &fromLen, &toPtr, &toLen);
+| 
+|   ;
+|   return 0;
+| }
+configure:17106: result: no
+configure:17127: checking for stricmp
+configure:17127: result: no
+configure:17127: checking for strnicmp
+configure:17127: result: no
+configure:17127: checking for towlower
+configure:17127: result: yes
+configure:17127: checking for towupper
+configure:17127: result: yes
+configure:17156: checking whether we'll generate prettier make output
+configure:17169: result: yes
+configure:17186: checking for which path delimiter characters to accept
+configure:17200: result: /
+configure:17226: checking for which Mutex Manager to use
+configure:17280: result: POSIX
+configure:17380: checking for curl-config
+configure:17413: result: no
+configure:17441: checking curl/curl.h usability
+configure:17441: g++ -c -O2   conftest.cpp >&5
+conftest.cpp:135:23: error: curl/curl.h: No such file or directory
+configure:17441: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| #define HAVE_PTHREAD 1
+| #define HAVE_GETCWD 1
+| #define HAVE_PATHCONF 1
+| #define HAVE_REALPATH 1
+| #define HAVE_GETADDRINFO 1
+| #define HAVE_GETHOSTBYADDR 1
+| #define HAVE_GETHOSTBYNAME 1
+| #define HAVE_SOCKET 1
+| #define HAVE_FTIME 1
+| #define HAVE_GETTIMEOFDAY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_MEMSET 1
+| #define HAVE_NL_LANGINFO 1
+| #define HAVE_SETLOCALE 1
+| #define HAVE_LOCALECONV 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_TOWUPPER 1
+| #define HAVE_TOWLOWER 1
+| #define HAVE_MBLEN 1
+| #define HAVE_MBRLEN 1
+| #define HAVE_WCSRTOMBS 1
+| #define HAVE_MBSRTOWCS 1
+| #define ICONV_USES_CONST_POINTER 0
+| #define HAVE_TOWLOWER 1
+| #define HAVE_TOWUPPER 1
+| #define XERCES_USE_MUTEXMGR_POSIX 1
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| #include <curl/curl.h>
+configure:17441: result: no
+configure:17441: checking curl/curl.h presence
+configure:17441: g++ -E  conftest.cpp
+conftest.cpp:102:23: error: curl/curl.h: No such file or directory
+configure:17441: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| #define HAVE_PTHREAD 1
+| #define HAVE_GETCWD 1
+| #define HAVE_PATHCONF 1
+| #define HAVE_REALPATH 1
+| #define HAVE_GETADDRINFO 1
+| #define HAVE_GETHOSTBYADDR 1
+| #define HAVE_GETHOSTBYNAME 1
+| #define HAVE_SOCKET 1
+| #define HAVE_FTIME 1
+| #define HAVE_GETTIMEOFDAY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_MEMSET 1
+| #define HAVE_NL_LANGINFO 1
+| #define HAVE_SETLOCALE 1
+| #define HAVE_LOCALECONV 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_TOWUPPER 1
+| #define HAVE_TOWLOWER 1
+| #define HAVE_MBLEN 1
+| #define HAVE_MBRLEN 1
+| #define HAVE_WCSRTOMBS 1
+| #define HAVE_MBSRTOWCS 1
+| #define ICONV_USES_CONST_POINTER 0
+| #define HAVE_TOWLOWER 1
+| #define HAVE_TOWUPPER 1
+| #define XERCES_USE_MUTEXMGR_POSIX 1
+| /* end confdefs.h.  */
+| #include <curl/curl.h>
+configure:17441: result: no
+configure:17441: checking for curl/curl.h
+configure:17441: result: no
+configure:17994: checking for icu-config
+configure:18027: result: no
+configure:18073: checking unicode/ucnv.h usability
+configure:18073: g++ -c -O2   conftest.cpp >&5
+conftest.cpp:135:26: error: unicode/ucnv.h: No such file or directory
+configure:18073: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| #define HAVE_PTHREAD 1
+| #define HAVE_GETCWD 1
+| #define HAVE_PATHCONF 1
+| #define HAVE_REALPATH 1
+| #define HAVE_GETADDRINFO 1
+| #define HAVE_GETHOSTBYADDR 1
+| #define HAVE_GETHOSTBYNAME 1
+| #define HAVE_SOCKET 1
+| #define HAVE_FTIME 1
+| #define HAVE_GETTIMEOFDAY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_MEMSET 1
+| #define HAVE_NL_LANGINFO 1
+| #define HAVE_SETLOCALE 1
+| #define HAVE_LOCALECONV 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_TOWUPPER 1
+| #define HAVE_TOWLOWER 1
+| #define HAVE_MBLEN 1
+| #define HAVE_MBRLEN 1
+| #define HAVE_WCSRTOMBS 1
+| #define HAVE_MBSRTOWCS 1
+| #define ICONV_USES_CONST_POINTER 0
+| #define HAVE_TOWLOWER 1
+| #define HAVE_TOWUPPER 1
+| #define XERCES_USE_MUTEXMGR_POSIX 1
+| /* end confdefs.h.  */
+| #include <stdio.h>
+| #ifdef HAVE_SYS_TYPES_H
+| # include <sys/types.h>
+| #endif
+| #ifdef HAVE_SYS_STAT_H
+| # include <sys/stat.h>
+| #endif
+| #ifdef STDC_HEADERS
+| # include <stdlib.h>
+| # include <stddef.h>
+| #else
+| # ifdef HAVE_STDLIB_H
+| #  include <stdlib.h>
+| # endif
+| #endif
+| #ifdef HAVE_STRING_H
+| # if !defined STDC_HEADERS && defined HAVE_MEMORY_H
+| #  include <memory.h>
+| # endif
+| # include <string.h>
+| #endif
+| #ifdef HAVE_STRINGS_H
+| # include <strings.h>
+| #endif
+| #ifdef HAVE_INTTYPES_H
+| # include <inttypes.h>
+| #endif
+| #ifdef HAVE_STDINT_H
+| # include <stdint.h>
+| #endif
+| #ifdef HAVE_UNISTD_H
+| # include <unistd.h>
+| #endif
+| #include <unicode/ucnv.h>
+configure:18073: result: no
+configure:18073: checking unicode/ucnv.h presence
+configure:18073: g++ -E  conftest.cpp
+conftest.cpp:102:26: error: unicode/ucnv.h: No such file or directory
+configure:18073: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| #define HAVE_PTHREAD 1
+| #define HAVE_GETCWD 1
+| #define HAVE_PATHCONF 1
+| #define HAVE_REALPATH 1
+| #define HAVE_GETADDRINFO 1
+| #define HAVE_GETHOSTBYADDR 1
+| #define HAVE_GETHOSTBYNAME 1
+| #define HAVE_SOCKET 1
+| #define HAVE_FTIME 1
+| #define HAVE_GETTIMEOFDAY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_MEMSET 1
+| #define HAVE_NL_LANGINFO 1
+| #define HAVE_SETLOCALE 1
+| #define HAVE_LOCALECONV 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_TOWUPPER 1
+| #define HAVE_TOWLOWER 1
+| #define HAVE_MBLEN 1
+| #define HAVE_MBRLEN 1
+| #define HAVE_WCSRTOMBS 1
+| #define HAVE_MBSRTOWCS 1
+| #define ICONV_USES_CONST_POINTER 0
+| #define HAVE_TOWLOWER 1
+| #define HAVE_TOWUPPER 1
+| #define XERCES_USE_MUTEXMGR_POSIX 1
+| /* end confdefs.h.  */
+| #include <unicode/ucnv.h>
+configure:18073: result: no
+configure:18073: checking for unicode/ucnv.h
+configure:18073: result: no
+configure:18181: checking iconv.h usability
+configure:18181: g++ -c -O2   conftest.cpp >&5
+configure:18181: $? = 0
+configure:18181: result: yes
+configure:18181: checking iconv.h presence
+configure:18181: g++ -E  conftest.cpp
+configure:18181: $? = 0
+configure:18181: result: yes
+configure:18181: checking for iconv.h
+configure:18181: result: yes
+configure:18181: checking for wchar.h
+configure:18181: result: yes
+configure:18181: checking for string.h
+configure:18181: result: yes
+configure:18181: checking for stdlib.h
+configure:18181: result: yes
+configure:18181: checking stdio.h usability
+configure:18181: g++ -c -O2   conftest.cpp >&5
+configure:18181: $? = 0
+configure:18181: result: yes
+configure:18181: checking stdio.h presence
+configure:18181: g++ -E  conftest.cpp
+configure:18181: $? = 0
+configure:18181: result: yes
+configure:18181: checking for stdio.h
+configure:18181: result: yes
+configure:18181: checking ctype.h usability
+configure:18181: g++ -c -O2   conftest.cpp >&5
+configure:18181: $? = 0
+configure:18181: result: yes
+configure:18181: checking ctype.h presence
+configure:18181: g++ -E  conftest.cpp
+configure:18181: $? = 0
+configure:18181: result: yes
+configure:18181: checking for ctype.h
+configure:18181: result: yes
+configure:18181: checking for locale.h
+configure:18181: result: yes
+configure:18181: checking errno.h usability
+configure:18181: g++ -c -O2   conftest.cpp >&5
+configure:18181: $? = 0
+configure:18181: result: yes
+configure:18181: checking errno.h presence
+configure:18181: g++ -E  conftest.cpp
+configure:18181: $? = 0
+configure:18181: result: yes
+configure:18181: checking for errno.h
+configure:18181: result: yes
+configure:18195: checking for endian.h
+configure:18195: result: yes
+configure:18224: checking for iconv_open
+configure:18224: g++ -o conftest -O2    conftest.cpp  -lpthread >&5
+configure:18224: $? = 0
+configure:18224: result: yes
+configure:18224: checking for iconv_close
+configure:18224: g++ -o conftest -O2    conftest.cpp  -lpthread >&5
+configure:18224: $? = 0
+configure:18224: result: yes
+configure:18224: checking for iconv
+configure:18224: g++ -o conftest -O2    conftest.cpp  -lpthread >&5
+configure:18224: $? = 0
+configure:18224: result: yes
+configure:18236: checking whether we can support the GNU iconv Transcoder
+configure:18253: result: yes
+configure:18265: checking for wchar.h
+configure:18265: result: yes
+configure:18280: checking for mblen
+configure:18280: result: yes
+configure:18280: checking for wcstombs
+configure:18280: g++ -o conftest -O2    conftest.cpp  -lpthread >&5
+configure:18280: $? = 0
+configure:18280: result: yes
+configure:18280: checking for mbstowcs
+configure:18280: g++ -o conftest -O2    conftest.cpp  -lpthread >&5
+configure:18280: $? = 0
+configure:18280: result: yes
+configure:18292: checking whether we can support the iconv Transcoder
+configure:18309: result: yes
+configure:18319: checking whether we can support the ICU Transcoder
+configure:18339: result: no
+configure:18431: checking for which Transcoder to use (choices: -gnuiconv- -ICONV-)
+configure:18511: result: iconv
+configure:18572: checking whether we support the InMemory MsgLoader
+configure:18589: result: yes
+configure:18599: checking whether we support the ICU MsgLoader
+configure:18619: result: no
+configure:18628: checking for nl_types.h
+configure:18628: result: yes
+configure:18643: checking for catopen
+configure:18643: g++ -o conftest -O2    conftest.cpp  -lpthread >&5
+configure:18643: $? = 0
+configure:18643: result: yes
+configure:18643: checking for catclose
+configure:18643: g++ -o conftest -O2    conftest.cpp  -lpthread >&5
+configure:18643: $? = 0
+configure:18643: result: yes
+configure:18643: checking for catgets
+configure:18643: g++ -o conftest -O2    conftest.cpp  -lpthread >&5
+configure:18643: $? = 0
+configure:18643: result: yes
+configure:18655: checking whether we can support the iconv MsgLoader
+configure:18672: result: yes
+configure:18694: checking for which MsgLoader to use (choices: -inmemory- -iconv-)
+configure:18742: result: inmemory
+configure:18777: checking for which File Manager to use
+configure:18800: result: POSIX
+configure:18904: checking whether the Windows SDK is available and using wchar_t as wide string
+configure:18918: g++ -c -O2   conftest.cpp >&5
+conftest.cpp:130:21: error: windows.h: No such file or directory
+conftest.cpp: In function 'int main()':
+conftest.cpp:135: error: 'DeleteFileW' was not declared in this scope
+configure:18918: $? = 1
+configure: failed program was:
+| /* confdefs.h */
+| #define PACKAGE_NAME "xerces-c"
+| #define PACKAGE_TARNAME "xerces-c"
+| #define PACKAGE_VERSION "3.1.1"
+| #define PACKAGE_STRING "xerces-c 3.1.1"
+| #define PACKAGE_BUGREPORT ""
+| #define PACKAGE_URL ""
+| #define PACKAGE "xerces-c"
+| #define VERSION "3.1.1"
+| #define STDC_HEADERS 1
+| #define HAVE_SYS_TYPES_H 1
+| #define HAVE_SYS_STAT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_DLFCN_H 1
+| #define LT_OBJDIR ".libs/"
+| #define STDC_HEADERS 1
+| #define TIME_WITH_SYS_TIME 1
+| #define HAVE_ARPA_INET_H 1
+| #define HAVE_FCNTL_H 1
+| #define HAVE_FLOAT_H 1
+| #define HAVE_INTTYPES_H 1
+| #define HAVE_LANGINFO_H 1
+| #define HAVE_LIMITS_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_MEMORY_H 1
+| #define HAVE_NETDB_H 1
+| #define HAVE_NETINET_IN_H 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_STDDEF_H 1
+| #define HAVE_STDINT_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STRINGS_H 1
+| #define HAVE_SYS_PARAM_H 1
+| #define HAVE_SYS_SOCKET_H 1
+| #define HAVE_SYS_TIME_H 1
+| #define HAVE_SYS_TIMEB_H 1
+| #define HAVE_UNISTD_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_WCTYPE_H 1
+| #define HAVE_ENDIAN_H 1
+| #define HAVE_ARPA_NAMESER_COMPAT_H 1
+| #define HAVE_STDBOOL_H 1
+| #define SIZEOF_WCHAR_T 4
+| #define HAVE_INTTYPES_H 1
+| #define SIZEOF_SHORT 2
+| #define SIZEOF_INT 4
+| #define SIZEOF_LONG 8
+| #define SIZEOF_LONG_LONG 8
+| #define SIZEOF___INT64 0
+| #define XERCES_S16BIT_INT int16_t
+| #define XERCES_U16BIT_INT uint16_t
+| #define XERCES_S32BIT_INT int32_t
+| #define XERCES_U32BIT_INT uint32_t
+| #define XERCES_S64BIT_INT int64_t
+| #define XERCES_U64BIT_INT uint64_t
+| #define HAVE_BOOL /**/
+| #define HAVE_NAMESPACES /**/
+| #define HAVE_STD_NAMESPACE /**/
+| #define HAVE_STD_LIBS /**/
+| #define HAVE_LSTRING /**/
+| #define HAVE_PTHREAD 1
+| #define HAVE_GETCWD 1
+| #define HAVE_PATHCONF 1
+| #define HAVE_REALPATH 1
+| #define HAVE_GETADDRINFO 1
+| #define HAVE_GETHOSTBYADDR 1
+| #define HAVE_GETHOSTBYNAME 1
+| #define HAVE_SOCKET 1
+| #define HAVE_FTIME 1
+| #define HAVE_GETTIMEOFDAY 1
+| #define HAVE_MEMMOVE 1
+| #define HAVE_MEMSET 1
+| #define HAVE_NL_LANGINFO 1
+| #define HAVE_SETLOCALE 1
+| #define HAVE_LOCALECONV 1
+| #define HAVE_STRCASECMP 1
+| #define HAVE_STRNCASECMP 1
+| #define HAVE_STRCHR 1
+| #define HAVE_STRDUP 1
+| #define HAVE_STRRCHR 1
+| #define HAVE_STRSTR 1
+| #define HAVE_STRTOL 1
+| #define HAVE_STRTOUL 1
+| #define HAVE_TOWUPPER 1
+| #define HAVE_TOWLOWER 1
+| #define HAVE_MBLEN 1
+| #define HAVE_MBRLEN 1
+| #define HAVE_WCSRTOMBS 1
+| #define HAVE_MBSRTOWCS 1
+| #define ICONV_USES_CONST_POINTER 0
+| #define HAVE_TOWLOWER 1
+| #define HAVE_TOWUPPER 1
+| #define XERCES_USE_MUTEXMGR_POSIX 1
+| #define HAVE_ICONV_H 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_STRING_H 1
+| #define HAVE_STDLIB_H 1
+| #define HAVE_STDIO_H 1
+| #define HAVE_CTYPE_H 1
+| #define HAVE_LOCALE_H 1
+| #define HAVE_ERRNO_H 1
+| #define HAVE_ICONV_OPEN 1
+| #define HAVE_ICONV_CLOSE 1
+| #define HAVE_ICONV 1
+| #define HAVE_WCHAR_H 1
+| #define HAVE_MBLEN 1
+| #define HAVE_WCSTOMBS 1
+| #define HAVE_MBSTOWCS 1
+| #define XERCES_USE_TRANSCODER_ICONV 1
+| #define HAVE_NL_TYPES_H 1
+| #define HAVE_CATOPEN 1
+| #define HAVE_CATCLOSE 1
+| #define HAVE_CATGETS 1
+| #define XERCES_USE_MSGLOADER_INMEMORY 1
+| #define XERCES_USE_FILEMGR_POSIX 1
+| #define XERCES_AUTOCONF 1
+| #define XERCES_HAVE_SYS_TYPES_H 1
+| #define XERCES_HAVE_INTTYPES_H 1
+| #define XERCES_PLATFORM_EXPORT 
+| #define XERCES_PLATFORM_IMPORT 
+| #define XERCES_LSTRSUPPORT 1
+| /* end confdefs.h.  */
+| #include <windows.h>
+|                                         wchar_t file[] = L"dummy.file";
+| int
+| main ()
+| {
+| DeleteFileW(file);
+|   ;
+|   return 0;
+| }
+configure:18932: result: no
+configure:18945: checking whether the compiler chokes on a placement operator delete
+configure:18967: g++ -c -O2   conftest.cpp >&5
+conftest.cpp: In static member function 'static void* XMemory::operator new(size_t)':
+conftest.cpp:136: warning: 'operator new' must not return NULL unless it is declared 'throw()' (or -fcheck-new is in effect)
+conftest.cpp: In static member function 'static void* XMemory::operator new(size_t, void*)':
+conftest.cpp:137: warning: 'operator new' must not return NULL unless it is declared 'throw()' (or -fcheck-new is in effect)
+configure:18967: $? = 0
+configure:18969: result: no
+configure:19485: creating ./config.status
+
+## ---------------------- ##
+## Running config.status. ##
+## ---------------------- ##
+
+This file was extended by xerces-c config.status 3.1.1, which was
+generated by GNU Autoconf 2.64.  Invocation command line was
+
+  CONFIG_FILES    = 
+  CONFIG_HEADERS  = 
+  CONFIG_LINKS    = 
+  CONFIG_COMMANDS = 
+  $ ./config.status 
+
+on mwhsdccf02
+
+config.status:1304: creating Makefile
+config.status:1304: creating src/Makefile
+config.status:1304: creating src/xercesc/util/MsgLoaders/MsgCatalog/Makefile
+config.status:1304: creating tests/Makefile
+config.status:1304: creating samples/Makefile
+config.status:1304: creating xerces-c.pc
+config.status:1304: creating config.h
+config.status:1304: creating src/xercesc/util/Xerces_autoconf_config.hpp
+config.status:1524: executing depfiles commands
+config.status:1524: executing libtool commands
+config.status:1524: executing libtool-rpath-patch commands
+configure:21969: 
+configure:21971: Report:
+configure:21973:   File Manager: POSIX
+configure:21975:   Mutex Manager: POSIX
+configure:21977:   Transcoder: iconv
+configure:21979:   NetAccessor: disabled
+configure:21981:   Message Loader: inmemory
+
+## ---------------- ##
+## Cache variables. ##
+## ---------------- ##
+
+ac_cv_build=x86_64-unknown-linux-gnu
+ac_cv_c_compiler_gnu=yes
+ac_cv_c_const=yes
+ac_cv_c_inline=inline
+ac_cv_c_volatile=yes
+ac_cv_cxx_compiler_gnu=yes
+ac_cv_cxx_have_bool=yes
+ac_cv_cxx_have_lstring=yes
+ac_cv_cxx_have_namespaces=yes
+ac_cv_cxx_have_std_libs=yes
+ac_cv_cxx_have_std_namespace=yes
+ac_cv_env_CCC_set=
+ac_cv_env_CCC_value=
+ac_cv_env_CC_set=
+ac_cv_env_CC_value=
+ac_cv_env_CFLAGS_set=set
+ac_cv_env_CFLAGS_value=-O2
+ac_cv_env_CPPFLAGS_set=
+ac_cv_env_CPPFLAGS_value=
+ac_cv_env_CPP_set=
+ac_cv_env_CPP_value=
+ac_cv_env_CXXCPP_set=
+ac_cv_env_CXXCPP_value=
+ac_cv_env_CXXFLAGS_set=set
+ac_cv_env_CXXFLAGS_value=-O2
+ac_cv_env_CXX_set=
+ac_cv_env_CXX_value=
+ac_cv_env_LDFLAGS_set=
+ac_cv_env_LDFLAGS_value=
+ac_cv_env_LIBS_set=
+ac_cv_env_LIBS_value=
+ac_cv_env_build_alias_set=
+ac_cv_env_build_alias_value=
+ac_cv_env_host_alias_set=
+ac_cv_env_host_alias_value=
+ac_cv_env_target_alias_set=
+ac_cv_env_target_alias_value=
+ac_cv_func_catclose=yes
+ac_cv_func_catgets=yes
+ac_cv_func_catopen=yes
+ac_cv_func_clock_gettime=no
+ac_cv_func_ftime=yes
+ac_cv_func_getaddrinfo=yes
+ac_cv_func_getcwd=yes
+ac_cv_func_gethostbyaddr=yes
+ac_cv_func_gethostbyname=yes
+ac_cv_func_gettimeofday=yes
+ac_cv_func_iconv=yes
+ac_cv_func_iconv_close=yes
+ac_cv_func_iconv_open=yes
+ac_cv_func_localeconv=yes
+ac_cv_func_mblen=yes
+ac_cv_func_mbstowcs=yes
+ac_cv_func_memmove=yes
+ac_cv_func_memset=yes
+ac_cv_func_nl_langinfo=yes
+ac_cv_func_pathconf=yes
+ac_cv_func_realpath=yes
+ac_cv_func_setlocale=yes
+ac_cv_func_socket=yes
+ac_cv_func_strcasecmp=yes
+ac_cv_func_strchr=yes
+ac_cv_func_strdup=yes
+ac_cv_func_stricmp=no
+ac_cv_func_strncasecmp=yes
+ac_cv_func_strnicmp=no
+ac_cv_func_strrchr=yes
+ac_cv_func_strstr=yes
+ac_cv_func_strtol=yes
+ac_cv_func_strtoul=yes
+ac_cv_func_towlower=yes
+ac_cv_func_towupper=yes
+ac_cv_func_wcsicmp=no
+ac_cv_func_wcslwr=no
+ac_cv_func_wcsnicmp=no
+ac_cv_func_wcstombs=yes
+ac_cv_func_wcsupr=no
+ac_cv_header_CoreServices_CoreServices_h=no
+ac_cv_header_arpa_inet_h=yes
+ac_cv_header_arpa_nameser_compat_h=yes
+ac_cv_header_ctype_h=yes
+ac_cv_header_curl_curl_h=no
+ac_cv_header_dlfcn_h=yes
+ac_cv_header_endian_h=yes
+ac_cv_header_errno_h=yes
+ac_cv_header_fcntl_h=yes
+ac_cv_header_float_h=yes
+ac_cv_header_iconv_h=yes
+ac_cv_header_inttypes_h=yes
+ac_cv_header_langinfo_h=yes
+ac_cv_header_limits_h=yes
+ac_cv_header_locale_h=yes
+ac_cv_header_machine_endian_h=no
+ac_cv_header_memory_h=yes
+ac_cv_header_netdb_h=yes
+ac_cv_header_netinet_in_h=yes
+ac_cv_header_nl_types_h=yes
+ac_cv_header_stdbool_h=yes
+ac_cv_header_stdc=yes
+ac_cv_header_stddef_h=yes
+ac_cv_header_stdint_h=yes
+ac_cv_header_stdio_h=yes
+ac_cv_header_stdlib_h=yes
+ac_cv_header_string_h=yes
+ac_cv_header_strings_h=yes
+ac_cv_header_sys_param_h=yes
+ac_cv_header_sys_socket_h=yes
+ac_cv_header_sys_stat_h=yes
+ac_cv_header_sys_time_h=yes
+ac_cv_header_sys_timeb_h=yes
+ac_cv_header_sys_types_h=yes
+ac_cv_header_time=yes
+ac_cv_header_unicode_ucnv_h=no
+ac_cv_header_unistd_h=yes
+ac_cv_header_wchar_h=yes
+ac_cv_header_wctype_h=yes
+ac_cv_host=x86_64-unknown-linux-gnu
+ac_cv_objext=o
+ac_cv_path_EGREP='/bin/grep -E'
+ac_cv_path_FGREP='/bin/grep -F'
+ac_cv_path_GREP=/bin/grep
+ac_cv_path_SED=/bin/sed
+ac_cv_path_install='/usr/bin/install -c'
+ac_cv_path_mkdir=/bin/mkdir
+ac_cv_prog_AWK=gawk
+ac_cv_prog_CPP='gcc -E'
+ac_cv_prog_CXXCPP='g++ -E'
+ac_cv_prog_ac_ct_AR=ar
+ac_cv_prog_ac_ct_CC=gcc
+ac_cv_prog_ac_ct_CXX=g++
+ac_cv_prog_ac_ct_OBJDUMP=objdump
+ac_cv_prog_ac_ct_RANLIB=ranlib
+ac_cv_prog_ac_ct_STRIP=strip
+ac_cv_prog_cc_c89=
+ac_cv_prog_cc_g=yes
+ac_cv_prog_cc_gcc_c_o=yes
+ac_cv_prog_cxx_g=yes
+ac_cv_prog_make_make_set=yes
+ac_cv_sizeof___int64=0
+ac_cv_sizeof_int=4
+ac_cv_sizeof_long=8
+ac_cv_sizeof_long_long=8
+ac_cv_sizeof_short=2
+ac_cv_sizeof_wchar_t=4
+ac_cv_type__Bool=no
+ac_cv_type_int16_t=yes
+ac_cv_type_int32_t=yes
+ac_cv_type_int64_t=yes
+ac_cv_type_off_t=yes
+ac_cv_type_size_t=yes
+ac_cv_type_ssize_t=yes
+ac_cv_type_uint16_t=yes
+ac_cv_type_uint32_t=yes
+ac_cv_type_uint64_t=yes
+am_cv_CC_dependencies_compiler_type=gcc3
+am_cv_CXX_dependencies_compiler_type=gcc3
+am_cv_prog_tar_ustar=gnutar
+lt_cv_deplibs_check_method=pass_all
+lt_cv_file_magic_cmd='$MAGIC_CMD'
+lt_cv_file_magic_test_file=
+lt_cv_ld_reload_flag=-r
+lt_cv_nm_interface='BSD nm'
+lt_cv_objdir=.libs
+lt_cv_path_LD=/usr/bin/ld
+lt_cv_path_LDCXX='/usr/bin/ld -m elf_x86_64'
+lt_cv_path_NM='/usr/bin/nm -B'
+lt_cv_prog_compiler_c_o=yes
+lt_cv_prog_compiler_c_o_CXX=yes
+lt_cv_prog_compiler_pic_works=yes
+lt_cv_prog_compiler_pic_works_CXX=yes
+lt_cv_prog_compiler_rtti_exceptions=no
+lt_cv_prog_compiler_static_works=yes
+lt_cv_prog_compiler_static_works_CXX=yes
+lt_cv_prog_gnu_ld=yes
+lt_cv_prog_gnu_ldcxx=yes
+lt_cv_sys_global_symbol_pipe='sed -n -e '\''s/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p'\'''
+lt_cv_sys_global_symbol_to_c_name_address='sed -n -e '\''s/^: \([^ ]*\) $/  {\"\1\", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW]* \([^ ]*\) \([^ ]*\)$/  {"\2", (void *) \&\2},/p'\'''
+lt_cv_sys_global_symbol_to_c_name_address_lib_prefix='sed -n -e '\''s/^: \([^ ]*\) $/  {\"\1\", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW]* \([^ ]*\) \(lib[^ ]*\)$/  {"\2", (void *) \&\2},/p'\'' -e '\''s/^[ABCDGIRSTW]* \([^ ]*\) \([^ ]*\)$/  {"lib\2", (void *) \&\2},/p'\'''
+lt_cv_sys_global_symbol_to_cdecl='sed -n -e '\''s/^T .* \(.*\)$/extern int \1();/p'\'' -e '\''s/^[ABCDGIRSTW]* .* \(.*\)$/extern char \1;/p'\'''
+lt_cv_sys_max_cmd_len=3458764513820540925
+xerces_cv_curl_flags=
+xerces_cv_curl_libs=-lcurl
+xerces_cv_curl_present=no
+xerces_cv_icu_bin=
+xerces_cv_icu_flags=
+xerces_cv_icu_libs='-licuuc -licudata'
+xerces_cv_icu_present=no
+xerces_cv_icu_sbin=
+xerces_cv_no_threads=no
+xerces_cv_rpath=yes
+xerces_cv_sizeof_int64=8
+xerces_cv_type_s16bit_int=int16_t
+xerces_cv_type_s32bit_int=int32_t
+xerces_cv_type_s64bit_int=int64_t
+xerces_cv_type_u16bit_int=uint16_t
+xerces_cv_type_u32bit_int=uint32_t
+xerces_cv_type_u64bit_int=uint64_t
+xerces_cv_type_xmlch=uint16_t
+
+## ----------------- ##
+## Output variables. ##
+## ----------------- ##
+
+ACLOCAL='${SHELL} /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/config/missing --run aclocal-1.11'
+AMDEPBACKSLASH='\'
+AMDEP_FALSE='#'
+AMDEP_TRUE=''
+AMTAR='${SHELL} /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/config/missing --run tar'
+AR='ar'
+AS='as'
+AUTOCONF='${SHELL} /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/config/missing --run autoconf'
+AUTOHEADER='${SHELL} /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/config/missing --run autoheader'
+AUTOMAKE='${SHELL} /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/config/missing --run automake-1.11'
+AWK='gawk'
+BUILD_SHARED='yes'
+BUILD_STATIC='no'
+CC='gcc'
+CCDEPMODE='depmode=gcc3'
+CFLAGS='-O2'
+CPP='gcc -E'
+CPPFLAGS=''
+CURL_FLAGS=''
+CURL_LIBS='-lcurl'
+CURL_PRESENT='no'
+CXX='g++'
+CXXCPP='g++ -E'
+CXXDEPMODE='depmode=gcc3'
+CXXFLAGS='-O2 '
+CYGPATH_W='echo'
+DEFS='-DHAVE_CONFIG_H'
+DEPDIR='.deps'
+DLLTOOL='dlltool'
+DSYMUTIL=''
+DUMPBIN=''
+ECHO_C=''
+ECHO_N='-n'
+ECHO_T=''
+EGREP='/bin/grep -E'
+EXEEXT=''
+FGREP='/bin/grep -F'
+GREP='/bin/grep'
+ICU_BIN=''
+ICU_FLAGS=''
+ICU_LIBS='-licuuc -licudata'
+ICU_PRESENT='no'
+ICU_SBIN=''
+INSTALL_DATA='${INSTALL} -m 644'
+INSTALL_PROGRAM='${INSTALL}'
+INSTALL_SCRIPT='${INSTALL}'
+INSTALL_STRIP_PROGRAM='$(install_sh) -c -s'
+LD='/usr/bin/ld -m elf_x86_64'
+LDFLAGS=''
+LIBOBJS=' ${LIBOBJDIR}stricmp$U.o ${LIBOBJDIR}strnicmp$U.o'
+LIBS=' -lpthread'
+LIBTOOL='$(SHELL) $(top_builddir)/libtool'
+LIPO=''
+LN_S='ln -s'
+LTLIBOBJS=' ${LIBOBJDIR}stricmp$U.lo ${LIBOBJDIR}strnicmp$U.lo'
+MAINT='#'
+MAINTAINER_MODE_FALSE=''
+MAINTAINER_MODE_TRUE='#'
+MAKEINFO='${SHELL} /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/config/missing --run makeinfo'
+MKDIR_P='/bin/mkdir -p'
+NM='/usr/bin/nm -B'
+NMEDIT=''
+OBJDUMP='objdump'
+OBJEXT='o'
+OTOOL64=''
+OTOOL=''
+PACKAGE='xerces-c'
+PACKAGE_BUGREPORT=''
+PACKAGE_NAME='xerces-c'
+PACKAGE_STRING='xerces-c 3.1.1'
+PACKAGE_TARNAME='xerces-c'
+PACKAGE_URL=''
+PACKAGE_VERSION='3.1.1'
+PATH_SEPARATOR=':'
+PTHREAD_CC='gcc'
+PTHREAD_CFLAGS=''
+PTHREAD_LIBS='-lpthread'
+RANLIB='ranlib'
+SED='/bin/sed'
+SET_MAKE=''
+SHELL='/bin/sh'
+SHREXT='.so'
+STRIP='strip'
+VERSION='3.1.1'
+XERCES_PRETTY_MAKE_FALSE='#'
+XERCES_PRETTY_MAKE_TRUE=''
+XERCES_USE_FILEMGR_POSIX_FALSE='#'
+XERCES_USE_FILEMGR_POSIX_TRUE=''
+XERCES_USE_FILEMGR_WINDOWS_FALSE=''
+XERCES_USE_FILEMGR_WINDOWS_TRUE='#'
+XERCES_USE_MSGLOADER_ICONV_FALSE=''
+XERCES_USE_MSGLOADER_ICONV_TRUE='#'
+XERCES_USE_MSGLOADER_ICU_FALSE=''
+XERCES_USE_MSGLOADER_ICU_TRUE='#'
+XERCES_USE_MSGLOADER_INMEMORY_FALSE='#'
+XERCES_USE_MSGLOADER_INMEMORY_TRUE=''
+XERCES_USE_MUTEXMGR_NOTHREAD_FALSE=''
+XERCES_USE_MUTEXMGR_NOTHREAD_TRUE='#'
+XERCES_USE_MUTEXMGR_POSIX_FALSE='#'
+XERCES_USE_MUTEXMGR_POSIX_TRUE=''
+XERCES_USE_MUTEXMGR_WINDOWS_FALSE=''
+XERCES_USE_MUTEXMGR_WINDOWS_TRUE='#'
+XERCES_USE_NETACCESSOR_CFURL_FALSE=''
+XERCES_USE_NETACCESSOR_CFURL_TRUE='#'
+XERCES_USE_NETACCESSOR_CURL_FALSE=''
+XERCES_USE_NETACCESSOR_CURL_TRUE='#'
+XERCES_USE_NETACCESSOR_SOCKET_FALSE=''
+XERCES_USE_NETACCESSOR_SOCKET_TRUE='#'
+XERCES_USE_NETACCESSOR_WINSOCK_FALSE=''
+XERCES_USE_NETACCESSOR_WINSOCK_TRUE='#'
+XERCES_USE_TRANSCODER_GNUICONV_FALSE=''
+XERCES_USE_TRANSCODER_GNUICONV_TRUE='#'
+XERCES_USE_TRANSCODER_ICONV_FALSE='#'
+XERCES_USE_TRANSCODER_ICONV_TRUE=''
+XERCES_USE_TRANSCODER_ICU_FALSE=''
+XERCES_USE_TRANSCODER_ICU_TRUE='#'
+XERCES_USE_TRANSCODER_MACOSUNICODECONVERTER_FALSE=''
+XERCES_USE_TRANSCODER_MACOSUNICODECONVERTER_TRUE='#'
+XERCES_USE_TRANSCODER_WINDOWS_FALSE=''
+XERCES_USE_TRANSCODER_WINDOWS_TRUE='#'
+abs_top_builddir='/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'
+abs_top_srcdir='/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1'
+ac_ct_CC='gcc'
+ac_ct_CXX='g++'
+ac_ct_DUMPBIN=''
+acx_pthread_config=''
+am__EXEEXT_FALSE=''
+am__EXEEXT_TRUE='#'
+am__fastdepCC_FALSE='#'
+am__fastdepCC_TRUE=''
+am__fastdepCXX_FALSE='#'
+am__fastdepCXX_TRUE=''
+am__include='include'
+am__isrc=''
+am__leading_dot='.'
+am__quote=''
+am__tar='tar --format=ustar -chf - "$$tardir"'
+am__untar='tar -xf -'
+bindir='${exec_prefix}/bin'
+build='x86_64-unknown-linux-gnu'
+build_alias=''
+build_cpu='x86_64'
+build_os='linux-gnu'
+build_vendor='unknown'
+curl_config=''
+datadir='${datarootdir}'
+datarootdir='${prefix}/share'
+docdir='${datarootdir}/doc/${PACKAGE_TARNAME}'
+dvidir='${docdir}'
+exec_prefix='${prefix}'
+host='x86_64-unknown-linux-gnu'
+host_alias=''
+host_cpu='x86_64'
+host_os='linux-gnu'
+host_vendor='unknown'
+htmldir='${docdir}'
+icu_config=''
+includedir='${prefix}/include'
+infodir='${datarootdir}/info'
+install_sh='${SHELL} /proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/config/install-sh'
+libdir='${exec_prefix}/lib'
+libexecdir='${exec_prefix}/libexec'
+localedir='${datarootdir}/locale'
+localstatedir='${prefix}/var'
+lt_ECHO='echo'
+mandir='${datarootdir}/man'
+mkdir_p='/bin/mkdir -p'
+oldincludedir='/usr/include'
+pdfdir='${docdir}'
+pkgconfigdir='${libdir}/pkgconfig'
+prefix='/proj/mtk94010/Android_mpeg_dash/xerces-c-3.1.1/../lib/xerces'
+program_transform_name='s,x,x,'
+psdir='${docdir}'
+sbindir='${exec_prefix}/sbin'
+sharedstatedir='${prefix}/com'
+sysconfdir='${prefix}/etc'
+target_alias=''
+
+## ----------- ##
+## confdefs.h. ##
+## ----------- ##
+
+/* confdefs.h */
+#define PACKAGE_NAME "xerces-c"
+#define PACKAGE_TARNAME "xerces-c"
+#define PACKAGE_VERSION "3.1.1"
+#define PACKAGE_STRING "xerces-c 3.1.1"
+#define PACKAGE_BUGREPORT ""
+#define PACKAGE_URL ""
+#define PACKAGE "xerces-c"
+#define VERSION "3.1.1"
+#define STDC_HEADERS 1
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_SYS_STAT_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STRING_H 1
+#define HAVE_MEMORY_H 1
+#define HAVE_STRINGS_H 1
+#define HAVE_INTTYPES_H 1
+#define HAVE_STDINT_H 1
+#define HAVE_UNISTD_H 1
+#define HAVE_DLFCN_H 1
+#define LT_OBJDIR ".libs/"
+#define STDC_HEADERS 1
+#define TIME_WITH_SYS_TIME 1
+#define HAVE_ARPA_INET_H 1
+#define HAVE_FCNTL_H 1
+#define HAVE_FLOAT_H 1
+#define HAVE_INTTYPES_H 1
+#define HAVE_LANGINFO_H 1
+#define HAVE_LIMITS_H 1
+#define HAVE_LOCALE_H 1
+#define HAVE_MEMORY_H 1
+#define HAVE_NETDB_H 1
+#define HAVE_NETINET_IN_H 1
+#define HAVE_NL_TYPES_H 1
+#define HAVE_STDDEF_H 1
+#define HAVE_STDINT_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STRING_H 1
+#define HAVE_STRINGS_H 1
+#define HAVE_SYS_PARAM_H 1
+#define HAVE_SYS_SOCKET_H 1
+#define HAVE_SYS_TIME_H 1
+#define HAVE_SYS_TIMEB_H 1
+#define HAVE_UNISTD_H 1
+#define HAVE_WCHAR_H 1
+#define HAVE_WCTYPE_H 1
+#define HAVE_ENDIAN_H 1
+#define HAVE_ARPA_NAMESER_COMPAT_H 1
+#define HAVE_STDBOOL_H 1
+#define SIZEOF_WCHAR_T 4
+#define HAVE_INTTYPES_H 1
+#define SIZEOF_SHORT 2
+#define SIZEOF_INT 4
+#define SIZEOF_LONG 8
+#define SIZEOF_LONG_LONG 8
+#define SIZEOF___INT64 0
+#define XERCES_S16BIT_INT int16_t
+#define XERCES_U16BIT_INT uint16_t
+#define XERCES_S32BIT_INT int32_t
+#define XERCES_U32BIT_INT uint32_t
+#define XERCES_S64BIT_INT int64_t
+#define XERCES_U64BIT_INT uint64_t
+#define HAVE_BOOL /**/
+#define HAVE_NAMESPACES /**/
+#define HAVE_STD_NAMESPACE /**/
+#define HAVE_STD_LIBS /**/
+#define HAVE_LSTRING /**/
+#define HAVE_PTHREAD 1
+#define HAVE_GETCWD 1
+#define HAVE_PATHCONF 1
+#define HAVE_REALPATH 1
+#define HAVE_GETADDRINFO 1
+#define HAVE_GETHOSTBYADDR 1
+#define HAVE_GETHOSTBYNAME 1
+#define HAVE_SOCKET 1
+#define HAVE_FTIME 1
+#define HAVE_GETTIMEOFDAY 1
+#define HAVE_MEMMOVE 1
+#define HAVE_MEMSET 1
+#define HAVE_NL_LANGINFO 1
+#define HAVE_SETLOCALE 1
+#define HAVE_LOCALECONV 1
+#define HAVE_STRCASECMP 1
+#define HAVE_STRNCASECMP 1
+#define HAVE_STRCHR 1
+#define HAVE_STRDUP 1
+#define HAVE_STRRCHR 1
+#define HAVE_STRSTR 1
+#define HAVE_STRTOL 1
+#define HAVE_STRTOUL 1
+#define HAVE_TOWUPPER 1
+#define HAVE_TOWLOWER 1
+#define HAVE_MBLEN 1
+#define HAVE_MBRLEN 1
+#define HAVE_WCSRTOMBS 1
+#define HAVE_MBSRTOWCS 1
+#define ICONV_USES_CONST_POINTER 0
+#define HAVE_TOWLOWER 1
+#define HAVE_TOWUPPER 1
+#define XERCES_USE_MUTEXMGR_POSIX 1
+#define HAVE_ICONV_H 1
+#define HAVE_WCHAR_H 1
+#define HAVE_STRING_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STDIO_H 1
+#define HAVE_CTYPE_H 1
+#define HAVE_LOCALE_H 1
+#define HAVE_ERRNO_H 1
+#define HAVE_ICONV_OPEN 1
+#define HAVE_ICONV_CLOSE 1
+#define HAVE_ICONV 1
+#define HAVE_WCHAR_H 1
+#define HAVE_MBLEN 1
+#define HAVE_WCSTOMBS 1
+#define HAVE_MBSTOWCS 1
+#define XERCES_USE_TRANSCODER_ICONV 1
+#define HAVE_NL_TYPES_H 1
+#define HAVE_CATOPEN 1
+#define HAVE_CATCLOSE 1
+#define HAVE_CATGETS 1
+#define XERCES_USE_MSGLOADER_INMEMORY 1
+#define XERCES_USE_FILEMGR_POSIX 1
+#define XERCES_AUTOCONF 1
+#define XERCES_HAVE_SYS_TYPES_H 1
+#define XERCES_HAVE_INTTYPES_H 1
+#define XERCES_PLATFORM_EXPORT 
+#define XERCES_PLATFORM_IMPORT 
+#define XERCES_LSTRSUPPORT 1
+#define XERCES_XMLCH_T uint16_t
+#define XERCES_SIZE_T size_t
+#define XERCES_SSIZE_T ssize_t
+#define XERCES_HAS_CPP_NAMESPACE 1
+#define XERCES_STD_NAMESPACE 1
+#define XERCES_NEW_IOSTREAMS 1
+
+configure: exit 0

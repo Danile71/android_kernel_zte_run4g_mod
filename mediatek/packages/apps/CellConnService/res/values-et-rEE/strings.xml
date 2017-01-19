@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">Kärjeühendusteenus</string>
+	<string name="button_ok">"OK"</string>
+	<string name="button_cancel">"Tühista"</string>
+	<string name="confirm_radio_title">SIM välja lülitatud</string>
+	<string name="confirm_radio_title_uim">UIM on välja lülitatud</string>
+	<string name="confirm_radio_title_card">Kaart on välja lülitatud</string>
+	<string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> 		on välja lülitatud. Kas soovite selle SIM-kaardi sisse lülitada?</string>
+  <string name="confirm_radio_msg_uim"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> 		on nüüd välja lülitatud. Kas soovite selle UIM kaardi sisse lülitada?</string>
+  <string name="confirm_radio_msg_card"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> 		on nüüd välja lülitatud. Kas soovite selle kaardi sisse lülitada?</string>
+	<string name="confirm_radio_flight_mode_on_and_msg">Lennurežiim on sees ja</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> 		on nüüd välja lülitatud. Kas soovite lennurežiimi välja ja selle SIM-kaardi sisse lülitada?</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_uim"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> 		on nüüd välja lülitatud. Kas soovite lennurežiimi välja lälitada ja selle UIM kaardi sisse lülitada?</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_card"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> 		on nüüd välja lülitatud. Kas soovite lennurežiimi välja lälitada ja selle kaardi sisse lülitada?</string>	
+	<string name="confirm_radio_flight_mode_on_sim_on_msg">Lennurežiim on sees. Kas soovite lennurežiimi välja lülitada?</string>  
+	<string name="confirm_radio_msg_single">Lennurežiim lülitati sisse. Kas soovite selle välja lülitada?</string>
+	<string name="confirm_pin_title">SIM lukustatud</string>
+	<string name="confirm_pin_title_uim">UIM lukustatud</string>
+	<string name="confirm_pin_title_card">Kaart lukustatud</string>
+	<string name="confirm_pin_msg">Valitud SIM on nüüd lukus. Avage see esmalt.</string>
+	<string name="confirm_pin_msg_uim">Valitud UIM kaart on nüüd lukustatud. Palun vabastage 		see kõigepealt.</string>
+	<string name="confirm_pin_msg_card">Valitud kaart on nüüd lukustatud. Palun vabastage 		see kõigepealt.</string>
+	<string name="confirm_simmelock_title">SIM ME lukustatud</string>
+	<string name="confirm_simmelock_msg">Valitud SIM-i pesa on nüüd lukus. Avage see esmalt.</string>
+	<string name="confirm_simmelock_msg_uim">Valitud UIM pesa on nüüd lukustatud. Palun vabastage 		see kõigepealt.</string>
+	<string name="confirm_simmelock_msg_card">Valitud pesa on nüüd lukustatud. Palun vabastage 		see kõigepealt.</string>
+	<string name="confirm_fdn_title">FDN aktiveeritud</string>
+	<string name="confirm_fdn_msg">Valiknumbrid on aktiveeritud.</string>
+	<string name="confirm_roaming_title">Rändluse hoiatus</string>
+	<string name="confirm_roaming_msg">SIM-kaart, mida hakkate kasutama, on rändlusrežiimil. Kohaliku võrgu SIM pole kasutatav. Kas soovite jätkata?</string>
+	<string name="confirm_roaming_msg_uim">UIM kaart, mida hakkate kasutama, on 		nüüd rändlusvõrgus. Kohalik UIM ei ole praegu saadaval. Kas soovite jätkata?</string>
+	<string name="confirm_roaming_msg_card">Kaart, mida hakkate kasutama, on 		nüüd rändlusvõrgus. Kohalik kaart ei ole praegu saadaval. Kas soovite jätkata?</string>
+  <string name="confirm_roaming_withPrefer_msg">SIM-kaart, mida hakkate kasutama, on rändlusrežiimil. Kas soovite jätkata kohaliku SIM-i kaudu?</string>
+  <string name="confirm_roaming_withPrefer_msg_uim">SIM kaart, mida hakkate kasutama, on nüüd rändlusvõrgus. Kas soovite jätkate kohaliku UIM-i kaudu?</string>
+  <string name="confirm_roaming_withPrefer_msg_card">SIM kaart, mida hakkate kasutama, on nüüd rändlusvõrgus. Kas soovite jätkate kohaliku kaardi kaudu?</string>
+  <string name="confirm_roaming_lbutton">"Jätka"</string>
+  <string name="confirm_roaming_rbutton">"Tühista"</string>
+  <string name="confirm_roamingWithPrefer_lbutton">Kohalik SIM</string>
+  <string name="confirm_roamingWithPrefer_lbutton_uim">Kohalik UIM</string>
+  <string name="confirm_roamingWithPrefer_lbutton_card">Kohalik kaart</string>
+  <string name="confirm_roamingWithPrefer_rbutton">Rändluse SIM</string>
+  <string name="confirm_roamingWithPrefer_rbutton_uim">Rändluse UIM</string>
+  <string name="confirm_roamingWithPrefer_rbutton_card">Rändluse kaart</string>
+	<string name="confirm_roaming_for3Sims_msg">SIM-kaart, mida hakkate kasutama, on rändlusvõrgus. Kas soovite jätkata?</string>
+  <string name="confirm_roaming_for3Sims_msg_uim">UIM kaart, mida hakkate kasutama, on 		nüüd rändlusvõrgus. Kas soovite jätkata?</string>
+  <string name="confirm_roaming_for3Sims_msg_card">Kaart, mida hakkate kasutama, on 		nüüd rändlusvõrgus. Kas soovite jätkata?</string>
+	<string name="confirm_radio_lbutton">"Lülita sisse"</string>
+	<string name="confirm_unlock_lbutton">"Ava"</string>
+	<string name="confirm_unlock_fail">Toiming tühistatud</string>
+	<string name="confirm_turnon_radio_fail">Toiming tühistatud</string>
+	<string name="confirm_permit_roaming_fail">Tühistate toimingu rändluse SIM-il</string>
+	<string name="confirm_permit_roaming_fail_uim">Tühistage see toiming rändluse UIM-il</string>
+	<string name="confirm_permit_roaming_fail_card">Tühistage see toiming rändluse kaardil</string>
+	<string name="confirm_sim_locked_message">SIM-kaart on püsivalt lukustatud</string>
+	<string name="confirm_sim_locked_message_uim">UIM kaart on püsivalt lukustatud</string>
+	<string name="confirm_sim_locked_message_card">Kaart on püsivalt lukustatud</string>	
+    <string name="confirm_slot_locked_message">Pesa on püsivalt lukustatud</string>
+	<string name="button_yes">"Jah"</string>  
+	<string name="button_no">"Ei"</string>  
+</resources>

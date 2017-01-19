@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<MPD
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="urn:mpeg:dash:schema:mpd:2011"
+  xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd"
+  type="static"
+  mediaPresentationDuration="PT1S"
+  minBufferTime="PT1.152000S"
+  maxSubsegmentDuration="PT1.152000S"
+  profiles="urn:mpeg:dash:profile:isoff-on-demand:2011,http://xmlns.sony.net/metadata/mpeg/dash/profile/senvu/2012">
+
+  <BaseURL>http://cdn.mpeg-dash.com/</BaseURL>
+
+  <Period id="P1" duration="PT1S">
+    <AdaptationSet  id="1" group="2" contentType="audio" mimeType="audio/vnd.sony.m4a" codecs="mp4a.40.5" audioSamplingRate="48000" lang="en" subsegmentAlignment="true">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="1_1" bandwidth="96000">
+        <BaseURL>Audio26.m4a</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="2" group="3" contentType="text" mimeType="application/vnd.sony.m4t" codecs="smtt" par="16:9" sar="1:1" lang="en">
+      <Role schemeIdUri="http://xmlns.sony.net/metadata/mpeg/dash/role/2012" value="forcedSubtitle"/>
+      <Representation id="2_1" bandwidth="0" width="854" height="480">
+        <BaseURL>Subtitle72.m4t</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="3" group="1" contentType="video" mimeType="video/vnd.sony.m4v" codecs="avc1.4D401E" par="16:9" sar="1:1" minBandwidth="4500000" maxBandwidth="4500000" minWidth="854" maxWidth="854" minHeight="480" maxHeight="480" frameRate="24000/1001" scanType="progressive" subsegmentAlignment="true" subsegmentStartsWithSAP="1" maximumSAPPeriod="0.800000">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="3_1" bandwidth="4500000" width="854" height="480" mediaStreamStructureId="1">
+        <BaseURL>Video36.m4v</BaseURL>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

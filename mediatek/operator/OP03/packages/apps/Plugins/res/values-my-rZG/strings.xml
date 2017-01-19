@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--* Copyright Statement:
+ *
+ * This software/firmware and related documentation ("MediaTek Software") are
+ * protected under relevant copyright laws. The information contained herein
+ * is confidential and proprietary to MediaTek Inc. and/or its licensors.
+ * Without the prior written permission of MediaTek inc. and/or its licensors,
+ * any reproduction, modification, use or disclosure of MediaTek Software,
+ * and information contained herein, in whole or in part, shall be strictly prohibited.
+ *
+ * MediaTek Inc. (C) 2012. All rights reserved.
+ *
+ * BY OPENING THIS FILE, RECEIVER HEREBY UNEQUIVOCALLY ACKNOWLEDGES AND AGREES
+ * THAT THE SOFTWARE/FIRMWARE AND ITS DOCUMENTATIONS ("MEDIATEK SOFTWARE")
+ * RECEIVED FROM MEDIATEK AND/OR ITS REPRESENTATIVES ARE PROVIDED TO RECEIVER ON
+ * AN "AS-IS" BASIS ONLY. MEDIATEK EXPRESSLY DISCLAIMS ANY AND ALL WARRANTIES,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NONINFRINGEMENT.
+ * NEITHER DOES MEDIATEK PROVIDE ANY WARRANTY WHATSOEVER WITH RESPECT TO THE
+ * SOFTWARE OF ANY THIRD PARTY WHICH MAY BE USED BY, INCORPORATED IN, OR
+ * SUPPLIED WITH THE MEDIATEK SOFTWARE, AND RECEIVER AGREES TO LOOK ONLY TO SUCH
+ * THIRD PARTY FOR ANY WARRANTY CLAIM RELATING THERETO. RECEIVER EXPRESSLY ACKNOWLEDGES
+ * THAT IT IS RECEIVER'S SOLE RESPONSIBILITY TO OBTAIN FROM ANY THIRD PARTY ALL PROPER LICENSES
+ * CONTAINED IN MEDIATEK SOFTWARE. MEDIATEK SHALL ALSO NOT BE RESPONSIBLE FOR ANY MEDIATEK
+ * SOFTWARE RELEASES MADE TO RECEIVER'S SPECIFICATION OR TO CONFORM TO A PARTICULAR
+ * STANDARD OR OPEN FORUM. RECEIVER'S SOLE AND EXCLUSIVE REMEDY AND MEDIATEK'S ENTIRE AND
+ * CUMULATIVE LIABILITY WITH RESPECT TO THE MEDIATEK SOFTWARE RELEASED HEREUNDER WILL BE,
+ * AT MEDIATEK'S OPTION, TO REVISE OR REPLACE THE MEDIATEK SOFTWARE AT ISSUE,
+ * OR REFUND ANY SOFTWARE LICENSE FEES OR SERVICE CHARGE PAID BY RECEIVER TO
+ * MEDIATEK FOR SUCH MEDIATEK SOFTWARE AT ISSUE.
+ *
+ * The following software/firmware and/or related documentation ("MediaTek Software")
+ * have been modified by MediaTek Inc. All revisions are subject to any receiver's
+ * applicable license agreements with MediaTek Inc.
+ */  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">ေအာ္ပေရတာ ပလပ္အင္ APK </string>
+    <string name="networksettings_tips_data_enabled">"Switch on data service? You may incur charges on data traffic!"</string>
+    <string name="networksettings_tips_data_disabled">"Switch off data service? Other services will get impacted, e.g. sending and receiving MMS or E-mail."</string>
+    <string name="network_roaming_warning">လွည့္လည္သြားျခင္းတြင္ အင္တာနက္သို႔ ခ်ိတ္ဆက္ျခင္းသည္ သင့္အတြက္ သီးသန္႔ အခေၾကးေငြ ကုန္က်ေစသည္။ သင့္ေအာ္ပေရတာသည္ သင့္ေဒတာ သံုးစြဲမႈသည္ တိက်ေသာ သတ္မွတ္ခ်က္မ်ားသို႔ ေရာက္တိုင္း သင့္ကို အေၾကာင္းၾကား လိမ့္မည္။ ႏိုင္ငံတကာ လွည့္လည္သြားျခင္း အခြန္ေဆာင္မႈမ်ားကို စစ္ေဆးၿပီး သင့္ေအာ္ပေရတာမွ သင္ႏွင့္အသင့္ေတာ္ဆံုး ေရြးခ်ယ္မႈကို ေရြးပါ။</string>
+    <string name="prefer_2g">2G ကြန္ရက္မ်ားသာ အသံုးျပဳပါ</string>
+    <string name="updating_settings">အဆင္အျပင္မ်ား အဆင့္ျမႇင့္ေန\u2026</string>
+    <string name="tethering_apn_settings_title">APN အဆင္အျပင္မ်ား</string>
+    <string name="tethering_apn_settings_summary">လႊင့္ထားျခင္း အတြက္ APN ကို စီစဥ္ထားရွိပါ</string> 
+</resources>

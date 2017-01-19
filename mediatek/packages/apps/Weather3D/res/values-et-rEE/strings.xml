@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3D ilm reaalajas</string>
+    <string name="last_update">"Viimati värskendatud"</string>
+    <string name="no_weather">Koputa sätet, et lisada linnasid</string>
+    <string name="no_network">Ühtegi võrku pole saadaval</string>
+    <string name="update_fail">Ilma värskendamine ebaõnnestus</string>
+    <string name="updating">Värskendamine</string>
+</resources>

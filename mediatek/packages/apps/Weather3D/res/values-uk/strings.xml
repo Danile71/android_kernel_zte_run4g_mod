@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Погода 3D наживо</string>
+    <string name="last_update">Останнє поновлення</string>
+    <string name="no_weather">Натисніть налаштування, щоб додати міста</string>
+    <string name="no_network">Недоступна мережа</string>
+    <string name="update_fail">Не поновлено погоду</string>
+    <string name="updating">Поновлення</string>
+</resources>

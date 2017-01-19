@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">權限控制</string>
+    <string name="accept_perm">"允許"</string>
+    <string name="deny_perm">"拒絕"</string>
+    <string name="notify_check_hint">不要再提示。</string>
+	<string name="notify_dialog_title">"安全性警告"</string>
+	<string name="notify_dialog_msg_body"><xliff:g id="pkg_name">%s</xliff:g>正在嘗試 <xliff:g id="perm_name">%s</xliff:g>。</string>
+	<string name="time_count_down_hint">（經過<xliff:g id="time">%s</xliff:g>秒後自動拒絕。）</string>
+    <string name="notification_control_state_title">允許應用程式</string>
+    <string name="notification_control_state_summary">允許的應用程式管理員已關閉。</string>
+    <string name="toast_deny_msg_body"><xliff:g id="pkg_name">%s</xliff:g> 拒絕了 <xliff:g id="perm_name">%s</xliff:g>。</string>
+    <string name="manage_permission_app_label">允許應用程式</string>
+    <string name="manage_permission_summary">管理允許應用程式的安全性與私隱保護</string>
+    <string name="permissions_label">"權限"</string>
+    <string name="apps">"應用程式"</string>
+    <string name="no_applications">"沒有應用程式。"</string>
+    <string name="version_text">"版本 <xliff:g id="VERSION_NUM">%1$s</xliff:g>"</string>
+    <string name="app_count_unit_single">"應用程式"</string>
+    <string name="app_count_unit_plural">"應用程式"</string>
+    <string name="perm_count_unit_single">許可權</string>
+    <string name="perm_count_unit_plural">"權限"</string>
+    <string name="no_app_use_perm">沒有應用程式使用了這權限。</string>
+    <string name="no_perm_is_used">這應用程式不需要權限。</string>
+    <string name="notify_user_switch_on">打開開關以管理應用程式權限。</string>
+    <string name="alert_dlg_title">關閉保護嗎？</string>
+    <string name="alert_dlg_mgs">應用程式將不會需要你的通知而直接得到允許。</string>
+    <string name="foreground_notification_title">應用程式管理員正在運行</string>
+    <string name="foreground_notification_summary">點擊以查看詳細的應用程式權限設定。</string>
+    <string name="auto_boot_pref_title">自動開始管理員</string>
+    <string name="auto_boot_pref_summary">允許或拒絕應用程式在開機時自動開啟</string>
+    <string name="no_auto_boot_app">沒有自動開啟的應用程式。</string>
+    <plurals name="autoboot_app_desc_allow">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g> 應用程式被允許，</item>
+        <item quantity="other"><xliff:g id="app_count">%1$d</xliff:g> 應用程式被允許，</item>
+    </plurals>
+   <plurals name="autoboot_app_desc_deny">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g> 應用程式被拒絕。</item>
+        <item quantity="other"><xliff:g id="app_count">%1$d</xliff:g> 應用程式被拒絕。</item>
+   </plurals>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="permission_label">
+        <item>Fer trucades</item>
+        <item>Iniciar trucades amb múltiples interlocutors</item>
+	    <item>"envia SMS"</item>
+	    <item>"Envia un MMS"</item>
+	    <item>Inicia l’enregistrament sonor</item>
+	    <item>Read SMS</item>
+	    <item>Modifica SMS</item>
+	    <item>Llegeix MMS</item>
+	    <item>Modifica MMS</item>
+	    <item>Read contacts</item>
+	    <item>Modify contacts</item>
+	    <item>Llegeix els registres de trucades</item>
+	    <item>Modifica els registres de trucades</item>
+	    <item>Obtén la posició</item>
+	    <item>Utilitza la càmera</item>
+	    <item>Activa la connexió de dades</item>
+	    <item>"Activa la Wi-fi"</item>
+	    <item>"Activa el Bluetooth"</item>
+	    <item>Fes servir el HotKnot</item>
+    </string-array>
+    <string-array name="perm_status_entry">
+        <item>"Permet sempre"</item>
+        <item>Pregunta sempre</item>
+        <item>Rebutja-ho sempre</item>
+    </string-array>
+    <string-array name="confirm_msg_body">
+        <item>fes una trucada</item>
+        <item>inicia trucades amb múltiples interlocutors</item>
+        <item>envia un SMS</item>
+        <item>envia un MMS</item>
+        <item>inicia l’enregistrament sonor</item>
+        <item>read SMS</item>
+        <item>modifica SMS</item>
+        <item>llegeix MMS</item>
+        <item>modifica MMS</item>
+        <item>read contacts</item>
+        <item>modify contacts</item>
+        <item>llegeix els registres de trucades</item>
+        <item>modifica els registres de trucades</item>
+        <item>obtén la posició actual</item>
+        <item>utilitza la càmera</item>
+        <item>activa la connexió de dades</item>
+        <item>"Activa la Wi-fi"</item>
+        <item>"Activa el Bluetooth"</item>
+        <item>fes servir el HotKnot</item>
+    </string-array>
+</resources>

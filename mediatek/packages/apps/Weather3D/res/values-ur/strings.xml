@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">3D رواں موسم</string>  
+    <string name="last_update">آخری بار تازہ ہوا</string>   
+    <string name="no_weather">شہر شامل کرنے کیلئے تھپکی دیں</string>  
+    <string name="no_network">نیٹ ورک دستیاب نہیں ہے</string>  
+    <string name="update_fail">موسم کی تازہ کاری ناکام</string>  
+    <string name="updating">تجدید کررہا ہے</string>  
+</resources>

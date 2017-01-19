@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">نوٹ بک</string>
+    <string name="no_note">کوئی یاد داشتیں نہیں ہیں</string>
+    <string name="selectednumber">منتخب شدہ</string>
+    <string name="delete_confirm_current">یاد داشت حذف ہوجائے گی۔</string>
+    <string name="delete_confirm_one">منتخب کردہ یاد داشت حذف ہوجائے گی۔</string>
+    <string name="delete_confirm">منتخب کردہ یاد داشتیں حذف ہوجائیں گی۔</string>
+    <string name="delete_confirm_title">رابطہ مٹائيں</string>
+    <string name="delete_confirm_cancel">منسوخ</string>
+    <string name="delete_confirm_ok">ٹھیک ہے</string>
+    <string name="title_bar_selected">منتخب شدہ</string>
+    <string name="editor_full">آپ زیادہ سے زیادہ 1500 حروف درج کرسکتے ہیں۔</string>
+    <string name="sdcard_full" product="tablet">آلے کے اسٹوریج میں کافی جگہ نہیں ہے۔ براہ کرم کچھ اسٹوریج خالی کریں۔</string>
+    <string name="sdcard_full" product="default">فون کے اسٹوریج میں کافی جگہ نہیں ہے۔ براہ کرم کچھ اسٹوریج خالی کریں۔</string>
+    <string name="save_none">خالی یاد داشت نہیں بنی ہے</string>
+    <string name="empty_note">خالی یاد داشت</string>
+    <string name="delete_progress">حذف کررہا ہے</string>
+    <string name="title_notes_list">نوٹ بک</string>
+    <string name="title_notes_view">پڑھ رہا ہے</string>
+    <string name="title_notes_edit">ہوگيا</string>
+    <string name="title_loading">لوڈ‎ ‎ہورہا‎ ‎ہے‎...‎</string>
+    <string name="menu_delete">سبھی یاد داشتیں حذف کریں</string>
+    <string name="delete_all_notes_confirm">سبھی یاد داشتیں حذف ہوجائیں گی۔</string>
+    <string name="note_saved">یاد داشت محفوظ ہوگئی</string>
+    <string name="no_selected">کوئی یاد داشت منتخب نہیں ہوئی</string>
+    <string name="menu_sort_by_modify">ترمیم شدہ وقت کے لحاظ سے ترتیب دیں</string>
+    <string name="menu_sort_by_tab">ٹیبز کے لحاظ سے ترتیب دیں</string>
+    <string name="menu_work">کام</string>
+    <string name="menu_personal">ذاتی</string>
+    <string name="menu_family">کنبہ جاتی امور</string>
+    <string name="menu_study">مطالعہ</string>
+    <string name="menu_none">غیر زمرہ بند</string>
+    <string name="menu_add_button">نیا</string>
+    <string name="menu_delete_button">رابطہ مٹائيں</string>
+    <string name="menu_edit_button">رابطہ ترمیم کریں</string>
+    <string name="menu_deselect_all_button">"تمام کو غیر منتخب کریں"</string>
+    <string name="menu_select_all_button">تمام منتخب کریں</string>
+    <string name="month">M</string>
+    <string name="day">D</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> منتخب </string>
+    <string name="type_note">یاد داشت ٹائپ کریں</string>
+</resources>

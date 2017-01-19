@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="permission_label">
+        <item>ေခၚဆိုမႈမ်ား ျပဳလုပ္ပါ</item>
+        <item>မာတီ-ပါတီေခၚဆိုမႈမ်ား စတင္ပါ</item>
+	    <item>SMS ေပးပို႔ပါ</item>
+	    <item>MMS ေပးပို႔ပါ</item>
+	    <item>အသံဖမ္းျခင္း စတင္ပါ</item>
+	    <item>Read SMS</item>
+	    <item>SMS ကို ျပဳျပင္ပါ</item>
+	    <item>MMS ကို ဖတ္ပါ</item>
+	    <item>MMS ကို ျပဳျပင္ပါ</item>
+	    <item>Read contacts</item>
+	    <item>Modify contacts</item>
+	    <item>ေခၚဆိုမႈမွတ္တမ္းမ်ားကို ဖတ္ပါ</item>
+	    <item>ေခၚဆိုမႈမွတ္တမ္းမ်ားကို ျပဳျပင္ပါ</item>
+	    <item>ေနရာ ရယူျခင္း</item>
+	    <item>ကင္မရာကို အသံုးျပဳပါ</item>
+	    <item>ေဒတာခ်ိတ္ဆက္မႈကို ဖြင့္ပါ</item>
+	    <item>ဝိုင္-ဖိုင္ဖြင့္ပါ</item>
+	    <item>ဘလူးတုသ္ ဖြင့္ရန္</item>
+	    <item>HotKnot ကို အသံုးျပဳပါ</item>
+    </string-array>
+    <string-array name="perm_status_entry">
+        <item>အျမဲတမ္းခြင့္ျပဳပါ</item>
+        <item>အျမဲတမ္း ေမးပါ</item>
+        <item>အျမဲတမ္းျငင္းပယ္ပါ</item>
+    </string-array>
+    <string-array name="confirm_msg_body">
+        <item>ေခၚဆိုမႈတစ္ခု ျပဳလုပ္ပါ</item>
+        <item>မာတီ-ပါတီေခၚဆိုမႈမ်ား စတင္ပါ</item>
+        <item>SMS တစ္ေစာင္ ပို႔ပါ</item>
+        <item>MMS တစ္ေစာင္ ပို႔ပါ</item>
+        <item>အသံဖမ္းျခင္း စတင္ပါ</item>
+        <item>read SMS</item>
+        <item>SMS ကို ျပဳျပင္ပါ</item>
+        <item>MMS ကို ဖတ္ပါ</item>
+        <item>MMS ကို ျပဳျပင္ပါ</item>
+        <item>read contacts</item>
+        <item>modify contacts</item>
+        <item>ေခၚဆိုမႈမွတမ္း ဖတ္ပါ</item>
+        <item>ေခၚဆိုမႈမွတ္တမ္းမ်ားကို ျပဳျပင္ပါ</item>
+        <item>သင့္လက္႐ွိေနရာကို ရယူပါ</item>
+        <item>ကင္မရာကို အသံုးျပဳပါ</item>
+        <item>ေဒတာခ်ိတ္ဆက္မႈကို ဖြင့္ပါ</item>
+        <item>ဝိုင္-ဖိုင္ဖြင့္ပါ</item>
+        <item>ဘလူးတုသ္ ဖြင့္ရန္</item>
+        <item>HotKnot ကို အသံုးျပဳပါ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"Напред"</string>
+    <string name="scroll_left_bar_title">Превъртете за други режими на задържане</string>
+    <string name="zoome_title">Увеличаване/намаляване</string>
+
+    <string name="vcs_guide_summary">Кажете име за намиране на контакти.\nОпитайте!</string>
+    <string name="vcs_guide_title">Гласово търсене на контакти</string>
+    <string name="camera_mav_title">Преместете се наляво от обекта и започнете да снимате.</string>
+    <string name="refocus_guide_title">Щракнете на образа за промяна позицията на фокуса</string>
+    <string name="vcs_guide_title1">Кажете има за намиране на контакти.</string>
+    <string name="vcs_guide_title2">Чукнете тук за разрешаване на функцията.\nОпитайте!</string>    
+	
+</resources>

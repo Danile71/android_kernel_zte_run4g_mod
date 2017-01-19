@@ -1,0 +1,4 @@
+custom_name = NULL
+boot = 1
+recovery = 1
+system = 1

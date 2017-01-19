@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MenúServeiClient</string>
+    <string name="title_activity_main">MenúServeiClient</string>
+    <string name="title">Menú de servei d’atenció al client</string>
+    <string name="customer_hotline">Línia directa del client</string>
+    <string name="mobile_ehall">Sala virtual mòbil</string>
+    <string name="subscription">La meva subscripció</string>
+    <string name="prl_update">Actualització de PRL</string>
+    <string name="global_hotline">Línia directa global</string>
+    <string name="guide">Guia de servei del telèfon</string>
+    <string name="hotline_desc">La línia directa d’atenció al client de China Telecom és el 10000 i la línia directa d’autoservei és el 10001. Si ets en itinerància nacional i vols marcar el número de la línia directa d’atenció al client local, has d’afegir-hi el prefix.</string>
+    <string name="hotline">10000</string>
+    <string name="self_hotline">10001</string>
+    <string name="message">"Missatge"</string>
+    <string name="wap">WAP</string>
+    <string name="subscription_inquiry">Consulta de subscripció</string>
+    <string name="service_unscribe">Cancel·la inscripció al servei</string>
+    <string name="global_hotline_desc">Si ets a l’estranger o a en itinerància a les regions de Hong Kong, Macao i Taiwan, pots marcar el +8618918910000, que és el número de la línia directa global de China Telecom. La trucada és gratuïta amb aquest dispositiu. Consulta el missatge de benvinguda d’itinerància per obtenir més informació. També pots visitar http://manyou.ct10000.com</string>
+    <string name="sum_search_networks">"Cerca totes les xarxes disponibles"</string>
+    <string name="send_ok">S’ha enviat correctament</string>
+    <string name="send_fail">"No s'ha pogut enviar el missatge"</string>
+    <string name="sending">Comprova el servei d’enviament d’identificació de trucada</string>
+    <string name="to">No hi ha cap aplicació disponible per imprimir el contacte.</string>
+    <string name="sim_not_available">Comprova que la targeta UIM de China Telecom està disponible</string>
+    <string name="search_networks">"Cerca totes les xarxes disponibles"</string>
+    <string name="waiting_networks">Espera un moment i fes clic quan tinguis connexió a Internet</string>
+    <string name="guide_desc">"Línia directa de servei d’atenció al client de MediaTek: 010-82861128  Lloc web oficial de MediaTek: http://www.mediatek.com"</string>
+</resources>

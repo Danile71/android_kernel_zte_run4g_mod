@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Piezīmjgrāmatiņa</string>
+    <string name="no_note">Nav piezīmju</string>
+    <string name="selectednumber">Atlasīts</string>
+    <string name="delete_confirm_current">Šī piezīme tiks dzēsta.</string>
+    <string name="delete_confirm_one">Atlasītā piezīme tiks dzēsta.</string>
+    <string name="delete_confirm">Vai tiešām jādzēš atlasītās piezīmes?</string>
+    <string name="delete_confirm_title">"Dzēst"</string>
+    <string name="delete_confirm_cancel">"Atcelt"</string>
+    <string name="delete_confirm_ok">"Labi"</string>
+    <string name="title_bar_selected">Atlasīts</string>
+    <string name="editor_full">Maksimāli varat ievadīt 1500 rakstzīmes</string>
+    <string name="sdcard_full" product="tablet">Ierīces atmiņā nepietiek vietas. Atbrīvojiet nedaudz vietas.</string>
+    <string name="sdcard_full" product="default">Tālruņa atmiņā nepietiek vietas. Atbrīvojiet nedaudz vietas.</string>
+    <string name="save_none">Nevar izveidot tukšu piezīmi</string>
+    <string name="empty_note">Tukša piezīme</string>
+    <string name="delete_progress">Dzēš</string>
+    <string name="title_notes_list">Piezīmjgrāmatiņa</string>
+    <string name="title_notes_view">Lasīšana</string>
+    <string name="title_notes_edit">"Gatavs"</string>
+    <string name="title_loading">Notiek ielāde...</string>
+    <string name="menu_delete">Dzēst visas piezīmes</string>
+    <string name="delete_all_notes_confirm">Visas piezīmes tiks dzēstas.</string>
+    <string name="note_saved">Piezīme saglabāta</string>
+    <string name="no_selected">Nav atlasīta piezīme</string>
+    <string name="menu_sort_by_modify">Kārtot pēc modificēšanas laika</string>
+    <string name="menu_sort_by_tab">Kārtot pēc cilnēm</string>
+    <string name="menu_work">"Darbs"</string>
+    <string name="menu_personal">"PERSONISKIE"</string>
+    <string name="menu_family">Ģimenes lietas</string>
+    <string name="menu_study">Mācības</string>
+    <string name="menu_none">Bez kategorijas</string>
+    <string name="menu_add_button">"jauns"</string>
+    <string name="menu_delete_button">"Dzēst"</string>
+    <string name="menu_edit_button">"Rediģēt"</string>
+    <string name="menu_deselect_all_button">"Atcelt visu atlasi"</string>
+    <string name="menu_select_all_button">"Atlasīt visu"</string>
+    <string name="month">"m"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> atlasīts(-i)</string>
+    <string name="type_note">Ievadīt piezīmi</string>
+</resources>

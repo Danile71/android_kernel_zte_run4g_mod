@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">El temps en directe en 3D</string>
+    <string name="last_update">"Última actualització"</string>
+    <string name="no_weather">"Toca l'ajust per afegir ciutats"</string>
+    <string name="no_network">No hi ha cap xarxa disponible</string>
+    <string name="update_fail">Error en actualitzar el temps</string>
+    <string name="updating">Actualitzant</string>
+</resources>

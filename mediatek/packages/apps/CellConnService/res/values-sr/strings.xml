@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">CellConnectionService</string>
+	<string name="button_ok">"Потврди"</string>
+	<string name="button_cancel">"Откажи"</string>
+	<string name="confirm_radio_title">SIM картица је искључена</string>
+	<string name="confirm_radio_title_uim">UIM картица искључена</string>
+	<string name="confirm_radio_title_card">Картица искључена</string>
+	<string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> је сада искључен. Желите ли да укључите ову SIM картицу?</string>
+  <string name="confirm_radio_msg_uim"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> 		је сада искључен. Желите ли да укључите ову UIM картицу?</string>
+  <string name="confirm_radio_msg_card"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> 		је сада искључен. Желите ли да укључите ову картицу?</string>
+	<string name="confirm_radio_flight_mode_on_and_msg">Режим за лет је укључен и</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> је сада искључен. Желите ли да искључите режим за лет и да укључите ову SIM  картицу?</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_uim"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> 		је сада искључен. Желите ли да искључите режим рада у авиону и укључите ову UIM картицу?</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_card"><xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> 		је сада искључен. Желите ли да искључите режим рада у авиону и укључите ову картицу?</string>	
+	<string name="confirm_radio_flight_mode_on_sim_on_msg">Режим за лет је укључен. Да ли желите да искључите режим за лет?</string>  
+	<string name="confirm_radio_msg_single">Режим за рад у авиону је сада укључен, да ли желите да га искључите?</string>
+	<string name="confirm_pin_title">SIM закључана</string>
+	<string name="confirm_pin_title_uim">UIM картица закључана</string>
+	<string name="confirm_pin_title_card">Картица закључана</string>
+	<string name="confirm_pin_msg">Одабрана SIM картица је сада закључана. </string>
+	<string name="confirm_pin_msg_uim">Изабрана UIM картица је сада закључана. Прво је откључајте.</string>
+	<string name="confirm_pin_msg_card">Изабрана картица је сада закључана. Прво је откључајте.</string>
+	<string name="confirm_simmelock_title">SIM ME закључана</string>
+	<string name="confirm_simmelock_msg">Одабрани SIM прорез је сада закључан. Молимо, прво га 		откључајте.</string>
+	<string name="confirm_simmelock_msg_uim">Изабрани UIM слот је сада закључан. Прво га откључајте.</string>
+	<string name="confirm_simmelock_msg_card">Изабрани слот је сада закључан. Прво га откључајте.</string>
+	<string name="confirm_fdn_title">FDN укључен</string>
+	<string name="confirm_fdn_msg">Бирање фиксних бројева је укључено.</string>
+	<string name="confirm_roaming_title">Упозорење о ромингу</string>
+	<string name="confirm_roaming_msg">SIM картица коју намеравате да користите је сада у ромингу. Тренутно нема доступне локалне SIM картице. Желите ли да наставите?</string>
+	<string name="confirm_roaming_msg_uim">UIM картица коју желите да користите је сада у ромингу. Локална UIM картица није сада доступна. Желите ли да наставите?</string>
+	<string name="confirm_roaming_msg_card">Картица коју желите да користите је сада у ромингу. Локална картица није сада доступна. Желите ли да наставите?</string>
+  <string name="confirm_roaming_withPrefer_msg">SIM картица коју намеравате да користите је сада у ромингу. Желите ли да наставите преко локалне SIM картице?</string>
+  <string name="confirm_roaming_withPrefer_msg_uim">SIM картица коју желите да користите је сада у ромингу. Желите ли да наставите преко локалне UIM картице?</string>
+  <string name="confirm_roaming_withPrefer_msg_card">SIM картица коју желите да користите је сада у ромингу. Желите ли да наставите преко локалне картице?</string>
+  <string name="confirm_roaming_lbutton">"Настави"</string>
+  <string name="confirm_roaming_rbutton">"Откажи"</string>
+  <string name="confirm_roamingWithPrefer_lbutton">Локална SIM</string>
+  <string name="confirm_roamingWithPrefer_lbutton_uim">Локална UIM картица</string>
+  <string name="confirm_roamingWithPrefer_lbutton_card">Локална картица</string>
+  <string name="confirm_roamingWithPrefer_rbutton">SIM у ромингу</string>
+  <string name="confirm_roamingWithPrefer_rbutton_uim">UIM картица у ромингу</string>
+  <string name="confirm_roamingWithPrefer_rbutton_card">Картица у ромингу</string>
+	<string name="confirm_roaming_for3Sims_msg">SIM картица коју намеравате да користите је сада у ромингу. Желите ли да наставите?</string>
+  <string name="confirm_roaming_for3Sims_msg_uim">UIM картица коју желите да користите је сада у ромингу. Желите ли да наставите?</string>
+  <string name="confirm_roaming_for3Sims_msg_card">Картица коју желите да користите је сада у ромингу. Желите ли да наставите?</string>
+	<string name="confirm_radio_lbutton">"Укључи"</string>
+	<string name="confirm_unlock_lbutton">"Откључај"</string>
+	<string name="confirm_unlock_fail">Радња је отказана</string>
+	<string name="confirm_turnon_radio_fail">Радња је отказана</string>
+	<string name="confirm_permit_roaming_fail">Отказали сте ову радњу за SIM у роамингу</string>
+	<string name="confirm_permit_roaming_fail_uim">Отказујете ову радњу на UIM картици у ромингу</string>
+	<string name="confirm_permit_roaming_fail_card">Отказујете ову радњу на картици у ромингу</string>
+	<string name="confirm_sim_locked_message">SIM картица је трајно закључана</string>
+	<string name="confirm_sim_locked_message_uim">UIM картица је трајно закључана</string>
+	<string name="confirm_sim_locked_message_card">Картица је трајно закључана</string>	
+    <string name="confirm_slot_locked_message">Прорез је трајно закључан</string>
+	<string name="button_yes">"Да"</string>  
+	<string name="button_no">"Не"</string>  
+</resources>

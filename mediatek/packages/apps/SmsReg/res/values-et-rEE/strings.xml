@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Seadmehaldus</string>
+    <string name="manage_permission_app_label">Seadmehalduse luba</string>
+    <string name="send_message_dlg_title">Seadmehaldus</string>
+    <string name="send_message_dlg_check_hint">"Jäta minu valik meelde"</string>
+    <string name="send_message_dlg_mgs">CMCC notice: We need to register your device to device management platform to provide the free post-service (Post-service is a platform by CMCC that can manage the terminal devices. It provides you the service of remote settings and app upgrade. ). A free message of device information will be sent for registration. The message will be sent only once and do not need you personal data (Do not send of Hong Kong, Macao, Taiwan and international roaming).  Select “OK” to agree to register and use the service. Select “Cancel” to give up and no service will be provided from CMCC.</string>
+    <string name="confirm_dlg_title">Seadmehaldus</string>
+    <string name="confirm_dlg__msg">CMCC teatis: CMCC tasuta postiteenust ei pakuta, kui te teenuse tühistate. Kas soovite kindlasti tühistada?</string>
+    <string name="alert_dlg_ok_button">"OK"</string>
+    <string name="alert_dlg_cancel_button">"Tühista"</string>
+    <string name="send_message_notification_tickerText">Seadmehalduse loa taotlus</string>
+    <string name="send_message_notification_title">Seadmehaldus</string>
+    <string name="send_message_notification_msg">Seadmehalduse teate saatmise loa taotlus</string>
+</resources>

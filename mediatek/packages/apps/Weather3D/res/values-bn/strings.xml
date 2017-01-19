@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">থ্রিডি সরাসরি আবহওয়া</string>  
+    <string name="last_update">সর্বশেষ আপডেটকৃত</string>   
+    <string name="no_weather">শহর যোগ করতে সেটিংয়ে টোকা দিন</string>  
+    <string name="no_network">কোন নেটওয়ার্ক নেই</string>  
+    <string name="update_fail">আবহওয়া আপডেট করতে ব্যর্থ হয়েছে</string>  
+    <string name="updating">আপডেট করা</string>  
+</resources>

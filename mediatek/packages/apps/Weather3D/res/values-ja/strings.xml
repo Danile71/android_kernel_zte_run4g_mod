@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3Dライブ天気</string>
+    <string name="last_update">"最終更新"</string>
+    <string name="no_weather">都市を追加するには、設定をタップします</string>
+    <string name="no_network">ネットワークが利用できません</string>
+    <string name="update_fail">天気の更新に失敗しました</string>
+    <string name="updating">更新中</string>
+</resources>

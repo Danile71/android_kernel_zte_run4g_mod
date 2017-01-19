@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"Nästa"</string>
+    <string name="scroll_left_bar_title">Skrolla för att visa fler bildtagningslägen</string>
+    <string name="zoome_title">Zooma in/ut</string>
+    <string name="vcs_guide_summary">Säg namnet för att hitta kontakter.\nTesta det!</string>
+    <string name="vcs_guide_title">Röstsökning efter kontakt</string>
+    <string name="camera_mav_title">Flytta till vänster om objektet för att starta fotograferingen</string>
+    <string name="refocus_guide_title">Klicka på bilden för att ändra fokusläge</string>
+    <string name="vcs_guide_title1">Säg namnet för att hitta kontakterna.</string>
+    <string name="vcs_guide_title2">Tryck här för att aktivera funktionen.\nProva den!</string>    
+</resources>

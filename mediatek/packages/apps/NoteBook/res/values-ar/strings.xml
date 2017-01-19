@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">دفتر ملاحظات</string>
+    <string name="no_note">لا توجد ملاحظات</string>
+    <string name="selectednumber">تم التحديد</string>
+    <string name="delete_confirm_current">سيتم حذف الملاحظة.</string>
+    <string name="delete_confirm_one">سيتم حذف الملاحظة المحددة.</string>
+    <string name="delete_confirm">سيتم حذف الملاحظات المحددة.</string>
+    <string name="delete_confirm_title">"حذف"</string>
+    <string name="delete_confirm_cancel">"إلغاء"</string>
+    <string name="delete_confirm_ok">"موافق"</string>
+    <string name="title_bar_selected">تم التحديد</string>
+    <string name="editor_full">يمكنك إدخال 1500 حرق بحدٍ أقصى</string>
+    <string name="sdcard_full" product="tablet">لا توجد مساحة كافية على ذاكرة تخزين الجهاز، يُُرجى توفير بعض المساحة.</string>
+    <string name="sdcard_full" product="default">لا توجد مساحة كافية على ذاكرة تخزين الهاتف، يُُرجى توفير بعض المساحة.</string>
+    <string name="save_none">لم يتم إنشاء ملاحظة فارغة</string>
+    <string name="empty_note">ملاحظة فارغة</string>
+    <string name="delete_progress">جاري الحذف</string>
+    <string name="title_notes_list">دفتر ملاحظات</string>
+    <string name="title_notes_view">قيد القراءة</string>
+    <string name="title_notes_edit">"تم"</string>
+    <string name="title_loading">جار التحميل...</string>
+    <string name="menu_delete">حذف كل الملاحظات</string>
+    <string name="delete_all_notes_confirm">سيتم حذف جميع الملاحظات.</string>
+    <string name="note_saved">تم حفظ الملاحظة</string>
+    <string name="no_selected">لم يتم تحديد ملاحظة</string>
+    <string name="menu_sort_by_modify">فرز حسب وقت التعديل</string>
+    <string name="menu_sort_by_tab">فرز حسب علامات التبويب</string>
+    <string name="menu_work">"العمل"</string>
+    <string name="menu_personal">"شخصي"</string>
+    <string name="menu_family">شأن عائلي</string>
+    <string name="menu_study">الدراسة</string>
+    <string name="menu_none">بدون فئة</string>
+    <string name="menu_add_button">"جديدة"</string>
+    <string name="menu_delete_button">"حذف"</string>
+    <string name="menu_edit_button">"تعديل"</string>
+    <string name="menu_deselect_all_button">"إلغاء تحديد الكل"</string>
+    <string name="menu_select_all_button">تحديد الكل</string>
+    <string name="month">"د"</string>
+    <string name="day">د</string>
+    <string name="selected_item_count">تم تحديد  <xliff:g id="count">%d</xliff:g>  </string>
+    <string name="type_note">كتابة الملاحظة</string>
+</resources>

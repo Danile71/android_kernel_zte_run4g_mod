@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 Google Inc.
+All Rights Reserved. -->
+<resources>
+
+    <!-- For Ct Message START-->
+    <dimen name="ct_conversation_list_item_subject_max_len">136dip</dimen>
+    <dimen name="dialpad_additional_edge_button_width">99px</dimen>
+    <dimen name="dialpad_additional_dial_button_width">138px</dimen>
+    <!-- For Ct Message END-->
+    <!-- Minimum height used with @drawable/list_section_divider_holo_custom.
+         Right now the drawable has implicit 32dip minimal height, which is confusing.
+         This value is for making the hidden configuration explicit in xml. -->
+    <dimen name="list_section_divider_min_height">32dip</dimen>
+    <!-- CT Phone Setting start -->
+    <dimen name="default_sim_preference_sim_indicator_padding">4dip</dimen>
+    <dimen name="data_usage_summary_sim_indicator_padding_left">3dip</dimen>
+    <dimen name="data_usage_summary_sim_indicator_margin_right">-2dip</dimen>
+    <!-- CT Phone Setting end -->
+    
+    <!-- CT Power saving mode -->
+    <dimen name="action_bar_switch_padding">16dip</dimen>
+    <!-- The fixed height of each tile -->
+    <dimen name ="quick_settings_cell_height">110dp</dimen>
+
+    <!-- For Ct 2013 spec start-->
+    <dimen name="call_banner_sim_indicator_icon_padding_right">3dip</dimen>
+    <dimen name="esurfing_dialing_button_margin">10dip</dimen>
+    <dimen name="esurfing_dialing_radio_button_text_size">13dip</dimen>
+    <dimen name="esurfing_dialing_guide_text_size">17dip</dimen>
+    <dimen name="esurfing_dialing_radio_button_margin">17dip</dimen>
+    <dimen name="esurfing_dialing_radio_button_pending_top">7dip</dimen>
+    <dimen name="esurfing_dialing_radio_text_margin">15dip</dimen>
+    <dimen name="esurfing_dialing_text_max_width">160dip</dimen>
+    <dimen name="esurfing_dialing_guide_left_margin">15dip</dimen>
+    <dimen name="country_select_button_margin">25dip</dimen>
+    <dimen name="country_select_button_pending_top">9dip</dimen>
+
+    <!-- For Ct 2013 spec end-->
+    <!-- keyguard start -->
+    <dimen name="kg_status_clock_ampm_font_size">14sp</dimen>
+    <dimen name="kg_status_customize_second_clock_time_font_size">26sp</dimen>
+    <dimen name="kg_status_customize_second_clock_ampm_font_size">9sp</dimen>
+    <dimen name="kg_status_customize_second_clock_localweekday_font_size">12sp</dimen>
+    <dimen name="kg_status_customize_first_clock_time_font_size">60sp</dimen>
+    <dimen name="kg_status_customize_first_clock_ampm_font_size">12sp</dimen>
+    <dimen name="kg_status_clock_font_size">75sp</dimen>
+    <!-- keyguard end -->
+
+    <!-- Text dimensions for dialpad keys -->
+    <dimen name="dialpad_key_numbers_size">52dp</dimen>
+    <dimen name="dialpad_key_special_characters_size">35dp</dimen>
+
+    <dimen name="call_card_operator_name_max">85dp</dimen>
+    <!-- Quick Settings tile geometry: top interior margin, above icon -->
+    <dimen name="qs_tile_margin_above_icon">2dp</dimen>
+    <!-- Quick Settings tile geometry: gap between icon and text -->
+    <dimen name="qs_tile_margin_below_icon">2dp</dimen>
+
+    
+    <!-- Quick Settings tile common geometry: icon size -->
+    <dimen name="qs_tile_icon_size">32dp</dimen>
+   <!-- Quick Settings tile common geometry for small picture: top interior margin, above icon -->
+    <dimen name="qs_tile_margin_above_icon_small_picture">27dp</dimen>
+    <!-- Quick Settings tile common geometry for small picture: gap between icon and text -->
+    <dimen name="qs_tile_margin_below_icon_small_picture">17dp</dimen>
+
+    <!-- For MMS Start -->
+    <dimen name="attchment_view_send_button_length">100dip</dimen>
+    <!-- For MMS End -->
+</resources>

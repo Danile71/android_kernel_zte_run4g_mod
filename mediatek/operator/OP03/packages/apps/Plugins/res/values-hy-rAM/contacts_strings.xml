@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_done">"Կատարված է"</string>
+    <string name="submenu_emergency_contacts">Արտակարգ իրավիճակի կոնտակտներ</string>
+    <string name="menu_deleteContact">"Ջնջել"</string>
+    <string name="menu_select_all">Ընտրել բոլորը</string>
+    <string name="menu_select_none">Ապընտրել բոլորը</string>
+    <string name="menu_new_contact_action_bar">"նոր"</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> ընտրված է</string>
+    <string name="multichoice_no_select_alert">"Որևէ միավոր ընտրված չէ:"</string>
+    <string name="aas_custom_title">USIM պիտակներ` լրացուցիչ համարների համար</string>
+    <string name="aas_phone_type_none">"Ոչ մեկը"</string>
+    <string name="aas_new_dialog_title">Ավելացնել նոր պիտակ</string>
+    <string name="ass_rename_dialog_title">Փոխել պիտակը</string>
+    <string name="aas_delele_dialog_message">Պիտակը (պիտակները) ջնջելը կազդի բոլոր լրացուցիչ թվերի վրա, որոնք կապված են այդ պիտակի (պիտակների) հետ: Համոզվա՞ծ եք:</string>
+    <string name="aas_name_invalid">Պիտակի անվանումը անվավեր է: Խնդրում ենք ներմուծել այլ անվանում:</string>
+    <string name="aas_name_exist">Պիտակն արդեն գոյություն ունի:</string>
+    <string name="aas_usim_full">Առկա չէ տարածք նոր պիտակների համար:</string>
+    <string name="ass_edit_assert_message">Պիտակը փոխելը կազդի բոլոր լրացուցիչ թվերի վրա, որոնք կապված են այդ պիտակի հետ: Համոզվա՞ծ եք:</string>
+    <string name="aas_new_fail">Չհաջողվեց ստեղծել նոր պիտակ:</string>
+    <string name="aas_edit_fail">Չհաջողվեց վերանվանել <xliff:g id="aas">%s</xliff:g> :</string>
+    <string name="aas_delete_fail"><xliff:g id="aas">%s</xliff:g>-ի ջնջումը ձախողվեց:</string>
+    <string name="aas_phone_primary">Առաջնային համար</string>
+    <string name="aas_phone_additional">Լրացուցիչ համար</string>
+</resources>

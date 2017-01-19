@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Buku nota</string>
+    <string name="no_note">Tiada Nota</string>
+    <string name="selectednumber">Dipilih</string>
+    <string name="delete_confirm_current">Nota akan dipadamkan.</string>
+    <string name="delete_confirm_one">Nota yang dipilih akan dipadamkan.</string>
+    <string name="delete_confirm">Nota yang dipilih akan dipadamkan.</string>
+    <string name="delete_confirm_title">"Padam"</string>
+    <string name="delete_confirm_cancel">"Batal"</string>
+    <string name="delete_confirm_ok">"OK"</string>
+    <string name="title_bar_selected">Dipilih</string>
+    <string name="editor_full">Anda boleh memasukkan 1500 aksara maksimum</string>
+    <string name="sdcard_full" product="tablet">Ruang storan peranti tidak mencukupi. Sila kosongkan sedikit storan.</string>
+    <string name="sdcard_full" product="default">Ruang storan telefon tidak mencukupi. Sila kosongkan sedikit storan.</string>
+    <string name="save_none">Nota kosong tidak dibuat</string>
+    <string name="empty_note">Nota kosong</string>
+    <string name="delete_progress">Memadam</string>
+    <string name="title_notes_list">Buku nota</string>
+    <string name="title_notes_view">Membaca</string>
+    <string name="title_notes_edit">"Selesai"</string>
+    <string name="title_loading">Memuatkan...</string>
+    <string name="menu_delete">Padam semua nota</string>
+    <string name="delete_all_notes_confirm">Semua nota akan dipadamkan.</string>
+    <string name="note_saved">Nota disimpan</string>
+    <string name="no_selected">Tiada nota dipilih</string>
+    <string name="menu_sort_by_modify">Isih ikut masa diubah suai</string>
+    <string name="menu_sort_by_tab">Isih ikut tab</string>
+    <string name="menu_work">"Kerja"</string>
+    <string name="menu_personal">"PERIBADI"</string>
+    <string name="menu_family">Urusan keluarga</string>
+    <string name="menu_study">Belajar</string>
+    <string name="menu_none">Tidak dikategorikan</string>
+    <string name="menu_add_button">"baharu"</string>
+    <string name="menu_delete_button">"Padam"</string>
+    <string name="menu_edit_button">"Edit"</string>
+    <string name="menu_deselect_all_button">"Nyahpilih semua"</string>
+    <string name="menu_select_all_button">Pilih Semua</string>
+    <string name="month">"m"</string>
+    <string name="day">12</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> dipilih </string>
+    <string name="type_note">Taipkan nota</string>
+</resources>

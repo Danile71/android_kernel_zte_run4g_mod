@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"SIM գործիքախումբ"</string>
+    <string name="activity_not_found" product="tablet">Ծրագիրը տեղակայված չէ ձեր սարքի մեջ:</string>
+    <string name="activity_not_found" product="default">"Հավելվածը տեղադրված չէ ձեր հեռախոսում:"</string>
+    <string name="simlock_toolkit">"SIM քարտի գործիքների հավաքածու"</string>
+    <string name="no_sim_card_inserted" product="default">Խնդրում ենք զետեղել SIM քարտը SIM քարտի գործիքների հավաքածուն թողարկելու համար:</string>
+    <string name="airplane_mode_on" product="default">Անհնար է թողարկել SIM քարտի գործիքների հավաքածուն, քանի որ միացված է ինքնաթիռի ռեժիմը:</string>
+    <string name="lable_sim_not_ready">SIM քարտի գործիքների հավաքածուն պատրաստ չէ կամ չի աջակցվում</string>
+</resources>

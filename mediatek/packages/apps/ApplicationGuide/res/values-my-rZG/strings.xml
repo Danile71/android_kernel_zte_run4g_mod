@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="next">ေရွ႕သို႔</string>
+    <string name="scroll_left_bar_title">ေနာက္ထပ္ဓာတ္ပံု႐ိုက္ကူးသည့္ပံုစံမ်ားကို ၾကည့္႐ႈရန္ အထက္ေအာက္ေရြ႕ပါ</string>
+    <string name="zoome_title">ခ်ဲ႕ျခင္း/ခ်ဳံ႕ျခင္း</string>
+    <string name="vcs_guide_summary">အဆက္အသြယ္မ်ားကို ရွာရန္ အမည္ကို ေျပာပါ။\n၎ကို ႀကိဳးစားပါ။</string>
+    <string name="vcs_guide_title">အသံျဖင့္ အဆက္အသြယ္ရွာျခင္း</string>
+    
+    <string name="vcs_guide_title1">အဆက္အသြယ္မ်ား ရွာရန္ အမည္ေျပာပါ။</string>
+    <string name="vcs_guide_title2">လုပ္ေဆာင္မႈကို ဖြင့္ရန္ ဒီေနရာကို ပုတ္ပါ။\nႀကိဳးစားပါ။</string>    
+    <string name="camera_mav_title">အရာဝတၳဳ၏ ဘယ္ဘက္သို႔ ေရႊ႕ၿပီး ၎ကို ပစ္ရန္စတင္ပါ</string>
+    <string name="refocus_guide_title">ဆံုခ်က္ေနရာကို ေျပာင္းရန္ ႐ုပ္ပံုကို ႏိွပ္ပါ</string>
+</resources>

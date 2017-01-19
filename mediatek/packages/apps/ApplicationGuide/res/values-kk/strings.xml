@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="next">Келесі</string>
+    <string name="scroll_left_bar_title">Басқа суретке түсіру режимдерін қарап шығу үшін айналдырып шығыңыз</string>
+    <string name="zoome_title">Масштабтау</string>
+    <string name="vcs_guide_summary">Контактілерді табу үшін аттарын атаңыз.\nҚайталаңыз!</string>
+    <string name="vcs_guide_title">Voice Contact Search</string>
+    
+    <string name="vcs_guide_title1">Контактілерді табу үшін аттарын атаңыз.</string>
+    <string name="vcs_guide_title2">Функцияны іске қосу үшін осы жерді түртіңіз.\nӘрекетті қайталаңыз!</string>    
+    <string name="camera_mav_title">Нысанның сол жағына ауысыңыз және оған атуды бастаңыз</string>
+    <string name="refocus_guide_title">Фокустау күйін өзгерту үшін кескінді басыңыз</string>
+</resources>

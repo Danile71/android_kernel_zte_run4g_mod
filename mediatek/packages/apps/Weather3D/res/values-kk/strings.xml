@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Онлайн 3D ауа райы</string>
+    <string name="last_update">Соңғы жаңарту</string>
+    <string name="no_weather">Қалаларды қосу үшін параметрді түтіріңіз</string>
+    <string name="no_network">Қолжетімді желілер жоқ</string>
+    <string name="update_fail">Ауа райыны жаңарту мүмкін емес</string>
+    <string name="updating">Жаңарту</string>
+</resources>

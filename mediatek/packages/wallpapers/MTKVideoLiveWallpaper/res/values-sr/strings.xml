@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <skip/>
+    <string name="wallpapers">MTK анимиране позадине</string>
+    <skip/>
+    <string name="vlw">Видео позадина</string>
+    <string name="vlw_desc">Постави видео снимак као анимирану позадину.</string>
+    <string name="VideoScene_error_text_invalid_progressive_playback">"Жао нам је, овај видео не може да се стримује на овом уређају."</string>
+    <string name="VideoScene_error_text_unknown">"Жао нам је, овај видео не може да се пусти."</string>
+    <string name="VideoScene_error_media_removed">Медијска датотека је уклоњена</string>
+	<string name="VideoScene_error_sdcard_unmounted">SD картица није постављена</string>
+	<string name="VideoScene_info_wait_sdcard">Чекање на припрему SD картице</string>
+	<string name="VideoScene_error_media_not_found">Медијска датотека сада не постоји</string>
+	<string name="VideoScene_error_be_set">Нажалост, овај видео се не може поставити као видео позадина</string>
+    <string name="VideoEditor_error_title">"Није могуће пустити видео"</string>
+    <string name="VideoEditor_error_button">"Потврди"</string>
+    <string name="VideoEditor_error_no_video_selected">Видео није изабран</string>
+	<string name="VideoEditor_warning_limited_duration">Изаберите најмање 1 сек. видео снимка за репродукцију</string>
+	<string name="VideoScene_reload_after_mount">Учитавање видеа са SD картице, сачекајте.</string>
+    <string name="select_video">"SD картица"</string>
+    <string name="select_default">"Подразумевано"</string>
+    <string name="select">"Избор видео снимка"</string>
+    <string name="set_wallpaper">"Подеси позадину"</string>
+    <string name="title">Видео позадина</string>
+    <string name="default_title">Подразумевани видео</string>
+    <string name="capture_video">"Камера"</string>
+    <string name="menu_item_add_item">Изаберите видео снимак са SD картице</string>
+    <string name="group_video">Изаберите један видео снимак</string>
+    <string name="group_folder">Изаберите директоријум</string>
+    <string name="folder_info">видео снимак(снимци)&lt;br&gt;из&lt;br&gt;</string>
+</resources>

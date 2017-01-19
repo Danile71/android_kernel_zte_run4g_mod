@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="video_app_name">"Видео ойнатқыш"</string>
+    <string name="scanning">"SD картасын тексеру..."</string>
+    <string name="sdcard_missing_message">"Телефоныңызға SD картасы орнатылмаған."</string>
+    <string name="video_list_empty">"Бейнелер жоқ."</string>
+    <string name="detail_title">"Атауы: %1$s"</string>
+    <string name="detail_date_taken">"Таңдалды: %1$s"</string>
+    <string name="detail_path">"Жолы: %1$s"</string>
+    <string name="detail_filesize">"Файл өлшемі: %1$s"</string>
+    <string name="detail_duration">"Ұзақтығы: %1$s"</string>
+    <string name="media_detail">"Мәліметтер"</string>
+    <string name="delete">"Жою"</string>
+    <string name="delete_tip">"%1$s жою қажет пе?"</string>
+    <string name="delete_progress">"%1$s жою..."</string>
+	<string name="max_video">Ең көп видео</string>
+	<string name="hotknot">HotKnot</string>
+    <string name="share">Бөлісу</string>
+    <string name="deselect_all">"Барлық белгілерді алу"</string>
+    <string name="select_all">Барлығын белгілеу</string>
+    <string name="selected">таңдалған</string>
+    <string name="delete_selection_one">Таңдалған элементті жою қажет пе?</string>
+    <string name="delete_selection_more">Таңдалған элементтерді жою қажет пе?</string>
+    <string name="select_item">Select item</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="menu_done">Дайын</string>
+    <string name="submenu_emergency_contacts">Төтенше жағдай контактілері</string>
+    <string name="menu_deleteContact">Жою</string>
+    <string name="menu_select_all">Барлығын белгілеу</string>
+    <string name="menu_select_none">Барлық белгілерді алу</string>
+    <string name="menu_new_contact_action_bar">Жаңа хабар жазу</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> таңдалды</string>
+    <string name="multichoice_no_select_alert">"Элементтер таңдалмады."</string>
+    <string name="aas_custom_title">Қосымша нөмірлерге арналған USIM жапсырмалары</string>
+    <string name="aas_phone_type_none">Жоқ</string>
+    <string name="aas_new_dialog_title">Жаңа жапсырма қосу</string>
+    <string name="ass_rename_dialog_title">Жапсырманы өзгерту</string>
+    <string name="aas_delele_dialog_message">Белгілерді жою осы белгілермен байланысты барлық қосымша нөмірлерге әсер етеді. Жалғастыруды қалайсыз ба?</string>
+    <string name="aas_name_invalid">Жапсырманың аты жарамсыз. Басқа ат енгізіңіз.</string>
+    <string name="aas_name_exist">Жапсырма бұрыннан бар.</string>
+    <string name="aas_usim_full">Жаңа жапсырмалар үшін бос орын жоқ.</string>
+    <string name="ass_edit_assert_message">Белгіні өзгерту осы белгімен байланысты барлық қосымша нөмірлерге әсер етеді. Жалғастыруды қалайсыз ба?</string>
+    <string name="aas_new_fail">Жаңа жапсырма жасау сәтсіз аяқталды.</string>
+    <string name="aas_edit_fail"><xliff:g id="aas">%s</xliff:g> атын өзгерту сәтсіз аяқталды.</string>
+    <string name="aas_delete_fail"><xliff:g id="aas">%s</xliff:g> жою сәтсіз аяқталды.</string>
+    <string name="aas_phone_primary">Негізгі нөмір</string>
+    <string name="aas_phone_additional">Қосымша нөмір</string>
+</resources>

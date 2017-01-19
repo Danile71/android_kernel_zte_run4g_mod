@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="keyguard_pinword_enter_pinword_code">Avamiseks sisesta PIN-kood</string>
+    <string name="badPin2">Sisestatud vana PIN2-kood ei ole õige.</string>
+    <string name="badPuk2">Sisestatud PUK2-kood ei ole õige.</string>
+    <string name="checkPwdLen">Veendu, et parool sisaldab 4 kuni 8 numbrit.</string>
+    <string name="pinNotEnabled">Luba PIN-koodi kasutamine enne selle muutmist.</string>
+    <string name="puk1Blocked">PIN-kood on blokeeritud.</string>
+    <string name="puk2Blocked">PIN2-kood on blokeeritud.</string>
+    <string name="fdnFailMmi">FDN-i kontrollimine nurjus.</string>
+    <string name="callBarringFailMmi">Kõnepiirangu kehtestamine nurjus.</string>
+    <string name="Pin2Mmi">PIN2-koodi muutmine</string>
+    <string name="PukMmi">Ava PIN-kood</string>
+    <string name="Puk2Mmi">Eemalda PIN2 koodi blokeering</string>
+    <string name="serviceProvisioned">Teenus ette valmistatud.</string>
+    <string name="serviceUnknown">"Ühendusprobleem või kehtetu MMI-kood."</string>
+    <string name="cfServiceNotForwarded">Ei ole edastatud</string>
+    <string name="permlab_receiveCbSms">võta vastu kärjeteate SMS</string>
+    <string name="permdesc_receiveCbSms">Võimaldab rakendusel kärjeteate SMS-e vastu võtta ja töödelda. Pahatahtlikud rakendused võivad sinu sõnumeid jälgida või kustutada, ilma neid sulle näitamata.</string>
+    <string name="keyguard_password_enter_puk_code">Sisesta PUK-kood</string>
+    <string name="invalidPuk">Sisesta 8 numbrit.</string>
+    <string name="pin_length_indicate">(4-8 numbrit)</string>
+    <string name="puk_length_indicate">(8 numbrit)</string>
+    <string name="one_retry_left">1 katse jäänud</string>
+    <string name="invalid_imei">Vale IMEI-kood</string>
+    <string name="same_imei">Sama IMEI-kood</string>
+    <string name="oper_long_46000">CMCC</string>
+    <string name="oper_long_46001">CU</string>
+    <string name="oper_long_46003">China Telecom</string>    
+    <string name="oper_long_46601">Far Eastone</string>
+    <string name="oper_long_46692">Chunghwa Telecom</string>
+    <string name="oper_long_46697">Taiwan Mobile</string>
+    <string name="oper_long_99998">Android1</string>
+    <string name="oper_long_99999">Android</string>
+    <string name="oper_short_46000">CMCC</string>
+    <string name="oper_short_46001">CU-GSM</string>
+    <string name="oper_short_46003">China Telecom</string>    
+    <string name="oper_short_46601">FET</string>
+    <string name="oper_short_46692">Chunghwa</string>
+    <string name="oper_short_46697">TWN</string>
+    <string name="oper_short_99997">AD1</string>
+    <string name="oper_short_99999">AD</string>
+    <string name="unable_launch_the_ap">Ei saa rakendust käivitada.</string>
+    <string name="keyguard_password_enter_sim1_pin_code">Sisesta SIM 1 PIN-kood</string>
+    <string name="RestrictedChangedTitle_SIM1">SIM1 piiratud ligipääs muudetud</string>
+    <string name="RestrictedChangedTitle_SIM2">SIM2 piiratud ligipääs muudetud</string>
+    <string name="keyguard_password_enter_sim2_pin_code">Sisesta SIM 2 PIN-kood</string>
+    <string name="keyguard_password_wrong_sim1_pin_code">Vigane SIM 1 PIN-kood!</string>
+    <string name="keyguard_password_wrong_sim2_pin_code">Vigane SIM 2 PIN-kood!</string>
+    <string name="keyguard_password_enter_sim1_puk_code">Sisesta SIM 1 PUK-kood</string>
+    <string name="keyguard_password_enter_sim2_puk_code">Sisesta SIM 2 PUK-kood</string>
+    <string name="lockscreen_sim1_puk_locked_message">SIM-kaart 1 on PUK-lukustatud.</string>
+    <string name="lockscreen_sim2_puk_locked_message">SIM-kaart 2 on PUK-lukustatud.</string>
+    <string name="choose_bootup_mode">Valige SIM kaart</string>
+    <string name="choose_gprs_mode">Vali andmesideühendus</string>
+    <string name="sim_close">SIM-kaardi sulgemine</string>
+    <string name="lockscreen_sim_puk_locked_message_short">PUK-lukus</string>
+    <string name="permlab_receiveDmRegisterSms">"võta vastu DM Register'i SMS"</string>
+    <string name="permdesc_receiveDmRegisterSms">"Võimaldab rakendusel vastu võtta ja töödelda DM Register'i SMS-e. Iga rakendus, välja arvatud DM APP, ei tohiks seda kasutada"</string>
+    <string name="lockscreen_password_error">Parooli viga, proovi uuesti</string>
+  	  <string name="lockscreen_pinword_error">PIN-koodi viga, proovi uuesti</string>
+    <string name="music_no_artist">Esitaja nimi on tundmatu</string>
+    <string name="music_play">"Esita"</string>
+    <string name="music_pause">"Peata"</string>
+    <string name="music_library">"Teek"</string>
+    <string name="music_no_songs">"Laulud puuduvad"</string>
+    <string name="serviceClassVideo">Video</string>
+  <string name="aerr_application_lowmem">Telefoni mälu on täis, rakendus on peatatud. Vabasta ruumi ja proovi uuesti.</string>
+  <string name="aerr_process_lowmem">Telefoni mälu on täis, toiming on peatatud. Vabastage ruumi ja proovige uuesti.</string>
+  <string name="free_memory_btn">"Mõned süsteemifunktsioonid, nt sünkroonimine, ei pruugi õigesti toimida. Proovige vabastada ruumi, kustutades üksusi, nt rakendusi või meediasisu, või eemaldades neid."</string>
+  <string name="free_memory_text">"Mälu on vähe. Vabasta mälu."</string>		
+<string name="mem_low_title">Vabasta mälu.</string>
+   <string name="unread_message">%d lugemata sõnum</string>
+   <string name="unread_messages">%d lugemata sõnumit</string>
+   <string name="missed_call">%d vastamata kõne</string>
+   <string name="missed_calls">%d vastamata kõnet</string>
+  <string name="no_favorite_contacts">Lemmikkontaktid puuduvad</string>
+  <string name="contact_widget_loading">Laadimine\u2026</string>
+   <string name="volume_fm">FM-i helitugevus</string>
+   <string name="volume_matv">Mobiil-TV helitugevus</string>
+   <string name="media_controller_buffering">"%d%% puhverdamine..."</string>
+   <string name="media_controller_live">"Live"</string>
+   <string name="media_controller_playing">"Esitab"</string>
+   <string name="media_controller_connecting">"Ühenduse loomine..."</string>
+   <string name="media_controller_weak_signal">"nõrk signaal"</string>
+   <string name="VideoView_error_text_bad_file">"Rikutud fail, ei saa videot esitada."</string>
+   <string name="VideoView_error_text_cannot_connect_to_server">"Ei saa luua ühendust serveriga."</string>
+   <string name="VideoView_error_text_type_not_supported">"Meediafaili tüüpi ei toetata."</string>
+   <string name="VideoView_error_text_drm_not_supported">"DRM-õigustega kaitstud, ei saa videot esitada."</string>
+   <string name="VideoView_error_text_invalid_connection">"Vigane ühendus. (403 keelatud)"</string>
+    <string name="redo">"Tee uuesti"</string>
+    <string name="undo">"Võta tagasi"</string>
+    <string name="undoAll">Võta kõik tagasi</string>
+    <string name="new_sim">Uus SIM-kaart</string>
+    <string name="edit">"Muuda"</string>
+    <string name="delete">"Kustuta"</string>
+    <string name="for_text">jaoks</string>
+    <string name="searching_simcard">Tuvastamine...</string>
+    <string name="for_first_simcard">Esimese SIM-kaardi jaoks</string>
+    <string name="for_second_simcard">Teise SIM-kaardi jaoks</string>
+    <string name="for_third_simcard">Kolmanda SIM-kaardi jaoks</string>
+    <string name="for_fourth_simcard">Neljanda SIM-kaardi jaoks</string>
+    <string name="lockscreen_pin_too_many_failed_attempts_dialog_message">Oled sisestanud vale PIN-koodi <xliff:g id="number">%d</xliff:g> korda. \n\nProovi uuesti <xliff:g id="number">%d</xliff:g> sekundi pärast.</string>
+    <string name="lockscreen_password_too_many_failed_attempts_dialog_message">Oled sisestanud vale parooli <xliff:g id="number">%d</xliff:g> korda. \n\nProovi uuesti <xliff:g id="number">%d</xliff:g> sekundi pärast.</string>
+    <string name="aerr_application_lowstorage">Sisemälu on otsakorral, rakendus on peatatud. Vabastage salvestusruumi ja proovige uuesti.</string>
+    <string name="aerr_process_lowstorage">Sisemälu on otsakorral, toiming on peatatud. Vabastage salvestusruumi ja proovige uuesti.</string>
+    <string name="low_internal_storage_view_title">Sisemälu saab täis</string>
+    <string name="low_storage_warning_message">Vabastage salvestusruumi, vastasel juhul ei pruugi mõned rakendused ja süsteemid korralikult toimida.</string>
+    <string name="deleteMails">Kustuta meilid</string>
+    <string name="criticallowtitle">Pole ruumi</string>
+    <string name="criticallowmessage">Vabastage salvestusruumi, vastasel juhul ei pruugi mõned rakendused ja süsteemid korralikult toimida.</string> 
+    <string name="nq_sms_filter_title">SMS filter</string>
+    <string name="nq_sms_filter_message">Sellele sõnumile võib kohalduda tasu. Kas soovid jätkata?</string>
+    <string name="nq_sms_filter_yes">"Jah"</string>
+    <string name="nq_sms_filter_no">"Ei"</string>
+    <string name="ext_media_checking_notification_title_sd2">Valmista ette SD kaart.</string>
+    <string name="ext_media_checking_notification_title_otg">Valmista ette USB-mäluseade</string>
+    <string name="ext_media_badremoval_notification_title_otg">"USB-seade eemaldati ootamatult"</string>
+    <string name="ext_media_nomedia_notification_title_otg">"USB-mäluseade eemaldatud"</string>
+    <string name="ext_media_badremoval_notification_message_otg">"Andmekao vältimiseks lahutage USB-mäluseade enne eemaldamist."</string>
+    <string name="ext_media_nomedia_notification_message_otg">"USB-mäluseade eemaldatud. Sisestage uus meedium."</string>
+    <string name="ext_media_unmountable_notification_title_otg">"Kahjustatud USB-mäluseade"</string>
+    <string name="ext_media_unmountable_notification_message_otg">USB mäluseade on kahjustatud. Võimalik, et pead selle ümber vormindama.</string>
+    <string name="ext_media_nofs_notification_title_otg">"Tühi USB-mäluseade"</string>
+    <string name="ext_media_nofs_notification_message_otg">USB mäluseade on tühi või selle failisüsteemi ei toetata.</string>
+    <string name="ext_media_safe_unmount_notification_title_otg">"USB-seadme eemaldamine ohutu"</string>
+    <string name="ext_media_safe_unmount_notification_message_otg">"Saate USB-mäluseadme ohutult eemaldada."</string>
+    <string name="drm_protection_status">Kaitse olek:</string>
+    <string name="drm_can_forward">Saab edastada.</string>
+    <string name="drm_can_not_forward">Ei saa edastada.</string>
+    <string name="drm_no_limitation">Piirang puudub.</string>
+    <string name="drm_no_license">DRM litsents pole saadaval.</string>
+    <string name="drm_begin">Alusta:</string>
+    <string name="drm_end">Lõpeta:</string>
+    <string name="drm_use_left">Jäänud veel:</string>
+    <string name="drm_protectioninfo_renew">Uuenda</string>
+    <string name="drm_protectioninfo_title">Kaitse teave</string>
+    <string name="drm_licenseacquisition_title">DRM Litsentsi Hankimine</string>
+    <string name="drm_licenseacquisition_message">%1$s-l pole kättesaadavat DRM litsentsi. Saad vajutada nuppu "Uuenda", et hankida uus DRM litsents.</string>
+    <string name="drm_toast_license_expired">DRM Litsents on aegunud.</string>
+    <string name="drm_forwardforbidden_title">Edastamine Keelatud</string>
+    <string name="drm_forwardforbidden_message">Mõnda kaitstud faili ei saa edastada.</string>
+    <string name="drm_license_install_success">DRM Litsentsi installimine õnnestus.</string>
+    <string name="drm_license_install_fail">DRM Litsentsi installimine ebaõnnestus.</string>
+    <string name="drm_secure_timer_title">Sobimatu DRM turvalisuse kell</string>
+    <string name="drm_secure_timer_message">Sa ei saa kasutada DRM-õigustega kaitstud faile. Veendu, et andmeühendus on olemas.</string>
+    <string name="drm_consume_title">Tarvita ära DRM-õigused</string>
+    <string name="drm_consume_message">Sinu tegevus kulutab ära DRM-õigused.</string>
+    <string name="drm_forward_forbidden">Ei saa edastada ühte või mitut kaitstud faili.</string>
+    <string name="recip_unsupport_operator">RecipientsView ei toeta tähemärkidega seotud toiminguid, kasuta tööriistariba, et adressaatidega manipuleerida.</string>
+    <string name="recip_unsupport_selection">Kahjuks ei saa viia valvurit algusse, kui vaates RecipientsView on adressaate.</string>
+    <string name="virtual_sim_on_slot1">Virtuaalne SIM 1 SEES</string>
+    <string name="virtual_sim_on_slot2">Virtuaalne SIM 2 SEES</string>
+    <string name="virtual_sim_on_slot3">Virtuaalne SIM 3 SEES</string>
+    <string name="virtual_sim_on_slot4">Virtuaalne SIM 4 SEES</string>
+    <string name="virtual_sim_on">Virtuaalne SIM SEES</string>
+    <string name="sim_missing_slot1">Pesa 1: SIM-kaarti ei tuvastatud</string>
+    <string name="sim_missing_slot2">Pesa 2: SIM-kaarti ei tuvastatud</string>
+    <string name="sim_missing_slot3">Pesa 3: SIM-kaarti ei tuvastatud</string>
+    <string name="sim_missing_slot4">Pesa 4: SIM-kaarti ei tuvastatud</string>
+    <string name="sim_missing">SIM-kaarti ei tuvastatud</string>
+    <string name="sim_missing_detail">Veendu, et SIM-kaart on valmis</string>
+    <string name="sim_missing_slot1_card">Pesa 1: kaarti ei tuvastatud</string>
+    <string name="sim_missing_slot2_card">Pesa 2: kaarti ei tuvastatud</string>
+    <string name="sim_missing_card">kaarti ei tuvastatud</string>
+    <string name="sim_missing_detail_card">Kontrollige, kas kaart on valmis</string>
+    <string name="wap_push_setting_noti_ticker">Aktsepteerin Auto-push teenuse või mitte?</string>
+    <string name="wap_push_setting_noti_title">Aktsepteerin Auto-push teenuse või mitte?</string>
+    <string name="wap_push_setting_noti_text">Valimiseks koputa</string>
+    <string name="url_dialog_choice_title">"Sõnumid"</string>
+    <string name="url_dialog_choice_message">See avab brauseri, kas jätkan?</string>
+    <string name="deleteApp">Desinstalli rakendused</string>    
+    <string name="deleteMail">Varunda meilid ja vabasta mälu</string>    
+    <string name="storage_withsd">Telefoni mälus ei ole piisavalt ruumi. Vabasta veidi mälu või vaheta seadetes vaikesalvestusketas.</string>
+    <string name="storage_withoutsd">Telefoni mälus ei ole piisavalt ruumi. Vabasta veidi mälu või sisesta SD kaart.</string>
+    <string name="storage_sd">SD kaardil ei ole piisavalt ruumi. Vabasta veidi mälu või vaheta seadetes vaikesalvestusketas.</string>   
+    <string name="usb_ums_notification_title">Ühendatud USB mäluseadmena</string>
+    <string name="usb_charging_notification_title">Ainult USB laadimine</string>
+    <string name="gps_time_sync_fail_str">Ei õnnestunud saada GPS-i aega</string>
+    <string name="calibration_data">Kalibreerimist veel ei tehta. Laadi alla kalibreerimisandmed! Vastasel juhul on võimalik, et seadme võrgujuurdepääs blokeeritakse.[MTK sisekasutaja]</string>
+    <string name="invalid_card">Vigane kaart</string>
+    <string name="RejectCauseTitle">Võrgu hülgamise põhjus</string>
+    <string name="MMRejectCause2">SIM kaart ei ole provisioneeritud MM #2</string>
+    <string name="MMRejectCause3">SIM keelatud MM #3</string>
+    <string name="MMRejectCause5">Kõne ebaõnnestus MM #5</string>
+    <string name="MMRejectCause6">Telefon keelatud MM #6</string>    
+    <string name="MMRejectCause13">Ainult SOS-/hädaabikõned</string>
+    <string name="find_previous">"Eelmine"</string>
+    <string name="find_next">"Järgmine"</string>
+    <string name="tethered_notification_message_for_hotspot"><xliff:g id="connected">%1$d</xliff:g> ühendatud, <xliff:g id="blocked">%2$d</xliff:g> blokeeritud</string>
+    <string name="tethered_notification_message_bandwidth_set">Ribalaius on määratud</string>
+    <string name="usbint_notification_title">USB-Internet aktiivne</string>
+    <string name="default_wallpaper_name">"Vaikimisi"</string>
+    <string name="description_direction_right">"Loobumiseks lohistage paremale"</string>
+    <string name="description_direction_left">"Äratuse edasilükkamiseks lohistage vasakule"</string>
+    <string name="description_direction_up">"Loobumiseks lohistage üles"</string>
+    <string name="description_direction_down">"Äratuse edasilükkamiseks lohistage alla"</string>
+    <string name="dismiss_power_on">Loobu ja lülita sisse</string>   
+    <string name="dismiss_power_off">Loobu ja lülita välja</string>
+    <string name="dialog_color_picker">"Värvivalija"</string>
+    <string name="press_color_to_apply">Rakendamiseks vajuta ikooni Värv</string>
+    <string name="color_picker_select">-&gt;</string>
+    <string name="wifi_display_bt_hdmi_off_wfd_on">HDMI lülitatakse välja, kui te juhtmeta ekraani sisse lülitate. Kas soovite jätkata?</string> 
+    <string name="wifi_display_wfd_off_hdmi_on">Traadita kuvar lülitatakse välja, kui sa HDMI sisse lülitad. Kas soovid jätkata?</string> 
+    <string name="wifi_display_wfd_off_bt_on">Traadita kuvar lülitatakse välja, kui sa Bluetoothi sisse lülitad. Kas soovid jätkata?</string> 
+    <string name="wifi_display_wifi_p2p_disconnect_wfd_connect">Praegune WiFi Direct ühendus katkestatakse, kui sa ühendad traadita ekraaniseadme. Kas soovid jätkata?</string>
+    <string name="wifi_display_unstable_connection">Ebastabiilne ühendus</string>
+    <string name="wifi_display_connection_is_not_steady">Traadita ekraani praegune ühendus ei ole kindel.</string>
+    <string name="wifi_display_unstable_suggestion">Traadita ekraani praegune ühendus ei ole kindel, proovi ekraaniseadmele lähemale liikuda.</string>
+    <string name="wifi_display_reconnect">Ühenda uuesti</string> 
+    <string name="wifi_display_disconnect_then_reconnect">Traadita kuvari lahti ühendamine. Kas soovid uuesti ühenduse luua?</string> 
+    <string name="wifi_display_disconnected">Traadita kuvar on lahti ühendatud.</string>
+    <string name="wifi_wps_failed_overlap">"Tuvastati teine WPS-i seanss. Proovige mõne minuti pärast uuesti."</string>
+    <string name="wifi_display_wfd_and_wifi_are_turned_on">Juhtmeta ekraan ja Wi-Fi on sisse lülitatud.</string>
+    <string name="wifi_display_sound_path_reminder">Multimeedia heli ei esitata teie peakomplektis.</string>  
+    <string name="wifi_display_change_resolution_reminder">Resolutsiooni muutmine taasühendab juhtmeta ekraani automaatselt.</string>  
+    <string name="wifi_display_do_not_remind_again">Ära edaspidi enam meelde tuleta.</string>
+    <string name="wifi_display_wifi_ap_affects_quality">Praegune Wi-Fi AP võib mõjutada juhtmeta ekraani kvaliteeti.</string>
+    <string name="wifi_display_wait_connection">Ootan ühendamise kutseid teistelt seadmetelt.</string>
+    <string name="wifi_display_confirm_connection">tahab teiega ühendust luua.</string>
+    <string name="wifi_display_build_connection">Ühenduse loomine.</string>
+    <string name="wifi_display_enjoy_screen">Nautige ekraanisalvestust teiselt seadmelt.</string>
+    <string name="sdcard_ready_title">SD kaart on valmis</string>
+    <string name="sdcard_select_default_path">Kas soovid muuta vaikesalvestusketast?</string>
+    <string name="sdcard_default_path_change">Vaikesalvestusketast muudeti.</string>
+    <string name="usb_storage_ready_title">Väline USB mäluseade on valmis</string>
+    <string name="headset_pin_recognition">Sinu kõrvaklapid ei ühildu telefoniga. Palun proovi teisi</string>
+    <string name="msensor_toast_text">Kompassi häire. Viibuta telefoni numbri 8 kujuliselt, et kompassi uuesti kalibreerida.</string> 
+    <string name="sd_accessing_swtich_user_title">Kas vahetada kasutajat?</string>
+    <string name="sd_accessing_swtich_user_message">Kõik salvestamata andmed omaniku kontol lähevad kaotsi või kahjustuvad.</string>
+    <string name="usb_autorun_cdrom_notification_title">Ühendatud kui autorun cdrom</string>
+    <string name="ct_net_name">"CTNET"</string>
+    <string name="ct_wap_name">"CTWAP"</string>    
+    <string name="hdmi_notification_title">HDMI kaabel ühendatud</string>
+    <string name="hdmi_notification_content">Klõpsa HDMI konfigureerimiseks</string>
+    <string name="hdmi_hdvideo_toast">HDMI ei saa esitada 4K videot, ühendus katkestatakse.</string>
+    <string name="hdmi_mutex_call_content">Vabandust, HDMI seiskus telefonikõne tõttu.</string>
+    <string name="safe_media_volume_warning_title">Hoiatus</string>
+    <string name="data_conn_only">Ainult andmesideühendus</string>
+    
+    <string name="AP_had_connected">Olete juba ühendatud üksusega</string>
+    <string name="turn_wifi_on">Lülitan Wi-Fi sisse...</string>
+    <string name="AP_confirm_title">Loo võrguühendus</string>
+    <string name="AP_confirm_default_network">Võrk</string>
+    <string name="AP_confirm_positive">Ühenda</string>
+    <string name="AP_confirm_negative">Tühista</string>
+    
+    <string name="connecting_to">Ühendamine võrguga <xliff:g id="connected">%1$s</xliff:g>…</string>
+    <string name="connected_to">Ühendatud võrguga <xliff:g id="connected">%1$s</xliff:g></string>
+    <string name="connected_failed">Ühendamine nurjus</string>
+
+    <string name="passpoint_sp_notification_action">Online registreerumise volitused</string>
+    <string name="roaming_message">"Te kasutate praegu rahvusvahelist roamingut, mobiilandmeside on sisse lülitatud, arvestage et lisanduda võivad kohalikud andmesidetasud."</string>
+    <string name="alert_prompt">"Meeldetuletus"</string>
+    <string name="ok">"Ma tean"</string>
+    <string name="Special_Card_Type_Title_Lte_Not_Available">LTE võrk pole kättesaadav.</string>
+    <string name="Suggest_To_Change_USIM">Soovitatav on lülituda 4G SIM kaardile.</string>
+    <string name="another_device_want_to_join">Teine seade soovib liituda otse Wi-Fi rühmaga.</string>
+    <string name="error_1">Tõrge, proovige uuesti.</string>
+    <string name="error_2">Ajalõpp, proovige uuesti.</string>
+    <string name="error_3">See toiming ei ole toetatud.</string>
+    <string name="passpoint_sp_notification_ticker">Saadavalolev teenusepakkuja</string>
+    <string name="passpoint_sp_notification_title">Saadavalolev teenusepakkuja</string>
+    <string name="passpoint_sp_notification_content">võimalus nautida Interneti-teenuseid pärast online registreerumist</string>
+    <string name="passpoint_is_connected">on ühendatud</string>
+    <string name="passpoint_provision_fail_title">Passpoint online registreerumine nurjus</string>
+    <string name="passpoint_provision_fail_content">Proovige hiljem, kui võrgutingimused on stabiliseerunud</string>
+    <string name="passpoint_osu_finished">Passpoint online registreerumine lõpetatud. Internetti saab kasutada hiljem, kui võrgutingimused on stabiliseerunud</string>
+    <string name="logo">rakenduse logo ikoon</string>
+    <string name="close">sulge rakendus</string>   
+    <string name="maximum">maksimeeri rakendus</string>
+    <string name="minimize">minimeeri rakendus</string>
+    <string name="drag">lohista rakenduse akent selle suuruse muutmiseks</string> 
+    <string name="gallery_camera_mutex">Galeriid, Kaamerat ja Videopleierit ei saa samaaegselt kasutada</string> 
+    <string name="mw_max_size_string">Maksimaalselt <xliff:g id="number">%d</xliff:g> ujuvat akent</string>            
+    <string name="direct_had_connected">Wi-FiDirect on juba selle seadmega ühendatud.</string> 
+    <string name="permlab_wake_device_sensorhub" product="tablet">ärata tahvelarvuti üles</string>
+    <string name="permlab_wake_device_sensorhub" product="default">ärata telefon üles</string>
+    <string name="permdesc_wake_device_sensorhub" product="tablet">Võimaldab rakendusel äratada puhkerežiimis oleva tahvelarvuti läbi andurjaoturi.</string>
+    <string name="permdesc_wake_device_sensorhub" product="default">Võimaldab rakendusel äratada puhkerežiimis oleva telefoni läbi andurjaoturi.</string>
+</resources>

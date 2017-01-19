@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:key="product_model"
+        style="?android:attr/preferenceInformationStyle"
+        android:title="@string/product_model"
+        android:summary="@string/unknown"
+        android:persistent="false"/>
+
+    <Preference android:key="hardware_version"
+        style="?android:attr/preferenceInformationStyle"
+        android:title="@string/hardware_version"
+        android:summary="@string/unknown"
+        android:persistent="false"/>
+
+    <Preference android:key="software_version"
+        style="?android:attr/preferenceInformationStyle"
+        android:title="@string/software_version"
+        android:summary="@string/unknown"
+        android:persistent="false"/>
+
+    <PreferenceCategory android:key="cdma_info"
+            android:title="CDMA">
+
+        <Preference android:key="prl_version"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/prl_version"
+            android:summary="@string/unknown"
+            android:persistent="false"/>
+    
+        <Preference android:key="sid"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/current_sid"
+            android:summary="@string/unknown"
+            android:persistent="false"/>
+    
+        <Preference android:key="nid"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/current_nid"
+            android:summary="@string/unknown"
+            android:persistent="false"/>
+    
+        <Preference android:key="meid"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/current_meid"
+            android:summary="@string/unknown"
+            android:persistent="false"/>
+    
+        <Preference android:key="uim_id"
+            style="?android:attr/preferenceInformationStyle"
+            android:title="@string/current_uim_id"
+            android:summary="@string/unknown"
+            android:persistent="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

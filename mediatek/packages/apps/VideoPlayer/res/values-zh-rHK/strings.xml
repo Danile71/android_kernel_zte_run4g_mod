@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="video_app_name">"影片"</string>
+    <string name="scanning">"掃描 SD 卡......"</string>
+    <string name="sdcard_missing_message">"您的手機沒有插入 SD 卡。"</string>
+    <string name="video_list_empty">"無視頻。"</string>
+    <string name="detail_title">"標題 : %1$s"</string>
+    <string name="detail_date_taken">"採取 : %1$s"</string>
+    <string name="detail_path">"路徑 : %1$s"</string>
+    <string name="detail_filesize">"檔案大小 : %1$s"</string>
+    <string name="detail_duration">"期間 : %1$s"</string>
+    <string name="media_detail">"細節"</string>
+    <string name="delete">"刪除"</string>
+    <string name="delete_tip">"刪除 %1$s?"</string>
+    <string name="delete_progress">"刪除中 %1$s ..."</string>
+	<string name="max_video">最多可选影片</string>
+	<string name="hotknot">HotKnot</string>
+    <string name="share">分享</string>
+    <string name="deselect_all">"取消選取全部"</string>
+    <string name="select_all">選擇全部</string>
+    <string name="selected">選擇的</string>
+    <string name="delete_selection_one">刪除已選的項目？</string>
+    <string name="delete_selection_more">刪除已選的項目？</string>
+    <string name="select_item">"選取項目"</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="video_app_name">"Reproductor de vídeo"</string>
+    <string name="scanning">"Explorant targeta SD…"</string>
+    <string name="sdcard_missing_message">"No s’ha inserit una targeta SD al telèfon."</string>
+    <string name="video_list_empty">"No hi ha cap vídeo."</string>
+    <string name="detail_title">"Títol: %1$s"</string>
+    <string name="detail_date_taken">"Fet: %1$s"</string>
+    <string name="detail_path">"Camí: %1$s"</string>
+    <string name="detail_filesize">"Mida del fitxer: %1$s"</string>
+    <string name="detail_duration">"Durada: %1$s"</string>
+    <string name="media_detail">"Detalls"</string>
+    <string name="delete">"Elimina"</string>
+    <string name="delete_tip">"Vols eliminar %1$s?"</string>
+    <string name="delete_progress">"S’està eliminant %1$s ..."</string>
+	<string name="max_video">Vídeos màxims</string>
+	<string name="hotknot">HotKnot</string>
+    <string name="share">Comparteix</string>
+    <string name="deselect_all">"Anul·la tota la selecció"</string>
+    <string name="select_all">"Selecciona-ho tot"</string>
+    <string name="selected">seleccionats</string>
+    <string name="delete_selection_one">"Vols supr. l'element selecc.?"</string>
+    <string name="delete_selection_more">"Vols supr. els elements sel.?"</string>
+    <string name="select_item">"Tria un element"</string>
+</resources>

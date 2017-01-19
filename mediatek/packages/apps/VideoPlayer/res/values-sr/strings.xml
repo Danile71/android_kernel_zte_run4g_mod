@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="video_app_name">"Видео плејер"</string>
+    <string name="scanning">"Скенирање SD картице…"</string>
+    <string name="sdcard_missing_message">"У телефон није уметнута SD картицa."</string>
+    <string name="video_list_empty">"Нема видео снимака."</string>
+    <string name="detail_title">"Наслов: %1$s"</string>
+    <string name="detail_date_taken">"Узето: %1$s"</string>
+    <string name="detail_path">"Путања: %1$s"</string>
+    <string name="detail_filesize">"Величина датотеке: %1$s"</string>
+    <string name="detail_duration">"Трајање: %1$s"</string>
+    <string name="media_detail">"Детаљи"</string>
+    <string name="delete">"Избриши"</string>
+    <string name="delete_tip">"Избрисати %1$s?"</string>
+    <string name="delete_progress">"Брисање %1$s ..."</string>
+	<string name="max_video">Максимални број видео снимака</string>
+	<string name="hotknot">HotKnot</string>
+    <string name="share">Дели</string>
+    <string name="deselect_all">"Поништи све изборе"</string>
+    <string name="select_all">"Изабери све"</string>
+    <string name="selected">изабрано</string>
+    <string name="delete_selection_one">"Бришете изабрану ставку?"</string>
+    <string name="delete_selection_more">"Бришете изабране ставке?"</string>
+    <string name="select_item">"Избор ставке"</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright Digital TV Labs 2012 -->
+<MPD xmlns="urn:mpeg:DASH:schema:MPD:2011" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:hbbtv:dash:profile:isoff-live:2012" type="static" mediaPresentationDuration="PT1M0S">
+  <Period start="PT0S" duration="PT0H1M0.00S">
+    <AdaptationSet mimeType="video/mp4" codecs="avc1.4d401e" segmentAlignment="true">
+      <SegmentTemplate timescale="100" media="videotml-$Bandwidth$/segments/seg-.fmp4/timeline-$Time$.m4s" initialization="videotml-$Bandwidth$/segments/seg-.fmp4/dashfile.mp4">
+        <SegmentTimeline>
+          <S t="0" d="300" r="19" />
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="video.500" startWithSAP="1" bandwidth="500000" frameRate="25" width="352" sar="16:9" height="288" scanType="interlaced" />
+      <Representation id="video.1000" startWithSAP="1" bandwidth="1000000" frameRate="25" width="720" sar="16:9" height="576" scanType="interlaced" />
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" codecs="mp4a.40.02" segmentAlignment="true" lang="en">
+      <SegmentTemplate timescale="48000" media="audiotml-$Bandwidth$/segments/seg-.fmp4/timeline-$Time$.m4s" initialization="audiotml-$Bandwidth$/segments/seg-.fmp4/dashfile.mp4">
+        <SegmentTimeline>
+          <S t="0" d="143360" r="19" />
+          <S t="2867200" d="14336" r="0" />
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation bandwidth="96000" id="audio.96" startWithSAP="1" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
+

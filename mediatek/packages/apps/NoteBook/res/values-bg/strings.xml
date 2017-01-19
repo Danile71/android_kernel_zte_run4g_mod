@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Бележник</string>
+    <string name="no_note">Няма бележки</string>
+    <string name="selectednumber">Избрани</string>
+    <string name="delete_confirm_current">Бележката ще бъде изтрита.</string>
+    <string name="delete_confirm_one">Бележката за избрани ще бъде изтрита.</string>
+    <string name="delete_confirm">Бележките за избрани ще бъдат изтрити.</string>
+    <string name="delete_confirm_title">"Изтриване"</string>
+    <string name="delete_confirm_cancel">"Отказ"</string>
+    <string name="delete_confirm_ok">"OK"</string>
+    <string name="title_bar_selected">Избрани</string>
+    <string name="editor_full">Можете да въведете макс. 1500 символа</string>
+    <string name="sdcard_full" product="tablet">Няма достатъчно място в паметта на у-вото. Освободете памет.</string>
+    <string name="sdcard_full" product="default">Няма достатъчно място в паметта на телефона. Освободете памет.</string>
+    <string name="save_none">Не е създадена празна бележка</string>
+    <string name="empty_note">Празна бележка</string>
+    <string name="delete_progress">Изтриване</string>
+    <string name="title_notes_list">Бележник</string>
+    <string name="title_notes_view">Четене</string>
+    <string name="title_notes_edit">"Готово"</string>
+    <string name="title_loading">Зареждане…</string>
+    <string name="menu_delete">Изтриване всички бележки</string>
+    <string name="delete_all_notes_confirm">Всички бележки ще бъдат изтрити.</string>
+    <string name="note_saved">Запаметена бележка</string>
+    <string name="no_selected">Няма избрана бележка</string>
+    <string name="menu_sort_by_modify">Сортиране по време на промяна</string>
+    <string name="menu_sort_by_tab">Сортиране по тагове</string>
+    <string name="menu_work">"Служебен"</string>
+    <string name="menu_personal">"ЛИЧНИ"</string>
+    <string name="menu_family">Семейни работи</string>
+    <string name="menu_study">Образование</string>
+    <string name="menu_none">Не категоризирано</string>
+    <string name="menu_add_button">"ново"</string>
+    <string name="menu_delete_button">"Изтриване"</string>
+    <string name="menu_edit_button">"Редактиране"</string>
+    <string name="menu_deselect_all_button">"Премахване на избора"</string>
+    <string name="menu_select_all_button">"Избиране на всички"</string>
+    <string name="month">"м"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count">Избрани <xliff:g id="count">%d</xliff:g></string>
+    <string name="type_note">Печатане бележка</string>
+</resources>

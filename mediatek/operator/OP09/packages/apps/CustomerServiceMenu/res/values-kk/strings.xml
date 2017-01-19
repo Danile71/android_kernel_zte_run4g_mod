@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Тұтынушының қызметтік мәзірі</string>
+    <string name="title_activity_main">Тұтынушының қызметтік мәзірі</string>
+    <string name="title">Тұтынушының қызметтік мәзірі</string>
+    <string name="customer_hotline">Тұтынушының жедел байланыс желісі</string>
+    <string name="mobile_ehall">Мобильді электрондық бөлме</string>
+    <string name="subscription">Менің жазылымдарым</string>
+    <string name="prl_update">PRL жаңарту</string>
+    <string name="global_hotline">Ғаламдық жедел байланыс желісі</string>
+    <string name="guide">Телефон қызметінің нұсқаулығы</string>
+    <string name="hotline_desc"> China Telecom тұтынушыларға арналған жедел байланыс желісі - 10000 және өз-өзіне қызмет көрсетуге арналған байланыс желісі - 10001. Егер халықаралық роумингте болғанда, жергілікті тұтынушыларға арналған жедел байланыс желісін теру керек болса, алдына аймақтық коды енгізуіңіз қажет.</string>
+    <string name="hotline">10000</string>
+    <string name="self_hotline">10001</string>
+    <string name="message">Хабар</string>
+    <string name="wap">wap</string>
+    <string name="subscription_inquiry">Жазылым сұрауы</string>
+    <string name="service_unscribe">Қызметтен бас тарту </string>
+    <string name="global_hotline_desc">Егер сіз мұхит ассаңыз немесе Гонконг, Макао және Тайвань аймағындағы роумингті пайдалансаңыз, China Telecom ғаламдық жедел байланыс желісіне, яғни +8618918910000 нөміріне хабарласуыңызға болады. Бұл құрылғы арқылы қоңырау шалу тегін. Толық мәліметті көру үшін роумингтің алғашқы хабарламасын қараңыз. Сондай-ақ, http://manyou.ct10000.com сайтына кіріңіз.</string>
+    <string name="sum_search_networks">Барлық қолжетімді желілерді іздеу</string>
+    <string name="send_ok">Жіберу сәтті орындалды</string>
+    <string name="send_fail">Хабарлама жіберу сәтсіз аяқталды</string>
+    <string name="sending">Қоңырау шалушының идентификаторын жіберу қызметін тексеру</string>
+    <string name="to">Файлды басып шығару үшін қолжетімді қолданба жоқ.</string>
+    <string name="sim_not_available">China Telecom UIM картаңыз қолжетімді екендігіне көз жеткізіңіз</string>
+    <string name="search_networks">Барлық қолжетімді желілерді іздеу</string>
+    <string name="waiting_networks">Желі байланысын үзу кезінде түймені баспай тұра тұрыңыз</string>
+    <string name="guide_desc">MediaTek тұтынушыларға қызмет көрсету желісі: 010-82861128 MediaTek ресми сайты: http://www.mediatek.com"</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"Seuraava"</string>
+    <string name="scroll_left_bar_title">Vieritä näyttääksesi lisää kuvaustiloja</string>
+    <string name="zoome_title">Lähennä/loitonna</string>
+    <string name="vcs_guide_summary">Sano nimi etsiäksesi yhteystietoja.\nKokeile!</string>
+    <string name="vcs_guide_title">Yhteystietojen äänihaku</string>
+    <string name="camera_mav_title">Siirry kohteen vasemmalle puolelle ja aloita kuvaaminen</string>
+    <string name="refocus_guide_title">Napsauta kuvaa muuttaaksesi tarkennuksen sijaintia</string>
+    <string name="vcs_guide_title1">Sano nimi etsiäksesi yhteystietoja.</string>
+    <string name="vcs_guide_title2">Napauta tässä ottaaksesi toiminnon käyttöön.\nKokeile sitä!</string>    
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Bloco de notas</string>
+    <string name="no_note">Sem notas</string>
+    <string name="selectednumber">Seleccionado</string>
+    <string name="delete_confirm_current">A nota será eliminada.</string>
+    <string name="delete_confirm_one">A nota selecionada será eliminada.</string>
+    <string name="delete_confirm">As notas selecionadas serão eliminadas.</string>
+    <string name="delete_confirm_title">"Eliminar"</string>
+    <string name="delete_confirm_cancel">"Cancelar"</string>
+    <string name="delete_confirm_ok">"OK"</string>
+    <string name="title_bar_selected">Seleccionado</string>
+    <string name="editor_full">Pode introduzir no máximo 1500 caracteres</string>
+    <string name="sdcard_full" product="tablet">O armazenamento do dispositivo não tem espaço suficiente. Liberte algum espaço de armazenamento.</string>
+    <string name="sdcard_full" product="default">O armazenamento do telefone não tem espaço suficiente. Liberte algum espaço de armazenamento.</string>
+    <string name="save_none">Não é possível criar uma nota vazia</string>
+    <string name="empty_note">Nota vazia</string>
+    <string name="delete_progress">Excluindo</string>
+    <string name="title_notes_list">Bloco de notas</string>
+    <string name="title_notes_view">A ler</string>
+    <string name="title_notes_edit">"Concluído"</string>
+    <string name="title_loading">A carregar…</string>
+    <string name="menu_delete">Eliminar todas as notas</string>
+    <string name="delete_all_notes_confirm">Todas as notas serão eliminadas.</string>
+    <string name="note_saved">Nota guardada</string>
+    <string name="no_selected">Nenhuma nota selecionada</string>
+    <string name="menu_sort_by_modify">Ordenar por data de modificação</string>
+    <string name="menu_sort_by_tab">Ordenar por separadores</string>
+    <string name="menu_work">"Emprego"</string>
+    <string name="menu_personal">"PESSOAL"</string>
+    <string name="menu_family">Assuntos de família</string>
+    <string name="menu_study">Estudo</string>
+    <string name="menu_none">Sem classificação</string>
+    <string name="menu_add_button">"nova"</string>
+    <string name="menu_delete_button">"Eliminar"</string>
+    <string name="menu_edit_button">"Editar"</string>
+    <string name="menu_deselect_all_button">"Desmarcar tudo"</string>
+    <string name="menu_select_all_button">Selecionar Tudo</string>
+    <string name="month">"m"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> selecionada </string>
+    <string name="type_note">Escrever nota</string>
+</resources>

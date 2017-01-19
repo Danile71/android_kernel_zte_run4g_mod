@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"Înainte"</string>
+    <string name="scroll_left_bar_title">Derulaţi pentru a vizualiza mai multe moduri de captură</string>
+    <string name="zoome_title">Mărire/Micşorare</string>
+    <string name="vcs_guide_summary">Rostiţi numele pentru a găsi contacte.\nÎncercaţi această funcţie!</string>
+    <string name="vcs_guide_title">Căutare vocală contacte</string>
+    <string name="camera_mav_title">Mutați în stânga obiectului și începeți să trageți</string>
+    <string name="refocus_guide_title">Faceţi clic pe imagine pentru a schimba poziţia pentru focalizare</string>
+    <string name="vcs_guide_title1">Rostiţi numele pentru a găsi persoana de contact dorită.</string>
+    <string name="vcs_guide_title2">Atingeţi aici pentru a activa funcţia.\nÎncercaţi-o!</string>    
+</resources>

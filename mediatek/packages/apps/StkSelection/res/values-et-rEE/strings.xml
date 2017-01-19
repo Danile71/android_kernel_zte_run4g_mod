@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"SIM-kaardi tööriistakomplekt"</string>
+    <string name="activity_not_found" product="tablet">Rakendus ei ole teie seadmesse installitud.</string>
+    <string name="activity_not_found" product="default">"Rakendus pole teie telefoni installitud."</string>
+    <string name="simlock_toolkit">"SIM tööriistakomplekt"</string>
+    <string name="no_sim_card_inserted" product="default">Sisesta SIM kaart SIM tööriistakomplekti käivitamiseks.</string>
+    <string name="airplane_mode_on" product="default">Ei saa käivitada SIM tööriistakomplekti, kuna lennurežiim on sees.</string>
+    <string name="lable_sim_not_ready">SIM tööriistakomplekt pole valmis või seda ei toetata.</string>
+</resources>

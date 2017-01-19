@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">노트북</string>
+    <string name="no_note">메모가 없습니다.</string>
+    <string name="selectednumber">선택됨</string>
+    <string name="delete_confirm_current"> 메모가 삭제됩니다.</string>
+    <string name="delete_confirm_one">선택한 메모가 삭제됩니다.</string>
+    <string name="delete_confirm">선택한 메모가 삭제됩니다.</string>
+    <string name="delete_confirm_title">"삭제"</string>
+    <string name="delete_confirm_cancel">"취소"</string>
+    <string name="delete_confirm_ok">"확인"</string>
+    <string name="title_bar_selected">선택됨</string>
+    <string name="editor_full">최대 1,500개의 문자를 입력할 수 있습니다.</string>
+    <string name="sdcard_full" product="tablet">장치 저장 공간이 부족합니다. 일부 저장 공간을 비우십시오.</string>
+    <string name="sdcard_full" product="default">장치 저장 공간이 부족합니다. 일부 저장 공간을 비우십시오.</string>
+    <string name="save_none">빈 메모가 생성되지 않습니다.</string>
+    <string name="empty_note">빈 메모 </string>
+    <string name="delete_progress">삭제 중</string>
+    <string name="title_notes_list">노트북</string>
+    <string name="title_notes_view">읽는 중</string>
+    <string name="title_notes_edit">"완료"</string>
+    <string name="title_loading">로드하는 중…</string>
+    <string name="menu_delete">모든 메모 삭제</string>
+    <string name="delete_all_notes_confirm">모든 메모가 삭제됩니다.</string>
+    <string name="note_saved">메모가 저장됨</string>
+    <string name="no_selected">메모가 선택되지 않음</string>
+    <string name="menu_sort_by_modify">수정 시간순으로 정렬</string>
+    <string name="menu_sort_by_tab">탭별로 정렬</string>
+    <string name="menu_work">"직장"</string>
+    <string name="menu_personal">"개인 설정"</string>
+    <string name="menu_family">가정사</string>
+    <string name="menu_study">학업</string>
+    <string name="menu_none">미분류</string>
+    <string name="menu_add_button">"새 이미지"</string>
+    <string name="menu_delete_button">"삭제"</string>
+    <string name="menu_edit_button">"수정"</string>
+    <string name="menu_deselect_all_button">"모두 선택취소"</string>
+    <string name="menu_select_all_button">"모두 선택"</string>
+    <string name="month">"분"</string>
+    <string name="day">12월</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g>개가 선택됨 </string>
+    <string name="type_note">메모 입력</string>
+</resources>

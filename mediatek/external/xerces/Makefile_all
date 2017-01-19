@@ -1,0 +1,5 @@
+all:
+	make -f Makefile_vfp_cortex_a9
+	make -f Makefile_vfp_arm11
+	make -f Makefile_soft_arm11
+	make -f Makefile_pc

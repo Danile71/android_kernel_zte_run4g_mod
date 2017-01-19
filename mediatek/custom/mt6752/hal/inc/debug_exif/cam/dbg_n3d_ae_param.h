@@ -1,0 +1,37 @@
+ #ifndef _DBG_N3D_AE_PARAM_H_
+#define _DBG_N3D_AE_PARAM_H_
+
+
+enum 
+{
+    N3D_AE_TAG_DEBUG_VERSION = 0,	
+    N3D_AE_SYNCNUM,
+    N3D_AE_SYNCMODE,
+    N3D_AE_LOWER_BV,
+    N3D_AE_UPPER_BV,
+    N3D_AE_MASTER_IDX,
+
+    N3D_AE_0_AEIDX,
+    N3D_AE_0_AFEGAIN,
+    N3D_AE_0_SHUTTER,
+    N3D_AE_0_ISPGAIN,
+
+    N3D_AE_1_AEIDX,
+    N3D_AE_1_AFEGAIN,
+    N3D_AE_1_SHUTTER,
+    N3D_AE_1_ISPGAIN,
+    N3D_AE_TAG_MAX
+};
+
+
+//N3D AE debug info
+#define N3D_AE_DEBUG_VERSION (1)
+#define N3D_AE_DEBUG_TAG_SIZE (N3D_AE_TAG_MAX+10)  
+
+typedef struct
+{
+    DEBUG_CAM_TAG_T Tag[N3D_AE_DEBUG_TAG_SIZE];
+
+} N3D_AE_DEBUG_INFO_T;
+
+#endif // _DBG_AE_PARAM_H_

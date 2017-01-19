@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">NoteBook</string>
+    <string name="no_note">Walang Mga Tala</string>
+    <string name="selectednumber">Nakapili</string>
+    <string name="delete_confirm_current">Tatanggalin ang tala.</string>
+    <string name="delete_confirm_one">Ang napiling tala ay tatanggalin.</string>
+    <string name="delete_confirm">Ang mga piling tala ay tatanggalin.</string>
+    <string name="delete_confirm_title">"Tanggalin"</string>
+    <string name="delete_confirm_cancel">"Kanselahin"</string>
+    <string name="delete_confirm_ok">"OK"</string>
+    <string name="title_bar_selected">Nakapili</string>
+    <string name="editor_full">Maipapasok mo ang max na 1500 character</string>
+    <string name="sdcard_full" product="tablet">Hindi sapat ang espasyo ng imbakan ng aparato. Pakipakawalan ang ilang imbakan.</string>
+    <string name="sdcard_full" product="default">Hindi sapat ang espasyo ng imbakan ng telepono. Pakipakawalan ang ilang imbakan.</string>
+    <string name="save_none">Hindi ginawa ang talang walang laman</string>
+    <string name="empty_note">Talang walang laman</string>
+    <string name="delete_progress">Tinatanggal</string>
+    <string name="title_notes_list">NoteBook</string>
+    <string name="title_notes_view">Binabasa</string>
+    <string name="title_notes_edit">"Tapos na"</string>
+    <string name="title_loading">Nilo-load…</string>
+    <string name="menu_delete">Tanggalin lahat ng mga tala</string>
+    <string name="delete_all_notes_confirm">Tatanggalin lahat ng mga tala.</string>
+    <string name="note_saved">Sinave ang tala</string>
+    <string name="no_selected">Walang napiling tala</string>
+    <string name="menu_sort_by_modify">Uriin ayon sa binagong oras</string>
+    <string name="menu_sort_by_tab">Uriin ayon sa mga tab</string>
+    <string name="menu_work">"Trabaho"</string>
+    <string name="menu_personal">"PERSONAL"</string>
+    <string name="menu_family">Kaganapan ng pamilya</string>
+    <string name="menu_study">Mag-aral</string>
+    <string name="menu_none">Hindi nakakategorya</string>
+    <string name="menu_add_button">"bago"</string>
+    <string name="menu_delete_button">"Tanggalin"</string>
+    <string name="menu_edit_button">"I-edit"</string>
+    <string name="menu_deselect_all_button">"Alisin sa pagkakapili lahat"</string>
+    <string name="menu_select_all_button">Piliin Lahat</string>
+    <string name="month">"m"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> napili </string>
+    <string name="type_note">I-type ang tala</string>
+</resources>

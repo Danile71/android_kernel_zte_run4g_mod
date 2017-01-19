@@ -1,0 +1,54 @@
+LOCAL_DIR := $(GET_LOCAL_DIR)
+
+DUMMY_AP := no
+ifeq ($(DUMMY_AP), yes)
+DEFINES += DUMMY_AP
+MEMBASE := 0x52000000 # SDRAM
+else
+MEMBASE := 0x41E00000 # SDRAM
+endif
+MEMSIZE := 0x00900000 # 1MB
+
+SCRATCH_ADDR     := 0x45000000
+
+HAVE_CACHE_PL310 := no
+MTK_LM_MODE := no
+MTK_FASTBOOT_SUPPORT := yes
+LK_PROFILING := yes
+DEVICE_TREE_SUPPORT := yes
+
+# choose one of following value -> 1: disabled/ 2: permissive /3: enforcing
+SELINUX_STATUS := 3
+
+MACH_TYPE := 6752
+
+DEFINES += \
+        MEMBASE=$(MEMBASE)\
+	SCRATCH_ADDR=$(SCRATCH_ADDR)\
+	MACH_TYPE=$(MACH_TYPE)\
+	ENABLE_L2_SHARING\
+	SELINUX_STATUS=$(SELINUX_STATUS)
+
+ifeq ($(HAVE_CACHE_PL310), yes)
+DEFINES += HAVE_CACHE_PL310
+endif
+
+ifeq ($(MTK_LM_MODE), yes)
+DEFINES += MTK_LM_MODE
+endif
+
+ifeq ($(MTK_FASTBOOT_SUPPORT), yes)
+DEFINES += MTK_FASTBOOT_SUPPORT
+endif
+
+ifeq ($(LK_PROFILING), yes)
+DEFINES += LK_PROFILING
+endif
+
+ifeq ($(DEVICE_TREE_SUPPORT), yes)
+DEFINES += DEVICE_TREE_SUPPORT
+endif
+
+ifneq ($(filter user userdebug, $(TARGET_BUILD_VARIANT)),)
+DEFINES += USER_BUILD
+endif

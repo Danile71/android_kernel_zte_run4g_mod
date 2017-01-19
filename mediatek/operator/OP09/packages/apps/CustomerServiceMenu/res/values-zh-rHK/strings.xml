@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">客戶服務目錄</string>
+    <string name="title_activity_main">客戶服務目錄</string>
+    <string name="title">客戶服務目錄</string>
+    <string name="customer_hotline">客戶服務熱線</string>
+    <string name="mobile_ehall">手提電話線上大廳</string>
+    <string name="subscription">我的訂閱</string>
+    <string name="prl_update">PRL更新</string>
+    <string name="global_hotline">全球熱線</string>
+    <string name="guide">手提電話服務指引</string>
+    <string name="hotline_desc">中國電信的客戶服務熱線為10000而自理服務熱線為10001。當你正在國際漫遊，如果你想撥打當地的客戶服務熱線，你需要輸入區域號碼。</string>
+    <string name="hotline">10000</string>
+    <string name="self_hotline">10001</string>
+    <string name="message">"短訊"</string>
+    <string name="wap">無線應用協定直接上網</string>
+    <string name="subscription_inquiry">訂閱查詢</string>
+    <string name="service_unscribe">取消服務</string>
+    <string name="global_hotline_desc">如果你在海外或者香港，澳門，台灣地區漫遊的話，你可以致電中國電信的全球熱線+8618918910000。詳細請查看你的歡迎漫遊信息。也可以瀏覽http://manyou.ct10000.com</string>
+    <string name="sum_search_networks">"搜尋所有可用的網絡"</string>
+    <string name="send_ok">成功傳送</string>
+    <string name="send_fail">傳送信息失敗</string>
+    <string name="sending">檢查來電者ID發送服務</string>
+    <string name="to">沒有應用程式可列印聯絡人。</string>
+    <string name="sim_not_available">請確定你的中國電信UIM卡可使用</string>
+    <string name="search_networks">"搜尋所有可用的網絡"</string>
+    <string name="waiting_networks">正在處理網絡連線時請稍等</string>
+    <string name="guide_desc">"聯發科技客戶服務熱線：010-82861128 聯發科技官方網頁：http://www.mediatek.com"</string>
+</resources>

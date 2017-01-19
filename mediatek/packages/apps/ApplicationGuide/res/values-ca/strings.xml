@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="next">"Següent"</string>
+    <string name="scroll_left_bar_title">Desplaça\’t per veure més modes de captura</string>
+    <string name="zoome_title">Apropa/allunya</string>
+    <string name="vcs_guide_summary">Digues el nom per cercar contactes.\nProva-ho!</string>
+    <string name="vcs_guide_title">Cerca de contactes per veu</string>
+    
+    <string name="vcs_guide_title1">Digueu el nom del contacte per cercar-lo.</string>
+    <string name="vcs_guide_title2">Toqueu aquí per activar la funció.\nProveu-ho!!</string>    
+    <string name="camera_mav_title">Desplaça\'t a l\'esquerra de l\'objecte i comença a disparar</string>
+    <string name="refocus_guide_title">Fes clic a la imatge per canviar la posició d’enfocament</string>
+</resources>

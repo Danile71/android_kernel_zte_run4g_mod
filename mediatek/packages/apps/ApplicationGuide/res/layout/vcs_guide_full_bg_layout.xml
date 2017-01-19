@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vcs_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bb000000" >
+
+    <ImageView
+		android:id="@+id/vcs_image"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:scaleType="centerCrop"
+		android:src="@drawable/vcs_guide_bg"/>
+            
+    <TextView
+        android:id="@+id/vcs_guide_title1"
+        style="@style/textShadowSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignTop="@id/vcs_bg"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/vcs_guide_title1" />
+
+   <TextView
+       android:id="@+id/vcs_guide_title2"
+       style="@style/textShadowSummary"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@id/vcs_bg"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="90dp"
+       android:gravity="center"
+       android:text="@string/vcs_guide_title2" />
+
+    <Button
+        android:id="@+id/vcs_ok_btn"
+        style="@style/bottom_ok_button"
+		android:layout_alignBottom="@id/vcs_bg"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginBottom="15dp"
+		android:layout_marginRight="15dp"
+		android:gravity="center" />
+
+
+</RelativeLayout>

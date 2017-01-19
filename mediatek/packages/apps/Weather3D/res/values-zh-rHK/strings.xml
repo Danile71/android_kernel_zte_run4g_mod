@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3D 即時天氣</string>
+    <string name="last_update">"上次更新日期"</string>
+    <string name="no_weather">點擊以新增城市</string>
+    <string name="no_network">無網絡覆蓋</string>
+    <string name="update_fail">天氣更新失敗</string>
+    <string name="updating">更新中</string>
+</resources>

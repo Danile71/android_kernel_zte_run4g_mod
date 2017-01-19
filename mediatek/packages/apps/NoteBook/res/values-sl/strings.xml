@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Beležnica</string>
+    <string name="no_note">Ni opomb</string>
+    <string name="selectednumber">izbrano</string>
+    <string name="delete_confirm_current">Opomba bo izbrisana.</string>
+    <string name="delete_confirm_one">Izbrana opomba bo izbrisana.</string>
+    <string name="delete_confirm">Izbrane opombe bodo izbrisane.</string>
+    <string name="delete_confirm_title">"Izbriši"</string>
+    <string name="delete_confirm_cancel">"Prekliči"</string>
+    <string name="delete_confirm_ok">"V redu"</string>
+    <string name="title_bar_selected">izbrano</string>
+    <string name="editor_full">Vnesete lahko največ 1500 znakov</string>
+    <string name="sdcard_full" product="tablet">Na voljo ni dovolj nezasedenega prostora. Sprostite nekaj prostora za shranjevanje.</string>
+    <string name="sdcard_full" product="default">Na voljo ni dovolj nezasedenega prostora. Sprostite nekaj prostora za shranjevanje.</string>
+    <string name="save_none">Prazna opomba ni bila ustvarjena</string>
+    <string name="empty_note">Prazna opomba</string>
+    <string name="delete_progress">Brisanje</string>
+    <string name="title_notes_list">Beležnica</string>
+    <string name="title_notes_view">Branje</string>
+    <string name="title_notes_edit">"Končano"</string>
+    <string name="title_loading">Nalaganje...</string>
+    <string name="menu_delete">Izbriši vse opombe</string>
+    <string name="delete_all_notes_confirm">Vse opombe bodo izbrisane.</string>
+    <string name="note_saved">Opomba je shranjena</string>
+    <string name="no_selected">Nobena opomba ni izbrana</string>
+    <string name="menu_sort_by_modify">Razvrsti po času spremembe</string>
+    <string name="menu_sort_by_tab">Razvrsti po zavihkih</string>
+    <string name="menu_work">"Služba"</string>
+    <string name="menu_personal">"OSEBNO"</string>
+    <string name="menu_family">Družinske zadeve</string>
+    <string name="menu_study">Študij</string>
+    <string name="menu_none">Ni v nobeni kategoriji</string>
+    <string name="menu_add_button">"novo"</string>
+    <string name="menu_delete_button">"Izbriši"</string>
+    <string name="menu_edit_button">"Uredi"</string>
+    <string name="menu_deselect_all_button">"Prekliči celoten izbor"</string>
+    <string name="menu_select_all_button">"Izberi vse"</string>
+    <string name="month">"m"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count">Izbranih: <xliff:g id="count">%d</xliff:g></string>
+    <string name="type_note">Vnesite opombo</string>
+</resources>

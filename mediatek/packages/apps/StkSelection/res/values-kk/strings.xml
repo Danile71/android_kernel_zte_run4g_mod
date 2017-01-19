@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SIM Toolkit</string>
+    <string name="activity_not_found" product="tablet">Бағдарлама құрылғыңызға орнатылмаған.</string>
+    <string name="activity_not_found" product="default">Қолданба телефоныңызға орнатылмады.</string>
+    <string name="simlock_toolkit">"SIM құралдар жиыны"</string>
+    <string name="no_sim_card_inserted" product="default">SIM құралдар жиынына қатынасу үшін SIM картасын орнатыңыз.</string>
+    <string name="airplane_mode_on" product="default">Ұшу режимінің қосылуына байланысты SIM құралдар жиынын іске қосу мүмкін емес.</string>
+    <string name="lable_sim_not_ready">SIM құралдар жиыны дайын емес немесе оған қолдау көрсетілмейді</string>
+</resources>

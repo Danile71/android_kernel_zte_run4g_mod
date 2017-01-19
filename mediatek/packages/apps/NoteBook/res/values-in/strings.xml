@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">NoteBook</string>
+    <string name="no_note">Tidak Ada Catatan</string>
+    <string name="selectednumber">Dipilih</string>
+    <string name="delete_confirm_current">Catatan akan dihapus.</string>
+    <string name="delete_confirm_one">Catatan yang dipilih akan dihapus.</string>
+    <string name="delete_confirm">Catatan yang dipilih akan dihapus.</string>
+    <string name="delete_confirm_title">"Hapus"</string>
+    <string name="delete_confirm_cancel">"Batal"</string>
+    <string name="delete_confirm_ok">"Oke"</string>
+    <string name="title_bar_selected">Dipilih</string>
+    <string name="editor_full">Anda dapat memasukkan hingga 1500 karakter</string>
+    <string name="sdcard_full" product="tablet">Penyimpanan perangkat tidak memiliki cukup ruang. Kosongkan sebagian penyimpanan.</string>
+    <string name="sdcard_full" product="default">Penyimpanan ponsel tidak memiliki cukup ruang. Kosongkan sebagian penyimpanan.</string>
+    <string name="save_none">Catatan kosong tidak dibuat</string>
+    <string name="empty_note">Catatan kosong</string>
+    <string name="delete_progress">Menghapus</string>
+    <string name="title_notes_list">NoteBook</string>
+    <string name="title_notes_view">Membaca</string>
+    <string name="title_notes_edit">"Selesai"</string>
+    <string name="title_loading">Memuat…</string>
+    <string name="menu_delete">Hapus semua catatan</string>
+    <string name="delete_all_notes_confirm">Semua catatan akan dihapus.</string>
+    <string name="note_saved">Catatan disimpan</string>
+    <string name="no_selected">Tidak ada catatan yang dipilih</string>
+    <string name="menu_sort_by_modify">Sortir berdasarkan waktu modifikasi</string>
+    <string name="menu_sort_by_tab">Sortir berdasarkan tab</string>
+    <string name="menu_work">"Kerjaan"</string>
+    <string name="menu_personal">"PRIBADI"</string>
+    <string name="menu_family">Urusan keluarga</string>
+    <string name="menu_study">Studi</string>
+    <string name="menu_none">Tidak terkategori</string>
+    <string name="menu_add_button">"baru"</string>
+    <string name="menu_delete_button">"Hapus"</string>
+    <string name="menu_edit_button">"Edit"</string>
+    <string name="menu_deselect_all_button">"Batalkan semua pilihan"</string>
+    <string name="menu_select_all_button">Pilih Semua</string>
+    <string name="month">"m"</string>
+    <string name="day">12</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> dipilih </string>
+    <string name="type_note">Jenis catatan</string>
+</resources>

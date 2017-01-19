@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources>
+    <style name="Theme.WallpaperPicker">
+        <item name="android:screenOrientation">nosensor</item>
+    </style>
+
+    <style name="Theme" parent="@android:style/Theme.Holo.Wallpaper.NoTitleBar">
+    </style>
+
+    <style name="LivePickerTheme" parent="android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- CT Settings start -->
+    <style name="DataUsageTabSim" parent="android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textSize">8sp</item>
+    </style>
+    <!-- CT Settings end -->
+    <style name="ContactListSeparatorTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!-- See comments for @dimen/list_section_divider_min_height -->
+        <item name="android:minHeight">@dimen/list_section_divider_min_height</item>
+        <item name="android:background">@drawable/list_section_divider_holo_custom</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/people_app_theme_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- OP09 SystemUI QuickSettings style -->
+    <style name="TextAppearance" />
+    <style name="TextAppearance.QuickSettings" />
+    <style name="TextAppearance.QuickSettings.TileView">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#CCCCCC</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingStart">6dp</item>
+        <item name="android:paddingEnd">6dp</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+         <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!-- Call Settings style, sync with Phone setting -->
+    <style name="DialtactsActionBarStyle"
+           parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/phone_settings_actionbar_color</item>
+        <!-- Empty icon -->
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+    <style name="SettingsLight" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/phone_settings_background_color</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+    </style>
+</resources>

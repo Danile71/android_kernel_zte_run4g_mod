@@ -1,0 +1,20 @@
+this folder include 2 things
+1. the folder test_case_for server is json files which can be dragged into the funambol server.
+some test cases may be return 405 error code, it is ok. because some code is unsupported.
+
+2. the tree.xml this tree include the new ims and xdm nodes.
+some thing you need know: a node will not inherit it's parents access authority.
+so each node must write access authority tag in the tree.xml
+like:
+<get/><replace/>
+if only get, the node is read only. Even it has a handler.
+if a node has replace, handler will be invoked, in handler can throw exception to disable write node.
+
+the Vsend test app, which is used to trigger DM session in phone side, is in MediatekDM's folder.
+
+the tree.xml need replace the original tree.xml when this ims feature check into common code base.
+but, this file's server address is our funambol's address, if want to use CMCC's server, change it.
+when use funambol server, close sms reg option and open direct wifi option in OPtions.java.
+    public static final boolean USE_DIRECT_INTERNET = true;
+    public static final boolean USE_SMS_REGISTER = false;
+after this we can use wifi to test DM function.

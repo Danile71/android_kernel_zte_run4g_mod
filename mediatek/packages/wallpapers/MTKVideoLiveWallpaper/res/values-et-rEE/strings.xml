@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <skip/>
+    <string name="wallpapers">MTK liikuvad taustapildid</string>
+    <skip/>
+    <string name="vlw">Video taustapilt</string>
+    <string name="vlw_desc">Määra video liikuvaks taustapildiks.</string>
+    <string name="VideoScene_error_text_invalid_progressive_playback">"Kahjuks see video ei sobi voogesituseks sellesse seadmesse."</string>
+    <string name="VideoScene_error_text_unknown">"Kahjuks seda videot ei saa esitada."</string>
+    <string name="VideoScene_error_media_removed">Meediafail on eemaldatud</string>
+	<string name="VideoScene_error_sdcard_unmounted">SD-kaart ei ole paigaldatud</string>
+	<string name="VideoScene_info_wait_sdcard">SD kaardi ettevalmistamise ootamine</string>
+	<string name="VideoScene_error_media_not_found">Meediafaili ei ole praegu olemas</string>
+	<string name="VideoScene_error_be_set">kahjuks ei saa seda videot taustapildiks seada</string>
+    <string name="VideoEditor_error_title">"Videot ei saa esitada"</string>
+    <string name="VideoEditor_error_button">"OK"</string>
+    <string name="VideoEditor_error_no_video_selected">Videot pole valitud</string>
+	<string name="VideoEditor_warning_limited_duration">Vali esitamiseks vähemalt 1-sekundiline video</string>
+	<string name="VideoScene_reload_after_mount">Video laadimine SD kaardilt, palun oota.</string>
+    <string name="select_video">SD kaart</string>
+    <string name="select_default">"Vaikimisi"</string>
+    <string name="select">"Vali video"</string>
+    <string name="set_wallpaper">"Määra taustapilt"</string>
+    <string name="title">Video taustapilt</string>
+    <string name="default_title">Vaikevideo</string>
+    <string name="capture_video">"Kaamera"</string>
+    <string name="menu_item_add_item">Vali video SD kaardilt</string>
+    <string name="group_video">Vali üksainus video</string>
+    <string name="group_folder">Vali kaust</string>
+    <string name="folder_info">video(d)&lt;br&gt;saatjalt&lt;br&gt;</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">筆記本</string>
+    <string name="no_note">沒有便條</string>
+    <string name="selectednumber">選擇的</string>
+    <string name="delete_confirm_current">便條將會被刪除。</string>
+    <string name="delete_confirm_one">所選的便條將會被刪除。</string>
+    <string name="delete_confirm">所選的便條將會被刪除。</string>
+    <string name="delete_confirm_title">"刪除"</string>
+    <string name="delete_confirm_cancel">"取消"</string>
+    <string name="delete_confirm_ok">"確定"</string>
+    <string name="title_bar_selected">選擇的</string>
+    <string name="editor_full">你可以輸入最多1500字元</string>
+    <string name="sdcard_full" product="tablet">裝置的儲存空間並不足夠。請騰出空間。</string>
+    <string name="sdcard_full" product="default">手提電話的儲存空間並不足夠。請騰出空間。</string>
+    <string name="save_none">沒有創建空白便條</string>
+    <string name="empty_note">空白便條</string>
+    <string name="delete_progress">刪除中</string>
+    <string name="title_notes_list">筆記本</string>
+    <string name="title_notes_view">讀取中</string>
+    <string name="title_notes_edit">"完成"</string>
+    <string name="title_loading">載入中...</string>
+    <string name="menu_delete">刪除所有便條</string>
+    <string name="delete_all_notes_confirm">所有便條將會被刪除。</string>
+    <string name="note_saved">已儲存便條</string>
+    <string name="no_selected">沒有所選的便條</string>
+    <string name="menu_sort_by_modify">以修改時間排序</string>
+    <string name="menu_sort_by_tab">以標籤排序</string>
+    <string name="menu_work">"工作"</string>
+    <string name="menu_personal">"個人"</string>
+    <string name="menu_family">家事</string>
+    <string name="menu_study">讀書</string>
+    <string name="menu_none">未定義</string>
+    <string name="menu_add_button">"新漸層"</string>
+    <string name="menu_delete_button">"刪除"</string>
+    <string name="menu_edit_button">"編輯"</string>
+    <string name="menu_deselect_all_button">"全部不選"</string>
+    <string name="menu_select_all_button">選擇全部</string>
+    <string name="month">"分"</string>
+    <string name="day">D</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> 已選擇</string>
+    <string name="type_note">輸入便條</string>
+</resources>

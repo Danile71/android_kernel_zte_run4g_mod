@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">3D-live weer</string>  
+    <string name="last_update">Laatst bijgewerkt</string>  
+    <string name="no_weather">Tik op instelling om steden toe te voegen</string>  
+    <string name="no_network">Geen netwerk beschikbaar</string>  
+    <string name="update_fail">Weer bijwerken mislukt</string>  
+    <string name="updating">Bijwerken</string>  
+</resources>

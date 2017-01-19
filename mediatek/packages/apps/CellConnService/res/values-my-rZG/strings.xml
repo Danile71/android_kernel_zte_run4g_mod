@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">ဆဲ(လ္)ခ်ိတ္ဆက္မႈဆာဗာ</string>
+	<string name="button_ok">အိုေက</string>
+	<string name="button_cancel">မလုပ္ပါ</string>
+	<string name="confirm_radio_title">SIM ပိတ္ထားသည္</string>
+	<string name="confirm_radio_title_uim">UIM ပိတ္ထားသည္</string>
+	<string name="confirm_radio_title_card">ကဒ္ပိတ္ထားသည္</string>
+	<string name="confirm_radio_msg"> <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> မွာယခုပိတ္ထားပါသည္။ ဤ SIM ကတ္ကို သင္ဖြင့္လိုပါသလား။		 </string>
+  <string name="confirm_radio_msg_uim">ယခု <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> ပိတ္ထားသည္။ ဤ UIM ကဒ္ကို ဖြင့္လိုပါသလား။</string>
+  <string name="confirm_radio_msg_card">ယခု <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> ပိတ္ထားသည္။ ဤကဒ္ကို ဖြင့္လိုပါသလား။</string>
+	<string name="confirm_radio_flight_mode_on_and_msg">ဖလိုက္မုဒ္ကို ဖြင့္ၿပီး</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg">ယခု <xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> ပိတ္ထားသည္။ ဖလိုက္မုဒ္ကို ပိတ္ၿပီး ဤ SIM ကဒ္ကို ဖြင့္လိုပါသလား။</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_uim">ယခု <xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> ပိတ္ထားသည္။ ဖလိုက္မုဒ္ကို ပိတ္ၿပီး ဤ UIM ကဒ္ကို ဖြင့္လိုပါသလား။</string>
+	<string name="confirm_radio_flight_mode_on_sim_off_msg_card">ယခု <xliff:g id="operator_name" example="CMCC"> %1$s</xliff:g> ပိတ္ထားသည္။ ဖလိုက္မုဒ္ကို ပိတ္ၿပီး ဤကဒ္ကို ဖြင့္လိုပါသလား။</string>	
+	<string name="confirm_radio_flight_mode_on_sim_on_msg">ဖလိုက္မုဒ္ ဖြင့္ထားသည္။ ဖလိုက္မုဒ္ကို ပိတ္လိုပါသလား။</string>  
+	<string name="confirm_radio_msg_single">ေလယာဥ္ပ်ံသန္းစဥ္ အသံုးျပဳသည့္ နည္းလမ္းကို ယခု ဖြင့္ထားသည္၊ သင္ ပိတ္လိုပါသလား။</string>
+	<string name="confirm_pin_title">SIM ေသာ့ခ်ထားသည္</string>
+	<string name="confirm_pin_title_uim">UIM ေသာ့ပိတ္ထားသည္</string>
+	<string name="confirm_pin_title_card">ကဒ္ ေသာ့ပိတ္ထားသည္</string>
+	<string name="confirm_pin_msg">ေရြးခ်ယ္ထားေသာ SIM မွာ ယခုပိတ္ထားပါသည္။ ေက်းဇူးျပဳၿပီးအရင္ဖြင့္ပါ။</string>
+	<string name="confirm_pin_msg_uim">ေရြးထားေသာ UIM ကဒ္ကို ယခု ေသာ့ပိတ္ထားသည္။ ေက်းဇူးျပဳ၍ ၎ကို အရင္ဆံုး ေသာ့ျပန္ဖြင့္ပါ။</string>
+	<string name="confirm_pin_msg_card">ေရြးထားေသာကဒ္ကို ယခု ေသာ့ပိတ္ထားသည္။ ေက်းဇူးျပဳ၍ ၎ကို အရင္ဆံုး ေသာ့ျပန္ဖြင့္ပါ။</string>
+	<string name="confirm_simmelock_title">SIM ME ေသာ့ခ်ထားသည္</string>
+	<string name="confirm_simmelock_msg">ေရြးခ်ယ္ထားေသာ SIM အေပါက္မွာ ယခုပိတ္ထားပါသည္။ ေက်းဇူးျပဳၿပီးအရင္ဖြင့္ပါ။</string>
+	<string name="confirm_simmelock_msg_uim">ေရြးထားေသာ UIM ဆေလာ့တ္ကို ယခု ေသာ့ပိတ္ထားသည္။ ေက်းဇူးျပဳ၍ ၎ကို အရင္ဆံုး ေသာ့ျပန္ဖြင့္ပါ။</string>
+	<string name="confirm_simmelock_msg_card">ေရြးထားေသာ ဆေလာ့တ္ကို ယခု ေသာ့ပိတ္ထားသည္။ ေက်းဇူးျပဳ၍ ၎ကို အရင္ဆံုး ေသာ့ျပန္ဖြင့္ပါ။</string>
+	<string name="confirm_fdn_title">FDN အလုပ္လုပ္ႏိုင္သည္</string>
+	<string name="confirm_fdn_msg">အသင့္ျပင္ၿပီးသား ဖုန္းနံပါတ္ေခၚျခင္းမွာ အလုပ္လုပ္ႏိုင္သည္။</string>
+	<string name="confirm_roaming_title">ႏိုင္ငံတကာလွည့္လည္သြားျခင္း သတိေပးခ်က္</string>
+	<string name="confirm_roaming_msg">သင္အသံုးျပဳေတာ့မည့္ SIM ကတ္မွာ ယခုႏိုင္ငံတကာလွည့္လည္သြားျခင္း ပံုစံျဖစ္ေနသည္။ ေဒသသံုး SIM ကို မရရွိႏိုင္ပါ။ သင္ဆက္လက္ လုပ္ေဆာင္မွာလား။</string>
+	<string name="confirm_roaming_msg_uim">သင္အသံုးျပဳေတာ့မည့္ UIM ကဒ္မွာ ယခု ႏိုင္ငံတကာလွည့္လည္သြားျခင္း ပံုစံျဖစ္ေနသည္။ ေဒသသံုး UIM ကို မရရွိႏိုင္ပါ။ သင္ဆက္လက္ လုပ္ေဆာင္မွာလား။</string>
+	<string name="confirm_roaming_msg_card">သင္အသံုးျပဳေတာ့မည့္ကဒ္မွာ ယခုႏိုင္ငံတကာလွည့္လည္သြားျခင္း ပံုစံျဖစ္ေနသည္။ ေဒသသံုးကဒ္ ကို မရရွိႏိုင္ပါ။ သင္ဆက္လက္လုပ္ေဆာင္မွာလား။</string>
+  <string name="confirm_roaming_withPrefer_msg">သင္အသံုးျပဳေတာ့မည့္ SIM ကတ္မွာ ယခုႏိုင္ငံတကာလွည့္လည္သြားျခင္း ပံုစံျဖစ္ေနသည္။ ေဒသသံုး SIM မွတဆင့္ သင္ဆက္လက္ လုပ္ေဆာင္မွာလား။</string>
+  <string name="confirm_roaming_withPrefer_msg_uim">သင္အသံုးျပဳေတာ့မည့္ SIM ကဒ္မွာ ယခုႏိုင္ငံတကာ လွည့္လည္သြားျခင္း ပံုစံျဖစ္ေနသည္။ ေဒသသံုး UIM မွတဆင့္ သင္ဆက္လက္ လုပ္ေဆာင္မွာလား။</string>
+  <string name="confirm_roaming_withPrefer_msg_card">သင္အသံုးျပဳေတာ့မည့္ SIM ကဒ္မွာ ယခုႏိုင္ငံတကာ လွည့္လည္သြားျခင္း ပံုစံျဖစ္ေနသည္။ ေဒသသံုးကဒ္ မွတဆင့္ သင္ဆက္လက္ လုပ္ေဆာင္မွာလား။</string>
+  <string name="confirm_roaming_lbutton">ဆက္လုပ္ရန္</string>
+  <string name="confirm_roaming_rbutton">မလုပ္ပါ</string>
+  <string name="confirm_roamingWithPrefer_lbutton">ေဒသသံုး SIM</string>
+  <string name="confirm_roamingWithPrefer_lbutton_uim">ေဒသသံုး UIM</string>
+  <string name="confirm_roamingWithPrefer_lbutton_card">ေဒသသံုးကဒ္</string>
+  <string name="confirm_roamingWithPrefer_rbutton">ႏိုင္ငံတကာလွည့္လည္သြားေနေသာ SIM</string>
+  <string name="confirm_roamingWithPrefer_rbutton_uim">ႏိုင္ငံတကာလွည့္လည္သြားေနေသာ UIM</string>
+  <string name="confirm_roamingWithPrefer_rbutton_card">ႏိုင္ငံတကာလွည့္လည္သြားေနေသာ ကဒ္</string>
+	<string name="confirm_roaming_for3Sims_msg">သင္အသံုးျပဳေတာ့မည့္ SIM ကဒ္မွာ ယခုႏိုင္ငံတကာလွည့္လည္သြားျခင္း ပံုစံျဖစ္ေနသည္။ သင္ဆက္လက္ လုပ္ေဆာင္မွာလား။</string>
+  <string name="confirm_roaming_for3Sims_msg_uim">သင္အသံုးျပဳေတာ့မည့္ UIM ကဒ္မွာ ယခုႏိုင္ငံတကာ လွည့္လည္သြားျခင္း ပံုစံျဖစ္ေနသည္။ သင္ဆက္လက္ လုပ္ေဆာင္မွာလား။</string>
+  <string name="confirm_roaming_for3Sims_msg_card">သင္အသံုးျပဳေတာ့မည့္ကဒ္မွာ ယခုႏိုင္ငံတကာ လွည့္လည္သြားျခင္း ပံုစံျဖစ္ေနသည္။ သင္ဆက္လက္ လုပ္ေဆာင္မွာလား။</string>
+	<string name="confirm_radio_lbutton">ဖြင့္ပါ</string>
+	<string name="confirm_unlock_lbutton">ေသာ့ဖြင့္ရန္</string>
+	<string name="confirm_unlock_fail">လုပ္ငန္းကိုပယ္ဖ်က္သည္။</string>
+	<string name="confirm_turnon_radio_fail">လုပ္ငန္းကိုပယ္ဖ်က္သည္။</string>
+	<string name="confirm_permit_roaming_fail">ႏိုင္ငံတကာလွည့္လည္သြားေနေသာ SIM ေပၚတြင္ ဤလုပ္ငန္း လုပ္ေဆာင္ျခင္းအား သင္ပယ္ဖ်က္သည္။</string>
+	<string name="confirm_permit_roaming_fail_uim">ႏိုင္ငံတကာလွည့္လည္သြားေနေသာ UIM ေပၚတြင္ ဤလုပ္ငန္း လုပ္ေဆာင္ျခင္းအား သင္ပယ္ဖ်က္သည္။</string>
+	<string name="confirm_permit_roaming_fail_card">ႏိုင္ငံတကာလွည့္လည္သြားေနေသာ ကဒ္ေပၚတြင္ ဤလုပ္ငန္း လုပ္ေဆာင္ျခင္းအား သင္ပယ္ဖ်က္သည္။</string>
+	<string name="confirm_sim_locked_message">SIM ကတ္ကိုအျမဲတမ္း ေသာ့ခ်ထားသည္။</string>
+	<string name="confirm_sim_locked_message_uim">UIM ကဒ္ကိုအျမဲတမ္း ေသာ့ခ်ထားသည္။</string>
+	<string name="confirm_sim_locked_message_card">ကဒ္ကိုအျမဲတမ္း ေသာ့ခ်ထားသည္။</string>	
+    <string name="confirm_slot_locked_message">အေပါက္ကိုအျမဲတမ္း ေသာ့ခ်ထားသည္။</string>
+	<string name="button_yes">ဟုတ္ပါသည္</string>  
+	<string name="button_no">မဟုတ္ပါ</string>  
+</resources>

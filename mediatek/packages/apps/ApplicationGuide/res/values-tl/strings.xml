@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"Susunod"</string>
+    <string name="scroll_left_bar_title">Mag-scroll upang tingnan ang higit pang mga mode sa pagkuha</string>
+    <string name="zoome_title">Mag-zoom in/out</string>
+    <string name="vcs_guide_summary">Sabihin ang pangalan para hanapin ang mga kontak.\nSubukan ito!</string>
+    <string name="vcs_guide_title">Paghahanap ng Kontak Gamit ang Boses</string>
+    <string name="camera_mav_title">Pakilipat sa kaliwa ng object at simulang i-shoot ito</string>
+    <string name="refocus_guide_title">I-click ang omahe upang palitan ang posisyon ng focus</string>
+    <string name="vcs_guide_title1">Sabihin ang pangalan upang mahanap ang mga contact.</string>
+    <string name="vcs_guide_title2">I-tap dito para paganahin ang pagana.\nSubukan ito!</string>    
+</resources>

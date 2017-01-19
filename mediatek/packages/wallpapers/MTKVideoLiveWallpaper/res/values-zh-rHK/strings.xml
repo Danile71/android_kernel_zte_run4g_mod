@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <skip/>
+    <string name="wallpapers">MTK生活牆紙</string>
+    <skip/>
+    <string name="vlw">影片牆紙</string>
+    <string name="vlw_desc">設置影片作為動態牆紙。</string>
+    <string name="VideoScene_error_text_invalid_progressive_playback">"很抱歉，這部影片的格式無效，無法在這部裝置上串流播放。"</string>
+    <string name="VideoScene_error_text_unknown">"很抱歉，無法播放此影片。"</string>
+    <string name="VideoScene_error_media_removed">移除媒體檔案</string>
+	<string name="VideoScene_error_sdcard_unmounted">未有安裝 SD 卡</string>
+	<string name="VideoScene_info_wait_sdcard">等待準備 SD 卡</string>
+	<string name="VideoScene_error_media_not_found">現在媒體檔案不存在</string>
+	<string name="VideoScene_error_be_set">對不起，該影片不能設置為影片牆紙</string>
+    <string name="VideoEditor_error_title">"無法播放影片"</string>
+    <string name="VideoEditor_error_button">"確定"</string>
+    <string name="VideoEditor_error_no_video_selected">沒有影片被選擇</string>
+	<string name="VideoEditor_warning_limited_duration">請選擇至少 1 秒的影片播放</string>
+	<string name="VideoScene_reload_after_mount">從 sd 卡載入影片，請等一等</string>
+    <string name="select_video">SD記憶卡</string>
+    <string name="select_default">"預設"</string>
+    <string name="select">"選取影片"</string>
+    <string name="set_wallpaper">"設定桌布"</string>
+    <string name="title">影片牆紙</string>
+    <string name="default_title">預設影片</string>
+    <string name="capture_video">"相機"</string>
+    <string name="menu_item_add_item">從 SD 卡選擇影片</string>
+    <string name="group_video">選擇一個影片</string>
+    <string name="group_folder">選擇文件夾</string>
+    <string name="folder_info">影片 &lt;br&gt;從&lt;br&gt;</string>
+</resources>

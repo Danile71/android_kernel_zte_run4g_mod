@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">KlienditeeninduseMenüü</string>
+    <string name="title_activity_main">KlienditeeninduseMenüü</string>
+    <string name="title">Klienditeeninduse menüü</string>
+    <string name="customer_hotline">Kliendi abiliin</string>
+    <string name="mobile_ehall">Mobile e-hall</string>
+    <string name="subscription">Minu tellimus</string>
+    <string name="prl_update">PRL värskendus</string>
+    <string name="global_hotline">Global Hotline</string>
+    <string name="guide">Telefoniteenuse juhend</string>
+    <string name="hotline_desc">"China Telecom'i kliendi abiliin on 10000 ja iseteeninduse abiliin on 10001. Kui te kasutate riigisisest rändlusteenust, tuleb lisada suunakood, kui soovite helistada kohaliku abiliini numbrile."</string>
+    <string name="hotline">10000</string>
+    <string name="self_hotline">10001</string>
+    <string name="message">"Sõnum"</string>
+    <string name="wap">WAP</string>
+    <string name="subscription_inquiry">Tellimuse päring</string>
+    <string name="service_unscribe">Teenuse tühistamine</string>
+    <string name="global_hotline_desc">"Kui olete välismaal või mõnes Hongkongi, Macao või Taiwani regioonis ja kasutate rändlusteenust, saate helistada numbril +8618918910000, mis kuulub China Telecom'i üksusele Global Hotline. Selle seadme kaudu on see tasuta. Lugege rändlusteenuse tervitussõnumit, et saada täpsemat teavet. Võite külastada ka aadressi http://manyou.ct10000.com"</string>
+    <string name="sum_search_networks">"Otsi kõiki saadaolevaid võrke"</string>
+    <string name="send_ok">Edukalt saadetud</string>
+    <string name="send_fail">Sõnumi saatmine nurjus</string>
+    <string name="sending">Kontrolli numbrinäidu saatmisteenust</string>
+    <string name="to">Kontakti printimiseks pole saadaval ühtki rakendust.</string>
+    <string name="sim_not_available">"Veenduge, et China Telecom'i UIM kaart on saadaval"</string>
+    <string name="search_networks">"Otsi kõiki saadaolevaid võrke"</string>
+    <string name="waiting_networks">Oodake mõni hetk, et klõpsata, kui võrguühendus lõpetatakse</string>
+    <string name="guide_desc">"MediaTek'i klienditeeninduse abiliin: 010-82861128 MediaTek'i ametlik veebisait: http://www.mediatek.com"</string>
+</resources>

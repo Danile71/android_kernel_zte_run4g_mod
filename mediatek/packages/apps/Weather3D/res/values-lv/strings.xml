@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3D reāllaika laikapstākļi</string>
+    <string name="last_update">Pēdējā atjauninājuma reize</string>
+    <string name="no_weather">Pieskarieties iestatījumam, lai pievienotu pilsētas</string>
+    <string name="no_network">Neviens tīkls nav pieejams</string>
+    <string name="update_fail">Neizdevās atjaunināt laika ziņas</string>
+    <string name="updating">Atjaunina</string>
+</resources>

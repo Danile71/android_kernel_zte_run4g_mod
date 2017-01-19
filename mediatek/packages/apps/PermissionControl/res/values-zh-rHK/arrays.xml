@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="permission_label">
+        <item>打電話</item>
+        <item>開始多人會議</item>
+	    <item>"傳送 SMS"</item>
+	    <item>"發送 MMS"</item>
+	    <item>開始錄音</item>
+	    <item>Read SMS</item>
+	    <item>修改短信</item>
+	    <item>查閱多媒體短信</item>
+	    <item>修改多媒體信息</item>
+	    <item>Read contacts</item>
+	    <item>Modify contacts</item>
+	    <item>查閱對話記錄</item>
+	    <item>修改對話記錄</item>
+	    <item>取得位置</item>
+	    <item>使用相機</item>
+	    <item>打開數據連線</item>
+	    <item>打開 Wi-Fi</item>
+	    <item>"開啟藍牙功能"</item>
+	    <item>使用HotKnot</item>
+    </string-array>
+    <string-array name="perm_status_entry">
+        <item>"一律允許"</item>
+        <item>一律詢問</item>
+        <item>永遠拒絕</item>
+    </string-array>
+    <string-array name="confirm_msg_body">
+        <item>打電話</item>
+        <item>開始多人會議</item>
+        <item>發出短信</item>
+        <item>發出多媒體短信</item>
+        <item>開始錄音</item>
+        <item>read SMS</item>
+        <item>修改短信</item>
+        <item>查閱多媒體短信</item>
+        <item>修改多媒體信息</item>
+        <item>read contacts</item>
+        <item>modify contacts</item>
+        <item>查閱對話記錄</item>
+        <item>修改對話記錄</item>
+        <item>取得你現時的位置</item>
+        <item>使用相機</item>
+        <item>打開數據連線</item>
+        <item>打開 Wi-Fi</item>
+        <item>"開啟藍牙功能"</item>
+        <item>使用HotKnot</item>
+    </string-array>
+</resources>

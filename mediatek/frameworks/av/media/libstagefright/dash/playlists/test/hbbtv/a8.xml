@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright Digital TV Labs 2012 -->
+<MPD xmlns="urn:mpeg:DASH:schema:MPD:2011" minimumUpdatePeriod="PT15.00S" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:hbbtv:dash:profile:isoff-live:2012" type="dynamic" availabilityStartTime="2009-03-07T14:30:00Z">
+  <Period duration="PT5M0S" start="PT0M0S" id="period.1">
+    <AdaptationSet mimeType="video/mp4" codecs="avc1.4d401e" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="1500000" id="video.1500.2" frameRate="25" width="720" sar="16:9" height="576" scanType="interlaced">
+        <SegmentTemplate startNumber="0" duration="3000" initialization="720x576i_1500Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="720x576i_1500Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" codecs="mp4a.40.02" startWithSAP="1" segmentAlignment="true" lang="en">
+      <Representation bandwidth="128000" id="audio.128.2" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate startNumber="0" duration="3029" initialization="HEAAC_128K_3secseg_desc/media-01.fmp4/audio/init.mp4" media="HEAAC_128K_3secseg_desc/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
+

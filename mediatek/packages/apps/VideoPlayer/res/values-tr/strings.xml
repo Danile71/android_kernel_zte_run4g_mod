@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="video_app_name">"Videolar"</string>
+    <string name="scanning">"SD kart taranıyor…"</string>  
+    <string name="sdcard_missing_message">"Telefonunuza SD kart takılı değil."</string>  
+    <string name="video_list_empty">"Video yok."</string> 
+    <string name="detail_title">"Başlık: %1$s"</string>  
+    <string name="detail_date_taken">"Alındı : %1$s"</string>  
+    <string name="detail_path">"Yol : %1$s"</string>  
+    <string name="detail_filesize">"Dosya Boyutu : %1$s"</string>  
+    <string name="detail_duration">"Süre : %1$s"</string>  
+    <string name="media_detail">"Ayrıntılar"</string>  
+    <string name="delete">"Sil"</string>  
+    <string name="delete_tip">" %1$s silinsin yada kalsın mı?"</string>  
+    <string name="delete_progress">" %1$s siliniyor…"</string> 
+	<string name="max_video">Maksimum video</string>
+	<string name="hotknot">HotKnot</string>
+    <string name="share">"Paylaş"</string>
+    <string name="deselect_all">"Tümünün seçimini kaldır"</string>
+    <string name="select_all">Tümünü Seç</string>
+    <string name="selected">Seçili</string>
+    <string name="delete_selection_one">"Seçilen öğe silinsin mi?"</string>
+    <string name="delete_selection_more">"Seçilen öğeler silinsin mi?"</string>
+    <string name="select_item">"Öğe seçin"</string>
+</resources>

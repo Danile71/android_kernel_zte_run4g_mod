@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="import_to">"傳輸至"</string>
+    <string name="import_button">"你想傳輸 # 至日曆嗎?"</string>
+    <string name="cancel">"真的要取消下載嗎?\n按下繼續以繼續下載\n 按下丟棄以丟棄下載文件並去除之"</string>
+    <string name="no_access_toast">"帳號沒有找到。請先增加一個帳號"</string>
+    <string name="null_name">"無"</string>
+    <string name="import_message">"你想傳輸 # 至日曆嗎?"</string>
+    <string name="calendar_lable">"日曆： "</string>
+    <string name="date_lable">"日期： "</string>
+    <string name="import_title">"輸入日曆事件"</string>
+    <string name="importing">"輸入中 ..."</string>
+    <string name="import_complete">"輸入完成"</string>
+    <string name="open">"在 OpenGL ES 2.0 應用程式中啟用 4x MSAA"</string>
+    <string name="done">"完成"</string>
+    <string name="progresszero">"0%"</string>
+    <string name="import_vcs_failed">"輸入事件失敗。"</string>
+    <string name="title_lable">"標題：%1$s"</string>
+    <string name="no_syncable_calendars">"不能輸入"</string>
+    <string name="no_calendars_found">"此帳號不支援日曆同步，或未完成最後的同步。"</string>
+    <string name="retry">傳輸失敗。將稍後再試。</string>
+    <string name="give_up">周邊設備網絡異常中止通話層。（接收安全用戶平面的定位終點）</string>
+    <string name="open_calendar_failed">"日曆不可使用。"</string>
+    <string name="loading">下載中\u2026</string>
+    <string name="not_support_multi_events">"並不含有多個事件的檔案"</string>
+</resources>

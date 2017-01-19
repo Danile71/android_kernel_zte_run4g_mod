@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Upravljanje naprave</string>
+    <string name="manage_permission_app_label">Dovoljenje za upravljanje naprave</string>
+    <string name="send_message_dlg_title">Upravljanje naprave</string>
+    <string name="send_message_dlg_check_hint">"Zapomni si mojo izbiro"</string>
+    <string name="send_message_dlg_mgs">CMCC notice: We need to register your device to device management platform to provide the free post-service (Post-service is a platform by CMCC that can manage the terminal devices. It provides you the service of remote settings and app upgrade. ). A free message of device information will be sent for registration. The message will be sent only once and do not need you personal data (Do not send of Hong Kong, Macao, Taiwan and international roaming).  Select “OK” to agree to register and use the service. Select “Cancel” to give up and no service will be provided from CMCC.</string>
+    <string name="confirm_dlg_title">Upravljanje naprave</string>
+    <string name="confirm_dlg__msg">Obvestilo družbe CMCC: če prekličete storitev, ne boste mogli uporabiti brezplačne poštne storitve družbe CMCC. Ali res želite preklicati storitev?</string>
+    <string name="alert_dlg_ok_button">"V redu"</string>
+    <string name="alert_dlg_cancel_button">"Prekliči"</string>
+    <string name="send_message_notification_tickerText">Zahteva za dovoljenje za upravljanje naprave</string>
+    <string name="send_message_notification_title">Upravljanje naprave</string>
+    <string name="send_message_notification_msg">Pošlji sporočilo z zahtevo za dovoljenje za upravljanje naprave</string>
+</resources>

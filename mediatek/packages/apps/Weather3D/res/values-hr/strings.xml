@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">3D vremenske prilike uživo</string>
+    <string name="last_update">Posljednje ažuriranje</string>
+    <string name="no_weather">Dodirnite postavku za dodavanje gradova</string>
+    <string name="no_network">Nema dostupne mreže</string>
+    <string name="update_fail">Ažuriranje vremenski prilika nije uspjelo</string>
+    <string name="updating">Ažuriranje</string>
+</resources>

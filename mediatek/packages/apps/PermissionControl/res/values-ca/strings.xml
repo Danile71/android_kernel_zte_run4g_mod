@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Control de permisos</string>
+    <string name="accept_perm">"Permet"</string>
+    <string name="deny_perm">"Denega"</string>
+    <string name="notify_check_hint">No m’ho tornis a recordar.</string>
+	<string name="notify_dialog_title">"Advertiment de seguretat"</string>
+	<string name="notify_dialog_msg_body"><xliff:g id="pkg_name">%s</xliff:g> prova de <xliff:g id="perm_name">%s</xliff:g>.</string>
+	<string name="time_count_down_hint">(Rebutja-la automàticament després de <xliff:g id="time">%s</xliff:g> segons.)</string>
+    <string name="notification_control_state_title">Permís de l’aplicació</string>
+    <string name="notification_control_state_summary">S’ha tancat l’administració de permisos de l’aplicació.</string>
+    <string name="toast_deny_msg_body"><xliff:g id="pkg_name">%s</xliff:g> ha rebutjat <xliff:g id="perm_name">%s</xliff:g>.</string>
+    <string name="manage_permission_app_label">Permisos de l’aplicació</string>
+    <string name="manage_permission_summary">Administra els permisos de l’aplicació de seguretat i de protecció de la privadesa</string>
+    <string name="permissions_label">"Permisos"</string>
+    <string name="apps">"Aplicacions"</string>
+    <string name="no_applications">"No hi ha aplicacions."</string>
+    <string name="version_text">"versió <xliff:g id="VERSION_NUM">%1$s</xliff:g>"</string>
+    <string name="app_count_unit_single">"Aplicació"</string>
+    <string name="app_count_unit_plural">"Aplicacions"</string>
+    <string name="perm_count_unit_single">Permís</string>
+    <string name="perm_count_unit_plural">"Permisos"</string>
+    <string name="no_app_use_perm">No hi ha cap aplicació que utilitzi aquest permís.</string>
+    <string name="no_perm_is_used">Aquesta aplicació no utilitza cap permís.</string>
+    <string name="notify_user_switch_on">Activa el commutador per administrar els permisos de l’aplicació.</string>
+    <string name="alert_dlg_title">Desactivar la protecció?</string>
+    <string name="alert_dlg_mgs">Les aplicacions obtindran permís directament sense la teva confirmació.</string>
+    <string name="foreground_notification_title">S’està executant l’administració de permisos de l’aplicació</string>
+    <string name="foreground_notification_summary">Toca per veure la configuració detallada dels permisos de les aplicacions.</string>
+    <string name="auto_boot_pref_title">Inicia l’administració automàticament</string>
+    <string name="auto_boot_pref_summary">Permet o rebutja l’inici automàtic de les aplicacions durant l’arrencada del sistema</string>
+    <string name="no_auto_boot_app">No iniciïs les aplicacions automàticament.</string>
+    <plurals name="autoboot_app_desc_allow">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g> aplicació permesa,</item>
+        <item quantity="other"><xliff:g id="app_count">%1$d</xliff:g> aplicacions permeses,</item>
+    </plurals>
+   <plurals name="autoboot_app_desc_deny">
+        <item quantity="one"><xliff:g id="app_count">%1$d</xliff:g> aplicació rebutjada,</item>
+        <item quantity="other"><xliff:g id="app_count">%1$d</xliff:g> aplicacions rebutjades.</item>
+   </plurals>
+</resources>

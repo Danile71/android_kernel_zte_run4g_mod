@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">3D live weather</string>
+    <string name="last_update">Last updated</string>
+    <string translatable="false" name="degree">\u00B0</string>
+    <string name="no_weather">Tap setting to add cities</string>
+    <string name="no_network">No network available</string>
+    <string name="update_fail">Update weather fail</string>
+    <string name="updating">Updating</string>
+    <string translatable="false" name="refresh_desc">Refresh Image Button</string>
+    <string translatable="false" name="setting_desc">Setting Image Button</string>
+    <string translatable="false" name="snapshot_desc">Snapshot Image</string>
+</resources>

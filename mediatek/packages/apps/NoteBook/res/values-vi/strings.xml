@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Sổ tay</string>
+    <string name="no_note">Ko ghi chú</string>
+    <string name="selectednumber">Đã chọn</string>
+    <string name="delete_confirm_current">Ghi chú sẽ bị xóa.</string>
+    <string name="delete_confirm_one">Ghi chú vừa chọn sẽ bị xóa.</string>
+    <string name="delete_confirm">Các ghi chú vừa chọn sẽ bị xóa.</string>
+    <string name="delete_confirm_title">"Xóa"</string>
+    <string name="delete_confirm_cancel">"Hủy"</string>
+    <string name="delete_confirm_ok">"OK"</string>
+    <string name="title_bar_selected">Đã chọn</string>
+    <string name="editor_full">Bạn có thể nhập tối đa 1500 ký tự</string>
+    <string name="sdcard_full" product="tablet">Bộ nhớ thiết bị không đủ dung lượng. Hãy làm trống thêm bộ nhớ.</string>
+    <string name="sdcard_full" product="default">Bộ nhớ điện thoại không đủ dung lượng. Hãy làm trống thêm bộ nhớ.</string>
+    <string name="save_none">Chưa tạo ghi chú trống</string>
+    <string name="empty_note">Ghi chú trống</string>
+    <string name="delete_progress">Đang xóa</string>
+    <string name="title_notes_list">Sổ tay</string>
+    <string name="title_notes_view">Đang đọc</string>
+    <string name="title_notes_edit">"Hoàn tất"</string>
+    <string name="title_loading">Đang tải...</string>
+    <string name="menu_delete">Xóa mọi ghi chú</string>
+    <string name="delete_all_notes_confirm">Mọi ghi chú sẽ bị xóa.</string>
+    <string name="note_saved">Đã lưu ghi chú</string>
+    <string name="no_selected">Chưa chọn ghi chú</string>
+    <string name="menu_sort_by_modify">P.loại theo giờ đã sửa</string>
+    <string name="menu_sort_by_tab">P.loại theo thẻ</string>
+    <string name="menu_work">"Cơ quan"</string>
+    <string name="menu_personal">"CÁ NHÂN"</string>
+    <string name="menu_family">Việc gia đình</string>
+    <string name="menu_study">Học tập</string>
+    <string name="menu_none">Hủy phân loại</string>
+    <string name="menu_add_button">"mới"</string>
+    <string name="menu_delete_button">"Xóa"</string>
+    <string name="menu_edit_button">"Chỉnh sửa"</string>
+    <string name="menu_deselect_all_button">"Bỏ chọn tất cả"</string>
+    <string name="menu_select_all_button">Chọn tất cả</string>
+    <string name="month">"m"</string>
+    <string name="day">12</string>
+    <string name="selected_item_count">Đã chọn  <xliff:g id="count">%d</xliff:g>  </string>
+    <string name="type_note">Nhập ghi chú</string>
+</resources>

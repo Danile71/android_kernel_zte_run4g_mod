@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Notizbuch</string>
+    <string name="no_note">Keine Notizen</string>
+    <string name="selectednumber">Ausgewählt</string>
+    <string name="delete_confirm_current">Nichts wird gelöscht</string>
+    <string name="delete_confirm_one">Ausgewählte Notiz wird gelöscht</string>
+    <string name="delete_confirm">Ausgewählte Notiz wird gelöscht</string>
+    <string name="delete_confirm_title">Löschen</string>
+    <string name="delete_confirm_cancel">Abbrechen</string>
+    <string name="delete_confirm_ok">OK</string>
+    <string name="title_bar_selected">Ausgewählt</string>
+    <string name="editor_full">Sie können bis zu 1.500 Zeichen eingeben.</string>
+    <string name="sdcard_full" product="tablet">Das Gerät hat nur noch wenig Speicherplatz. Geben Sie Speicher frei.</string>
+    <string name="sdcard_full" product="default">Das Telefon hat nur noch wenig Speicherplatz. Geben Sie Speicher frei.</string>
+    <string name="save_none">Leere Notiz wird nicht erstellt</string>
+    <string name="empty_note">Leere Notiz</string>
+    <string name="delete_progress">Löschen</string>
+    <string name="title_notes_list">Notizbuch</string>
+    <string name="title_notes_view">Lesen</string>
+    <string name="title_notes_edit">Erledigt</string>
+    <string name="title_loading">Laden...</string>
+    <string name="menu_delete">Alle Notizen löschen</string>
+    <string name="delete_all_notes_confirm">Alle Notizen werden gelöscht</string>
+    <string name="note_saved">Nicht gespeichert</string>
+    <string name="no_selected">Keine Notizen ausgewählt</string>
+    <string name="menu_sort_by_modify">Sortieren nach Änderungszeit</string>
+    <string name="menu_sort_by_tab">Nach Tabs sortieren</string>
+    <string name="menu_work">Arbeit</string>
+    <string name="menu_personal">Personalisiert</string>
+    <string name="menu_family">Familie</string>
+    <string name="menu_study">Studium</string>
+    <string name="menu_none">Unterkategorisiert</string>
+    <string name="menu_add_button">Neu</string>
+    <string name="menu_delete_button">Löschen</string>
+    <string name="menu_edit_button">Editieren</string>
+    <string name="menu_deselect_all_button">Alle abwählen</string>
+    <string name="menu_select_all_button">Alles auswählen</string>
+    <string name="month">M</string>
+    <string name="day">D</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> gewählt</string>
+    <string name="type_note">Notiz eingeben</string>
+</resources>

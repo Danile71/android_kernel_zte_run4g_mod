@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Блокнот</string>
+    <string name="no_note">Нема приміток</string>
+    <string name="selectednumber">Вибрано</string>
+    <string name="delete_confirm_current">Примітку буде видалено.</string>
+    <string name="delete_confirm_one">Вибрану примітку буде видалено.</string>
+    <string name="delete_confirm">Вибрані примітки будуть видалені.</string>
+    <string name="delete_confirm_title">"Видалити"</string>
+    <string name="delete_confirm_cancel">"Скасувати"</string>
+    <string name="delete_confirm_ok">"ОК"</string>
+    <string name="title_bar_selected">Вибрано</string>
+    <string name="editor_full">Можна ввести макс. 1500 знаків</string>
+    <string name="sdcard_full" product="tablet">"Мало місця в пам'яті. Будь ласка, звільніть трохи місця."</string>
+    <string name="sdcard_full" product="default">"Мало місця в пам'яті телефона. Будь ласка, звільніть трохи місця."</string>
+    <string name="save_none">Не створено порожню примітку</string>
+    <string name="empty_note">Порожня примітка</string>
+    <string name="delete_progress">Видалення</string>
+    <string name="title_notes_list">Блокнот</string>
+    <string name="title_notes_view">Читання</string>
+    <string name="title_notes_edit">"Готово"</string>
+    <string name="title_loading">Завантаження...</string>
+    <string name="menu_delete">Видалити всі примітки</string>
+    <string name="delete_all_notes_confirm">Всі примітки будуть видалені.</string>
+    <string name="note_saved">Примітку збережено</string>
+    <string name="no_selected">Не вибрано примітку</string>
+    <string name="menu_sort_by_modify">Сортувати за часом модифікації</string>
+    <string name="menu_sort_by_tab">Сортувати за панелями</string>
+    <string name="menu_work">"Робоча"</string>
+    <string name="menu_personal">"ОСОБИСТЕ"</string>
+    <string name="menu_family">Сімейна справа</string>
+    <string name="menu_study">Навчання</string>
+    <string name="menu_none">Без категорії</string>
+    <string name="menu_add_button">"новинка"</string>
+    <string name="menu_delete_button">"Видалити"</string>
+    <string name="menu_edit_button">"Редагувати"</string>
+    <string name="menu_deselect_all_button">"Відмінити все"</string>
+    <string name="menu_select_all_button">"Вибрати всі"</string>
+    <string name="month">"х"</string>
+    <string name="day">Д</string>
+    <string name="selected_item_count">вибрано <xliff:g id="count">%d</xliff:g></string>
+    <string name="type_note">Наберіть примітку</string>
+</resources>

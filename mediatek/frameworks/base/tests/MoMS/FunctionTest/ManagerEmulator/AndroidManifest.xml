@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mediatek.mom.test.app.mgremu"
+    android:sharedUserId="android.uid.system">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name">
+
+        <!-- An authorized service to execute spedified operation -->
+        <service android:name="com.mediatek.mom.test.app.mgremu.ManagerEmulator"
+                  android:label="@string/app_name">
+        </service>
+
+    </application>
+
+</manifest>

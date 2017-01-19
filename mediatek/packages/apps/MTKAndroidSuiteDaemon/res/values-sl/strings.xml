@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTK Android Suite Daemon</string>
+    <string name="noti_main_service_started">Aplikacija MTK Android Suite Daemon se je zagnala.</string>
+    <string name="noti_main_service_running">Aplikacija MTK Android Suite Daemon se izvaja.</string>
+    <string name="noti_main_service_stopped">Aplikacija MTK Android Suite Daemon se je zaustavila.</string>
+    <string name="noti_main_service_backup">Aplikacija MTK Android Suite Daemon izvaja varnostno kopiranje.</string>
+</resources>

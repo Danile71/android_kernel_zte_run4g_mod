@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"بعدی"</string>
+    <string name="scroll_left_bar_title">حرکت دهید تا حالت های ضبط بیشتر را مشاهده کنید</string>
+    <string name="zoome_title">بزرگنمایی / کوچکنمایی</string>
+    <string name="vcs_guide_summary">نام مخاطبین را برای یافتن بگویید\nامتحانش کنید!</string>
+    <string name="vcs_guide_title">جستجوی صوتی مخاطب</string>
+    <string name="camera_mav_title">به سمت چپ شی حرکت کنید و شروع کنید به شلیک کردن</string>
+    <string name="refocus_guide_title">برای تغییر محل فوکوس، روی تصویر کلیک کنید</string>
+    <string name="vcs_guide_title1">نام مخاطب را بگویید تا پیدا شود.</string>
+    <string name="vcs_guide_title2">برای فعال کردن این عملکرد، روی این قسمت ضربه بزنید.\nامتحان کنید!</string>    
+</resources>

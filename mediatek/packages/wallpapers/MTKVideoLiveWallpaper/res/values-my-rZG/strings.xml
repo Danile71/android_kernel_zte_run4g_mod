@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <skip/>
+    <string name="wallpapers">MTK သက္ဝင္လႈပ္ရွားမႈ ရွိေသာ ေနာက္ခံစကၠဴမ်ား</string>
+    <skip/>
+    <string name="vlw">ဗီဒီယို ေနာက္ခံစကၠဴ</string>
+    <string name="vlw_desc">ဗီဒီယိုကို သက္ဝင္လႈပ္ရွားမႈ ရွိေသာ ေနာက္ခံစကၠဴအျဖစ္ သတ္မွတ္သည္။</string>
+    <string name="VideoScene_error_text_invalid_progressive_playback">ေတာင္းပန္ပါသည္၊ ဤဗီဒီယိုသည္ စက္အတြင္းသို႔ တိုက္႐ိုက္ကူးယူထည့္သြင္းရန္ အဆင္မေျပပါ။</string>
+    <string name="VideoScene_error_text_unknown">ေတာင္းပန္ပါသည္၊ ဤဗီဒီယိုကို ဖြင့္ျပ၍ မရပါ။</string>
+    <string name="VideoScene_error_media_removed">မီဒီယာဖိုင္ကို ဖယ္ရွားျခင္း ခံရသည္</string>
+	<string name="VideoScene_error_sdcard_unmounted">SD ကဒ္ မတက္လာပါ</string>
+	<string name="VideoScene_info_wait_sdcard">SD ကတ္ ျပင္ဆင္ေနျခင္းကို ေစာင့္ေနသည္</string>
+	<string name="VideoScene_error_media_not_found">မီဒီယာဖိုင္ ယခု တည္ရွိမေနပါ</string>
+	<string name="VideoScene_error_be_set">ေတာင္းပန္ပါသည္၊ ဤဗီဒီယိုကို ဗီဒီယို ေနာက္ခံစကၠဴအျဖစ္ မသတ္မွတ္ႏိုင္ပါ</string>
+    <string name="VideoEditor_error_title">ဗီဒီယိုကို မဖြင့္ႏိုင္ပါ</string>
+    <string name="VideoEditor_error_button">အိုေက</string>
+    <string name="VideoEditor_error_no_video_selected">ေရြးခ်ယ္ထားေသာ ဗီဒီယို မရွိပါ</string>
+	<string name="VideoEditor_warning_limited_duration">ျပသရန္ အနည္းဆံုး ၁ စကၠန္႔ၾကာေသာ ဗီဒီယိုကို ေရြးခ်ယ္ပါ</string>
+	<string name="VideoScene_reload_after_mount">sd ကတ္မွ ဗီဒီယိုကို တင္ပို႔ေနသည္၊ ေက်းဇူးျပဳ၍ ခဏေစာင့္ပါ။</string>
+    <string name="select_video">SD ကတ္</string>
+    <string name="select_default">မူလပံုစံ</string>
+    <string name="select">ဗီဒီယိုကို ေရြးခ်ယ္သည္</string>
+    <string name="set_wallpaper">ေဝါလ္ေပပါကို သတ္မွတ္ပါ</string>
+    <string name="title">ဗီဒီယို ေနာက္ခံစကၠဴ</string>
+    <string name="default_title">သတ္မွတ္ထားေသာ ဗီဒီယို</string>
+    <string name="capture_video">ကင္မရာ</string>
+    <string name="menu_item_add_item">SD ကတ္ မွ ဗီဒီယိုကို ေရြးခ်ယ္သည္</string>
+    <string name="group_video">ဗီဒီယို တစ္ခုတည္းကို ေရြးခ်ယ္သည္</string>
+    <string name="group_folder">ဖိုဒါကို ေရြးခ်ယ္သည္</string>
+    <string name="folder_info">ဗီဒီယို(မ်ား)</string>
+</resources>

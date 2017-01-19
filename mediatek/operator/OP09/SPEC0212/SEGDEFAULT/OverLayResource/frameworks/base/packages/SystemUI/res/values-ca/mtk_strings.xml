@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="sim_switch_tip">Aquesta UIM/SIM s’ha definit com a targeta UIM/SIM per defecte per a <xliff:g>%s</xliff:g>. Mantén i arrossega cap avall la barra d’estat per canviar la targeta UIM/SIM per defecte.</string>
+    <string name="sim_management">GESTIÓ DE LA UIM/SIM</string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] La connexió de dades de la targeta UIM/SIM està activada</string>
+    <string name="gemini_3g_disable_warning">“El servei 3G no està disponible amb aquesta UIM/SIM seleccionada. Les dades es poden carregar més lentament. Pots canviar la configuració del servei 3G a Configuració &gt; Xarxes &amp; sense fil &gt; Xarxes mòbils. Segur que vols seleccionar aquesta UIM/SIM?”</string>
+    <string name="gemini_3g_disable_warning_cu">“El servei 3G no està disponible amb aquesta UIM/SIM seleccionada. Les dades es poden carregar més lentament. Pots canviar la configuració del servei 3G a Configuració &gt; Administració de la UIM/SIM. Segur que vols seleccionar aquesta UIM/SIM?”</string>
+    <string name="gemini_3g_disable_warning_case0">“Abans has d’activar la itinerància de dades per a aquesta UIM/SIM i això pot comportar despeses importants per itinerància. Estàs segur que vols activar la itinerància de dades i seleccionar aquesta UIM/SIM?”</string>
+    <string name="gemini_3g_disable_warning_case1">“El servei 3G no està disponible amb aquesta UIM/SIM seleccionada. Les dades es poden carregar més lentament. Pots canviar la configuració del servei 3G a Configuració &gt; Xarxes &amp; sense fil &gt; Xarxes mòbils. Segur que vols seleccionar aquesta UIM/SIM?”</string>
+    <string name="gemini_3g_disable_warning_case2">“El servei 3G no està disponible amb aquesta UIM/SIM seleccionada. Les dades es poden carregar més lentament. Pots canviar la configuració del servei 3G a Configuració &gt; Administració de la UIM/SIM. Segur que vols seleccionar aquesta UIM/SIM?”</string>
+    <string name="gemini_3g_disable_warning_case3">“Abans has d’activar la itinerància de dades per a aquesta UIM/SIM i això pot comportar despeses importants per itinerància. A més, el servei 3G no està disponible amb aquesta UIM/SIM. Les dades es poden carregar més lentament. Pots canviar-ho a Configuració &gt; Xarxes &amp; sense fil &gt; Xarxes mòbils. Estàs segur que vols activar la itinerància de dades i seleccionar aquesta UIM/SIM?”</string>
+    <string name="gemini_3g_disable_warning_case4">“Abans has d’activar la itinerància de dades per a aquesta UIM/SIM i això pot comportar despeses importants per itinerància. A més, el servei 3G no està disponible amb aquesta UIM/SIM. Les dades es poden carregar més lentament. Pots canviar-ho a Configuració &gt; Administració de la UIM/SIM. Estàs segur que vols activar la itinerància de dades i seleccionar aquesta UIM/SIM?”</string>
+    <string name="confirm_radio_title">UIM/SIM desactivada</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> ara està desactivada. Vols activar aquesta targeta UIM/SIM?</string>
+    <string name="application_guide_title">﻿Switch to default UIM/SIM card</string>
+    <string name="application_guide_content">Desplaça’t per la llista de notificacions per passar a la targeta UIM/SIM per defecte</string>
+</resources>

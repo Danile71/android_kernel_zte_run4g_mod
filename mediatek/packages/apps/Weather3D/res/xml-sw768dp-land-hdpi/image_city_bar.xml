@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Image xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:ngin3d="http://schemas.android.com/apk/res/com.mediatek.weather3dwidget"
+       android:id="@+id/city_bar"
+       ngin3d:src="@drawable/bar_city"
+       ngin3d:visible="true"
+       ngin3d:position="300, 30, +0.01f"
+       ngin3d:anchorPoint="1.0f, 0.5f"
+        />

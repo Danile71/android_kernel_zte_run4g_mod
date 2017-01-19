@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Not Defteri</string>
+    <string name="no_note">Not Yok</string>
+    <string name="selectednumber">Seçili</string>
+    <string name="delete_confirm_current">Not silinecek.</string>
+    <string name="delete_confirm_one">Seçilen not silinecek.</string>
+    <string name="delete_confirm">Seçilen notlar silinecek.</string>
+    <string name="delete_confirm_title">"Sil"</string>
+    <string name="delete_confirm_cancel">"İptal"</string>
+    <string name="delete_confirm_ok">"Tamam"</string>
+    <string name="title_bar_selected">Seçili</string>
+    <string name="editor_full">En fazla 1500 karakter girebilirsiniz</string>
+    <string name="sdcard_full" product="tablet">Cihazda yeterli saklama alanı yok. Lütfen bir miktar saklama alanı boşa çıkartın.</string>
+    <string name="sdcard_full" product="default">Telefonda yeterli saklama alanı yok. Lütfen bir miktar saklama alanı boşa çıkartın.</string>
+    <string name="save_none">Boş not oluşturulamaz</string>
+    <string name="empty_note">Boş not</string>
+    <string name="delete_progress">Siliniyor</string>
+    <string name="title_notes_list">Not Defteri</string>
+    <string name="title_notes_view">Okunuyor</string>
+    <string name="title_notes_edit">"Bitti"</string>
+    <string name="title_loading">Yükleniyor...</string>
+    <string name="menu_delete">Tüm notları sil</string>
+    <string name="delete_all_notes_confirm">Tüm notlar silinecek.</string>
+    <string name="note_saved">Not kaydedildi</string>
+    <string name="no_selected">Hiçbir not seçilmedi</string>
+    <string name="menu_sort_by_modify">Değiştirme saatine göre sırala</string>
+    <string name="menu_sort_by_tab">Sekmelere göre sırala</string>
+    <string name="menu_work">"İş"</string>
+    <string name="menu_personal">"KİŞİSEL"</string>
+    <string name="menu_family">Aile etkinliği</string>
+    <string name="menu_study">Çalışma</string>
+    <string name="menu_none">Kategorileştirilmedi</string>
+    <string name="menu_add_button">"yeni"</string>
+    <string name="menu_delete_button">"Sil"</string>
+    <string name="menu_edit_button">"Düzenle"</string>
+    <string name="menu_deselect_all_button">"Tümünün seçimini kaldır"</string>
+    <string name="menu_select_all_button">Tümünü Seç</string>
+    <string name="month">"d"</string>
+    <string name="day">A</string>
+    <string name="selected_item_count">  <xliff:g id="count">%d</xliff:g> seçildi </string>
+    <string name="type_note">Notu yazın</string>
+</resources>

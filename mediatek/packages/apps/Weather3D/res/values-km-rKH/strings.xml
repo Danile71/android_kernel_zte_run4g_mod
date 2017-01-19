@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">ព័ត៌មានអាកាសធាតុផ្ទាល់ 3D</string>  
+    <string name="last_update">បានធ្វើបច្ចុប្បន្នភាពចុងក្រោយ</string>  
+    <string name="no_weather">ការសិតថេបដើម្បីបន្ថែមទីក្រុង</string>  
+    <string name="no_network">មិនមានបណ្តាញទេ</string>  
+    <string name="update_fail">ខកខានធ្វើបច្ចុប្បន្នភាពព័ត៌មានអាកាសធាតុ</string>  
+    <string name="updating">ការធ្វើបច្ចុប្បន្នភាព</string>  
+</resources>

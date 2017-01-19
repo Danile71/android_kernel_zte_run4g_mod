@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright Digital TV Labs 2012 -->
+<MPD xmlns="urn:mpeg:DASH:schema:MPD:2011" minBufferTime="PT4.00S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:hbbtv:dash:profile:isoff-live:2012" type="static" mediaPresentationDuration="PT5M0S">
+  <Period duration="PT5M0S" start="PT0.00S">
+    <AdaptationSet mimeType="video/mp4" startWithSAP="1" segmentAlignment="true">
+      <Representation bandwidth="256000" id="video.256" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="352" height="288" scanType="interlaced">
+        <SegmentTemplate duration="3000" initialization="352x288i_256Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="352x288i_256Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+      <Representation bandwidth="400000" id="video.400" codecs="avc1.4d401e" frameRate="25" width="352" sar="16:9" height="288" scanType="interlaced">
+        <SegmentTemplate startNumber="0" duration="3000" initialization="352x288i_400Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="352x288i_400Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+      <Representation bandwidth="500000" id="video.500" codecs="avc1.4d401e" frameRate="25" width="352" sar="16:9" height="288" scanType="interlaced">
+        <SegmentTemplate startNumber="0" duration="3000" initialization="352x288i_500Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="352x288i_500Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+      <Representation bandwidth="600000" id="video.600" codecs="avc1.4d401e" frameRate="25" width="352" sar="16:9" height="288" scanType="interlaced">
+        <SegmentTemplate startNumber="0" duration="3000" initialization="352x288i_600Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="352x288i_600Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+      <Representation bandwidth="700000" id="video.700" codecs="avc1.4d401e" frameRate="25" width="352" sar="16:9" height="576" scanType="interlaced">
+        <SegmentTemplate startNumber="0" duration="3000" initialization="352x576i_700Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="352x576i_700Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+      <Representation bandwidth="800000" id="video.800" codecs="avc1.4d401e" frameRate="25" width="480" sar="16:9" height="576" scanType="interlaced">
+        <SegmentTemplate startNumber="0" duration="3000" initialization="480x576i_800Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="480x576i_800Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+      <Representation bandwidth="900000" id="video.900" codecs="avc1.4d401e" frameRate="25" width="544" sar="16:9" height="576" scanType="interlaced">
+        <SegmentTemplate startNumber="0" duration="3000" initialization="544x576i_900Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="544x576i_900Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+      <Representation bandwidth="1000000" id="video.1000" codecs="avc1.4d401e" frameRate="25" width="720" sar="16:9" height="576" scanType="interlaced">
+        <SegmentTemplate startNumber="0" duration="3000" initialization="720x576i_1000Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="720x576i_1000Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+      <Representation bandwidth="1100000" id="video.1100" codecs="avc1.4d401e" frameRate="25" width="720" sar="16:9" height="576" scanType="interlaced">
+        <SegmentTemplate startNumber="0" duration="3000" initialization="720x576i_1100Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="720x576i_1100Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+      <Representation bandwidth="1200000" id="video.1200" codecs="avc1.4d401e" frameRate="25" width="720" sar="16:9" height="576" scanType="interlaced">
+        <SegmentTemplate startNumber="0" duration="3000" initialization="720x576i_1200Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="720x576i_1200Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+      <Representation bandwidth="1500000" id="video.1500" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="3000" initialization="720x576i_1500Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="720x576i_1500Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="2000000" id="video.2000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="720" height="576" scanType="interlaced">
+        <SegmentTemplate duration="3000" initialization="720x576i_2000Kbps_3secseg_MP30_169/media-01.fmp4/video/1/init.mp4" media="720x576i_2000Kbps_3secseg_MP30_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="2500000" id="video.2500" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="1280" height="720" scanType="interlaced">
+        <SegmentTemplate duration="3000" initialization="1280x720i_2500Kbps_3secseg_HP40_169/media-01.fmp4/video/1/init.mp4" media="1280x720i_2500Kbps_3secseg_HP40_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="3000000" id="video.3000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="1280" height="720" scanType="progressive">
+        <SegmentTemplate duration="3000" initialization="1280x720p_3000Kbps_3secseg_HP40_169/media-01.fmp4/video/1/init.mp4" media="1280x720p_3000Kbps_3secseg_HP40_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="4000000" id="video.4000" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="1920" height="1080" scanType="interlaced">
+        <SegmentTemplate duration="3000" initialization="1920x1080i_4000Kbps_3secseg_HP40_169/media-01.fmp4/video/1/init.mp4" media="1920x1080i_4000Kbps_3secseg_HP40_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+	  <Representation bandwidth="7500000" id="video.7500" codecs="avc1.4d401e" frameRate="25" sar="16:9" width="1920" height="1080" scanType="interlaced">
+        <SegmentTemplate duration="3000" initialization="1920x1080i_7500Kbps_3secseg_HP40_169/media-01.fmp4/video/1/init.mp4" media="1920x1080i_7500Kbps_3secseg_HP40_169/media-01.fmp4/video/1/seg-$Number%04d$.m4f" timescale="1000" startNumber="0" />
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" codecs="mp4a.40.02" startWithSAP="1" segmentAlignment="true" lang="en">
+      <Representation bandwidth="96000" id="audio.96" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentTemplate startNumber="0" duration="3029" initialization="HEAAC_96K_3secseg/media-01.fmp4/audio/init.mp4" media="HEAAC_96K_3secseg/media-01.fmp4/audio/seg-$Number%04d$.m4f" timescale="1000" />
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
+

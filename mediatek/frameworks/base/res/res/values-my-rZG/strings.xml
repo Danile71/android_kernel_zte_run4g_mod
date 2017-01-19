@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="keyguard_pinword_enter_pinword_code">ေသာ့ဖြင့္ရန္ PIN ထည့္ပါ။</string>
+    <string name="badPin2">သင္႐ိုက္ထည့္သည့္ PIN2 အေဟာင္းမွာ မမွန္ပါ။</string>
+    <string name="badPuk2">သင္႐ိုက္ထည့္သည့္ PUK2 အေဟာင္းမွာ မမွန္ပါ။</string>
+    <string name="checkPwdLen">သင့္စကားဝွက္မွာ ဂဏန္း ၄လံုးမွ ၈လံုးအထိပါရန္ စစ္ေဆးပါ။</string>
+    <string name="pinNotEnabled">မေျပာင္းလဲခင္ ေက်းဇူးျပဳ၍ PIN ကို အလုပ္လုပ္ေအာင္ဖြင့္ပါ။</string>
+    <string name="puk1Blocked">PIN ကို ပိတ္ဆို႔ထားသည္။</string>
+    <string name="puk2Blocked">PIN2 ကို ပိတ္ဆို႔ထားသည္။</string>
+    <string name="fdnFailMmi">FDN စစ္ေဆးရာတြင္ မေအာင္ျမင္။</string>
+    <string name="callBarringFailMmi">ေခၚဆိုျခင္းမ်ား တားဆီးရာတြင္ မေအာင္ျမင္။</string>
+    <string name="Pin2Mmi">PIN2 ေျပာင္းပါ</string>
+    <string name="PukMmi">PIN ကို ေသာ့ဖြင့္ပါ</string>
+    <string name="Puk2Mmi">PIN2 ပိတ္ဆို႔ထားျခင္းကို ျဖဳတ္ပါ</string>
+    <string name="serviceProvisioned">ဝန္ေဆာင္မႈ ေပးထားသည္။</string>
+    <string name="serviceUnknown">ခ်ိတ္ဆက္မႈ ျပႆနာ သို႔မဟုတ္ မမွန္ေသာ MMI ကုဒ္။</string>
+    <string name="cfServiceNotForwarded">ဆက္လက္မပို႔ထားပါ။</string>
+    <string name="permlab_receiveCbSms">CB SMS လက္ခံပါ</string>
+    <string name="permdesc_receiveCbSms">CB SMS မက္ေဆာ့ခ်္မ်ားကို လက္ခံရန္ႏွင့္ လုပ္ေဆာင္ရန္ လုပ္ငန္းသံုးပ႐ိုဂရမ္အား ခြင့္ျပဳသည္။ အလိုမရွိေသာ ပ႐ိုဂရမ္မ်ားသည္ သင့္မက္ေဆ့ခ်္မ်ားကို ေစာင့္ၾကည့္ႏိုင္သည္ သို႔မဟုတ္ သင့္အားမျပဘဲ ဖ်က္ပစ္ႏိုင္သည္။</string>
+    <string name="keyguard_password_enter_puk_code">PUK ကုဒ္ထည့္ရန္</string>
+    <string name="invalidPuk">ဂဏန္း ၈ လံုးထည့္ရန္</string>
+    <string name="pin_length_indicate">(ဂဏန္း ၄-၈ လံုး)</string>
+    <string name="puk_length_indicate">(ဂဏန္း ၈ လံုး)</string>
+    <string name="one_retry_left">ေနာက္ထပ္ႀကိဳးစားရန္ ၁ ခါက်န္သည္</string>
+    <string name="invalid_imei">တရားမဝင္ေသာ IMEI</string>
+    <string name="same_imei">အလားတူ IMEI</string>
+    <string name="oper_long_46000">CMCC</string>
+    <string name="oper_long_46001">ခ်ဳိင္းနားယူနီကြမ္း</string>
+    <string name="oper_long_46003">China Telecom</string>    
+    <string name="oper_long_46601">ဖားအိစ္ထ္တုန္း</string>
+    <string name="oper_long_46692">ခ်ဳန္းဟြာတယ္လီကြမ္း</string>
+    <string name="oper_long_46697">တိုင္ဝမ္မိုဘိုင္း</string>
+    <string name="oper_long_99998">အဲန္းဒ႐ိုက္၁</string>
+    <string name="oper_long_99999">အဲန္းဒ႐ိုက္</string>
+    <string name="oper_short_46000">CMCC</string>
+    <string name="oper_short_46001">CU-GSM</string>
+    <string name="oper_short_46003">China Telecom</string>    
+    <string name="oper_short_46601">FET</string>
+    <string name="oper_short_46692">ခ်ဳန္းဟြာ</string>
+    <string name="oper_short_46697">TWN</string>
+    <string name="oper_short_99997">AD1</string>
+    <string name="oper_short_99999">AD</string>
+    <string name="unable_launch_the_ap">လုပ္ငန္းသံုးပ႐ိုဂရမ္ကို စတင္ရန္ မလုပ္ေဆာင္ႏိုင္ပါ</string>
+    <string name="keyguard_password_enter_sim1_pin_code">SIM1 PIN ကုဒ္ထည့္ပါ</string>
+    <string name="RestrictedChangedTitle_SIM1">SIM1 ကန္႔သတ္ခ်က္ ေျပာင္းလဲၿပီး</string>
+    <string name="RestrictedChangedTitle_SIM2">SIM2 ကန္႔သတ္ခ်က္ ေျပာင္းလဲၿပီး</string>
+    <string name="keyguard_password_enter_sim2_pin_code">SIM2 PIN ကုဒ္ထည့္ပါ</string>
+    <string name="keyguard_password_wrong_sim1_pin_code">မမွန္ေသာ SIM ၁ PIN ကုဒ္။</string>
+    <string name="keyguard_password_wrong_sim2_pin_code">မမွန္ေသာ SIM ၂ PIN ကုဒ္။</string>
+    <string name="keyguard_password_enter_sim1_puk_code">SIM ၁ PUK ကုဒ္ထည့္ရန္</string>
+    <string name="keyguard_password_enter_sim2_puk_code">SIM ၂ PUK ကုဒ္ထည့္ရန္</string>
+    <string name="lockscreen_sim1_puk_locked_message">SIM ကတ္၁ကို PUK ေသာ့ခ်ထားသည္။</string>
+    <string name="lockscreen_sim2_puk_locked_message">SIM ကတ္၂ကို PUK ေသာ့ခ်ထားသည္။</string>
+    <string name="choose_bootup_mode">ေက်းဇူးျပဳ၍ SIM ေရြးပါ</string>
+    <string name="choose_gprs_mode">ေက်းဇူးျပဳ၍ ေဒတာခ်ိတ္ဆက္မႈ ေရြးပါ</string>
+    <string name="sim_close">SIM ကတ္ပိတ္ရန္</string>
+    <string name="lockscreen_sim_puk_locked_message_short">PUK ေသာ့ခ်ထားသည္</string>
+    <string name="permlab_receiveDmRegisterSms">DM စာရင္းသြင္းေသာ SMS လက္ခံရရွိပါ</string>
+    <string name="permdesc_receiveDmRegisterSms">DM စာရင္းသြင္းေသာ SMS မက္ေဆ့ခ်္မ်ား လက္ခံရရွိရန္ႏွင့္ ေဆာင္ရြက္ရန္ လုပ္ငန္းသံုးပ႐ိုဂရမ္အား ခြင့္ျပဳသည္။ ဤအရာကို DM APP မွလြဲ၍ မည္သည့္လုပ္ငန္းသံုး ပ႐ိုဂရမ္ကမွ မသံုးသင့္။</string>
+    <string name="lockscreen_password_error">စကားဝွက္အမွား၊ ေက်းဇူးျပဳ၍ ေနာက္ထပ္ႀကိဳးစားပါ</string>
+  	  <string name="lockscreen_pinword_error">ပင္နံပါတ္အမွား၊ ေက်းဇူးျပဳ၍ ေနာက္ထပ္ႀကိဳးစားပါ</string>
+    <string name="music_no_artist">မသိေသာ အဆိုေတာ္အမည္</string>
+    <string name="music_play">ဖြင့္သည္</string>
+    <string name="music_pause">ခဏရပ္သည္</string>
+    <string name="music_library">စာၾကည့္တိုက္</string>
+    <string name="music_no_songs">သီခ်င္းမ်ားမရွိ</string>
+    <string name="serviceClassVideo">ဗီဒီယို</string>
+  <string name="aerr_application_lowmem">ဖုန္းသိမ္းဆည္းရန္ ေနရာ ျပည့္ေနၿပီး လုပ္ငန္းသံုးပ႐ိုဂရမ္ကို ရပ္တန္႔ခံရသည္။ ေက်းဇူးျပဳ၍ ေနရာလြတ္ေအာင္ လုပ္ၿပီး ေနာက္ထပ္ႀကိဳးစားပါ။</string>
+  <string name="aerr_process_lowmem">ဖုန္းသိမ္းဆည္းရန္ေနရာ ျပည့္ေနၿပီး လုပ္ေဆာင္ခ်က္ကို ရပ္တန္႔ခံရသည္။ ေက်းဇူးျပဳ၍ ေနရာလြတ္ေအာင္ လုပ္ၿပီး ေနာက္ထပ္ႀကိဳးစားပါ။</string>
+  <string name="free_memory_btn">တစ္ၿပိဳင္နက္ ျဖစ္ေပၚေစရန္ ျပဳလုပ္ျခင္းကဲ့သို႔ေသာ စနစ္၏ အခ်ဳိ႕ လုပ္ေဆာင္ခ်က္မ်ား မွန္ကန္စြာ လုပ္ေဆာင္လိမ့္မည္ မဟုတ္ပါ။ ပ႐ိုဂရမ္ သို႔မဟုတ္ က႑တြင္း ပါဝင္မႈ စသည့္ အေၾကာင္းအရာမ်ားကို ဖ်က္ပစ္ျခင္း သို႔မဟုတ္ ျဖဳတ္ပစ္ျခင္းျဖင့္ ေနရာလြတ္ျပဳလုပ္ပါ။</string>
+  <string name="free_memory_text">"မမ္မိုရီနည္းေနသည္။ ေက်းဇူးျပဳ၍ မမ္မိုရီေနရာ လြတ္ေအာင္လုပ္ပါ။"</string>		
+<string name="mem_low_title">ေက်းဇူးျပဳ၍မမ္မိုရီေနရာလြတ္ေအာင္လုပ္ပါ။</string>
+   <string name="unread_message">မဖတ္ရေသးေသာ မက္ေဆ့ခ်္ %d ခု</string>
+   <string name="unread_messages">မဖတ္ရေသးေသာ မက္ေဆ့ခ်္မ်ား %d ခု</string>
+   <string name="missed_call">မထူးမိေသာ ေခၚဆိုမႈမ်ား %d ခု</string>
+   <string name="missed_calls">မထူးမိေသာ ေခၚဆိုမႈမ်ား %d ခု</string>
+  <string name="no_favorite_contacts">အႏွစ္သက္ဆံုး အဆက္အသြယ္မ်ားမရွိ</string>
+  <string name="contact_widget_loading">ဖြင့္ေနဆဲ\u2026</string>
+   <string name="volume_fm">FM အတိုးအက်ယ္</string>
+   <string name="volume_matv">မိုဘိုင္းတီဗီ အတိုးအက်ယ္</string>
+   <string name="media_controller_buffering">"ၾကားခံေဆာင္ရြက္ေန%d%%..."</string>
+   <string name="media_controller_live">"တိုက္႐ိုက္ ထုတ္လႊင့္ျခင္း"</string>
+   <string name="media_controller_playing">"ျပေနသည္"</string>
+   <string name="media_controller_connecting">"ခ်ိတ္ဆက္ေနသည္…"</string>
+   <string name="media_controller_weak_signal">"ထုတ္လႊင့္ခ်က္ အားနည္းသည္"</string>
+   <string name="VideoView_error_text_bad_file">"ဖိုင္မေကာင္းပါ။ ဤဗီဒီယိုကိုမဖြင့္ႏိုင္ပါ"</string>
+   <string name="VideoView_error_text_cannot_connect_to_server">"ဆာဗာသို႔ မခ်ိတ္ဆက္ႏိုင္ပါ"</string>
+   <string name="VideoView_error_text_type_not_supported">"မီဒီယာဖိုင္အမ်ဳိးအစားကိုမေထာက္ပံ့ပါ"</string>
+   <string name="VideoView_error_text_drm_not_supported">"DRM ကို ကာကြယ္ထားသည္။ ဤဗီဒီယိုကိုမဖြင့္ႏိုင္ပါ"</string>
+   <string name="VideoView_error_text_invalid_connection">"မမွန္ေသာ ခ်ိတ္ဆက္ျခင္း။ (တားျမစ္ခ်က္ ၄၀၃)"</string>
+    <string name="redo">ျပန္ျပင္ရန္</string>
+    <string name="undo">မလုပ္ပါ</string>
+    <string name="undoAll">အားလံုးယခင္အတိုင္း ျပန္လုပ္ပါ</string>
+    <string name="new_sim">SIM အသစ္</string>
+    <string name="edit">တည္းျဖတ္ပါ</string>
+    <string name="delete">ဖ်က္ပါ</string>
+    <string name="for_text">အတြက္</string>
+    <string name="searching_simcard">ရွာေဖြေနသည္ …</string>
+    <string name="for_first_simcard">ပထမ SIM အတြက္</string>
+    <string name="for_second_simcard">ဒုတိယ SIM အတြက္</string>
+    <string name="for_third_simcard">တတိယ SIM အတြက္</string>
+    <string name="for_fourth_simcard">စတုတၳ SIM အတြက္</string>
+    <string name="lockscreen_pin_too_many_failed_attempts_dialog_message">သင္သည္ သင္၏ PIN ကို  <xliff:g id="number">%d</xliff:g> ႀကိမ္ မွားယြင္းစြာ ထည့္သြင္းခဲ့သည္။\n\nေက်းဇူးျပဳ၍  <xliff:g id="number">%d</xliff:g> စကၠန္႔အၾကာတြင္ ထပ္မံႀကိဳးစားပါ။ </string>
+    <string name="lockscreen_password_too_many_failed_attempts_dialog_message">သင္သည္ သင္၏ စကားဝွက္ကို  <xliff:g id="number">%d</xliff:g> ႀကိမ္ မွားယြင္းစြာ ထည့္သြင္းခဲ့သည္။ \n\nေက်းဇူးျပဳ၍  <xliff:g id="number">%d</xliff:g> စကၠန္႔အၾကာတြင္ ထပ္မံႀကိဳးစားပါ။ </string>
+    <string name="aerr_application_lowstorage">အတြင္းသိုေလွာင္ရံု ေနရာလြတ္မက်န္သျဖင့္အသံုးခ်ပ႐ိုဂရမ္ ရပ္သြားသည္။ ေနရာအခ်ဳိ႕လြတ္ရန္ ျပဳလုပ္၍ ထပ္ႀကိဳးစားပါ။</string>
+    <string name="aerr_process_lowstorage">အတြင္းသိုေလွာင္ရံု ေနရာလြတ္မက်န္သျဖင့္လုပ္ငန္း ရပ္သြားသည္။ ေနရာအခ်ဳိ႕လြတ္ရန္ ျပဳလုပ္၍ ထပ္ႀကိဳးစားပါ။</string>
+    <string name="low_internal_storage_view_title">အတြင္းသိုေလွာင္ရံု ေနရာလြတ္ မက်န္ေတာ့ပါ</string>
+    <string name="low_storage_warning_message">ဖုန္းထဲတြင္ သိမ္းဆည္းေနရာ ျပည့္ေနသည္။ အသံုးမျပဳေသာ ဖိုင္မ်ားကို ေက်းဇူးျပဳ၍ ဖ်က္ပါ။ မဖ်က္ပါက အသံုးခ်ပ႐ိုဂရမ္သည္ မေမွ်ာ္လင့္ပဲ ထြက္သြားႏိုင္သည္။</string>
+    <string name="deleteMails">ေမးလ္မ်ားကို ဖ်က္ပါ</string>
+    <string name="criticallowtitle">ေနရာမရွိပါ</string>
+    <string name="criticallowmessage">ဖုန္းထဲတြင္ သိမ္းဆည္းေနရာ ျပည့္ေနသည္။ အသံုးမျပဳေသာ ဖိုင္မ်ားကို ေက်းဇူးျပဳ၍ ဖ်က္ပါ။ မဖ်က္ပါက အသံုးခ်ပ႐ိုဂရမ္သည္ မေမွ်ာ္လင့္ပဲ ထြက္သြားႏိုင္သည္။</string> 
+    <string name="nq_sms_filter_title">SMS စစ္ထုတ္မႈ</string>
+    <string name="nq_sms_filter_message">ဤမက္ေဆ့ခ်္သည္ အခေၾကးေငြ ျဖတ္ႏိုင္သည္။ သင္ဆက္လက္ လုပ္ေဆာင္လို ပါသလား။</string>
+    <string name="nq_sms_filter_yes">ဟုတ္ပါသည္</string>
+    <string name="nq_sms_filter_no">မဟုတ္ပါ</string>
+    <string name="ext_media_checking_notification_title_sd2">SD ကတ္ကို ျပင္ဆင္ပါ</string>
+    <string name="ext_media_checking_notification_title_otg">USB သိမ္းဆည္းေနရာကို ျပင္ဆင္ပါ</string>
+    <string name="ext_media_badremoval_notification_title_otg">USB သိုေလွာင္ျခင္းသည္ မေမွ်ာ္လင့္ဘဲ ဖယ္ရွားခံရသည္ </string>
+    <string name="ext_media_nomedia_notification_title_otg">USB သိုေလွာင္ျခင္း  ကို ဖယ္ရွားၿပီးၿပီ</string>
+    <string name="ext_media_badremoval_notification_message_otg">အခ်က္အလက္ ဆံုး႐ံႈးျခင္းကို ေရွာင္ရွားရန္ USB သိုေလွာင္ျခင္းကို မဖယ္ရွားမီ မတင္သြင္းပါႏွင့္။</string>
+    <string name="ext_media_nomedia_notification_message_otg">USB သိုေလွာင္ျခင္း  ကို ဖယ္ရွားၿပီးၿပီ။ မီဒီယာ အသစ္ကို ထည့္သြင္းပါ။</string>
+    <string name="ext_media_unmountable_notification_title_otg">ပ်က္စီးေနေသာ USB သိုေလွာင္ျခင္း </string>
+    <string name="ext_media_unmountable_notification_message_otg">USB သိမ္းဆည္းေနရာ ပ်က္စီးေနသည္။ ယင္းကို ေဖာမက္ျပန္ခ်ရန္ လိုအပ္ေကာင္း လိုအပ္မည္။</string>
+    <string name="ext_media_nofs_notification_title_otg">ဘာမွ မရွိေသာ USB သိုေလွာင္ျခင္း</string>
+    <string name="ext_media_nofs_notification_message_otg">USB ေနရာလြတ္ သို႔မဟုတ္ ေထာက္ပံ့မႈမျပဳေသာ ဖိုင္စနစ္ရွိသည္။</string>
+    <string name="ext_media_safe_unmount_notification_title_otg">USB သိုေလွာင္ျခင္းကို ဖယ္ရွားရန္ စိတ္ခ်ရၿပီ</string>
+    <string name="ext_media_safe_unmount_notification_message_otg">USB သိုေလွာင္ျခင္း ကို သင္ စိတ္ခ်စြာ ဖယ္ရွားႏိုင္ၿပီ။</string>
+    <string name="drm_protection_status">ကာကြယ္မႈ အေျခအေန-</string>
+    <string name="drm_can_forward">ဆက္လက္ ေပးပို႔ႏိုင္သည္။</string>
+    <string name="drm_can_not_forward">ဆက္လက္မေပးပို႔ႏိုင္ပါ။</string>
+    <string name="drm_no_limitation">အကန္႔အသတ္မရွိပါ</string>
+    <string name="drm_no_license">DRM လိုင္စင္ကို မရႏိုင္ပါ။</string>
+    <string name="drm_begin">အစ-</string>
+    <string name="drm_end">အဆံုး-</string>
+    <string name="drm_use_left">လက္က်န္ အေရအတြက္-</string>
+    <string name="drm_protectioninfo_renew">အသစ္ျပန္လုပ္ရန္</string>
+    <string name="drm_protectioninfo_title">ကာကြယ္မႈဆိုင္ရာ သတင္းအခ်က္အလက္</string>
+    <string name="drm_licenseacquisition_title">DRM လိုင္စင္ ရယူျခင္း</string>
+    <string name="drm_licenseacquisition_message">%1$s တြင္ ရရွိႏိုင္သည့္ ဒစ္ဂ်စ္တယ္ ထုတ္ကုန္ပစၥည္းပိုင္ရွင္၏ အသံုးျပဳပိုင္ခြင့္ ခြင့္ျပဳခ်က္ နည္းပညာလိုင္စင္ မရွိပါ။ ဒစ္ဂ်စ္တယ္ ထုတ္ကုန္ပစၥည္းပိုင္ရွင္၏ အသံုးျပဳပိုင္ခြင့္ ခြင့္ျပဳခ်က္နည္းပညာ လိုင္စင္ကို ရယူရန္ "အသစ္ျပန္ျပဳလုပ္ပါ" ခလုတ္ကို ႏွိပ္ပါ။</string>
+    <string name="drm_toast_license_expired">DRM လိုင္စင္ သက္တမ္းကုန္ေနၿပီ။</string>
+    <string name="drm_forwardforbidden_title">ဆက္လက္ေပးပို႔မႈကို တားျမစ္ထားသည္</string>
+    <string name="drm_forwardforbidden_message">ကာကြယ္မႈျပဳထားေသာ ဖိုင္အခ်ဳိ႕ကို ဆက္လက္ေပးပို႔၍ မရႏိုင္ပါ။</string>
+    <string name="drm_license_install_success">DRM လိုင္စင္တပ္ဆင္မႈ ေအာင္ျမင္သည္။</string>
+    <string name="drm_license_install_fail">DRM လိုင္စင္တပ္ဆင္မႈ မေအာင္ျမင္ပါ။</string>
+    <string name="drm_secure_timer_title">DRM လံုျခံဳေရးနာရီ မမွန္ပါ</string>
+    <string name="drm_secure_timer_message">DRM ကာကြယ္မႈ ျပဳထားေသာဖိုင္မ်ားကို သင္အသံုးမျပဳႏိုင္ပါ။ ေဒတာ ခ်ိတ္ဆက္မႈသည္ သံုးႏိုင္ေၾကာင္း ေက်းဇူးျပဳ၍ ေသခ်ာေအာင္ ျပဳလုပ္ပါ။</string>
+    <string name="drm_consume_title">DRM ရပိုင္ခြင့္မ်ားကို သံုးရန္</string>
+    <string name="drm_consume_message">သင့္လုပ္ေဆာင္မႈသည္ DRM ရပိုင္ခြင့္မ်ားကို သံုးလိမ့္မည္။</string>
+    <string name="drm_forward_forbidden">ကာကြယ္မႈျပဳထားေသာ တစ္ဖိုင္ သို႔မဟုတ္ ထို႔ထက္မ်ားေသာ ဖိုင္ကို ဆက္လက္ မေပးပို႔ႏိုင္ပါ။</string>
+    <string name="recip_unsupport_operator">လက္ခံသူမ်ားျမင္ကြင္းသည္ အကၡရာ လုပ္ငန္းမ်ားကို မေထာက္ပံ့ပါ၊ လက္ခံသူမ်ားကို စီမံခန္႔ခြဲရန္ တူးလ္ဘားကို ေက်းဇူးျပဳ၍ အသံုးျပဳပါ။</string>
+    <string name="recip_unsupport_selection">ဝမ္းနည္းပါသည္။ လက္ခံသူမ်ားသည္ လက္ခံသူမ်ားျမင္ကြင္းတြင္ ရွိေနသည့္အခါ စာက်ေၾကာင္းျပအမွတ္အသားကို အစေနရာသို႔ သင္မေရႊ႕ႏိုင္ပါ။</string>
+    <string name="virtual_sim_on_slot1">ဗာက်ဴရယ္ SIM ၁ ဖြင့္</string>
+    <string name="virtual_sim_on_slot2">ဗာက်ဴရယ္ SIM ၂ ဖြင့္</string>
+    <string name="virtual_sim_on_slot3">ဗာက်ဴရယ္ SIM ၃ ဖြင့္</string>
+    <string name="virtual_sim_on_slot4">ဗာက်ဴရယ္ SIM ၄ ဖြင့္</string>
+    <string name="virtual_sim_on">ဗာက်ဴရယ္ SIM ဖြင့္</string>
+    <string name="sim_missing_slot1">ကတ္အထုိင္ ၁-SIM ကတ္ရွာမေတြ႕ပါ </string>
+    <string name="sim_missing_slot2">ကတ္အထုိင္ ၂-SIM ကတ္ရွာမေတြ႕ပါ </string>
+    <string name="sim_missing_slot3">ကတ္အထုိင္ ၃-SIM ကတ္ရွာမေတြ႕ပါ </string>
+    <string name="sim_missing_slot4">ကတ္အထုိင္ ၄-SIM ကတ္ရွာမေတြ႕ပါ </string>
+    <string name="sim_missing">SIM ကတ္ရွာမေတြ႕ပါ</string>
+    <string name="sim_missing_detail">SIM ကတ္ အဆင္သင့္ရွိပါက ေက်းဇူးျပဳ၍ စစ္ေဆးပါ</string>
+    <string name="sim_missing_slot1_card">ကဒ္အထိုင္ ၁- ကဒ္မေတြ႕ပါ</string>
+    <string name="sim_missing_slot2_card">ကဒ္အထိုင္ ၂- ကဒ္မေတြ႕ပါ</string>
+    <string name="sim_missing_card">ကဒ္မေတြ႕ပါ</string>
+    <string name="sim_missing_detail_card">ကဒ္အဆင္သင့္ျဖစ္၊ မျဖစ္ စစ္ေဆးပါ</string>
+    <string name="wap_push_setting_noti_ticker">အလိုအေလ်ာက္ - ပြတ္ရွ္ ဝန္ေဆာင္မႈကို လက္ခံမွာလား၊ လက္မခံဘူးလား။</string>
+    <string name="wap_push_setting_noti_title">အလိုအေလ်ာက္ - ပြတ္ရွ္ ဝန္ေဆာင္မႈကို လက္ခံမွာလား၊ လက္မခံဘူးလား။</string>
+    <string name="wap_push_setting_noti_text">ေရြးခ်ယ္ရန္ ေက်းဇူးျပဳ၍ အသာအယာပုတ္ပါ</string>
+    <string name="url_dialog_choice_title">မက္ေဆ့(ခ်္)မ်ား</string>
+    <string name="url_dialog_choice_message">ယင္းသည္ ဘေရာက္ဆာကို ဖြင့္လိမ့္မည္။ ဆက္လုပ္မွာလား။</string>
+    <string name="deleteApp">အသံုးခ်ပ႐ိုဂရမ္မ်ားကို တပ္ဆင္ထားျခင္းမွ ျပန္ျဖဳတ္ပါ</string>    
+    <string name="deleteMail">စာမ်ားကို အရန္အျဖစ္သိမ္းထားၿပီး သိမ္းဆည္းေနရာကို လႊတ္ရန္</string>    
+    <string name="storage_withsd">ဖုန္းသိမ္းဆည္း ေနရာတြင္ ေနရာ အလံုအေလာက္မရွိပါ။ ေက်းဇူးျပဳ၍ အခ်ဳိ႕ေနရာမ်ားကို လႊတ္လိုက္ပါ သို႔မဟုတ္ ဆက္တင္မ်ားထဲတြင္ မူလ သတ္မွတ္ထားေသာ ဓာတ္ျပားေရးသားမႈကို ေျပာင္းလိုက္ပါ။</string>
+    <string name="storage_withoutsd">ဖုန္းသိမ္းဆည္း ေနရာတြင္ ေနရာအလံုအေလာက္ မရွိပါ။ ေက်းဇူးျပဳ၍ အခ်ဳိ႕ေနရာမ်ားကို လႊတ္လိုက္ပါ သို႔မဟုတ္ SD ကတ္တစ္ခုကို ထည့္ပါ။</string>
+    <string name="storage_sd">SD ကတ္တြင္ ေနရာ အလံုအေလာက္မရွိပါ။ ေက်းဇူးျပဳ၍ အခ်ဳိ႕ေနရာမ်ားကို လႊတ္လိုက္ပါ သို႔မဟုတ္ ဆက္တင္မ်ားထဲတြင္ မူလ သတ္မွတ္ထားေသာ ဓာတ္ျပားေရးသားမႈကို ေျပာင္းလိုက္ပါ။</string>   
+    <string name="usb_ums_notification_title">USB သိမ္းဆည္းေနရာ အျဖစ္ ခ်ိတ္ဆက္ထားသည္</string>
+    <string name="usb_charging_notification_title">USB အားသြင္းမႈသာ</string>
+    <string name="gps_time_sync_fail_str">GPS ေထာက္ပံ့ေပးေသာ အခ်ိန္ကို ရယူရန္ မေအာင္ျမင္ပါ</string>
+    <string name="calibration_data">စံကိုက္ခ်ိန္ညႇိျခင္း မရွိေသးပါ။ စံကိုက္ခ်ိန္ညႇိျခင္း ေဒတာ ေဒါင္းလုဒ္လုပ္ပါ။ သို႔မဟုတ္ပါက ကိရိယာသည္ ကြန္ရက္တြင္ မခ်ိတ္ႏိုင္ပါ။ [MTK အတြင္း အသံုးျပဳသူ]</string>
+    <string name="invalid_card">ကတ္မမွန္ပါ</string>
+    <string name="RejectCauseTitle">ကြန္ရက္ပယ္ခ်မႈ အက်ဳိးအေၾကာင္း</string>
+    <string name="MMRejectCause2">MM #2 ကို အေထာက္အပံ့ မေပးေသာ SIM</string>
+    <string name="MMRejectCause3">MM #3 ကို အေထာက္အပံ့ မေပးေသာ SIM</string>
+    <string name="MMRejectCause5">MM #5 ကို ေခၚဆိုမႈ မေအာင္ျမင္ပါ</string>
+    <string name="MMRejectCause6">MM #6 ကို ခြင့္မျပဳေသာဖုန္း</string>    
+    <string name="MMRejectCause13">SOS/အေရးေပၚ ေခၚဆိုမႈမ်ားသာ</string>
+    <string name="find_previous">အရင္တစ္ခုသို႔</string>
+    <string name="find_next">ေရွ႕သို႔</string>
+    <string name="tethered_notification_message_for_hotspot"> <xliff:g id="connected">%1$d</xliff:g> ခ်ိတ္ဆက္ထားေသာ  <xliff:g id="blocked">%2$d</xliff:g> ပိတ္ဆို႔ထားေသာ </string>
+    <string name="tethered_notification_message_bandwidth_set">ဘန္ဝစ္သ္ကို သတ္မွတ္သည္</string>
+    <string name="usbint_notification_title">USB အင္တာနက္ သက္ဝင္ေနသည္</string>
+    <string name="default_wallpaper_name">မူလပံုစံ</string>
+    <string name="description_direction_right">ပယ္ခ်ရန္ ညာဘက္သို႔ ပြတ္ဆြဲပါ</string>
+    <string name="description_direction_left">ခဏျပန္အိပ္ရန္ ဘယ္ဘက္သို႔ ပြတ္ဆြဲပါ</string>
+    <string name="description_direction_up">ပယ္ခ်ရန္ အေပၚသို႔ ပြတ္ဆြဲပါ</string>
+    <string name="description_direction_down">တစ္ေရးျပန္ႏိႈးရန္ ေအာက္သို႔ ဆြဲခ်ပါ</string>
+    <string name="dismiss_power_on">ျဖဳတ္ၿပီး ပါဝါဖြင့္ရန္</string>   
+    <string name="dismiss_power_off">ျဖဳတ္ၿပီး ပါဝါပိတ္ရန္</string>
+    <string name="dialog_color_picker">အေရာင္ေရြးရန္ေနရာ</string>
+    <string name="press_color_to_apply">အသံုးျပဳရန္ အေရာင္ေပၚတြင္ ႏွိပ္ပါ</string>
+    <string name="color_picker_select">-&gt;</string>
+    <string name="wifi_display_bt_hdmi_off_wfd_on">သင္ဝိုင္ယာလက္စ္ ျပသျခင္းကို ဖြင့္လိုက္ေသာအခါ ဘလူးတုသ္ႏွင့္ HDMI သည္ ပိတ္သြားမည္ျဖစ္သည္။ သင္ဆက္လက္ လုပ္ေဆာင္ လိုပါသလား။</string> 
+    <string name="wifi_display_wfd_off_hdmi_on">သင္ HDMI ကို ဖြင့္လိုက္ေသာအခါ ဝိုင္ယာလက္စ္ျပသျခင္းသည္ ပိတ္သြားမည္ ျဖစ္သည္။ သင္ဆက္လက္ လုပ္ေဆာင္ လိုပါသလား။</string> 
+    <string name="wifi_display_wfd_off_bt_on">ဘလူးတုသ္ကို ဖြင့္ပါက ႀကိဳးမဲ့ ဆက္သြယ္မႈ ပိတ္သြားလိမ့္မည္။ သင္ဆက္လုပ္လို ပါသလား။</string> 
+    <string name="wifi_display_wifi_p2p_disconnect_wfd_connect">ႀကိဳးမဲ့ကို ဆက္သြယ္ပါက လက္ရွိ Wi-Fi တိုက္႐ိုက္ဆက္သြယ္မႈ ျပတ္ေတာက္သြားမည္။ သင္ဆက္လုပ္လို ပါသလား။</string>
+    <string name="wifi_display_unstable_connection">မတည္ျငိမ္ေသာ ခ်ိတ္ဆက္မႈ</string>
+    <string name="wifi_display_connection_is_not_steady">လက္ရွိ ဝါယာလက္စ္ ခ်ိတ္ဆက္ျခင္း ေဖာ္ျပမႈသည္ မတည္ျငိမ္ပါ။ </string>
+    <string name="wifi_display_unstable_suggestion">လက္ရွိ ဝါယာလက္စ္ ခ်ိတ္ဆက္ျခင္း ေဖာ္ျပမႈသည္ မတည္ျငိမ္ပါ၊ သင့္ေဖာ္ျပသည့္ ကိရိယာျဖင့္ ပိုနီးကပ္စြာထားရန္ ႀကိဳးစားပါ။</string>
+    <string name="wifi_display_reconnect">ျပန္ခ်ိတ္ဆက္ပါ</string> 
+    <string name="wifi_display_disconnect_then_reconnect">ဝါယာလက္စ္ ေဖာ္ျပမႈ ျပတ္ေတာက္ေနသည္။ သင္ျပန္ခ်ိတ္ဆက္ လိုပါသလား။</string> 
+    <string name="wifi_display_disconnected">ဝါယာလက္စ္ ေဖာ္ျပမႈ ျပတ္ေတာက္ေနသည္။</string>
+    <string name="wifi_wps_failed_overlap">အျခား WPS ဆက္ရွင္တစ္ခုကို ရွာေဖြေတြ႕သည္။ ေက်းဇူးျပဳ၍ ေနာက္မိနစ္အနည္းငယ္ ၾကာမွ ထပ္မံႀကိဳးစားပါ။</string>
+    <string name="wifi_display_wfd_and_wifi_are_turned_on">ဝါယာလက္စ္ေဖာ္ျပမႈႏွင့္ ဝိုင္-ဖိုင္ကို ဖြင့္ထားသည္။</string>
+    <string name="wifi_display_sound_path_reminder">မာလ္တီမီဒီယာ အသံသည္ သင့္နားၾကပ္မွ ပြင့္လိမ့္မည္မဟုတ္ပါ။</string>  
+    <string name="wifi_display_change_resolution_reminder">ပံုရိပ္ျပတ္သားမႈ ေျပာင္းလဲျခင္းသည္ ဝါယာလက္စ္ေဖာ္ျပမႈကို အလိုအေလ်ာက္ ျပန္ခ်ိတ္ဆက္လိမ့္မည္။</string>  
+    <string name="wifi_display_do_not_remind_again">ေနာက္တစ္ႀကိမ္ သတိမေပးပါႏွင့္။</string>
+    <string name="wifi_display_wifi_ap_affects_quality">လက္ရွိ ဝိုင္-ဖိုင္သည္ ဝါယာလက္စ္ေဖာ္ျပမႈ အရည္အေသြးကို ထိခိုက္ေစႏိုင္သည္။</string>
+    <string name="wifi_display_wait_connection">အျခားကိရိယာမ်ားမွ ခ်ိတ္ဆက္မႈ ဖိတ္ေခၚျခင္းမ်ားကို ေစာင့္ေနသည္။</string>
+    <string name="wifi_display_confirm_connection">သင္ႏွင့္ခ်ိတ္ဆက္မႈ တည္ေဆာက္ လုိပါသည္။</string>
+    <string name="wifi_display_build_connection">ခ်ိတ္ဆက္မႈ တည္ေဆာက္ေနသည္။</string>
+    <string name="wifi_display_enjoy_screen">အျခားကိရိယာမွ မ်က္ႏွာျပင္ပံုစံခ်ျခင္းကို ပါ။</string>
+    <string name="sdcard_ready_title">SD ကတ္ အဆင္သင့္</string>
+    <string name="sdcard_select_default_path">ပံုေသေရးသားသည့္ ဒစ္က္စ္ ကို ေျပာင္းလိုသလား။</string>
+    <string name="sdcard_default_path_change">ပံုေသ႐ိုက္ရန္ဒစ္က္စ္ကို ေျပာင္းၿပီးၿပီ။</string>
+    <string name="usb_storage_ready_title">ျပင္ပ USB သိမ္းဆည္းမႈ အဆင္သင့္</string>
+    <string name="headset_pin_recognition">သင္၏ နားၾကပ္မ်ားသည္ ဖုန္းႏွင့္ မကိုက္ညီပါ။ အျခားနားၾကပ္မ်ားႏွင့္ ႀကိဳးစားၾကည့္ပါ။</string>
+    <string name="msensor_toast_text">သံလိုက္အိမ္ေျမႇာင္ ေႏွာင့္ယွက္မႈ။ သံလိုက္အိမ္ေျမႇာင္ကို ျပန္ညႇိရန္ 8 ပံုသ႑ာန္အတိုင္း လႈပ္ရွား၍ဖုန္းကို ေဝ့ရမ္းပါ။</string> 
+    <string name="sd_accessing_swtich_user_title">သံုးသူေျပာင္းမလား။</string>
+    <string name="sd_accessing_swtich_user_message">ပိုင္ဆိုင္သူအေကာင့္မွ မသိမ္းထားေသာ ေဒတာအားလံုးသည္ ဆံုး႐ံႈး (သို႔) ပ်က္စီးလိမ့္မည္။</string>
+    <string name="usb_autorun_cdrom_notification_title">အလိုအေလ်ာက္ဖြင့္ cdrom တစ္ခုအျဖစ္ ခ်ိတ္ဆက္ၿပီး</string>
+    <string name="ct_net_name">"CTNET"</string>
+    <string name="ct_wap_name">"CTWAP"</string>    
+    <string name="hdmi_notification_title">HDMI ႀကိဳး ခ်ိတ္ဆက္ခဲ့သည္</string>
+    <string name="hdmi_notification_content">HDMI ကို ပုံစံခ်ရန္ ႏွိပ္ပါ</string>
+    <string name="hdmi_hdvideo_toast">HDMI သည္ 4K ဗြီဒီယိုကို မဖြင့္ႏိုင္ပါ၊ ခ်ိတ္ဆက္မႈကို ၾကားျဖတ္ေႏွာင့္ယွက္ လိမ့္မည္။</string>
+    <string name="hdmi_mutex_call_content">ဝမ္းနည္းပါတယ္။ လက္ရွိ ဖုန္းေခၚဆိုမႈေၾကာင့္ HDMI ကို ရပ္လိုက္သည္။</string>
+    <string name="safe_media_volume_warning_title">သတိေပးခ်က္</string>
+    <string name="data_conn_only">အခ်က္အလက္ ခ်ိတ္ဆက္မႈသာလွ်င္</string>
+    
+    <string name="AP_had_connected">သင္သည္ ခ်ိန္ဆက္ၿပီးျဖစ္သည္-</string>
+    <string name="turn_wifi_on">Wi-Fi ဖြင့္ေနသည္…</string>
+    <string name="AP_confirm_title">ကြန္ရက္သို႔ ခ်ိတ္ဆက္ပါ</string>
+    <string name="AP_confirm_default_network">ကြန္ရက္</string>
+    <string name="AP_confirm_positive">ခ်ိတ္ဆက္ပါ</string>
+    <string name="AP_confirm_negative">မလုပ္ပါ</string>
+    <string name="connecting_to"><xliff:g id="connected">%1$s</xliff:g>သို႔ ခ်ိတ္ဆက္ေနသည္\u2026 </string>
+    <string name="connected_to"><xliff:g id="connected">%1$s</xliff:g>သို႔ ခ်ိတ္ဆက္ခဲ့သည္ </string>
+    <string name="connected_failed">ခ်ိတ္ဆက္မႈမေအာင္ျမင္ပါ</string>
+
+    <string name="passpoint_sp_notification_action">အြန္လိုင္းမွ သက္ေသခံလက္မွတ္ ဆုိင္းအပ္</string>
+    <string name="roaming_message">"သင္သည္ လက္ရွိတြင္ ႏိုင္ငံတကာ ရြမ္းမင္းတြင္ ရွိေနသည္၊ မိုဘိုင္း အခ်က္အလက္ကို ဖြင့္ထားသည္၊ ေဒသတြင္း အခေၾကးေငြကို သတိျပဳပါ။"</string>
+    <string name="alert_prompt">"သတိေပး ႏိႈးေဆာ္ခ်က္"</string>
+    <string name="ok">"ကၽြႏု္ပ္ သိပါသည္"</string>
+    <string name="Special_Card_Type_Title_Lte_Not_Available">LTE ကြန္ရက္ မရႏိုင္ပါ။</string>
+    <string name="Suggest_To_Change_USIM">4G SIM ကဒ္တစ္ခုသို႔ ေျပာင္းရန္ အၾကံျပဳပါ။</string>
+    <string name="another_device_want_to_join">အျခားကိရိယာသည္ ဝိုင္-ဖိုင္ တိုက္႐ိုက္အုပ္စုကို ဆက္သြယ္လိုသည္။</string>
+    <string name="error_1">အမွား၊ ထပ္မံႀကိဳးစားပါ။</string>
+    <string name="error_2">အခ်ိန္ကုန္သြားၿပီ၊ ထပ္မံႀကိဳးစားပါ။</string>
+    <string name="error_3">ဤလုပ္ေဆာင္ခ်က္ကို မေထာက္ပံ့ပါ။</string>
+    <string name="passpoint_sp_notification_ticker">ရႏိုင္ေသာ ဝန္ေဆာင္မႈ ေထာက္ပံ့ေပးသူ</string>
+    <string name="passpoint_sp_notification_title">ရႏိုင္ေသာ ဝန္ေဆာင္မႈ ေထာက္ပံ့ေပးသူ</string>
+    <string name="passpoint_sp_notification_content">အြန္လိုင္း ဆိုင္းအပ္ လုပ္ၿပီးေသာအခါ အင္တာနက္ကို အသံုးျပဳႏိုင္သည္</string>
+    <string name="passpoint_is_connected">ခ်ိတ္ဆက္ထားသည္</string>
+    <string name="passpoint_provision_fail_title">ပတ္စ္ပိြဳင့္အြန္လိုင္း ဆိုင္းအပ္ မေအာင္ျမင္ပါ</string>
+    <string name="passpoint_provision_fail_content">တည္ၿငိမ္မႈ ရွိေသာ ကြန္ရက္ အေျခအေနတြင္ ေနာက္မွ ႀကိဳးစားပါ</string>
+    <string name="passpoint_osu_finished">ပတ္စ္ပိြဳင့္အြန္လိုင္း ဆိုင္းအပ္ လုပ္ၿပီးၿပီ။ ကြန္ရက္အေျခအေန တည္ၿငိမ္မႈ ရွိပါက ေနာက္မွ အင္္တာနက္ကို အသံုးျပဳႏိုင္သည္</string>
+    <string name="logo">အပလီေကးရွင္း လိုဂို အိုက္ကြန္</string>
+    <string name="close">အပလီေကးရွင္းကို ပိတ္ပါ</string>   
+    <string name="maximum">အႀကီးခ်ဲ႕သည့္ အပလီေကးရွင္း</string>
+    <string name="minimize">အေသးျပဳလုပ္သည့္ အပလီေကးရွင္း</string>
+    <string name="drag">အပလီေကးရွင္း၏ဝင္းဒိုး အရြယ္အစားကို ဖိဆြဲပါ။</string> 
+    <string name="gallery_camera_mutex">တစ္ခ်ိန္တည္းတြင္ ဂယ္လာရီ၊ ကင္မရာ သို႔မဟုတ္ ဗီဒီယိုပေလယာကို အသံုးမျပဳႏိုင္ပါ</string> 
+    <string name="mw_max_size_string">အမ်ားဆံုး ဝင္းဒိုး <xliff:g id="number">%d</xliff:g> ခု</string>            
+    <string name="direct_had_connected">Wi-FiDirect ကို ဤကိရိယာႏွင့္ ခ်ိတ္ဆက္ထားၿပီး ျဖစ္သည္။</string> 
+    <string name="permlab_wake_device_sensorhub" product="tablet">တက္ဘလက္ကို ႏိႈးပါ</string>
+    <string name="permlab_wake_device_sensorhub" product="default">ဖုန္းကို ႏိႈးပါ</string>
+    <string name="permdesc_wake_device_sensorhub" product="tablet">အာ႐ံုခံ hub တြင္ တက္ဘလက္သည္ ဆိုင္းငံ့မုဒ္တြင္ ရွိေသာအခါ app အား ၎ကို ႏိႈးခြင့္ ေပးသည္။</string>
+    <string name="permdesc_wake_device_sensorhub" product="default">အာ႐ံုခံ hub တြင္ ဖုန္းသည္ ဆိုင္းငံ့မုဒ္တြင္ ရွိေသာအခါ app အား ၎ကို ႏိႈးခြင့္ ေပးသည္။</string>
+</resources>

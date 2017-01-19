@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<MPD
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="urn:mpeg:dash:schema:mpd:2011"
+  xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd"
+  type="static"
+  mediaPresentationDuration="PT15M"
+  minBufferTime="PT3.003000S"
+  maxSubsegmentDuration="PT3.003000S"
+  profiles="urn:mpeg:dash:profile:isoff-on-demand:2011,http://xmlns.sony.net/metadata/mpeg/dash/profile/senvu/2012">
+
+  <BaseURL>http://cdn.mpeg-dash.com/</BaseURL>
+
+  <Period id="P1" duration="PT5M">
+    <AdaptationSet  id="1" group="2" contentType="audio" mimeType="audio/vnd.sony.m4a" codecs="mp4a.40.5" audioSamplingRate="48000" lang="en" subsegmentAlignment="true">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="1_1" bandwidth="96000">
+        <BaseURL>Audio1.m4a</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="2" group="2" contentType="audio" mimeType="audio/vnd.sony.m4a" codecs="mp4a.40.5" audioSamplingRate="48000" lang="ja" subsegmentAlignment="true">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="dub"/>
+      <Representation id="2_1" bandwidth="96000">
+        <BaseURL>Audio17.m4a</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="3" group="3" contentType="text" mimeType="application/vnd.sony.m4t" codecs="smtt" par="16:9" sar="1:1" lang="en">
+      <Role schemeIdUri="http://xmlns.sony.net/metadata/mpeg/dash/role/2012" value="forcedSubtitle"/>
+      <Representation id="3_1" bandwidth="0" width="1920" height="1080">
+        <BaseURL>Subtitle1.m4t</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="4" group="3" contentType="image" mimeType="application/vnd.sony.m4t" codecs="smtt" par="16:9" sar="1:1" lang="ja">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="4_1" bandwidth="183059" width="1920" height="1080">
+        <BaseURL>Subtitle7.m4t</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="5" group="1" contentType="video" mimeType="video/vnd.sony.m4v" par="16:9" sar="1:1" minBandwidth="750000" maxBandwidth="9000000" minWidth="320" maxWidth="1920" minHeight="180" maxHeight="1080" frameRate="24000/1001" scanType="progressive" subsegmentAlignment="true" subsegmentStartsWithSAP="1" maximumSAPPeriod="3.003000">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="5_1" bandwidth="9000000" width="1920" height="1080" mediaStreamStructureId="1" codecs="avc1.640028">
+        <BaseURL>Video1.m4v</BaseURL>
+      </Representation>
+      <Representation id="5_2" bandwidth="6000000" width="1600" height="900" mediaStreamStructureId="1" codecs="avc1.640028">
+        <BaseURL>Video2.m4v</BaseURL>
+      </Representation>
+      <Representation id="5_3" bandwidth="4500000" width="1280" height="720" mediaStreamStructureId="1" codecs="avc1.640028">
+        <BaseURL>Video3.m4v</BaseURL>
+      </Representation>
+      <Representation id="5_4" bandwidth="3000000" width="960" height="540" mediaStreamStructureId="1" codecs="avc1.640028">
+        <BaseURL>Video4.m4v</BaseURL>
+      </Representation>
+      <Representation id="5_5" bandwidth="2200000" width="854" height="480" mediaStreamStructureId="1" codecs="avc1.4D401E">
+        <BaseURL>Video5.m4v</BaseURL>
+      </Representation>
+      <Representation id="5_6" bandwidth="1200000" width="640" height="360" mediaStreamStructureId="1" codecs="avc1.4D401E">
+        <BaseURL>Video6.m4v</BaseURL>
+      </Representation>
+      <Representation id="5_7" bandwidth="750000" width="320" height="180" mediaStreamStructureId="1" codecs="avc1.4D401E">
+        <BaseURL>Video7.m4v</BaseURL>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="P2" duration="PT5M">
+    <AdaptationSet  id="6" group="2" contentType="audio" mimeType="audio/vnd.sony.m4a" codecs="mp4a.40.5" audioSamplingRate="48000" lang="en" subsegmentAlignment="true">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="6_1" bandwidth="96000">
+        <BaseURL>Audio1.m4a</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="7" group="2" contentType="audio" mimeType="audio/vnd.sony.m4a" codecs="mp4a.40.5" audioSamplingRate="48000" lang="ja" subsegmentAlignment="true">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="dub"/>
+      <Representation id="7_1" bandwidth="96000">
+        <BaseURL>Audio17.m4a</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="8" group="3" contentType="text" mimeType="application/vnd.sony.m4t" codecs="smtt" par="16:9" sar="1:1" lang="en">
+      <Role schemeIdUri="http://xmlns.sony.net/metadata/mpeg/dash/role/2012" value="forcedSubtitle"/>
+      <Representation id="8_1" bandwidth="0" width="854" height="480">
+        <BaseURL>Subtitle43.m4t</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="9" group="3" contentType="image" mimeType="application/vnd.sony.m4t" codecs="smtt" par="16:9" sar="1:1" lang="ja">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="9_1" bandwidth="179281" width="854" height="480">
+        <BaseURL>Subtitle49.m4t</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="10" group="1" contentType="video" mimeType="video/vnd.sony.m4v" codecs="avc1.4D401E" par="16:9" sar="1:1" minBandwidth="750000" maxBandwidth="2200000" minWidth="320" maxWidth="854" minHeight="180" maxHeight="480" frameRate="24000/1001" scanType="progressive" subsegmentAlignment="true" subsegmentStartsWithSAP="1" maximumSAPPeriod="3.003000">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="10_1" bandwidth="2200000" width="854" height="480" mediaStreamStructureId="1">
+        <BaseURL>Video5.m4v</BaseURL>
+      </Representation>
+      <Representation id="10_2" bandwidth="1200000" width="640" height="360" mediaStreamStructureId="1">
+        <BaseURL>Video6.m4v</BaseURL>
+      </Representation>
+      <Representation id="10_3" bandwidth="750000" width="320" height="180" mediaStreamStructureId="1">
+        <BaseURL>Video7.m4v</BaseURL>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="P3" duration="PT5M">
+    <AdaptationSet  id="11" group="2" contentType="audio" mimeType="audio/vnd.sony.m4a" codecs="mp4a.40.5" audioSamplingRate="48000" lang="en" subsegmentAlignment="true">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="11_1" bandwidth="96000">
+        <BaseURL>Audio1.m4a</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="12" group="2" contentType="audio" mimeType="audio/vnd.sony.m4a" codecs="mp4a.40.5" audioSamplingRate="48000" lang="ja" subsegmentAlignment="true">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="dub"/>
+      <Representation id="12_1" bandwidth="96000">
+        <BaseURL>Audio17.m4a</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="13" group="3" contentType="text" mimeType="application/vnd.sony.m4t" codecs="smtt" par="16:9" sar="1:1" lang="en">
+      <Role schemeIdUri="http://xmlns.sony.net/metadata/mpeg/dash/role/2012" value="forcedSubtitle"/>
+      <Representation id="13_1" bandwidth="0" width="1920" height="1080">
+        <BaseURL>Subtitle1.m4t</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="14" group="3" contentType="image" mimeType="application/vnd.sony.m4t" codecs="smtt" par="16:9" sar="1:1" lang="ja">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="14_1" bandwidth="183059" width="1920" height="1080">
+        <BaseURL>Subtitle7.m4t</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet  id="15" group="1" contentType="video" mimeType="video/vnd.sony.m4v" par="16:9" sar="1:1" minBandwidth="750000" maxBandwidth="9000000" minWidth="320" maxWidth="1920" minHeight="180" maxHeight="1080" frameRate="24000/1001" scanType="progressive" subsegmentAlignment="true" subsegmentStartsWithSAP="1" maximumSAPPeriod="3.003000">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <Representation id="15_1" bandwidth="9000000" width="1920" height="1080" mediaStreamStructureId="1" codecs="avc1.640028">
+        <BaseURL>Video1.m4v</BaseURL>
+      </Representation>
+      <Representation id="15_2" bandwidth="6000000" width="1600" height="900" mediaStreamStructureId="1" codecs="avc1.640028">
+        <BaseURL>Video2.m4v</BaseURL>
+      </Representation>
+      <Representation id="15_3" bandwidth="4500000" width="1280" height="720" mediaStreamStructureId="1" codecs="avc1.640028">
+        <BaseURL>Video3.m4v</BaseURL>
+      </Representation>
+      <Representation id="15_4" bandwidth="3000000" width="960" height="540" mediaStreamStructureId="1" codecs="avc1.640028">
+        <BaseURL>Video4.m4v</BaseURL>
+      </Representation>
+      <Representation id="15_5" bandwidth="2200000" width="854" height="480" mediaStreamStructureId="1" codecs="avc1.4D401E">
+        <BaseURL>Video5.m4v</BaseURL>
+      </Representation>
+      <Representation id="15_6" bandwidth="1200000" width="640" height="360" mediaStreamStructureId="1" codecs="avc1.4D401E">
+        <BaseURL>Video6.m4v</BaseURL>
+      </Representation>
+      <Representation id="15_7" bandwidth="750000" width="320" height="180" mediaStreamStructureId="1" codecs="avc1.4D401E">
+        <BaseURL>Video7.m4v</BaseURL>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="next">"Далі"</string>
+    <string name="scroll_left_bar_title">Прокрутіть, щоб переглянути більше режимів зйомки</string>
+    <string name="zoome_title">Наблизитись/Віддалитись</string>
+    <string name="vcs_guide_summary">"Скажіть ім'я, щоб знайти контакти.\nСпробуйте!"</string>
+    <string name="vcs_guide_title">Голосовий пошук контактів</string>
+    <string name="camera_mav_title">Будь ласка, пересуньтеся вліво від предмету і починайте зйомку</string>
+    <string name="refocus_guide_title">Клацніть зображення, щоб змінити розташування фокусу</string>
+    <string name="vcs_guide_title1">"Назвіть ім'я, щоб знайти контакти."</string>
+    <string name="vcs_guide_title2">Натисніть тут, щоб активувати функцію.\nСпробуйте!</string>    
+</resources>

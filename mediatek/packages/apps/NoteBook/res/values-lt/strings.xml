@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <string name="app_name">Užrašų knygelė</string>
+    <string name="no_note">Pastabų nėra</string>
+    <string name="selectednumber">Pasirinkta</string>
+    <string name="delete_confirm_current">Pastaba bus ištrinta.</string>
+    <string name="delete_confirm_one">Pasirinkta pastaba bus ištrinta.</string>
+    <string name="delete_confirm">Pasirinktos pastabos bus ištrintos.</string>
+    <string name="delete_confirm_title">"Ištrinti"</string>
+    <string name="delete_confirm_cancel">"Atšaukti"</string>
+    <string name="delete_confirm_ok">"Gerai"</string>
+    <string name="title_bar_selected">Pasirinkta</string>
+    <string name="editor_full">Galite įvesti maks. 1500 simbolių</string>
+    <string name="sdcard_full" product="tablet">Prietaiso atmintyje nepakanka vietos. Atlaisvinkite vietos.</string>
+    <string name="sdcard_full" product="default">Telefono atmintyje nepakanka vietos. Atlaisvinkite vietos.</string>
+    <string name="save_none">Tuščia pastaba nesukurta</string>
+    <string name="empty_note">Tuščia pastaba</string>
+    <string name="delete_progress">Trinama</string>
+    <string name="title_notes_list">Užrašų knygelė</string>
+    <string name="title_notes_view">Skaitoma</string>
+    <string name="title_notes_edit">"Atlikta"</string>
+    <string name="title_loading">Įkeliama...</string>
+    <string name="menu_delete">Ištrinti visas pastabas</string>
+    <string name="delete_all_notes_confirm">Visos pastabos bus ištrintos.</string>
+    <string name="note_saved">Pastaba išsaugota</string>
+    <string name="no_selected">Nepasirinktas jokia pastaba</string>
+    <string name="menu_sort_by_modify">Rūšiuoti pagal pakeitimo laiką</string>
+    <string name="menu_sort_by_tab">Rūšiuoti pagal korteles</string>
+    <string name="menu_work">"Darbas"</string>
+    <string name="menu_personal">"ASMENIŠKA"</string>
+    <string name="menu_family">Šeimos reikalai</string>
+    <string name="menu_study">Mokslas</string>
+    <string name="menu_none">Be kategorijos</string>
+    <string name="menu_add_button">"naujas"</string>
+    <string name="menu_delete_button">"Ištrinti"</string>
+    <string name="menu_edit_button">"Redaguoti"</string>
+    <string name="menu_deselect_all_button">"Panaikinti visus žymėjim."</string>
+    <string name="menu_select_all_button">"Pasirinkti viską"</string>
+    <string name="month">"min."</string>
+    <string name="day">D</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> pasirinktų</string>
+    <string name="type_note">Rašyti pastabą</string>
+</resources>

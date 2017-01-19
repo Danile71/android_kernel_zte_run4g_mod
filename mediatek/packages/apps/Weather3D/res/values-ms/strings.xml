@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">Cuaca langsung 3D</string>  
+    <string name="last_update">Terakhir dikemas kini</string>  
+    <string name="no_weather">Ketik tetapan untuk menambah bandar</string>  
+    <string name="no_network">Tiada rangkaian tersedia</string>  
+    <string name="update_fail">Kemas kini cuaca gagal</string>  
+    <string name="updating">Mengemas kini</string>  
+</resources>

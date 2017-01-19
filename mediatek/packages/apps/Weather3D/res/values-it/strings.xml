@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">Meteo in diretta 3D</string>  
+    <string name="last_update">Ultimo aggiornamento</string>   
+    <string name="no_weather">"Tocca l'impostazione per aggiungere città"</string>  
+    <string name="no_network">Nessuna rete disponibile</string>  
+    <string name="update_fail">Aggiornamento meteo non riuscito</string>  
+    <string name="updating">Aggiornamento</string>  
+</resources>

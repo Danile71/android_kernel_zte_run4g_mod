@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+    <string name="app_name">Meteo în direct 3D</string>  
+    <string name="last_update">Ultima actualizare</string>  
+    <string name="no_weather">Atingeţi setarea pentru a adăuga oraşe</string>  
+    <string name="no_network">Nicio reţea disponibilă</string>  
+    <string name="update_fail">Eroare la actualizare meteo</string>  
+    <string name="updating">Se actualizează</string>  
+</resources>
